@@ -1,0 +1,83 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Why hire an SEO expert for your Restaurant Business in Texas?",
+            "category": "Web Development",
+            "tags": [ "HTML", "JavaScript" ],
+            "publishedAt": "7 April 2022",
+            "imageUrl": "https://i0.wp.com/www.wtechy.com/wp-content/uploads/2022/06/happy-freelancer-with-tablet-laptop-computer-coffee-shop-scaled.jpg",
+            "authorName": "John Doe",
+            "isFeatured": true,
+            "shortInfo": "The success of a restaurant is significantly influenced by its web presence. Are you ranked highly? Are people using your website to make reservations for tables? If not, you want to consider hiring a professional SEO agency in USA. ",
+            "content": ""
+        },
+        {
+            "id": 2,
+            "title": "Why Digital Marketing is required for your brand?",
+            "category": "Artificial Intelligence",
+            "tags": [
+                "Python",
+                "Machine Learning",
+                "Deep Learning",
+                "Computer Vision"
+            ],
+            "publishedAt": "9 Mar 2022",
+            "imageUrl": "https://i0.wp.com/www.wtechy.com/wp-content/uploads/2022/06/marvin-meyer-SYTO3xs06fU-unsplash-1-scaled.jpg",
+            "authorName": "William Doe",
+            "isFeatured": true,
+            "shortInfo": "In today's settings and markets, which are consistently changing, digital marketing is crucial. Businesses can speed up their branding and marketing efforts while increasing reach and lowering expenses thanks to the strategies used by digital marketing of brands and agencies. The rise in internet usage is entirely to blame for this surprising development."
+        },
+        {
+            "id": 3,
+            "title": "Things You Must Know About Shopify Theme Development",
+            "category": "UI/UX Design",
+            "tags": [
+                "UI",
+                "UX",
+                "Design",
+                "Figma",
+                "Sketch",
+                "Adobe XD",
+                "Web Design",
+                "Product Design",
+                "Branding"
+            ],
+            "publishedAt": "15 Feb 2022",
+            "imageUrl": "https://www.wtechy.com/wp-content/uploads/2021/09/blog2-1.webp",
+            "authorName": "Jane Cooper",
+            "isFeatured": true,
+            "shortInfo":"Shopify is one of the immense stages that create opportunities for almost any person who uses it, going from site subject matter experts and originators to huge assistance associations. Shopify developers use the ecosystem of the stage to help merchants with online shop improvement and plans."
+        },
+        {
+            "id": 4,
+            "title": "Andro id Development with Kotlin vs Java",
+            "category": "Mobile Development",
+            "tags": [
+                "Andro",
+                "Java",
+                "Kotlin"
+            ],
+            "publishedAt": "10 Jan 2022",
+            "thumbnailUrl": "/images/posts/post-thumbnail-4.png",
+            "imageUrl": "/images/posts/post-04.png",
+            "authorName": "Diana Lim",
+            "isFeatured": true
+        },
+        {
+            "id": 5,
+            "title": "React with TypeScript for Beginners",
+            "category": "Web Development",
+            "tags": [
+                "React",
+                "JavaScript",
+                "TypeScript"
+            ],
+            "publishedAt": "01 Jan 2022",
+            "thumbnailUrl": "/images/posts/post-thumbnail-5.png",
+            "imageUrl": "/images/posts/post-05.png",
+            "authorName": "Dan Wilson",
+            "isFeatured": false
+        }
+    ]
+}

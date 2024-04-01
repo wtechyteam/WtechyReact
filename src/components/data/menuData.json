@@ -1,0 +1,50 @@
+
+{
+  "menuItems": [
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title" : "About Us",
+      "link" :"about-agency"
+    },
+    {
+      "title": "Services",
+      "link": "",
+      "menuType":"sub_menu",
+      "subMenu": [
+        {
+          "title": "Service 1",
+          "link": "/services/service1"
+        },
+        {
+          "title": "Service 2",
+          "link": "/services/service2"
+        }
+      ]
+    },
+
+    {
+      "title" : "Insights",
+      "link" :"insights"
+    },
+    {
+      "title" : "Portfolio",
+      "link" :"portfolio"
+    },
+    {
+      "title" : "Top Work Marketplaces",
+      "link" :"top-work-marketplaces"
+    },
+    {
+      "title": "Careers",
+      "link": "/careers"
+    },
+    {
+      "title": "Contact",
+      "link": "/contact",
+      "customClass" : "headerBtn"
+    }
+  ]
+}
