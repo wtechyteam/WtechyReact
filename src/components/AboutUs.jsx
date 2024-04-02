@@ -10,6 +10,8 @@ const AboutUs = () => {
         {/* <ImageInfoWrap 
 
         /> */}
+        <div className="sldf">
+        </div>
     </>
         
     );

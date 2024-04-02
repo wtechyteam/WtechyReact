@@ -308,3 +308,145 @@ img {
   }
 }
 
+
+// ====================v-css-start============================
+
+.title_name {
+  color: #333333;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 15px 12px;
+  position: relative;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-right: 10px;
+}
+.title_name:hover{
+  color: #3E7671;
+}
+.headerBtn{
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: #fff;
+  border-radius: 10px 0px 10px 0px;
+  min-height: 56px;
+  min-width: 160px;
+  text-align: center;
+  padding: 18px 48px;
+  transition: all 0.5s;
+}
+.headerBtn:hover{
+  background: #fff;
+    color: var(--primary);
+    border-radius: 0px 10px 0px 10px;
+   
+}
+
+.display {
+  font-size: 16px;
+  font-weight: 300;
+  color: #282c34;
+}
+
+.hover_menu {
+  position: relative;
+}
+.hover_menu:hover{
+  border-bottom: 0 !important;
+
+}
+
+.display {
+  position: absolute;
+  top: 56px;
+  left: -90%;
+  // background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+  width: 800px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+  z-index: 9 !important;
+  background-color: #dce9e7;
+}
+
+.hover_menu:hover .display {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.hover_subtitle {
+  padding: 5px 14px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  width: 380px;
+}
+
+
+
+.item_align{
+  display: flex !important;
+  align-items: center;
+}
+.subtitle_name{
+  font-size: 14px;
+  font-weight: 300;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+.display {
+  display: none;
+}
+
+.dropdowns .dropdown-toggle {
+  background: transparent !important;
+  border: 0 !important;
+  margin-bottom: 10px;
+  color: #282c34 !important;
+}
+
+.drops .accordion-item {
+  border: 0 !important;
+  border-radius: 0%;
+  /* margin-bottom: 10px; */
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+}
+
+.accordion-button {
+  padding: 8px 0 !important;
+
+}
+
+.subtitle_name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #282c34;
+  text-transform: capitalize !important;
+  padding: 8px 0 !important;
+  transition: all 0.4s;
+}
+.subtitle_name:hover{
+  color: #3E7671;
+  text-decoration: underline;
+}
+
+.subtitle_name_small{
+  font-size: 14px;
+  color: #141619;
+  font-weight: 200;
+}
+
+
+// ====================v-css-end==============================
