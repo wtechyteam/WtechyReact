@@ -17,8 +17,6 @@ $background-color_3: transparent;
     }
 }
 .headerMain {
-    // background-color: #fff;
-    // border-bottom: 1px solid #222222;
     left: 0;
     top: 0;
     width: 100%;
@@ -36,7 +34,6 @@ $background-color_3: transparent;
         }
 
     }
-
     .menu_wrap {
         display: flex;
         padding: 0;
@@ -216,58 +213,6 @@ $background-color_3: transparent;
                 color: $color_6 !important;
             }
         }
-
-        .sub_menu.hireDevelopersMenu {
-            width: 600px;
-            display: flex;
-            flex-wrap: wrap;
-
-            >li {
-                width: calc(33.33% - 1px);
-
-                &:nth-child(odd) {
-                    border-right: 1px solid #ddd;
-                }
-            }
-        }
-
-        >li.mega_menu.hire_developers {
-            >div {
-                left: -200px;
-
-                .sub_menu.hireDevelopersMenu {
-                    width: 100%;
-                    padding: 15px !important;
-
-                    li {
-                        a {
-                            border: 0px;
-                        }
-
-                        border: 0px;
-                    }
-                }
-            }
-        }
-
-        >li.company {
-            .sub_menu {
-                padding: 5px 0px;
-            }
-        }
-
-        >li.portfolios {
-            #menu-list-grow {
-                padding: 5px 0px;
-            }
-        }
-
-        >li.mega_menu_short {
-            >div {
-                width: 680px;
-                left: -200px;
-            }
-        }
     }
 
     .siteLogo {
@@ -284,8 +229,6 @@ $background-color_3: transparent;
     .header_toolbar {
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
-        max-width: 1320px;
         width: 100%;
         padding: 10px 15px;
         box-sizing: border-box;

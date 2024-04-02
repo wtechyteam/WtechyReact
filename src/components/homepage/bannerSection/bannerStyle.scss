@@ -24,6 +24,9 @@
   display: flex;
   align-items: center;
   color: #222;
+  @media (max-width: 767.98px) {
+    padding: 200px 0px 150px;
+  }
   &::after{
     content: "";
     background-image: url(../../../assets/Images/bannerShape.png);
@@ -36,11 +39,15 @@
     bottom:0;
     left: 0;
     box-shadow: 0px 10px 5px 0px #fff;
+    @media (max-width: 767.98px) {
+      background-size: cover;
+      height: 70px;
+    }
   }
 
   .hero-shapes {
     .shape {
-      background: var(--secondary);
+      background: var(--primary);
       height: 300px;
       width: 300px;
       position: absolute;
@@ -63,7 +70,7 @@
       }
 
       &.top-shape {
-        background: linear-gradient(90deg, var(--primary) 0%, var(--primary) 100%);
+        background: linear-gradient(90deg, var(--secondary) 0%, var(--secondary) 100%);
         bottom: auto;
         left: auto;
         top: -125px;
@@ -77,16 +84,16 @@
     }
   }
 
-  .bannerContent {
+  .bannerContentWrapper {
 
     position: relative;
-
+    .bannerContentWrap{
+      max-width: 600px;
+      margin: 0 auto;
+    }
     .bannerTitle {
-      font-size: 65px;
       line-height: 1;
-      font-weight: 600;
       margin-bottom: 20px;
-
       span {
         font-weight: 700;
         color: var(--secondary);
@@ -95,7 +102,13 @@
 
     .bannerSubTitle {
       font-size: 35px;
-
+      @media (max-width: 1400px) {
+        font-size: 30px;
+      }
+      @media (max-width: 1200px) {
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
       span {
         font-weight: 700;
         color: #000;
@@ -117,6 +130,12 @@
     p {
       font-size: 20px;
       font-weight: 500;
+      @media (max-width: 1400px) {
+        font-size: 18px;
+      }
+      @media (max-width: 1200px) {
+        font-size: 16px;
+      }
     }
 
     .bannerImage {
@@ -139,11 +158,33 @@
         margin: 0 auto;
         right: 0;
         pointer-events: none;
+        @media (max-width: 1200px) {
+          width: 640px;
+          height: 360px;
+        }
+        @media (max-width: 767.98px) {
+          width: 440px;
+          height: 250px;
+        }
+        @media (max-width: 400px) {
+          width: 100%;
+          height: 250px;
+        }
       }
 
       img {
         width: 72%;
         margin: 20px auto;
+        @media (max-width: 1200px) {
+          width: 470px;
+        }
+        @media (max-width: 767.98px) {
+          width: 315px;
+          margin: 10px auto;
+        }
+        @media (max-width: 400px) {
+          width: 75%;
+        }
       }
     }
   }

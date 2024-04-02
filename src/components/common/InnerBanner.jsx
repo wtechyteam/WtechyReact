@@ -1,11 +1,14 @@
 import React from 'react';
 
 
-const InnerBanner = ({title}) => {
+const InnerBanner = ({title,info}) => {
   return (
       <section className='innerBanner'>
         <div className="container">
-            <h1>{title}</h1>
+          <div className="bannerInfo">
+            <h1 className='title-xxl fw-bold'>{title}</h1>
+            <p>{info}</p>
+          </div>
         </div>
       </section>
 

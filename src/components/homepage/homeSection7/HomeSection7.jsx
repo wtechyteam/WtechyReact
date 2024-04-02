@@ -34,15 +34,25 @@ const HomeSection7 = () => {
         slidesToScroll: 1,
         autoplay: true,
         cssEase: 'ease-in-out',
-        autoplaySpeed: 5000 // Set the autoplay speed in milliseconds
+        autoplaySpeed: 5000,
+        responsive: [
+            {
+                breakpoint: 991.98,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
     };
 
     return (
         <section className='sectionPadding'>
-            <div className="container text-center">
-                <h4 className='section-title-sm'>Testimonial</h4>
-                <h2 className='title-xl '>Words From Our Customers</h2>
-                <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
+            <div className="container text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <div className="sectionTopInfo" >
+                    <h4 className='section-title-sm'>Testimonial</h4>
+                    <h2 className='title-xl fw-bold'>Words From Our Customers</h2>
+                    <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
+                </div>
                 <Slider className='testimonialSlider' {...bannerSliderSettings}>
                     {testimonialData.map((item, index) => (
                         <div className='sliderWrap' key={index} >
@@ -51,9 +61,9 @@ const HomeSection7 = () => {
                                 <span className="icon-quote"></span>
                                 <div className="authorInfo">
                                     <div className="authorImage">
-                                        <img src={item.image} alt={item.name} ></img>
+                                        <img src={item.image} alt={item.name} title={item.name} ></img>
                                     </div>
-                                    <h2 className='title-md mb-0'>{item.authorName}</h2>
+                                    <h2 className='title-md mb-0 fw-bold'>{item.authorName}</h2>
                                     <h6 className='title-sm'>{item.authorDesignation}</h6>
 
                                     <div className="rating">
@@ -62,7 +72,7 @@ const HomeSection7 = () => {
 
                                         ))}
                                     </div>
-    
+
                                 </div>
                             </div>
                         </div>

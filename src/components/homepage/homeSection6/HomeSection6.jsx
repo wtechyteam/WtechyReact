@@ -1,4 +1,6 @@
 import insightData from './../../data/insightsData.json';
+import { FiChevronsRight } from "react-icons/fi";
+
 
 const HomeSection6 = () => {
 
@@ -7,26 +9,31 @@ const HomeSection6 = () => {
     return (
         <section className='sectionPadding bg-gray'>
             <div className="container text-center">
-                <h4 className='section-title-sm'>Insights</h4>
-                <h2 className='title-xl '>Our Latest Insights</h2>
-                <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
-                <div className="featured-posts my-5">
-                    {top3FeaturedPosts.map(post => (
-                        <div className="featured-post" key={post.id}>
-                            <div className="postImageWrap">
-                                {post.thumbnailUrl !== '' && (
-                                    <img src={post.thumbnailUrl} alt={post.title} />
-                                )}
-                            </div>
-                            <div className="post-details">
-                                <h3 className='title-sm fw-bold'>{post.title}</h3>
-                                <p className='date'>{post.publishedAt}</p>
-                                <p className='info'>{post.shortInfo}</p>                                   
+                <div className="sectionTopInfo" data-aos="fade-up" data-aos-duration="1500">
+                    <h4 className='section-title-sm'>Insights</h4>
+                    <h2 className='title-xl fw-bold'>Our Latest Insights</h2>
+                    <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
+                </div>
+                <div className="featured-posts row justify-content-center mt-5">
+                    {top3FeaturedPosts.map((post,index) => (
+                        <div className="col-lg-4 col-md-6 mb-4" key={post.id}>
+                            <div className="featured-post" data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 500} >
+                                <div className="postImageWrap">
+                                    {post.imageUrl !== '' && (
+                                        <img src={post.imageUrl} alt={post.title} />
+                                    )}
+                                </div>
+                                <div className="post-details">
+                                    <h3 className='title-md fw-bold'>{post.title}</h3>
+                                    <p className='post-date'>{post.publishedAt}</p>
+                                    <p className='post-info'>{post.shortInfo}</p>
+                                    <button className='dBtn btnText'>Read More<FiChevronsRight /></button>
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
-                <button className='dBtn btnPrimary'>Go To Insights</button>
+                <button className='dBtn btnPrimary mt-4'>Go To Insights</button>
             </div>
         </section>
 

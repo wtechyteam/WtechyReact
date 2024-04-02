@@ -35,18 +35,20 @@ const HomeSection5 = () => {
     return (
         <section className='sectionPadding pt-0'>
             <div className="container text-center">
-                <h4 className='section-title-sm '>Our Services</h4>
-                <h2 className='title-xl '>Data-Driven Digital Marketing Services<br></br>To Nurture Your Business</h2>
-                <p className='mb-4 '>The Digital Marketing world is highly competitive, and many would feel overwhelmed with uncertain metrics, skeptical strategies, and technical terminologies. We focus on helping you to grow and getting the results that advance their businesses. Our mission is to increase and improve the connection between the companies and their potential prospects. And our results speak volume about our success with our clients.</p>
-                <p className=''>Using impeccable digital marketing tools, we provide our clients with creative ideas and customized strategies that help them grow their business globally.</p>
+                <div className="sectionTopInfo" data-aos="fade-up" data-aos-duration="1500">
+                    <h4 className='section-title-sm '>Our Services</h4>
+                    <h2 className='title-xl fw-bold'>Data-Driven Digital Marketing Services<br></br>To Nurture Your Business</h2>
+                    <p className='mb-4 '>The Digital Marketing world is highly competitive, and many would feel overwhelmed with uncertain metrics, skeptical strategies, and technical terminologies. We focus on helping you to grow and getting the results that advance their businesses. Our mission is to increase and improve the connection between the companies and their potential prospects. And our results speak volume about our success with our clients.</p>
+                    <p className=''>Using impeccable digital marketing tools, we provide our clients with creative ideas and customized strategies that help them grow their business globally.</p>
+                </div>
                 <div className='listWrapper services text-start mt-5'>
                     {serviceData.map((service, index) => (
-                        <div className='innerWrap' key={index} style={{ marginTop: `${index * 50}px` }}>
+                        <div className='innerWrap' key={index} style={{ marginTop: `${index * 50}px` }} data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 400} >
                             <span className='indexNumber'>{(index + 1).toString().padStart(2, '0')}</span>
                             <div className="icon">
                                 <img src={service.icon} alt={service.title} />
                             </div>
-                            <h2 className="title-md">{service.title}</h2>
+                            <h2 className="title-md fw-bold">{service.title}</h2>
                             <p className='mb-0'>{service.description}</p>
                         </div>
                     ))}

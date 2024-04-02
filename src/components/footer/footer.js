@@ -65,7 +65,7 @@ const Footer = () => {
                             <SocialLinks />
                         </div>
                         <div className="col-lg-2 col-md-6">
-                            <h2>Top Links</h2>
+                            <h2 className='title-sm fw-bold mb-4'>Top Links</h2>
                             <ul className="footerList linkList">
                                 {topLinks.map((list, index) => (
                                     <li className='serviceWrap' key={index}>
@@ -75,7 +75,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <h2>Services</h2>
+                            <h2 className='title-sm fw-bold mb-4'>Services</h2>
                             <ul className="footerList linkList">
                                 {serviceLinks.map((list, index) => (
                                     <li className='serviceWrap' key={index}>
@@ -85,7 +85,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <h2>Get In Touch</h2>
+                            <h2 className='title-sm fw-bold mb-4'>Get In Touch</h2>
                             <ul className="footerList contactInfo">
                                 <li>
                                     <i className="fa-solid fa-phone"></i>

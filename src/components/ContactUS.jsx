@@ -1,8 +1,9 @@
+import InnerBanner from '../components/common/InnerBanner'
 const ContactUS = () => {
     return (
-        <div className='header_main'>
-            ContactUS dfgdf
-        </div>
+        <>
+        <InnerBanner title={'Contact US'} info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu. Mauris quis ultricies odio, at lacinia libero. '}/>
+        </>
     );
 };
 
