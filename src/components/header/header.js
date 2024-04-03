@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '../common/siteLogo/logo.js';
 import headerLogo from './../../assets/Images/siteLogo.png';
-// import Navigation from '../navigation/Navigation.js';
+import Navigation from '../navigation/Navigation.js';
 import './headerStyle.scss';
 import HeaderNavbar from './navbar/navbar.jsx';
 
@@ -20,11 +20,11 @@ const Header = () => {
     return (
         <>
         <header className={`headerMain ${isScrolled ? 'sticky' : ''}`}>
-            {/* <div className='header_toolbar container' > */}
-                {/* <Logo src={headerLogo} maxWidth="100px" /> */}
-                {/* <Navigation /> */}
-                <HeaderNavbar />
-            {/* </div> */}
+            <div className='header_toolbar container' >
+                <Logo src={headerLogo} maxWidth="100px" />
+                <Navigation />
+            </div>
+            {/* <HeaderNavbar /> */}
         </header>
         </>
     );
