@@ -1,6 +1,6 @@
 import insightData from './../../data/insightsData.json';
 import { FiChevronsRight } from "react-icons/fi";
-
+import { Link } from 'react-router-dom';
 
 const HomeSection6 = () => {
 
@@ -17,17 +17,19 @@ const HomeSection6 = () => {
                 <div className="featured-posts row justify-content-center mt-5">
                     {top3FeaturedPosts.map((post,index) => (
                         <div className="col-lg-4 col-md-6 mb-4" key={post.id}>
-                            <div className="featured-post" data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 500} >
-                                <div className="postImageWrap">
+                            <div className="postCard" data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 500} >
+                                <Link to={post.link} className="postImageWrap">
                                     {post.imageUrl !== '' && (
                                         <img src={post.imageUrl} alt={post.title} />
                                     )}
-                                </div>
+                                </Link>
                                 <div className="post-details">
-                                    <h3 className='title-md fw-bold'>{post.title}</h3>
+                                    <h3 className='post-title title-md fw-bold'>
+                                        <Link to={post.link}>{post.title}</Link>   
+                                    </h3>
                                     <p className='post-date'>{post.publishedAt}</p>
                                     <p className='post-info'>{post.shortInfo}</p>
-                                    <button className='dBtn btnText'>Read More<FiChevronsRight /></button>
+                                    <Link className='dBtn btnText' to={post.link} >Read More<FiChevronsRight /></Link>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+@import './assets/styles/mixins.scss';
+
+
 :root {
   --primary: #3B8AD2;
   --secondary: #3E7671;
@@ -18,6 +21,9 @@ html {
 
 a{
   transition: all ease-in-out .3s;
+  &:hover{
+    color: var(--secondary);
+  }
 }
 
 body {
@@ -121,6 +127,7 @@ img {
     padding: 80px 0px;
   }
 }
+
 .sectionInfo{
   max-width: 800px;
   margin: 0 auto;
@@ -241,6 +248,17 @@ img {
   overflow: hidden;
   position: relative;
   box-shadow: 0px 0px 15px 10px #00000025;
+  @media (max-width: 1400px) {
+    border-radius: 0px 0px 100px 100px;
+  }
+  @media (max-width: 991.98px) {
+    padding: 200px 0px 100px;
+    border-radius: 0px 0px 50px 50px;
+  }
+  @media (max-width: 767.98px) {
+    padding: 180px 0px 80px;
+    border-radius: 0px 0px 30px 30px;
+  }
   &::before{
     content: "";
     background-image: url(./assets/Images/rocket.svg);
@@ -253,59 +271,43 @@ img {
     bottom: -35px;
     background-position: right bottom;
     filter: invert(1);
+    @media (max-width: 991.98px) {
+      width: 200px;
+      height: 200px;
+    }
   }
   .bannerInfo{
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
   }
 
 }
 /***********Inner Page Banner Css Start************/
 
 /***********************/
-
-.featured-posts {
-  .featured-post {
-    background: #fff;
-    height: 100%;
-    .postImageWrap {
-        width: 100%;
-        padding-top: calc(100% /(16/9));
-        background: #ddd;
-        background-image: url(./assets/Images/dummyImage.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        position: relative;
-        overflow: hidden;
-        img{
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-    }
-    .post{
-      &-details{
-        text-align: left;
-        padding: 20px 15px;
-      }
-      &-info{
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-      &-date{
-        opacity: .5;
-        font-weight: 600;
-      }
-    }
-  }
+.postCard {
+  @include postCard
 }
+
+
+
+
+
+.cardWrap{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 // ====================v-css-start============================

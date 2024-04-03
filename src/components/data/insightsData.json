@@ -2,6 +2,7 @@
     "posts": [
         {
             "id": 1,
+            "link":"why-hire-an-seo-expert-for-your-restaurant-business-in-texas",
             "title": "Why hire an SEO expert for your Restaurant Business in Texas?",
             "category": "Web Development",
             "tags": [ "HTML", "JavaScript" ],
@@ -14,6 +15,7 @@
         },
         {
             "id": 2,
+            "link":"why-digital-marketing-is-required-for-your-brand",
             "title": "Why Digital Marketing is required for your brand?",
             "category": "Artificial Intelligence",
             "tags": [
@@ -30,6 +32,7 @@
         },
         {
             "id": 3,
+            "link":"things-you-must-know-about-shopify-theme-development",
             "title": "Things You Must Know About Shopify Theme Development",
             "category": "UI/UX Design",
             "tags": [

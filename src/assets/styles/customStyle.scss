@@ -1,7 +1,10 @@
 // Override Bootstrap variables
+@import './mixins.scss';
 
 :root {
     --bs-body-font-size: 8px;
 }
 // Import Bootstrap SCSS file from react-bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+

@@ -1,3 +1,6 @@
+@import './mixins.scss';
+
+
 .ctaWrap{
     background-color: rgb(239 239 239);
     border-radius: 25px;
@@ -87,24 +90,7 @@
       position: relative;
       cursor: pointer;
       .icon{
-        position: relative;
-        margin-bottom: 30px;
-        img{
-          max-width: 70px;
-          position: relative;
-        }
-        &::before{
-          background: var(--primary);
-          position: absolute;
-          content: "";
-          border-radius: 50px;
-          width: 80px;
-          height: 80px;
-          left: 16px;
-          top: 4px;
-          z-index: 0;
-          opacity: 0.2;
-        }
+        @include cardIconType1;
       }
       .indexNumber{
         position: absolute;
