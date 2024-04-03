@@ -7,7 +7,7 @@ const ImageInfoWrap = ({ title, description, imageUrl }) => {
             <div className="container">
                 
                 <div className="row align-items-center">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-5 mb-md-0">
                         <img src={imageUrl} title={title} />
                     </div>
                     <div className="col-md-6">
