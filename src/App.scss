@@ -297,13 +297,17 @@ img {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: color 0.5s;
   margin-right: 10px;
+}
+.active_tab{
+  border-bottom: 4px solid #3E7671;
+  color: #3E7671;
 }
 
 .title_name:hover {
   color: #3E7671;
-
+  border-bottom: 4px solid #3E7671;
 }
 
 .headerBtn {
@@ -336,7 +340,7 @@ img {
 
 .display {
   position: absolute;
-  top: 56px;
+  top: 58px;
   left: -90%;
   font-size: 16px;
   font-weight: 300;
@@ -347,18 +351,18 @@ img {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   z-index: 9 !important;
   background-color: #dce9e7;
-  visibility: hidden;
-  opacity: 0;
+  // visibility: hidden;
+  // opacity: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   transition: all 0.5s;
 }
 
-.hover_menu:hover .display {
-  visibility: visible;
-  opacity: 100%;
-}
+// .hover_menu:hover .display {
+//   visibility: visible;
+//   opacity: 100%;
+// }
 
 .hover_subtitle {
   padding: 5px 14px;
@@ -423,6 +427,10 @@ img {
   color: #3E7671;
   text-decoration: underline;
 }
+.active_Link{
+  color: #3E7671;
+  text-decoration: underline;
+}
 
 .subtitle_name_small {
   font-size: 14px;
@@ -440,6 +448,12 @@ img {
 
 .card_shadow{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.active_footer_link{
+  // color: #3B8AD2 !important;
+    padding-left: 3px;
+    text-decoration: underline;
+    // background-color: #3B8AD2;
 }
 
 
