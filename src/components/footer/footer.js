@@ -1,8 +1,8 @@
 import './footerStyle.scss';
-import Logo from '../common/siteLogo/logo.js';
+import Logo from '../common/SiteLogo.jsx';
 import footerLogo from './../../assets/Images/wtechy-logo-white.webp';
 import { Link } from 'react-router-dom';
-import SocialLinks from './../common/socialLinks/SocialLinks.jsx'
+import SocialLinks from '../common/SocialLinks.jsx'
 
 const Footer = () => {
 

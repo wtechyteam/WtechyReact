@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../common/siteLogo/logo.js';
+import Logo from '../common/SiteLogo.jsx';
 import headerLogo from './../../assets/Images/siteLogo.png';
 import Navigation from '../navigation/Navigation.js';
 import './headerStyle.scss';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Accordion, Col, Container, Nav, Navbar, Offcanvas, Row } from 'react-bootstrap'
-import Logo from '../../common/siteLogo/logo';
+import Logo from '../../common/SiteLogo';
 import headerLogo from '../../../assets/Images/siteLogo.png'
 import Navigation from '../../navigation/Navigation';
 import { FiChevronDown } from "react-icons/fi";

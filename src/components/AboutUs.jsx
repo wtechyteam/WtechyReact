@@ -128,7 +128,6 @@ const AboutUs = () => {
             />
             <section className="sectionPadding bg-gray">
                 <div className="container">
-
                     <SectionTopInfo
                         smallTitle={'Our Services'}
                         title={'Services We Offer'}

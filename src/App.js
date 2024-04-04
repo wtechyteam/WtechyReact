@@ -3,6 +3,12 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import './assets/styles/customStyle.scss';
+import './App.scss';
+
+
+// This is for Main Pages Start
 import HomePage from './components/HomePage';
 import AboutUs from './components/AboutUs.jsx';
 import Insights from './components/Insights.jsx';
@@ -10,15 +16,10 @@ import Portfolio from './components/Portfolio.jsx';
 import TopWorkMarketplaces from './components/TopWorkMarketplaces.jsx';
 import Careers from './components/Careers.jsx';
 import ContactUS from './components/ContactUS.jsx';
+// This is for Main Pages End
 
 
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import './assets/styles/customStyle.scss';
-import './App.scss';
-
-// This is for Added Animations Start
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// This is for Services Pages Start
 import GoogleAds from './components/service/servicePages/googleAds/googleAds.jsx'
 import SearchEngineOpt from './components/service/servicePages/searchEngineOpt/searchEngineOpt.jsx'
 import ContentMarketing from './components/service/servicePages/contentMarketing/contentMarketing.jsx';
@@ -33,7 +34,15 @@ import AmazonStore from './components/service/eComStore/amazonStore/amazonStore.
 import CustomEcom from './components/service/eComStore/customEcom/customEcom.jsx';
 import EbayStore from './components/service/eComStore/eBayStore/eBayStore.jsx';
 import ShopifyStore from './components/service/eComStore/shopifyStore/shopifyStore.jsx';
+// This is for Services Pages End
+
+
+// This is for Added Animations Start
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // This is for Added Animations End
+
+
 
 function App() {
 

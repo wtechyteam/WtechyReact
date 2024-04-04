@@ -1,25 +1,43 @@
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import insightData from '../components/data/insightsData.json';
+import SectionTopInfo from './common/SectionTopInfo'
 import InnerBanner from '../components/common/InnerBanner'
 import { FiChevronsRight } from "react-icons/fi";
 import { Container } from 'react-bootstrap';
 
 const Insights = () => {
-    const featuredPosts = insightData.posts.filter(post => post.isFeatured);
-    // const top3FeaturedPosts = featuredPosts.slice(0, 9);
+
+    const postsPerPage = 3;
+    const [displayedPosts, setDisplayedPosts] = useState(postsPerPage);
+    const [loading, setLoading] = useState(false); // State to track loading status
+
+    const posts = insightData.posts;
+
+    const handleLoadMore = () => {
+        setLoading(true); // Set loading to true when button is clicked
+        setTimeout(() => {
+            setDisplayedPosts(prevCount => prevCount + postsPerPage);
+            setLoading(false); // Set loading to false after 1 second delay
+        }, 1000);
+    };
+
+
     return (
         <>
-            <InnerBanner title={'Insights'} info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu. Mauris quis ultricies odio, at lacinia libero. '} />
+            <InnerBanner title={'Insights'} info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat.'} />
             <section className='sectionPadding'>
                 <Container>
-                <div className="sectionTopInfo" data-aos="fade-up" data-aos-duration="1500">
-                    <h2 className='title-xl fw-bold'>Our Latest Insights</h2>
-                    <p className=' '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
-                </div>
+                    <SectionTopInfo
+                        isCenter={true}
+                        smallTitle={'Insights'}
+                        title={'Our Latest Insights'}
+                        text={'Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.'}
+                    />
                     <div className="featured-posts row justify-content-center mt-5">
-                        {featuredPosts.map((post, index) => (
+                        {posts.slice(0, displayedPosts).map((post, index) => (
                             <div className="col-lg-4 col-md-6 mb-4" key={post.id}>
-                                <div className="postCard card_shadow" data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 500} >
+                                <div className="postCard card_shadow">
                                     <Link to={post.link} className="postImageWrap">
                                         {post.imageUrl !== '' && (
                                             <img src={post.imageUrl} alt={post.title} />
@@ -37,6 +55,9 @@ const Insights = () => {
                             </div>
                         ))}
                     </div>
+                    {displayedPosts < posts.length && (
+                        <button className={`d-block mt-4 dBtn btnBorder mx-auto  + ${loading && 'disabled'}`} onClick={handleLoadMore}>{ loading ? 'Loading...' : 'Load More'} </button>
+                    )}
                 </Container>
             </section>
         </>
