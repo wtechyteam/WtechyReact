@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
@@ -46,6 +46,8 @@ import 'aos/dist/aos.css';
 
 function App() {
 
+  const [activeTab, setActiveTab] = useState(0);
+
 
   useEffect(() => {
     AOS.init({
@@ -71,7 +73,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
       <main  >
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -98,7 +100,7 @@ function App() {
 
         </Routes>
       </main>
-      <Footer />
+      <Footer activeTab={activeTab} setActiveTab={setActiveTab} />
 
     </div>
   );

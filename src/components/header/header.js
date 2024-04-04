@@ -6,7 +6,7 @@ import './headerStyle.scss';
 import HeaderNavbar from './navbar/navbar.jsx';
 
 
-const Header = () => {
+const Header = ({activeTab, setActiveTab, currentPath, setCurrentPath}) => {
 
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -24,7 +24,7 @@ const Header = () => {
                 <Logo src={headerLogo} maxWidth="100px" />
                 <Navigation />
             </div> */}
-            <HeaderNavbar />
+            <HeaderNavbar activeTab={activeTab} setActiveTab={setActiveTab} />
         </header>
         </>
     );

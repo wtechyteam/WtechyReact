@@ -4,23 +4,27 @@ import footerLogo from './../../assets/Images/wtechy-logo-white.webp';
 import { Link } from 'react-router-dom';
 import SocialLinks from '../common/SocialLinks.jsx'
 
-const Footer = () => {
+const Footer = ({activeTab, setActiveTab}) => {
 
 
     const topLinks = [
         {
+            id:1,
             title: 'Home',
             link: '/'  // Correctly set the home page route
         },
         {
+            id:2,
             title: 'About Us',
             link: '/about-agency'
         },
         {
+            id:5,
             title: 'Portfolio',
             link: '/portfolio'
         },
         {
+            id:7,
             title: 'Careers',
             link: '/careers'
         },
@@ -34,25 +38,31 @@ const Footer = () => {
 
     const serviceLinks = [
         {
+            id:1,
             title: 'Search Engine Optimization',
             link: '/search-engine-optimization'  // Correctly set the home page route
         },
         {
+            id:2,
             title: 'Social Media Optimization',
             link: '/social-media-optimization'
         },
         {
+            id:3,
             title: 'Google Ads Management',
             link: '/google-ads-management'
         },
         {
+            id:4,
             title: 'Content Marketing',
             link: '/content-marketing'
         },
         // Add more service sections as needed
     ];
 
-
+    const handleTab = (list) => {
+        setActiveTab(list.id);
+    };
 
     return (
         <footer className='siteFooter' >
@@ -68,7 +78,7 @@ const Footer = () => {
                             <h2 className='title-sm fw-bold mb-4'>Top Links</h2>
                             <ul className="footerList linkList">
                                 {topLinks.map((list, index) => (
-                                    <li className='serviceWrap' key={index}>
+                                    <li onClick={() => handleTab(list)} className={`serviceWrap ${activeTab === list.link && "active_footer_link"}`} key={index}>
                                         <Link to={list.link}>{list.title}</Link>
                                     </li>
                                 ))}
