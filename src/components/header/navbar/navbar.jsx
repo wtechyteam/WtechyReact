@@ -6,6 +6,7 @@ import { FiChevronDown } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 import { headerData } from '../../data/headerData';
 
+
 const HeaderNavbar = ({activeTab, setActiveTab}) => {
     const [hover, setHover] = useState(false)
     // const [activeTab, setActiveTab] = useState(0);
@@ -22,7 +23,7 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
         <Navbar expand={"xl"}>
             <Container>
                 <Navbar.Brand href="/"><Logo src={headerLogo} maxWidth="100px" /></Navbar.Brand>
-                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} />
+                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} ></Navbar.Toggle>
                 <Navbar.Offcanvas id={`offcanvasNavbar-expand-xl`} aria-labelledby={`offcanvasNavbarLabel-expand-xl`} placement="end" >
                     <Offcanvas.Header closeButton />
                     <Offcanvas.Body>
@@ -55,8 +56,6 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
                                             </div>}
 
                                         </div>
-
-
                                     </div>
                                 ))}
 

@@ -94,12 +94,14 @@ const SearchEngineOpt = () => {
         title={"Search Engine Optimization"}
         info={'Help Potential Customers Find Your Business and Skyrocket Sales with Our Best SEO Services'}
       />
+      {/* New Section Start */}
       <ImageInfoWrap
         title={'Dominate the Search Engine with Tailored SEO Approach'}
         imageUrl={section1Image}
         description={'<p>Today, more and more people are turning towards the Internet for making their purchasing decisions. So, it is more important than ever to make an influential digital presence online.</p><p>Search engine optimization is the best way for your business to impact and get traffic on your website organically. Whether it is a fresh start-up or well-established, small or large scale, an effective SEO strategy is essential to growing your revenue.</p><p>You may be providing the best quality products and services, but they all go in vain if potential customers cannot reach you. To help people find you when they are searching online for products and services that you offer, an effective SEO strategy is critical.</p><p>The higher your business appears in the search result, the more likely it is that your potential customers will find and visit your website instead of your competitor. Our agency provides the best professional SEO services to help you unlock your potential prospects.</p><p class="text-20 fw-bold"><i>Want to give your business a boost with SEO?</i></p>'}
         showContactBtn={true}
       />
+      {/* New Section Start */}
       <ImageInfoWrap
         customClass={'bg-gray'}
         isReverse={true}
@@ -108,6 +110,7 @@ const SearchEngineOpt = () => {
         description={'<p>With millions of searches being made every minute, it is complicated to appear on the first search engines like Google, Bing, and Yahoo. People neither have time nor patience to go further to the second page of the search results.</p><p>SSo, if your business does not appear on the first page, you are as good as invisible. The sites which appear amongst the first few results are more likely to get traffic.</p><p>Our SEO Agency can make your business appear more in front of scrolling eyes. A practical formulaic approach is kept by our SEO experts who have been working for quite some time in this industry to make your business stand head and shoulders above the crowd outweighing your competitors.</p><p>Approach our SEO Consultant today to know your Google ranking.</p>'}
         showContactBtn={true}
       />
+      {/* New Section Start */}
       <section className='sectionPadding '>
         <div className="container">
           <SectionTopInfo
@@ -134,6 +137,33 @@ const SearchEngineOpt = () => {
           </div>
         </div>
       </section>
+      {/* New Section Start */}
+      <section className='sectionPadding bg-gray2 '>
+        <div className="container">
+          <div className="row">
+            <SectionTopInfo
+              // smallTitle={'Collaborate with our best SEO Company'}
+              title={'Get a quote for your business SEO?'}
+            />
+          </div>
+        </div>
+      </section>
+      {/* New Section Start */}
+      <ImageInfoWrap
+        title={'Enhance Your Business Revenue with our SEO Agency'}
+        imageUrl={section1Image}
+        description={'<p>Whether your business is small scale or large, an expert SEO Agency is essential to keep afloat in the market. Your website must flash amongst top searches to flourish.</p><p>Managing the online presence of large scale companies requires a more robust and strategic approach for performing advanced SEO practices as compared to SEO for small businesses. Therefore, the help of experts is required for enterprise SEO.</p><p>Our Agency has years of experience in enterprise SEO services with clients all over the world who have seen their business grow exponentially with our strategies.</p><p><i>Do you want advanced SEO strategies for your enterprise?</i></p>'}
+        showContactBtn={true}
+      />
+      {/* New Section Start */}
+      <ImageInfoWrap
+        customClass={'bg-gray'}
+        isReverse={true}
+        title={'Rule the eCommerce World With Best SEO Services'}
+        imageUrl={section2Image}
+        description={'<p>Best products and services, well-designed website, easy ordering and still no clients? You must have missed getting search engine optimization for your site.</p><p>You need to appear on top to receive organic traffic for your website. To thrive in the eCommerce market, you need a strong SEO service since the competition is getting higher with more and more businesses joining the online platform.</p><p>With the expertise of our eCommerce team, we assure you an increased number of customers on your website. Our focus is on trust-building with our clients. We customize strategies according to the business and needs of our clients.</p><p>Our Ecommerce SEO service provider team is highly experienced and believes in delivering results.</p><p><i>Do you want SEO for your eCommerce site?</i></p>'}
+        showContactBtn={true}
+      />
     </div>
   )
 }

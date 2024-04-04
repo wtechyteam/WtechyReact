@@ -8,7 +8,7 @@ import { Container } from 'react-bootstrap';
 
 const Insights = () => {
 
-    const postsPerPage = 3;
+    const postsPerPage = 6;
     const [displayedPosts, setDisplayedPosts] = useState(postsPerPage);
     const [loading, setLoading] = useState(false); // State to track loading status
 
