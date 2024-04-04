@@ -4,6 +4,7 @@ import Logo from '../../common/siteLogo/logo';
 import headerLogo from '../../../assets/Images/siteLogo.png'
 import Navigation from '../../navigation/Navigation';
 import { FiChevronDown } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,7 +15,7 @@ const headerData = [
     },
     {
         title: "About Us",
-        link: "/service",
+        link: "about-agency",
         eventKey: "0",
         // menuType: "submenu",
         // subMenu: [
@@ -38,94 +39,89 @@ const headerData = [
     },
     {
         title: "Services",
-        link: "/",
+        link: "",
         eventKey: "1",
         menuType: "submenu",
         subMenu: [
             {
-                subtitle: "services",
-                link: "/cont",
+                subtitle: "Services",
                 subLinks: [
                     {
                         subLinkName: "search engine optimization",
-                        path: "/gdg"
+                        path: "/searchEngine"
                     },
                     {
                         subLinkName: "social media optimization",
-                        path: "/gdg"
+                        path: "/socialMedia"
                     },
                     {
                         subLinkName: "google ads management",
-                        path: "/gdg"
+                        path: "/googleAds"
                     },
                     {
                         subLinkName: "content marketing",
-                        path: "/gdg"
+                        path: "/contentMarket"
                     }
                 ]
             },
             {
                 subtitle: "Repair Online Reputation",
-                link: "/conts",
                 subLinks: [
                     {
                         subLinkName: "Corporate",
-                        path: "/gdg"
+                        path: "/repairCorporate"
                     },
                     {
                         subLinkName: "Personal",
-                        path: "/gdg"
+                        path: "/repairPersonal"
                     },
                 ]
             },
             {
                 subtitle: "E-commerce Store Management",
-                link: "/conts",
                 subLinks: [
                     {
                         subLinkName: "Amazon Store Management",
-                        path: "/gdg"
+                        path: "/amazonStore"
                     },
                     {
                         subLinkName: "Ebay Store Management",
-                        path: "/gdg"
+                        path: "/ebayStore"
                     },
                     {
                         subLinkName: "Shopify Store Management",
-                        path: "/gdg"
+                        path: "/shopifyStore"
                     },
                     {
                         subLinkName: "Custom E-Commerce Store Management",
-                        path: "/gdg"
+                        path: "/customECom"
                     },
                 ]
             },
             {
                 subtitle: "Online Reputation Marketing",
-                link: "/conts",
                 subLinks: [
                     {
                         subLinkName: "Corporate",
-                        path: "/gdg"
+                        path: "/onlineCorporate"
                     },
                     {
                         subLinkName: "Personal",
-                        path: "/gdg"
+                        path: "/onlinePersonal"
                     },
                 ]
 
             },
             {
                 subtitle: "Website Development",
-                link: "/conts",
                 subLinks: [
                     {
                         subLinkName: "WordPress Development",
-                        path: "/gdg"
+                        path: "/wordpressDev"
                     },
                     {
                         subLinkName: "Shopify Development",
-                        path: "/gdg"
+                        path: "/shopifyDev"
                     },
                 ]
 
@@ -135,13 +131,13 @@ const headerData = [
     },
     {
         title: "Insights",
-        link: "/",
+        link: "insights",
     },
     {
         title: "Portfolio",
-        link: "/",
+        link: "portfolio",
         eventKey: "2",
-        
+
     },
     {
         title: "Top Work Marketplaces",
@@ -165,15 +161,20 @@ const HeaderNavbar = () => {
             <Container>
                 <Navbar.Brand href="/"><Logo src={headerLogo} maxWidth="100px" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} />
-                <Navbar.Offcanvas id={`offcanvasNavbar-expand-xl`}  aria-labelledby={`offcanvasNavbarLabel-expand-xl`} placement="end" >
+                <Navbar.Offcanvas id={`offcanvasNavbar-expand-xl`} aria-labelledby={`offcanvasNavbarLabel-expand-xl`} placement="end" >
                     <Offcanvas.Header closeButton />
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <div className='display_768 d-none d-xl-flex'>
                                 {headerData.map((item, index) => (
-                                    <div className={item.menuType ? "hover_menu title_name" : "title_name"}>
-                                        <span className={item.customClass}>{item.title}</span>
-                                        {item.subMenu && <FiChevronDown/>}
+                                    <div className={item.menuType ? "hover_menu" : ""}>
+                                        <Link to={item.link !== '' ? item.link : undefined} className={item.customClass}>
+                                            <span className='title_name'>
+                                                {item.title}
+                                                {item.subMenu && <FiChevronDown />}
+                                            </span>
+                                        </Link>
+
                                         <div className='display'>
                                             {item.subMenu && item.subMenu.map((ele) => (
                                                 <div className='hover_subtitle '>
@@ -181,7 +182,9 @@ const HeaderNavbar = () => {
                                                     {ele.subLinks && ele.subLinks.map((item) => {
                                                         return (
                                                             <>
-                                                                <p className='subtitle_name'>{item.subLinkName}</p>
+                                                                <Link to={item.path} className='text-decoration-none'>
+                                                                    <p className='subtitle_name'>{item.subLinkName}</p>
+                                                                </Link>
                                                             </>
                                                         )
                                                     })}
@@ -205,14 +208,24 @@ const HeaderNavbar = () => {
                                                                 {item.subMenu && item.subMenu.map((ele) => (
                                                                     <Accordion.Body>
                                                                         <span className='subtitle_name'>
-                                                                            {ele.subtitle}
-                                                                            {ele.subLinks && ele.subLinks.map((item) => {
-                                                                                return (
-                                                                                    <>
-                                                                                        <p className='subtitle_name_small'>{item.subLinkName}</p>
-                                                                                    </>
-                                                                                )
-                                                                            })}
+                                                                            <Accordion defaultActiveKey="2" className='drops'>
+                                                                                <Accordion.Item eventKey={item.eventKey}>
+                                                                                    <Accordion.Header>{ele.subtitle}</Accordion.Header>
+                                                                                    <Accordion.Body>
+                                                                                        {ele.subLinks && ele.subLinks.map((item) => {
+                                                                                            return (
+                                                                                                <>
+                                                                                                <Link to={item.path} className='text-decoration-none'>
+                                                                                                    <p className='subtitle_name_small'>{item.subLinkName}</p>
+                                                                                                    </Link>
+                                                                                                </>
+                                                                                            )
+                                                                                        })}
+                                                                                    </Accordion.Body>
+                                                                                </Accordion.Item>
+                                                                            </Accordion>
+
+
                                                                         </span>
                                                                     </Accordion.Body>
                                                                 ))}
@@ -223,7 +236,10 @@ const HeaderNavbar = () => {
                                                     </>
                                                 )
                                                     :
-                                                    <div className='subtitle_name'>{item.title}</div>
+                                                    <Link className='text-decoration-none' to={item.link !== '' ? item.link : undefined}>
+
+                                                        <div className='subtitle_name'>{item.title}</div>
+                                                    </Link>
                                             }
                                         </>
                                     )
