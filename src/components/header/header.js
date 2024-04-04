@@ -20,11 +20,11 @@ const Header = () => {
     return (
         <>
         <header className={`headerMain ${isScrolled ? 'sticky' : ''}`}>
-            <div className='header_toolbar container' >
+            {/* <div className='header_toolbar container' >
                 <Logo src={headerLogo} maxWidth="100px" />
                 <Navigation />
-            </div>
-            {/* <HeaderNavbar /> */}
+            </div> */}
+            <HeaderNavbar />
         </header>
         </>
     );
