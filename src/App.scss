@@ -9,10 +9,11 @@
   --white: #ffffff;
   --text-color-dark: #333333;
   --bg-color1:#dce9e7;
+  --bg-color2:#efefef;
 }
 
 
-/****************Universal Style Start*****************/
+/******Universal Style Start*******/
 html {
   scroll-behavior: smooth;
 }
@@ -52,10 +53,24 @@ img {
   height: auto;
 }
 
-/****************Universal Style End*****************/
+/******Universal Style End*******/
 
 
-/****************Custom Utility CSS Start*****************/
+/******Custom Utility CSS Start*******/
+
+
+.text{
+  &-20{
+    font-size: 20px;
+    @media (max-width: 1400px) {
+      font-size: 18px;
+    }
+    @media (max-width: 1200px) {
+      font-size: 16px;
+    }
+  }
+}
+
 
 .title{
   &-sm{
@@ -204,7 +219,7 @@ img {
 }
 
 
-/****************Custom Utility CSS End*****************/
+/******Custom Utility CSS End*******/
 
 .cardWrap{
   &.type1{
@@ -217,10 +232,10 @@ img {
   }
 }
 
-/***********Inner Page Banner Css Start************/
+/*****Inner Page Banner Css Start*****/
+
 .innerBanner{
   padding: 250px 0px 100px;
-  text-align: center;
   background-image: linear-gradient(180deg, #f5f5f5 0%, rgba(59, 137, 210, 0.4745098039) 100%);
   border-radius: 0px 0px 120px 120px;
   overflow: hidden;
@@ -254,27 +269,21 @@ img {
       height: 200px;
     }
   }
-  .bannerInfo{
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-  }
-
 }
+
 /***********Inner Page Banner Css Start************/
 
-/***********************/
 .postCard {
   @include postCard
 }
 
-
-
-
-
-
-
-
+.slick-slide {
+  div {
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
 // ====================v-css-start============================
 
 .title_name {
@@ -330,7 +339,6 @@ img {
   position: absolute;
   top: 56px;
   left: -90%;
-  // background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
   width: 800px;
   padding: 16px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 

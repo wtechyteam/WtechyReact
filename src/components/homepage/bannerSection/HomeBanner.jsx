@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './bannerStyle.scss'; // Optional: Add custom styles
 import bannerImage from './../../../assets/Images/homepage/bannerInner1.png';
 
 
@@ -31,7 +30,7 @@ const BannerSlider = () => {
             <div className="bannerContentWrap" data-aos="fade-right" data-aos-duration="1500">
               <h1 className='bannerTitle title-xxl fw-bold'>We maximize your <span>business potential </span></h1>
               <h2 className='bannerSubTitle'>With Innovative <span>SEO</span> Technologies</h2>
-              <p>Effective White-Hat SEO Techniques for Improving the User Experience & Online Visibility.</p>
+              <p className='text-20'>Effective White-Hat SEO Techniques for Improving the User Experience & Online Visibility.</p>
               <button className="dBtn btnPrimary mt-4 hasShadow">Contact Us</button>
             </div>
           </div>
@@ -51,9 +50,7 @@ const BannerSlider = () => {
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
   );
 };

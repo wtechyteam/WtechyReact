@@ -1,5 +1,6 @@
 import './../assets/styles/aboutPageStyle.scss'
 import InnerBanner from './common/InnerBanner'
+import SectionTopInfo from './common/SectionTopInfo'
 import ImageInfoWrap from './common/ImageInfoWrap'
 import aboutSectionImage from './../assets/Images/aboutPage/about-us.jpg'
 import serviceIcon1 from './../assets/Images/homepage/digitalMarketing.png'
@@ -108,6 +109,9 @@ const teamsData = [
     },
 
 ];
+
+
+
 const AboutUs = () => {
 
 
@@ -124,11 +128,12 @@ const AboutUs = () => {
             />
             <section className="sectionPadding bg-gray">
                 <div className="container">
-                    <div className="sectionTopInfo " >
-                        <h4 className='section-title-sm '>Our Services</h4>
-                        <h2 className='title-xl fw-bold'>Services We Offer</h2>
-                        <p className='col-lg-6 px-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.</p>
-                    </div>
+
+                    <SectionTopInfo
+                        smallTitle={'Our Services'}
+                        title={'Services We Offer'}
+                        text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'}
+                    />
                     <div className="row mt-5 justify-content-center">
                         {serviceData.map((service, index) => (
                             <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
@@ -148,11 +153,12 @@ const AboutUs = () => {
             </section>
             <section className="sectionPadding teamSection">
                 <div className="container">
-                    <div className="sectionTopInfo text-center" >
-                        <h4 className='section-title-sm '>Our Team</h4>
-                        <h2 className='title-xl fw-bold'>Meet the We Offer</h2>
-                        <p className='sectionInfo px-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.</p>
-                    </div>
+                    <SectionTopInfo
+                        isCenter={true}
+                        smallTitle={'Our Team'}
+                        title={'Meet the We Offer'}
+                        text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'}
+                    />
                     <div className="row mt-5 teamList justify-content-center">
                         {teamsData.map((item, index) => (
                             <div className='col-lg-3 col-sm-6 mb-5 ' key={index} >
@@ -163,11 +169,6 @@ const AboutUs = () => {
                                     <div className="cardInfo mt-3">
                                         <h2 className="cardTitle title-md fw-bold mb-1">{item.name}</h2>
                                         <p className='color-gray title-sm mb-0'>{item.designation}</p>
-                                        {/* <ul className="iconList">
-                                            <li><a href='#'></a></li>
-                                            <li></li>
-                                            <li></li>
-                                        </ul> */}
                                     </div>
                                 </div>
                             </div>

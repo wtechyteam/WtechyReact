@@ -1,25 +1,26 @@
 /***************About Page CSS Start*************/
-.teamList{
-    .teamImage{
-      width: 100%;
-      padding-top: calc(100% /(16/12));
-      background: #ddd;
-      position: relative;
-      display: block;
-      margin-top: 80px;
-      img{
-        position: absolute;
-        width: auto;
-        height: calc(100% + 80px);
-        object-fit: contain;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 0;
-        transition: all ease-in-out .3s;
-        object-position: bottom;
-    
-      }
+.teamList {
+  .teamImage {
+    width: 100%;
+    padding-top: calc(100% /(16/12));
+    background: #ddd;
+    position: relative;
+    display: block;
+    margin-top: 80px;
+
+    img {
+      position: absolute;
+      width: auto;
+      height: calc(100% + 80px);
+      object-fit: contain;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      transition: all ease-in-out .3s;
+      object-position: bottom;
+
     }
   }
-  
-  /**************About Page CSS Start****************/
+}
+
+/**************About Page CSS Start****************/
