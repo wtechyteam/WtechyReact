@@ -78,7 +78,7 @@ const Footer = ({activeTab, setActiveTab}) => {
                             <h2 className='title-sm fw-bold mb-4'>Top Links</h2>
                             <ul className="footerList linkList">
                                 {topLinks.map((list, index) => (
-                                    <li onClick={() => handleTab(list)} className={`serviceWrap ${activeTab === list.link && "active_footer_link"}`} key={index}>
+                                    <li onClick={() => handleTab(list)} className={`serviceWrap ${activeTab === list.id && "active_footer_link"}`} key={index}>
                                         <Link to={list.link}>{list.title}</Link>
                                     </li>
                                 ))}

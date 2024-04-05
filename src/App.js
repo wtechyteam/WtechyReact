@@ -40,13 +40,14 @@ import ShopifyStore from './components/service/eComStore/shopifyStore/shopifySto
 // This is for Added Animations Start
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Service from './components/service.jsx';
 // This is for Added Animations End
 
 
 
 function App() {
 
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(1);
 
 
   useEffect(() => {
@@ -78,25 +79,26 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-agency" element={<AboutUs />} />
+          <Route path="/service" element={<Service />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/top-work-marketplaces" element={<TopWorkMarketplaces />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<ContactUS />} />
-          <Route path="/contentMarket" element={<ContentMarketing />} />
-          <Route path="/googleAds" element={<GoogleAds />} />
-          <Route path="/searchEngine" element={<SearchEngineOpt />} />
-          <Route path="/socialMedia" element={<SocialMediaOpt />} />
-          <Route path="/shopifyDev" element={<ShopifyDevelopment />} />
-          <Route path="/wordpressDev" element={<WordpressDevelopment />} />
-          <Route path="/onlineCorporate" element={<Corporate />} />
-          <Route path="/onlinePersonal" element={<Personal />} />
-          <Route path="/repairCorporate" element={<RepairCorporate />} />
-          <Route path="/repairPersonal" element={<RepairPersonal />} />
-          <Route path="/amazonStore" element={<AmazonStore />} />
-          <Route path="/customECom" element={<CustomEcom />} />
-          <Route path="/ebayStore" element={<EbayStore />} />
-          <Route path="/shopifyStore" element={<ShopifyStore />} />
+          <Route path="/service/content-marketing" element={<ContentMarketing />} />
+          <Route path="/service/google-ads-management" element={<GoogleAds />} />
+          <Route path="/service/search-engine-optimization" element={<SearchEngineOpt />} />
+          <Route path="/service/social-media-optimization" element={<SocialMediaOpt />} />
+          <Route path="/service/shopify-development" element={<ShopifyDevelopment />} />
+          <Route path="/service/wordpress-development" element={<WordpressDevelopment />} />
+          <Route path="/service/online-reputation-marketing-corporate" element={<Corporate />} />
+          <Route path="/service/online-reputation-marketing-personal" element={<Personal />} />
+          <Route path="/service/repair-online-reputation-corporate" element={<RepairCorporate />} />
+          <Route path="/service/repair-online-reputation-personal" element={<RepairPersonal />} />
+          <Route path="/service/amazon-store-management" element={<AmazonStore />} />
+          <Route path="/service/custom-e-commerce-store-management-2" element={<CustomEcom />} />
+          <Route path="/service/ebay-store-management" element={<EbayStore />} />
+          <Route path="/service/shopify-store-management" element={<ShopifyStore />} />
 
         </Routes>
       </main>

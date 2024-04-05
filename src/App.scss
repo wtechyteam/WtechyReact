@@ -8,8 +8,8 @@
   --tertiary: #51AFA7;
   --white: #ffffff;
   --text-color-dark: #333333;
-  --bg-color1:#dce9e7;
-  --bg-color2:#efefef;
+  --bg-color1: #dce9e7;
+  --bg-color2: #efefef;
 }
 
 
@@ -18,14 +18,15 @@ html {
   scroll-behavior: smooth;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-a{
+a {
   transition: all ease-in-out .3s;
-  &:hover{
+
+  &:hover {
     color: var(--secondary);
   }
 }
@@ -36,15 +37,23 @@ body {
   font-size: 16px;
   color: var(--text-color-dark);
   line-height: 1.5;
+
   @media (max-width: 1200px) {
     font-size: 15px;
   }
-  
+
 }
-p{
+
+p {
   font-family: "Inter", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "League Spartan", sans-serif;
 }
 
@@ -59,12 +68,14 @@ img {
 /******Custom Utility CSS Start*******/
 
 
-.text{
-  &-20{
+.text {
+  &-20 {
     font-size: 20px;
+
     @media (max-width: 1400px) {
       font-size: 18px;
     }
+
     @media (max-width: 1200px) {
       font-size: 16px;
     }
@@ -72,49 +83,62 @@ img {
 }
 
 
-.title{
-  &-sm{
+.title {
+  &-sm {
     font-size: 20px;
     letter-spacing: .5px;
+
     @media (max-width: 1200px) {
       font-size: 18px;
     }
 
   }
-  &-md{
+
+  &-md {
     font-size: 25px;
     letter-spacing: .5px;
+
     @media (max-width: 1200px) {
       font-size: 22px;
     }
+
     @media (max-width: 767.98px) {
       font-size: 20px;
     }
   }
-  &-xl{
+
+  &-xl {
     font-size: 42px;
     letter-spacing: .5px;
+
     @media (max-width: 1400px) {
       font-size: 40px;
     }
+
     @media (max-width: 1200px) {
       font-size: 36px;
     }
+
     @media (max-width: 767.98px) {
       font-size: 28px;
     }
+
     @media (max-width: 576.98px) {
       font-size: 26px;
     }
   }
-  &-xxl{
+
+  &-xxl {
     font-size: 60px;
+
     @media (max-width: 1400px) {
       font-size: 55px;
     }
+
     @media (max-width: 1200px) {
       font-size: 50px;
     }
+
     @media (max-width: 767.98px) {
       font-size: 45px;
     }
@@ -122,17 +146,18 @@ img {
 }
 
 
-.bg-gray{
-  background-color:var(--bg-color1);
-}
-.bg-gray2{
-  background-color:var(--bg-color2);
+.bg-gray {
+  background-color: var(--bg-color1);
 }
 
-.dBtn{
+.bg-gray2 {
+  background-color: var(--bg-color2);
+}
+
+.dBtn {
   font-size: 16px;
   padding: 12px 25px;
-  border:none;
+  border: none;
   font-weight: 600;
   letter-spacing: .5px;
   transition: all 0.5s ease-in-out;
@@ -142,76 +167,90 @@ img {
   min-width: 160px;
   text-decoration: none;
   grid-gap: 10px;
-  &.hasShadow{
+
+  &.hasShadow {
     box-shadow: 2px 2px 10px 0px #00000050;
   }
-  &.disabled{
+
+  &.disabled {
     opacity: .5;
     pointer-events: none;
   }
-  &.btnPrimary{
+
+  &.btnPrimary {
 
     border: 1px solid var(--primary);
     background: var(--primary);
     color: #fff;
     border-radius: 10px 0px 10px 0px;
     min-height: 56px;
-    &:hover{
+
+    &:hover {
       // background: #fff;
       // color: var(--primary);
       border-radius: 0px 10px 0px 10px;
     }
   }
-  &.btnSecondary{
+
+  &.btnSecondary {
     border: 1px solid var(--secondary);
     background: var(--secondary);
     color: #fff;
     border-radius: 10px 0px 10px 0px;
     min-height: 56px;
-    &:hover{
+
+    &:hover {
       background: #fff;
       color: var(--secondary);
       border-radius: 0px 10px 0px 10px;
     }
   }
-  &.btnBorder{
+
+  &.btnBorder {
     background: transparent;
     border: 2px solid var(--secondary);
     color: var(--secondary);
     border-radius: 10px 0px 10px 0px;
     min-height: 56px;
-    &:hover{
+
+    &:hover {
       background: var(--secondary);
       color: #fff;
       border-radius: 0px 10px 0px 10px;
     }
   }
-  &.btnText{
+
+  &.btnText {
     background: transparent;
     padding: 0;
     min-width: auto;
     color: var(--secondary);
-    &:hover{
+
+    &:hover {
       color: #000;
       letter-spacing: 1px;
     }
   }
-  svg{
+
+  svg {
     font-size: 22px;
   }
 }
 
-.sectionPadding{
+.sectionPadding {
   padding: 100px 0px;
+
   @media (max-width: 1200px) {
     padding: 80px 0px;
   }
 }
-.sectionInfo{
+
+.sectionInfo {
   max-width: 800px;
   margin: 0 auto;
 }
-.section-title-sm{
+
+.section-title-sm {
   color: #2e8585;
   font-weight: 600;
   text-transform: capitalize;
@@ -222,6 +261,7 @@ img {
   margin: 0 auto;
   margin-bottom: 20px;
   font-size: 20px;
+
   @media (max-width: 1200px) {
     font-size: 18px;
   }
@@ -230,38 +270,43 @@ img {
 
 /******Custom Utility CSS End*******/
 
-.cardWrap{
-  &.type1{
+.cardWrap {
+  &.type1 {
     height: 100%;
     box-shadow: 0px 0px 10px 0px #00000015;
-    .cardIcon{
+
+    .cardIcon {
       @include cardType1-Icon;
     }
-    
+
   }
 }
 
 /*****Inner Page Banner Css Start*****/
 
-.innerBanner{
+.innerBanner {
   padding: 250px 0px 100px;
   background-image: linear-gradient(180deg, #f5f5f5 0%, rgba(59, 137, 210, 0.4745098039) 100%);
   border-radius: 0px 0px 120px 120px;
   overflow: hidden;
   position: relative;
   box-shadow: 0px 0px 15px 10px #00000025;
+
   @media (max-width: 1400px) {
     border-radius: 0px 0px 100px 100px;
   }
+
   @media (max-width: 991.98px) {
     padding: 200px 0px 100px;
     border-radius: 0px 0px 50px 50px;
   }
+
   @media (max-width: 767.98px) {
     padding: 180px 0px 80px;
     border-radius: 0px 0px 30px 30px;
   }
-  &::before{
+
+  &::before {
     content: "";
     background-image: url(./assets/Images/rocket.svg);
     width: 300px;
@@ -273,6 +318,7 @@ img {
     bottom: -35px;
     background-position: right bottom;
     filter: invert(1);
+
     @media (max-width: 991.98px) {
       width: 200px;
       height: 200px;
@@ -310,27 +356,32 @@ img {
   cursor: pointer;
   transition: color 0.5s;
   margin-right: 10px;
-  &:hover {
-    color: #3E7671;
-  }
 }
-.active_tab{
+
+.active_tab {
   border-bottom: 4px solid #3E7671;
   color: #3E7671;
 }
 
+.title_name:hover {
+  color: #3E7671;
+  border-bottom: 4px solid #3E7671;
+}
 
 .headerBtn {
   border: 1px solid var(--primary);
   background: var(--primary);
+  color: #fff !important;
   border-radius: 10px 0px 10px 0px;
   min-height: 56px;
   min-width: 160px;
   text-align: center;
   padding: 16px 30px;
   transition: all 0.5s;
+
   &:hover {
     background: #fff;
+    color: var(--primary) !important;
     border-radius: 0px 10px 0px 10px;
   }
 }
@@ -425,7 +476,8 @@ img {
   color: #3E7671;
   text-decoration: underline;
 }
-.active_Link{
+
+.active_Link {
   color: #3E7671;
   text-decoration: underline;
 }
@@ -444,15 +496,15 @@ img {
   font-size: 30px;
 }
 
-.card_shadow{
+.card_shadow {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.active_footer_link{
 
-    padding-left: 3px;
-    text-decoration: underline;
+.active_footer_link {
+  // color: #3B8AD2 !important;
+  padding-left: 3px;
+  text-decoration: underline;
 }
 
 
 // ====================v-css-end==============================
-
