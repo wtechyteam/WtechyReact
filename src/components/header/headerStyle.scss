@@ -12,6 +12,9 @@ $background-color_3: transparent;
     padding: 10px 15px;
     color: #fff;
     text-align: center;
+    @media (max-width: 767.98px) {
+        padding: 5px 15px;
+    }
     p{
         margin: 0;
     }
@@ -29,7 +32,6 @@ $background-color_3: transparent;
         .siteLogo{
             img{
                 width: 80px;
-
             }
         }
 
