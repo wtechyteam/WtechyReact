@@ -40,22 +40,22 @@ const Footer = ({activeTab, setActiveTab}) => {
         {
             id:1,
             title: 'Search Engine Optimization',
-            link: '/search-engine-optimization'  // Correctly set the home page route
+            link: 'service/search-engine-optimization'  // Correctly set the home page route
         },
         {
             id:2,
             title: 'Social Media Optimization',
-            link: '/social-media-optimization'
+            link: 'service/social-media-optimization'
         },
         {
             id:3,
             title: 'Google Ads Management',
-            link: '/google-ads-management'
+            link: 'service/google-ads-management'
         },
         {
             id:4,
             title: 'Content Marketing',
-            link: '/content-marketing'
+            link: 'service/content-marketing'
         },
         // Add more service sections as needed
     ];
