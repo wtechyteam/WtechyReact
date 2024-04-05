@@ -15,6 +15,7 @@ export const headerData = [
         id:3,
         title: "Services",
         link: "/service",
+        ServiceClass:"active_service",
         eventKey: "1",
         menuType: "submenu",
         subMenu: [
@@ -23,21 +24,25 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 1,
+                        key:true,
                         subLinkName: "search engine optimization",
                         path: "service/search-engine-optimization"
                     },
                     {
                         id: 2,
+                        key:true,
                         subLinkName: "social media optimization",
                         path: "service/social-media-optimization"
                     },
                     {
                         id: 3,
+                        key:true,
                         subLinkName: "google ads management",
                         path: "service/google-ads-management"
                     },
                     {
                         id: 4,
+                        key:true,
                         subLinkName: "content marketing",
                         path: "service/content-marketing"
                     }
@@ -48,11 +53,13 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 5,
+                        key:true,
                         subLinkName: "Corporate",
                         path: "service/repair-online-reputation-corporate"
                     },
                     {
                         id: 6,
+                        key:true,
                         subLinkName: "Personal",
                         path: "service/repair-online-reputation-personal"
                     },
@@ -63,21 +70,25 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 7,
+                        key:true,
                         subLinkName: "Amazon Store Management",
                         path: "service/amazon-store-management"
                     },
                     {
                         id: 8,
+                        key:true,
                         subLinkName: "Ebay Store Management",
                         path: "service/ebay-store-management"
                     },
                     {
                         id: 9,
+                        key:true,
                         subLinkName: "Shopify Store Management",
                         path: "service/shopify-store-management"
                     },
                     {
                         id: 10,
+                        key:true,
                         subLinkName: "Custom E-Commerce Store Management",
                         path: "service/custom-e-commerce-store-management-2"
                     },
@@ -88,11 +99,13 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 11,
+                        key:true,
                         subLinkName: "Corporate",
                         path: "service/online-reputation-marketing-corporate"
                     },
                     {
                         id: 12,
+                        key:true,
                         subLinkName: "Personal",
                         path: "service/online-reputation-marketing-personal"
                     },
@@ -104,11 +117,13 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 13,
+                        key:true,
                         subLinkName: "WordPress Development",
                         path: "service/wordpress-development"
                     },
                     {
                         id: 14,
+                        key:true,
                         subLinkName: "Shopify Development",
                         path: "service/shopify-development"
                     },
@@ -141,7 +156,6 @@ export const headerData = [
         link: "careers",
     },
     {
-        id:8,
         title: "Contact",
         link: "contact",
         customClass: "headerBtn"
