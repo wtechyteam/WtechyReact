@@ -6,10 +6,9 @@ import { FiChevronDown } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 import { headerData } from '../../data/headerData';
 
-
-const HeaderNavbar = ({activeTab, setActiveTab}) => {
+const HeaderNavbar = ({ activeTab, setActiveTab }) => {
     const [hover, setHover] = useState(false)
-    // const [activeTab, setActiveTab] = useState(0);
+    const [show, setShow] = useState(false);
     const [activeLink, setActiveLink] = useState();
 
     const handleTab = (item) => {
@@ -18,14 +17,23 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
     const handleLink = (item) => {
         setActiveLink(item.id);
         setHover(false)
+
     };
+
+    const toggleOffCanvas = () => {
+        setShow((show) => !show);
+    };
+
     return (
         <Navbar expand={"xl"}>
             <Container>
                 <Navbar.Brand href="/"><Logo src={headerLogo} maxWidth="100px" /></Navbar.Brand>
-                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} ></Navbar.Toggle>
-                <Navbar.Offcanvas id={`offcanvasNavbar-expand-xl`} aria-labelledby={`offcanvasNavbarLabel-expand-xl`} placement="end" >
-                    <Offcanvas.Header closeButton />
+                <Navbar.Toggle onClick={toggleOffCanvas} aria-controls={`offcanvasNavbar-expand-xl`} />
+                <Navbar.Offcanvas
+                    show={show}
+                    onHide={toggleOffCanvas}
+                    id={`offcanvasNavbar-expand-xl`} aria-labelledby={`offcanvasNavbarLabel-expand-xl`} placement="end" >
+                    <Offcanvas.Header show={show} closeButton />
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <div className='display_768 d-none d-xl-flex'>
@@ -56,6 +64,8 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
                                             </div>}
 
                                         </div>
+
+
                                     </div>
                                 ))}
 
@@ -68,13 +78,13 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
                                                 item.subMenu ? (
                                                     <>
 
-                                                        <Accordion defaultActiveKey="2" className='drops'>
+                                                        <Accordion className='drops'>
                                                             <Accordion.Item eventKey={item.eventKey}>
                                                                 <Accordion.Header>{item.title}</Accordion.Header>
                                                                 {item.subMenu && item.subMenu.map((ele, index) => (
                                                                     <Accordion.Body key={index}>
                                                                         <span className='subtitle_name'>
-                                                                            <Accordion defaultActiveKey="2" className='drops'>
+                                                                            <Accordion className='drops'>
                                                                                 <Accordion.Item eventKey={item.eventKey}>
                                                                                     <Accordion.Header>{ele.subtitle}</Accordion.Header>
                                                                                     <Accordion.Body>
@@ -82,7 +92,7 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
                                                                                             return (
                                                                                                 <>
                                                                                                     <Link key={index} to={item.path} className='text-decoration-none'>
-                                                                                                        <p className='subtitle_name_small'>{item.subLinkName}</p>
+                                                                                                        <p onClick={toggleOffCanvas} className='subtitle_name_small'>{item.subLinkName}</p>
                                                                                                     </Link>
                                                                                                 </>
                                                                                             )
@@ -104,7 +114,7 @@ const HeaderNavbar = ({activeTab, setActiveTab}) => {
                                                     :
                                                     <Link className='text-decoration-none' to={item.link !== '' ? item.link : undefined}>
 
-                                                        <div className='subtitle_name'>{item.title}</div>
+                                                        <div onClick={toggleOffCanvas} className='subtitle_name'>{item.title}</div>
                                                     </Link>
                                             }
                                         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState, useEffect } from 'react';
 import InnerBanner from '../../../common/InnerBanner';
 import ImageInfoWrap from '../../../common/ImageInfoWrap';
 import section1Image from './../../../../assets/Images/services/SEO.webp';
@@ -7,8 +7,41 @@ import section2Image from './../../../../assets/Images/services/what-we-do-servi
 import serviceIcon1 from './../../../../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../../../../assets/Images/homepage/MarketingStrategies.png'
 
-import { useLocation } from 'react-router-dom';
 import SectionTopInfo from '../../../common/SectionTopInfo';
+import FullWidthCTASection from '../../../common/FullWidthCTASection';
+import FAQs from '../../../common/FAQs';
+
+
+
+// const WordPressComponent = () => {
+//   const [data, setData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await fetch('https://wordpress-1079908-3850878.cloudwaysapps.com/wp-json/wp/v2/banner');
+//         const jsonData = await response.json();
+//         setData(jsonData);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []); // Empty dependency array ensures useEffect runs only once after the component mounts
+
+//   return (
+//     <div>
+//       {/* Loop through the fetched data */}
+//       {data.map((item) => (
+//         <div key={item.id}>
+//           <h2 dangerouslySetInnerHTML={{ __html: item.title.rendered }}></h2>
+//           <img src={item.acf_fields.section1Image} alt='sd' />
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
 
 
 const SearchEngineOpt = () => {
@@ -88,20 +121,42 @@ const SearchEngineOpt = () => {
 
   ];
 
+  const faqData = [
+    {
+      question: 'Is textual content important for my website?',
+      answer: 'The success of your business website is primarily dependent on textual content. Google algorithms make search results on the basis of the textual content, a small percentage over images. Still, content wins over the wallet of your customers. Invest time and effort while writing the quality content for your website, it is highly rewarding.',
+    },
+    {
+      question: 'How will backlinks help in my ranking?',
+      answer: 'Search engines like Google consider the backlinks as votes in favor of your website. It shows the credibility of your website. Google treat your website’s backlinks as your site’s ability to satisfy search wishes of browser.',
+    },
+    {
+      question: 'I already have Google AdWords. Do I still need to invest in SEO?',
+      answer: 'Yes. Google AdWords is a short time and expensive solution whereas SEO is long. Search Engine Optimization (SEO) requires more time and effort to achieve results but is permanent than ads. Once you stop paying for Google advertising, your project ends, but when you stop paying for SEO your campaign still stands. Web searches trust SEO listing more than advertisement listings.',
+    },
+    {
+      question: 'Can social media be used for SEO?',
+      answer: 'Social media campaigns are an important growing aspect of the web and can complement your SEO campaign in a great way. It helps in acquiring backlinks and mentions to your website’s pages, articles, press releases, etc. Social media help you in connecting to your potential buyers and build up a community around your products and services. ',
+    },
+    // Add more FAQ items as needed
+  ];
+
   return (
     <div>
+
       <InnerBanner
         title={"Search Engine Optimization"}
         info={'Help Potential Customers Find Your Business and Skyrocket Sales with Our Best SEO Services'}
       />
-      {/* New Section Start */}
+
+      {/* ======New Section Start ====== */}
       <ImageInfoWrap
         title={'Dominate the Search Engine with Tailored SEO Approach'}
         imageUrl={section1Image}
         description={'<p>Today, more and more people are turning towards the Internet for making their purchasing decisions. So, it is more important than ever to make an influential digital presence online.</p><p>Search engine optimization is the best way for your business to impact and get traffic on your website organically. Whether it is a fresh start-up or well-established, small or large scale, an effective SEO strategy is essential to growing your revenue.</p><p>You may be providing the best quality products and services, but they all go in vain if potential customers cannot reach you. To help people find you when they are searching online for products and services that you offer, an effective SEO strategy is critical.</p><p>The higher your business appears in the search result, the more likely it is that your potential customers will find and visit your website instead of your competitor. Our agency provides the best professional SEO services to help you unlock your potential prospects.</p><p class="text-20 fw-bold"><i>Want to give your business a boost with SEO?</i></p>'}
         showContactBtn={true}
       />
-      {/* New Section Start */}
+      {/* ======New Section Start ====== */}
       <ImageInfoWrap
         customClass={'bg-gray'}
         isReverse={true}
@@ -110,8 +165,8 @@ const SearchEngineOpt = () => {
         description={'<p>With millions of searches being made every minute, it is complicated to appear on the first search engines like Google, Bing, and Yahoo. People neither have time nor patience to go further to the second page of the search results.</p><p>SSo, if your business does not appear on the first page, you are as good as invisible. The sites which appear amongst the first few results are more likely to get traffic.</p><p>Our SEO Agency can make your business appear more in front of scrolling eyes. A practical formulaic approach is kept by our SEO experts who have been working for quite some time in this industry to make your business stand head and shoulders above the crowd outweighing your competitors.</p><p>Approach our SEO Consultant today to know your Google ranking.</p>'}
         showContactBtn={true}
       />
-      {/* New Section Start */}
-      <section className='sectionPadding '>
+      {/* ======New Section Start ====== */}
+      <section className='sectionPadding services '>
         <div className="container">
           <SectionTopInfo
             isCenter={true}
@@ -137,25 +192,18 @@ const SearchEngineOpt = () => {
           </div>
         </div>
       </section>
-      {/* New Section Start */}
-      <section className='sectionPadding bg-gray2 '>
-        <div className="container">
-          <div className="row">
-            <SectionTopInfo
-              // smallTitle={'Collaborate with our best SEO Company'}
-              title={'Get a quote for your business SEO?'}
-            />
-          </div>
-        </div>
-      </section>
-      {/* New Section Start */}
+      {/* ======New Section Start ====== */}
+      <FullWidthCTASection
+        title={'Get a quote for your business SEO?'}
+      />
+      {/* ======New Section Start ====== */}
       <ImageInfoWrap
         title={'Enhance Your Business Revenue with our SEO Agency'}
         imageUrl={section1Image}
         description={'<p>Whether your business is small scale or large, an expert SEO Agency is essential to keep afloat in the market. Your website must flash amongst top searches to flourish.</p><p>Managing the online presence of large scale companies requires a more robust and strategic approach for performing advanced SEO practices as compared to SEO for small businesses. Therefore, the help of experts is required for enterprise SEO.</p><p>Our Agency has years of experience in enterprise SEO services with clients all over the world who have seen their business grow exponentially with our strategies.</p><p><i>Do you want advanced SEO strategies for your enterprise?</i></p>'}
         showContactBtn={true}
       />
-      {/* New Section Start */}
+      {/* ======New Section Start ====== */}
       <ImageInfoWrap
         customClass={'bg-gray'}
         isReverse={true}
@@ -164,8 +212,22 @@ const SearchEngineOpt = () => {
         description={'<p>Best products and services, well-designed website, easy ordering and still no clients? You must have missed getting search engine optimization for your site.</p><p>You need to appear on top to receive organic traffic for your website. To thrive in the eCommerce market, you need a strong SEO service since the competition is getting higher with more and more businesses joining the online platform.</p><p>With the expertise of our eCommerce team, we assure you an increased number of customers on your website. Our focus is on trust-building with our clients. We customize strategies according to the business and needs of our clients.</p><p>Our Ecommerce SEO service provider team is highly experienced and believes in delivering results.</p><p><i>Do you want SEO for your eCommerce site?</i></p>'}
         showContactBtn={true}
       />
+      {/* ======New Section Start ====== */}
+      <section className='sectionPadding'>
+        <div className="container">
+          <SectionTopInfo
+            isCenter={true}
+            isFullWidth={true}
+            smallTitle={'FAQ'}
+            title={'FAQs for Search Engine Optimization'}
+          />
+          <FAQs faqList={faqData} />
+        </div>
+      </section>
+
+
     </div>
   )
 }
 
-export default SearchEngineOpt
+export default SearchEngineOpt;

@@ -14,7 +14,7 @@ export const headerData = [
     {
         id:3,
         title: "Services",
-        link: "",
+        link: "/service",
         eventKey: "1",
         menuType: "submenu",
         subMenu: [
@@ -24,22 +24,22 @@ export const headerData = [
                     {
                         id: 1,
                         subLinkName: "search engine optimization",
-                        path: "/searchEngine"
+                        path: "service/search-engine-optimization"
                     },
                     {
                         id: 2,
                         subLinkName: "social media optimization",
-                        path: "/socialMedia"
+                        path: "service/social-media-optimization"
                     },
                     {
                         id: 3,
                         subLinkName: "google ads management",
-                        path: "/googleAds"
+                        path: "service/google-ads-management"
                     },
                     {
                         id: 4,
                         subLinkName: "content marketing",
-                        path: "/contentMarket"
+                        path: "service/content-marketing"
                     }
                 ]
             },
@@ -49,12 +49,12 @@ export const headerData = [
                     {
                         id: 5,
                         subLinkName: "Corporate",
-                        path: "/repairCorporate"
+                        path: "service/repair-online-reputation-corporate"
                     },
                     {
                         id: 6,
                         subLinkName: "Personal",
-                        path: "/repairPersonal"
+                        path: "service/repair-online-reputation-personal"
                     },
                 ]
             },
@@ -64,22 +64,22 @@ export const headerData = [
                     {
                         id: 7,
                         subLinkName: "Amazon Store Management",
-                        path: "/amazonStore"
+                        path: "service/amazon-store-management"
                     },
                     {
                         id: 8,
                         subLinkName: "Ebay Store Management",
-                        path: "/ebayStore"
+                        path: "service/ebay-store-management"
                     },
                     {
                         id: 9,
                         subLinkName: "Shopify Store Management",
-                        path: "/shopifyStore"
+                        path: "service/shopify-store-management"
                     },
                     {
                         id: 10,
                         subLinkName: "Custom E-Commerce Store Management",
-                        path: "/customECom"
+                        path: "service/custom-e-commerce-store-management-2"
                     },
                 ]
             },
@@ -89,12 +89,12 @@ export const headerData = [
                     {
                         id: 11,
                         subLinkName: "Corporate",
-                        path: "/onlineCorporate"
+                        path: "service/online-reputation-marketing-corporate"
                     },
                     {
                         id: 12,
                         subLinkName: "Personal",
-                        path: "/onlinePersonal"
+                        path: "service/online-reputation-marketing-personal"
                     },
                 ]
 
@@ -105,12 +105,12 @@ export const headerData = [
                     {
                         id: 13,
                         subLinkName: "WordPress Development",
-                        path: "/wordpressDev"
+                        path: "service/wordpress-development"
                     },
                     {
                         id: 14,
                         subLinkName: "Shopify Development",
-                        path: "/shopifyDev"
+                        path: "service/shopify-development"
                     },
                 ]
 
