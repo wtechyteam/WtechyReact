@@ -12,6 +12,7 @@ import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
 
 const GoogleAds = () => {
+
   const googleAdsData = [
     {
       icon: serviceIcon1,
@@ -33,25 +34,44 @@ const GoogleAds = () => {
       title: 'On-Page Optimization',
       description: 'Our expert SEO team will conduct the strategic measures within your company website in order to enhance its ranking in the SERPs. We help you match your site content to the best of the keywords.'
     },
-   
+
   ];
 
   const faqData = [
     {
-      question: 'Is textual content important for my website?',
-      answer: 'The success of your business website is primarily dependent on textual content. Google algorithms make search results on the basis of the textual content, a small percentage over images. Still, content wins over the wallet of your customers. Invest time and effort while writing the quality content for your website, it is highly rewarding.',
+      question: 'How does Google Ads work?',
+      answer: 'When people search for a particular keyword online, if the keyword is listed on your ad, then Google displays your ad for the search query. Google Ads help you to display your ads in front of your potential prospects.',
     },
     {
-      question: 'How will backlinks help in my ranking?',
-      answer: 'Search engines like Google consider the backlinks as votes in favor of your website. It shows the credibility of your website. Google treat your website’s backlinks as your site’s ability to satisfy search wishes of browser.',
+      question: 'How to set up Google AdWords Campaign?',
+      liData: [
+        { point: 'Understanding the objectives of your ad campaign' },
+        { point: 'Conducting high search volume keyword research' },
+        { point: 'Creating the precise ad campaign' },
+        { point: 'Creating different ad extensions so that your ads will look more compelling' },
+        { point: 'Creating a different set of ad copies for different ads' },
+        { point: 'Trivial modifications according to the need that will allow conversion tracking' },
+      ],
+      answer: 'Setting up a Google Ad campaign is quite a tricky task, as it involves thorough keyword research, ad group creation, landing page, and ad extension addition. It’s not that you just clicked a few buttons and you are all set to run, you need to follow the guidelines and work accordingly. It involves:',
     },
     {
-      question: 'I already have Google AdWords. Do I still need to invest in SEO?',
-      answer: 'Yes. Google AdWords is a short time and expensive solution whereas SEO is long. Search Engine Optimization (SEO) requires more time and effort to achieve results but is permanent than ads. Once you stop paying for Google advertising, your project ends, but when you stop paying for SEO your campaign still stands. Web searches trust SEO listing more than advertisement listings.',
+      liData: [
+        { point: 'Creating new ad groups and keywords, ' },
+        { point: 'Pausing keywords or ads that are not working' },
+        { point: 'Altering ads and keywords that are not performing well' },
+        { point: 'Making suggestions about new ad campaigns or groups' },
+        { point: 'Modifying the ad budget based on Google’s suggestion' },
+      ],
+      question: 'Why does a Google ad campaign need to be managed?',
+      answer: 'The Google ad campaigns need to be managed regularly in order to make them work better and allow you to expand on them. this is done because Google updates new policies frequently, so it becomes vital to update the ads based on the new policies so that you can generate the best results. Managing of Google ads involves :',
     },
     {
-      question: 'Can social media be used for SEO?',
-      answer: 'Social media campaigns are an important growing aspect of the web and can complement your SEO campaign in a great way. It helps in acquiring backlinks and mentions to your website’s pages, articles, press releases, etc. Social media help you in connecting to your potential buyers and build up a community around your products and services. ',
+      question: 'What types of businesses do you manage Google ads for?',
+      answer: 'We work with customers from everywhere around the world, whether it’s a small business, big business, or an individual. The mainstream of the Google ad campaigns we manage is for conversion, traffic, and lead generation while offering a number of advantages to the clients that will eventually assist in the growth of their business.',
+    },
+    {
+      question: 'How much does Google Ads cost?',
+      answer: 'The cost of Google ads entirely depends on your budget. Moreover, it can run on any budget. As an advertiser, you are only charged when someone clicks on your ad or is visiting your website through your ads. In addition to this, you can stop your ads anytime you want.',
     },
     // Add more FAQ items as needed
   ];
@@ -90,7 +110,7 @@ const GoogleAds = () => {
 
 
 
-      
+
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
         customClass={'bg-gray'}

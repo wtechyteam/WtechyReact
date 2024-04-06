@@ -14,20 +14,16 @@ const SocialMediaOpt = () => {
 
   const faqData = [
     {
-      question: 'Is textual content important for my website?',
-      answer: 'The success of your business website is primarily dependent on textual content. Google algorithms make search results on the basis of the textual content, a small percentage over images. Still, content wins over the wallet of your customers. Invest time and effort while writing the quality content for your website, it is highly rewarding.',
+      question: 'What to do if my reputation is previously negative?',
+      answer: 'If your repute is tainted with false content, then it immediately requires your reaction. Ignoring and staying acquainted with the situation will only hinder your reputation more. Prior to start taking a step yourself, you need an online reputation provide, who will help you to sort out the issue that has been bolting out your online reputation.',
     },
     {
-      question: 'How will backlinks help in my ranking?',
-      answer: 'Search engines like Google consider the backlinks as votes in favor of your website. It shows the credibility of your website. Google treat your website’s backlinks as your site’s ability to satisfy search wishes of browser.',
+      question: 'What’s the major mistake people make while managing their online reputation by themselves?',
+      answer: 'Creating social media profiles, running several campaigns online, posting blogs every now and then can build up their tainted image. However, this is the fair approach, but it will only work well when used with correct tools and guidelines. It is good that people create their different social profiles and post positive content, but writing and posting is not the only step that will help them to reinstate their lost repute, you need search engine optimization and social media optimization to drag down the negative content.This is one of the major reasons for a fallback for many people who are trying to manage their reputation by themselves. Therefore, a reputation management agency is the best rescue and your one-stop solution to get rid of the negative image online.',
     },
     {
-      question: 'I already have Google AdWords. Do I still need to invest in SEO?',
-      answer: 'Yes. Google AdWords is a short time and expensive solution whereas SEO is long. Search Engine Optimization (SEO) requires more time and effort to achieve results but is permanent than ads. Once you stop paying for Google advertising, your project ends, but when you stop paying for SEO your campaign still stands. Web searches trust SEO listing more than advertisement listings.',
-    },
-    {
-      question: 'Can social media be used for SEO?',
-      answer: 'Social media campaigns are an important growing aspect of the web and can complement your SEO campaign in a great way. It helps in acquiring backlinks and mentions to your website’s pages, articles, press releases, etc. Social media help you in connecting to your potential buyers and build up a community around your products and services. ',
+      question: 'How much time will it take to fix a tarnished reputation?',
+      answer: 'Everyone has a different situation and it entails its own approach. The most important thing to check is the cycle of negative comments. You have to see for how long the negative content is floating, and see has it run its course.The second step to do is create high-quality content with valid keywords backing up the SEO strategy so that the technique used can counteract any unwanted content finding its way to rank up to the top 3 pages of search engines.',
     },
     // Add more FAQ items as needed
   ];
@@ -84,7 +80,7 @@ const SocialMediaOpt = () => {
             isCenter={true}
             isFullWidth={true}
             smallTitle={'FAQ'}
-            title={'FAQs for Search Engine Optimization'}
+            title={'FAQs for Social Media Optimization'}
           />
           <FAQs faqList={faqData} />
         </div>
