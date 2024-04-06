@@ -18,7 +18,14 @@ const FAQs = (props) => {
             <div className="faqIcon">{openIndex === index ? <FaMinus /> : <FaPlus />}</div>
           </h4>
           {openIndex === index &&
-            <p className='description'>{faq.answer}</p>
+            <>
+              <p className='description'>{faq.answer}</p>
+              {faq.liData && faq.liData.map((listPoint, index) => (
+                <ul key={index}>
+                  <li className='ms-3'>{listPoint.point}</li>
+                </ul>
+              ))}
+            </>
           }
 
         </div>

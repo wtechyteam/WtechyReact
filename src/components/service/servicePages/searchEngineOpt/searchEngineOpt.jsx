@@ -178,7 +178,6 @@ const SearchEngineOpt = () => {
 
   return (
     <div>
-
       <InnerBanner
         title={"Search Engine Optimization"}
         info={'Help Potential Customers Find Your Business and Skyrocket Sales with Our Best SEO Services'}
