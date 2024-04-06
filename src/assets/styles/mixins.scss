@@ -30,7 +30,14 @@
         position: relative;
     }
 }
-
+@mixin cardType2-Icon{
+  position: relative;
+  margin-bottom: 30px;
+  img {
+      max-width: 70px;
+      position: relative;
+  }
+}
 
 @mixin cardImage {
     width: 100%;

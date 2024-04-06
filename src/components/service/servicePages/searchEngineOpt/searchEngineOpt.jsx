@@ -36,6 +36,7 @@ import FAQs from '../../../common/FAQs';
 //       {data.map((item) => (
 //         <div key={item.id}>
 //           <h2 dangerouslySetInnerHTML={{ __html: item.title.rendered }}></h2>
+//           <p >{item.acf_fields.leftContent}</p>
 //           <img src={item.acf_fields.section1Image} alt='sd' />
 //         </div>
 //       ))}
@@ -121,6 +122,40 @@ const SearchEngineOpt = () => {
 
   ];
 
+  const whyChoose = [
+    {
+      icon: serviceIcon1,
+      title: 'Dedicated SEO Support Team',
+      description: 'Our SEO Support Team works to solve the complex business tasks of our customers.'
+    },
+    {
+      icon: serviceIcon2,
+      title: 'Innovative & Creative Approach for Google Ranking',
+      description: 'We bring a lateral approach to all our services, thinking innovatively and creatively.'
+    },
+    {
+      icon: serviceIcon1,
+      title: 'More Than 15 Years of Experience in Digital Marketing',
+      description: 'We help you drive more customers to your website, products, and services.'
+    },
+    {
+      icon: serviceIcon1,
+      title: 'Client Focus & Trust in Business Affairs',
+      description: 'We put our clients’ needs first and meet their needs when dealing with business issues.'
+    },
+    {
+      icon: serviceIcon1,
+      title: 'Reputation',
+      description: 'Our reputation is founded on exceeding the expectation of our clients.'
+    },
+    {
+      icon: serviceIcon1,
+      title: 'Project Delivering Success',
+      description: 'We give confidence and reassurance to our clients as we drive their projects forward.'
+    },
+  ];
+
+
   const faqData = [
     {
       question: 'Is textual content important for my website?',
@@ -148,7 +183,7 @@ const SearchEngineOpt = () => {
         title={"Search Engine Optimization"}
         info={'Help Potential Customers Find Your Business and Skyrocket Sales with Our Best SEO Services'}
       />
-
+      {/* <WordPressComponent/> */}
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
         title={'Dominate the Search Engine with Tailored SEO Approach'}
@@ -176,15 +211,15 @@ const SearchEngineOpt = () => {
             text={'With thousands of websites being created every day, you can make yours stand out online with an effective Search Engine Optimization strategy. You can take your business to a new height and generate more revenue than ever with the help of our SEO professionals. Being an experienced and well-reputed SEO Agency, we understand the changing algorithm of Google and design methodologies accordingly. Our SEO services are up to date, and unparalleled that can improve your business website rankings increase the traffic and revenue over a short period. Our advanced SEO services include:'}
           />
           <div className="row mt-5 justify-content-center">
-            {serviceData.map((service, index) => (
+            {serviceData.map((item, index) => (
               <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
-                <div className="cardWrap px-4 py-4 type1 bg-gray">
+                <div className="cardWrap px-4 py-4 type1 card_shadow bg-gray">
                   <div className="cardIcon">
-                    <img src={service.icon} alt={service.title} />
+                    <img src={item.icon} alt={item.title} />
                   </div>
                   <div className="cardInfo">
-                    <h2 className="cardTitle title-md fw-bold">{service.title}</h2>
-                    <p className='cardDescription text-sm mb-0'>{service.description}</p>
+                    <h2 className="cardTitle title-md fw-bold">{item.title}</h2>
+                    <p className='cardDescription text-sm mb-0'>{item.description}</p>
                   </div>
                 </div>
               </div>
@@ -218,13 +253,38 @@ const SearchEngineOpt = () => {
           <SectionTopInfo
             isCenter={true}
             isFullWidth={true}
-            smallTitle={'FAQ'}
+            smallTitle={'FAQs'}
             title={'FAQs for Search Engine Optimization'}
           />
           <FAQs faqList={faqData} />
         </div>
       </section>
-
+      {/* ======New Section Start ====== */}
+      <section className='sectionPadding bg-gray2'>
+        <div className="container">
+          <SectionTopInfo
+            isCenter={true}
+            isFullWidth={true}
+            smallTitle={'Why Choose?'}
+            title={'WTechy as your SEO Expert'}
+          />
+          <div className="row mt-5 justify-content-center">
+            {whyChoose.map((item, index) => (
+              <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
+                <div className="cardWrap type2 px-2 text-center">
+                  <div className="cardIcon">
+                    <img src={item.icon} alt={item.title} />
+                  </div>
+                  <div className="cardInfo">
+                    <h2 className="cardTitle title-md fw-bold">{item.title}</h2>
+                    <p className='cardDescription text-sm mb-0'>{item.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
     </div>
   )

@@ -48,23 +48,7 @@ export const headerData = [
                     }
                 ]
             },
-            {
-                subtitle: "Repair Online Reputation",
-                subLinks: [
-                    {
-                        id: 5,
-                        key:true,
-                        subLinkName: "Corporate",
-                        path: "service/repair-online-reputation-corporate"
-                    },
-                    {
-                        id: 6,
-                        key:true,
-                        subLinkName: "Personal",
-                        path: "service/repair-online-reputation-personal"
-                    },
-                ]
-            },
+
             {
                 subtitle: "E-commerce Store Management",
                 subLinks: [
@@ -91,6 +75,23 @@ export const headerData = [
                         key:true,
                         subLinkName: "Custom E-Commerce Store Management",
                         path: "service/custom-e-commerce-store-management-2"
+                    },
+                ]
+            },
+            {
+                subtitle: "Repair Online Reputation",
+                subLinks: [
+                    {
+                        id: 5,
+                        key:true,
+                        subLinkName: "Corporate",
+                        path: "service/repair-online-reputation-corporate"
+                    },
+                    {
+                        id: 6,
+                        key:true,
+                        subLinkName: "Personal",
+                        path: "service/repair-online-reputation-personal"
                     },
                 ]
             },

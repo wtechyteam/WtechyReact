@@ -3,7 +3,9 @@
   "menuItems": [
     {
       "title": "Home",
-      "link": "/"
+      "link": "/",
+      "metaTitle":"dfgdf",
+      "metaDescription":""
     },
     {
       "title" : "About Us",
@@ -12,7 +14,7 @@
     {
       "title": "Services",
       "link": "",
-      "menuType":"sub_menu",
+      "menuType":"hasSubMenu",
       "subMenu": [
         {
           "title": "Service 1",

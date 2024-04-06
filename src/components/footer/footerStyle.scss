@@ -55,11 +55,19 @@
                 a{
                     color: #f5f5f5;
                     text-decoration: none;
-
+                    font-weight: 500;
                     &:hover{
                         color: var(--primary);
+                        
                         padding-left: 3px;
                     }
+                }
+                &.active_footer_link {
+                    padding-left: 3px;
+                    a{
+                        color: var(--primary);
+                    }
+                
                 }
 
             }
@@ -104,10 +112,12 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-
             &:hover{
                 background-color: var(--secondary);
             }
         }
+
+          
     }
 }
+
