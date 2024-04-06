@@ -136,8 +136,8 @@ const AboutUs = () => {
                     <div className="row mt-5 justify-content-center">
                         {serviceData.map((service, index) => (
                             <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
-                                <div className="cardWrap px-4 py-4 type1 bg-white card_shadow ">
-                                    <div className="cardIcon">
+                                <div className="cardWrap px-4 py-4 type1 bg-white hasShadow ">
+                                    <div className="cardIcon cardIcon-Type1">
                                         <img src={service.icon} alt={service.title} />
                                     </div>
                                     <div className="cardInfo">

@@ -213,8 +213,8 @@ const SearchEngineOpt = () => {
           <div className="row mt-5 justify-content-center">
             {serviceData.map((item, index) => (
               <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
-                <div className="cardWrap px-4 py-4 type1 card_shadow bg-gray">
-                  <div className="cardIcon">
+                <div className="cardWrap px-4 py-4 type1 hasShadow bg-gray h-100 ">
+                  <div className="cardIcon cardIcon-Type1 ">
                     <img src={item.icon} alt={item.title} />
                   </div>
                   <div className="cardInfo">
@@ -271,8 +271,8 @@ const SearchEngineOpt = () => {
           <div className="row mt-5 justify-content-center">
             {whyChoose.map((item, index) => (
               <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
-                <div className="cardWrap type2 px-2 text-center">
-                  <div className="cardIcon">
+                <div className="cardWrap my-3 px-2 text-center">
+                  <div className="cardIcon cardIcon-Type2">
                     <img src={item.icon} alt={item.title} />
                   </div>
                   <div className="cardInfo">

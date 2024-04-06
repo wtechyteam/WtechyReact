@@ -37,7 +37,7 @@ const Insights = () => {
                     <div className="featured-posts row justify-content-center mt-5">
                         {posts.slice(0, displayedPosts).map((post, index) => (
                             <div className="col-lg-4 col-md-6 mb-4" key={post.id}>
-                                <div className="postCard card_shadow">
+                                <div className="postCard hasShadow">
                                     <Link to={post.link} className="postImageWrap">
                                         {post.imageUrl !== '' && (
                                             <img src={post.imageUrl} alt={post.title} />

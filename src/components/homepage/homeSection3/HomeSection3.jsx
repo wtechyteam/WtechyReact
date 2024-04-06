@@ -38,14 +38,14 @@ const HomeSection2 = () => {
                     <h2 className='title-xl fw-bold'>Focusing on Delivering Big Results<br></br>with Customized Digital Marketing Strategies</h2>
                     <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
                 </div>
-                <div className='listWrapper fetchers  text-start mt-5'>
+                <div className='listWrapper fetchers mt-5'>
                     {serviceData.map((service, index) => (
-                        <div className='innerWrap' key={index} data-aos="fade-up"  data-aos-delay="600" data-aos-duration="1500">
-                            <div className="icon">
+                        <div className='innerWrap cardType1 text-start' key={index} data-aos="fade-up"  data-aos-delay="600" data-aos-duration="1500">
+                            <div className="icon cardIcon-Type1">
                                 <img src={service.icon} alt={service.title} />
                             </div>
                             <h2 className="title-md fw-bold">{service.title}</h2>
-                            <p>{service.description}</p>
+                            <p className=''>{service.description}</p>
                         </div>
                     ))}
                 </div>

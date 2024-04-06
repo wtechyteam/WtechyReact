@@ -1,16 +1,30 @@
-
-@mixin cardType1-design{
-    background-color: rgba(255, 255, 255, 0.6);
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: rgba(12, 0, 0, 0.0588235294);
-    transition: all 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 53px 30px 30px 30px;
+@mixin cardType1{
+  background-color: var(--bg-color2);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0C00000F;
+  transition: all 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 50px 30px 30px 30px;
+  position: relative;
+  cursor: pointer;
+  &:hover{
+    background-color: #fff;
+  }
+}
+@mixin cardType2{
+    background-color: var(--bg-color2);
+    transition: all 0.3s, border 0.3s, 
+    border-radius 0.3s, 
+    box-shadow 0.3s;
+    padding: 50px 30px 30px 30px;
     position: relative;
     cursor: pointer;
 }
 
-@mixin cardType1-Icon{
+
+
+
+@mixin cardIcon-Type1{
     position: relative;
     margin-bottom: 30px;
     &::before {
@@ -30,7 +44,8 @@
         position: relative;
     }
 }
-@mixin cardType2-Icon{
+
+@mixin cardIcon-Type2{
   position: relative;
   margin-bottom: 30px;
   img {
@@ -39,6 +54,10 @@
   }
 }
 
+
+
+
+/*******************/
 @mixin cardImage {
     width: 100%;
     padding-top: calc(100% /(16/9));

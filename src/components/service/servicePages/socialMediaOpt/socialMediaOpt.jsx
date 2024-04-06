@@ -83,7 +83,7 @@ const SocialMediaOpt = () => {
           <SectionTopInfo
             isCenter={true}
             isFullWidth={true}
-            smallTitle={'FAQ'}
+            smallTitle={'FAQs'}
             title={'FAQs for Search Engine Optimization'}
           />
           <FAQs faqList={faqData} />

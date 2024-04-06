@@ -43,9 +43,9 @@ const HomeSection5 = () => {
                 </div>
                 <div className='listWrapper services text-start mt-5'>
                     {serviceData.map((service, index) => (
-                        <div className='innerWrap' key={index} style={{ marginTop: `${index * 50}px` }} data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 400} >
-                            <span className='indexNumber'>{(index + 1).toString().padStart(2, '0')}</span>
-                            <div className="icon">
+                        <div className='innerWrap cardType2 cardHoverEffect' key={index} style={{ marginTop: `${index * 50}px` }} data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 400} >
+                            <span className='cardIndexNumber'>{(index + 1).toString().padStart(2, '0')}</span>
+                            <div className="icon cardIcon-Type1">
                                 <img src={service.icon} alt={service.title} />
                             </div>
                             <h2 className="title-md fw-bold">{service.title}</h2>
