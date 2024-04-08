@@ -20,7 +20,7 @@ export const headerData = [
         menuType: "submenu",
         subMenu: [
             {
-                subtitle: "Services",
+                subtitle: "Seo Services",
                 subLinks: [
                     {
                         id: 1,
