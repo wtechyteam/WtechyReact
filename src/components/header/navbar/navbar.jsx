@@ -4,7 +4,7 @@ import Logo from '../../common/SiteLogo';
 import headerLogo from '../../../assets/Images/siteLogo.png'
 import { FiChevronDown } from "react-icons/fi";
 import { headerData } from '../../data/headerData';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,NavLink } from 'react-router-dom';
 
 const HeaderNavbar = ({ activeTab, setActiveTab }) => {
     const navigate = useNavigate();
@@ -54,13 +54,10 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
                         <ul className='d-none d-xl-flex desktopMenu navList'>
                             {headerData.map((navItem, index) => (
                                 <li key={index} className='navItemWrap' onMouseEnter={navItem.menuType ? () => setHover(true) : () => setHover(false)} onMouseLeave={() => setHover(false)}>
-                                    <p className={`navItem mb-0 ${navItem.customClass} ${navItem.menuType}`}>
-                                        <span onClick={() => handleTab(navItem)}
-                                            className={`title_name ${serviceTab ? (serviceTab && navItem.ServiceClass) : (activeTab === navItem.id && "active_tab")}`}>
+                                    <NavLink to={navItem.link} className={`navItem mb-0 ${navItem?.customClass}`}>
                                             {navItem.title}
                                             {navItem.subMenu && <FiChevronDown className='fs-large' />}
-                                        </span>
-                                    
+                                    </NavLink>
                                     { (navItem.subMenu && hover) &&
                                             <div className='display megaMenuWrapper'>
                                                 {navItem.subMenu && navItem.subMenu.map((subMenu, index) => (
@@ -77,7 +74,7 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
                                                 ))}
                                             </div>
                                         }
-                                    </p>
+                                    
                                 </li>
                             ))}
                         </ul>
