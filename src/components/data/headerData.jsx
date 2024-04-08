@@ -24,27 +24,23 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 1,
-                        key:true,
-                        subLinkName: "search engine optimization",
-                        path: "service/search-engine-optimization"
+                        title: "search engine optimization",
+                        link: "service/search-engine-optimization"
                     },
                     {
                         id: 2,
-                        key:true,
-                        subLinkName: "social media optimization",
-                        path: "service/social-media-optimization"
+                        title: "social media optimization",
+                        link: "service/social-media-optimization"
                     },
                     {
                         id: 3,
-                        key:true,
-                        subLinkName: "google ads management",
-                        path: "service/google-ads-management"
+                        title: "google ads management",
+                        link: "service/google-ads-management"
                     },
                     {
                         id: 4,
-                        key:true,
-                        subLinkName: "content marketing",
-                        path: "service/content-marketing"
+                        title: "content marketing",
+                        link: "service/content-marketing"
                     }
                 ]
             },
@@ -54,27 +50,23 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 7,
-                        key:true,
-                        subLinkName: "Amazon Store Management",
-                        path: "service/amazon-store-management"
+                        title: "Amazon Store Management",
+                        link: "service/amazon-store-management"
                     },
                     {
                         id: 8,
-                        key:true,
-                        subLinkName: "Ebay Store Management",
-                        path: "service/ebay-store-management"
+                        title: "Ebay Store Management",
+                        link: "service/ebay-store-management"
                     },
                     {
                         id: 9,
-                        key:true,
-                        subLinkName: "Shopify Store Management",
-                        path: "service/shopify-store-management"
+                        title: "Shopify Store Management",
+                        link: "service/shopify-store-management"
                     },
                     {
                         id: 10,
-                        key:true,
-                        subLinkName: "Custom E-Commerce Store Management",
-                        path: "service/custom-e-commerce-store-management-2"
+                        title: "Custom E-Commerce Store Management",
+                        link: "service/custom-e-commerce-store-management-2"
                     },
                 ]
             },
@@ -83,15 +75,13 @@ export const headerData = [
                 subLinks: [
                     {
                         id: 5,
-                        key:true,
-                        subLinkName: "Corporate",
-                        path: "service/repair-online-reputation-corporate"
+                        title: "Corporate",
+                        link: "service/repair-online-reputation-corporate"
                     },
                     {
                         id: 6,
-                        key:true,
-                        subLinkName: "Personal",
-                        path: "service/repair-online-reputation-personal"
+                        title: "Personal",
+                        link: "service/repair-online-reputation-personal"
                     },
                 ]
             },
@@ -101,14 +91,14 @@ export const headerData = [
                     {
                         id: 11,
                         key:true,
-                        subLinkName: "Corporate",
-                        path: "service/online-reputation-marketing-corporate"
+                        title: "Corporate",
+                        link: "service/online-reputation-marketing-corporate"
                     },
                     {
                         id: 12,
                         key:true,
-                        subLinkName: "Personal",
-                        path: "service/online-reputation-marketing-personal"
+                        title: "Personal",
+                        link: "service/online-reputation-marketing-personal"
                     },
                 ]
 
@@ -119,14 +109,14 @@ export const headerData = [
                     {
                         id: 13,
                         key:true,
-                        subLinkName: "WordPress Development",
-                        path: "service/wordpress-development"
+                        title: "WordPress Development",
+                        link: "service/wordpress-development"
                     },
                     {
                         id: 14,
                         key:true,
-                        subLinkName: "Shopify Development",
-                        path: "service/shopify-development"
+                        title: "Shopify Development",
+                        link: "service/shopify-development"
                     },
                 ]
 

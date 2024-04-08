@@ -1,103 +1,112 @@
-import React, { useState } from 'react'
-import { Accordion, Nav, Navbar, Offcanvas } from 'react-bootstrap'
+import React, { useState } from 'react';
+import { Accordion, Navbar, Nav, Offcanvas } from 'react-bootstrap';
 import Logo from '../../common/SiteLogo';
-import headerLogo from '../../../assets/Images/siteLogo.png'
+import headerLogo from '../../../assets/Images/siteLogo.png';
 import { FiChevronDown } from "react-icons/fi";
 import { headerData } from '../../data/headerData';
-import { useNavigate,NavLink } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 
 const HeaderNavbar = ({ activeTab, setActiveTab }) => {
     const navigate = useNavigate();
-    const [hover, setHover] = useState(false)
-
     const [show, setShow] = useState(false);
     const [activeLink, setActiveLink] = useState();
-    const [serviceTab, setServiceTab] = useState(false)
+    const [serviceTab, setServiceTab] = useState(false);
 
-    const handleTab = (items) => {
-        setActiveTab(items.id);
-        setServiceTab(false);
-        navigate(`${items.link !== '' ? items.link : undefined}`)
-        setShow(false)
-    };
-
-    const handleLink = (item, items) => {
-        setActiveLink(item.id);
-        setHover(false)
-        setShow(false)
-        navigate(`${item.path}`)
-        if (item.key === true) {
-            setServiceTab(true)
-        } else {
-            setServiceTab(false)
-        }
+    const handleNavLinkClick = () => {
+        window.scrollTo(0, 0);
     };
 
     const toggleOffCanvas = () => {
-        setShow((show) => !show);
+        setShow(!show);
+    };
+
+    const handleParentNavHover = (index) => {
+        setActiveLink(index);
+    };
+
+    const handleParentNavLeave = () => {
+        setActiveLink(null);
     };
 
     return (
-        <Navbar expand={"xl"}>
+        <Navbar expand="xl">
             <Logo src={headerLogo} maxWidth="100px" />
-            <Navbar.Toggle onClick={toggleOffCanvas} aria-controls={`offcanvasNavbar-expand-xl`} />
-
+            <Navbar.Toggle onClick={toggleOffCanvas} aria-controls="offcanvasNavbar-expand-xl" />
             <Navbar.Offcanvas
                 show={show}
                 onHide={toggleOffCanvas}
-                id={`offcanvasNavbar-expand-xl`} aria-labelledby={`offcanvasNavbarLabel-expand-xl`} placement="end" >
-
-                <Offcanvas.Header show={show} closeButton />
+                id="offcanvasNavbar-expand-xl"
+                aria-labelledby="offcanvasNavbarLabel-expand-xl"
+                placement="end"
+            >
+                <Offcanvas.Header show={show.toString()} closeButton />
 
                 <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1">
-                        <ul className='d-none d-xl-flex desktopMenu navList'>
+                        <ul className="d-none d-xl-flex desktopMenu navList">
                             {headerData.map((navItem, index) => (
-                                <li key={index} className='navItemWrap' onMouseEnter={navItem.menuType ? () => setHover(true) : () => setHover(false)} onMouseLeave={() => setHover(false)}>
-                                    <NavLink to={navItem.link} className={`navItem mb-0 ${navItem?.customClass}`}>
-                                            {navItem.title}
-                                            {navItem.subMenu && <FiChevronDown className='fs-large' />}
+                                <li
+                                    key={index}
+                                    className="navItemWrap"
+                                    onMouseEnter={() => handleParentNavHover(index)}
+                                    onMouseLeave={handleParentNavLeave}
+                                >
+                                    <NavLink
+                                        to={navItem.link}
+                                        className={`navItem mb-0 ${navItem?.customClass}`}
+                                        onClick={handleNavLinkClick}
+                                    >
+                                        {navItem.title}
+                                        {navItem.subMenu && <FiChevronDown className="fs-large" />}
                                     </NavLink>
-                                    { (navItem.subMenu && hover) &&
-                                            <div className='display megaMenuWrapper'>
-                                                {navItem.subMenu && navItem.subMenu.map((subMenu, index) => (
-                                                    <div key={index} className='menuWrap '>
-                                                        <h6 className='title-sm fw-semibold fontInter' >{subMenu.subtitle}</h6>
-                                                        <ul>
-                                                            {subMenu.subLinks && subMenu.subLinks.map((item) => (
-                                                                <li>
-                                                                    <p onClick={() => handleLink(item, navItem)} className={`itemLink ${activeLink === item.id && "active_Link"}`}>{item.subLinkName}</p>
-                                                                </li>
-                                                            ))}
-                                                        </ul>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        }
-                                    
+                                    {navItem.subMenu && activeLink === index && (
+                                        <div className="megaMenuWrapper">
+                                            {navItem.subMenu.map((subMenu, index) => (
+                                                <div key={index} className="menuWrap">
+                                                    <h6 className="title-sm fw-semibold fontInter">{subMenu.subtitle}</h6>
+                                                    <ul>
+                                                        {subMenu.subLinks.map((item) => (
+                                                            <li key={item.id}>
+                                                                <NavLink
+                                                                    to={item.link}
+                                                                    className="itemLink"
+                                                                    onClick={handleNavLinkClick}
+                                                                >
+                                                                    {item.title}
+                                                                </NavLink>
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
                                 </li>
                             ))}
                         </ul>
-                        <div className='d-xl-none mobileMenu'>
-                            {headerData && headerData.map((items, index) => {
+                        
+                        <ul className='d-xl-none mobileMenu navList'>
+                            {headerData && headerData.map((item, index) => {
                                 return (
-                                    <div key={index}>
+                                    <li key={index} className="navItemWrap">
                                         {
-                                            items.subMenu ? (
+                                            item.subMenu ? (
                                                 <Accordion className='drops'>
-                                                    <Accordion.Item eventKey={items.eventKey}>
-                                                        <Accordion.Header>{items.title}</Accordion.Header>
-                                                        {items.subMenu && items.subMenu.map((ele, index) => (
+                                                    <Accordion.Item eventKey={item.eventKey}>
+                                                        <Accordion.Header>{item.title}</Accordion.Header>
+                                                        {item.subMenu && item.subMenu.map((ele, index) => (
                                                             <Accordion.Body key={index}>
                                                                 <Accordion className='drops'>
-                                                                    <Accordion.Item eventKey={items.eventKey}>
+                                                                    <Accordion.Item eventKey={item.eventKey}>
                                                                         <Accordion.Header>{ele.subtitle}</Accordion.Header>
                                                                         <Accordion.Body>
-                                                                            {ele.subLinks && ele.subLinks.map((item, index) => (
-                                                                                <div key={index}>
-                                                                                    <p onClick={() => handleLink(item)} className='subtitle_name_small'>{item.subLinkName}</p>
-                                                                                </div>
-                                                                            ))}
+                                                                            <ul>
+                                                                                {ele.subLinks && ele.subLinks.map((item, index) => (
+                                                                                    <li key={index}>
+                                                                                        <NavLink to={item.link} className='itemLink'>{item.title}</NavLink>
+                                                                                    </li>
+                                                                                ))}
+                                                                            </ul>
                                                                         </Accordion.Body>
                                                                     </Accordion.Item>
                                                                 </Accordion>
@@ -107,18 +116,18 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
                                                 </Accordion>
                                             )
                                             :
-                                            <p onClick={() => handleTab(items)} className='subtitle_name'>{items.title}</p>
+                                            <NavLink to={item.link} className='navItem'>{item.title}</NavLink>
                                         }
-                                    </div>
+                                    </li>
                                 )
                             }
                             )}
-                        </div>
+                        </ul>
                     </Nav>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>
         </Navbar>
-    )
-}
+    );
+};
 
-export default HeaderNavbar
+export default HeaderNavbar;
