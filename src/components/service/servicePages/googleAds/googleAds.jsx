@@ -85,7 +85,6 @@ const GoogleAds = () => {
           <SectionTopInfo
             isCenter={true}
             isFullWidth={true}
-            // smallTitle={'Collaborate with our best SEO Company'}
             description={"<p>The digital marketing services are booming, and when you look around, you can see a number of businesses are rising rapidly. With the rise in the usage of the internet, you can see online sales increasing swiftly.</p><p>If you want to nurture your business and want it to reach and stay at the top, you need to make the best possible use of different digital marketing models like Google Ads services also known as PPC or pay-per-click campaign.</p><p>The most effective feature of Google ads is that has become a highly preferred internet advertisement method, as is it is booming in the land of advertisement vastly. The concept relies on charging the advertiser only when someone clicks on the advertisement.</p><p>When you create the ads by keeping up with Google’s guidelines, there are fair chances if your ad is being shown on the first page of Google. Though creating an effective Google ad campaign is not an easy haul, it is crucial to seek assistance from experts.</p>"}
             title={'Get More Traffic with Google Ads Management'}
             smallTitle={'Get More Traffic'}
@@ -96,7 +95,6 @@ const GoogleAds = () => {
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
         customClass={'bg-gray'}
-
         title={'With Our AdWords Management Service'}
         imageUrl={section2Image}
         description={'<p>Although there are abundant digital marketing techniques, as Google is the platform that most of the people buzz-in, it is important for your business to seek some benefits of the Google ad campaigns.</p><p>Every business is here to generate sales and reach their potential customers, we know the importance of increasing the traffic to your websites. Therefore, PPC campaigns are the one-stop solution that can help you to conduct sales and gain profits eventually.</p><p>We have the PPC experts who are proficient with all the aspects of Google ad campaigns ranging from the selection of high volume keywords to creating effective ad campaigns and keeping track of the ads while providing the clients with key matrices.</p><p>Google is known for confidentiality and high performance, so we are prompt to make any necessary changes for the successful ad campaigns. The objective of our agency is to meet the utmost advertising goals that will eventually help you to generate leads.</p>'}
