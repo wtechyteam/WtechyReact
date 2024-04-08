@@ -173,6 +173,14 @@ const SearchEngineOpt = () => {
       question: 'Can social media be used for SEO?',
       answer: 'Social media campaigns are an important growing aspect of the web and can complement your SEO campaign in a great way. It helps in acquiring backlinks and mentions to your website’s pages, articles, press releases, etc. Social media help you in connecting to your potential buyers and build up a community around your products and services. ',
     },
+    {
+      question: 'Do you provide a guarantee?',
+      answer: '<p>There are tons of factors that affect the ranking besides Google’s ever changing algorithms. So no genuine SEO Company can guarantee you a number one position or a specific ranking.</p><p>Claims to the contrary are made to devise the false commitments with absolutely no base, because no one knows how much investment your competitor is pitching. We can guarantee you that we use techniques in accordance with the Google guidelines which fetch positive results.</p>',
+    },
+    {
+      question: 'Is it necessary to get SEO Audit for my website?',
+      answer: '<p>If you are planning to improve your business ranking online, then definitely SEO Audit is necessary for your website. You would like to know what all you can do possibly right to ensure high SEO ranking. We will help you find your issues and strengths regarding search engine optimization.</p>',
+    },
     // Add more FAQ items as needed
   ];
 

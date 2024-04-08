@@ -2,17 +2,16 @@ import InnerBanner from '../../../common/InnerBanner';
 import ImageInfoWrap from '../../../common/ImageInfoWrap';
 import section1Image from './../../../../assets/Images/services/SEO.webp';
 import section2Image from './../../../../assets/Images/services/what-we-do-service.png';
-
 import serviceIcon1 from './../../../../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../../../../assets/Images/homepage/MarketingStrategies.png'
-
 import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
+import { FaArrowRight } from "react-icons/fa6";
 
 const ContentMarketing = () => {
-  
-  const serviceData = [
+
+  const contentCardData = [
     {
       icon: serviceIcon1,
       title: 'Blog Posts and Articles',
@@ -89,6 +88,51 @@ const ContentMarketing = () => {
     },
     // Add more FAQ items as needed
   ];
+
+  const contentGrowCard = [
+    {
+      title: 'The ideal goal is to have great commercial results. So, the content marketing strategies should be steered towards:',
+      pointsData: [
+        { point: 'Qualified leads' },
+        { point: 'Closed deals' },
+        { point: 'Demo requests' },
+        { point: 'New customer base' }
+      ]
+    },
+    {
+      title: 'The less transactional strategies can also be targeted, the goals for which may be:',
+      pointsData: [
+        { point: 'Higher engagement' },
+        { point: 'More followers or subscribers' },
+        { point: 'More Indexable web pages' },
+        { point: 'Better reviews' }
+      ]
+    },
+  ];
+
+  const ourDigitalCard = [
+    {
+      title: 'Our digital content marketing services include:',
+      pointsData: [
+        { point: 'Analyze and evaluate the competitive situation for your search keywords.' },
+        { point: 'Devise a plan of action to beast your competition with strategic content.' },
+        { point: 'Provide highly qualified professional experts to write your content matter.' },
+        { point: 'Manage all the outreach to potential publishers.' },
+        { point: 'Monitor and record all your content marketing campaigns to ensure continued success.' },
+
+      ]
+    },
+    {
+      title: 'With our services you will benefit in the following ways:',
+      pointsData: [
+        { point: 'Reach new and unexplored market segments.' },
+        { point: 'Rank higher in SERPs.' },
+        { point: 'Enhance your brand exposure, building more clientele, more followers and more traffic.' },
+        { point: 'Increase in both organic as well as referral traffic.' },
+        { point: 'Build customer trust and your brand value with in-depth and highly useful value-added content.' },
+      ]
+    },
+  ];
   return (
     <div>
       <InnerBanner
@@ -121,7 +165,7 @@ const ContentMarketing = () => {
             description={'<p>There is nothing to market in your business without the content. Creating a high-value content involves how you execute to portray your ideas about the business and bring them into the lives of your audience.</p><p>Deploying multidimensional and repurposable assets is the key to great content marketing. A long content today may serve as a series of thematic blog post tomorrow.</p><p>The information about business services and products is needed to be provided. As a content creating agency, we have the aptitude to redeploy and repackage the information for a new strategic goal.</p><p>Content is ongoing and ever-changing which comes in all shapes and sizes. Our Content Creation Agency provides the following to customize your business strategy:</p>'}
           />
           <div className="row mt-5 justify-content-center">
-            {serviceData.map((item, index) => (
+            {contentCardData.map((item, index) => (
               <div className='col-lg-4 col-md-4 mb-4 ' key={index} >
                 <div className="cardWrap px-4 h-100 py-4 type1 card_shadow bg-gray">
                   <div className="cardIcon cardIcon-Type1 ">
@@ -148,6 +192,31 @@ const ContentMarketing = () => {
         description={'<p>Content plays an important role in search engine scoring, attracting links and buzz, and social sharing. Thus, content is the backbone of our SEO services and link building strategies. SEO and content marketing go hand-in-hand.</p>      <p>Our experts dictate the tactical steps in your campaigns. We evaluate and update each strategy to scale the needs of your business, as the only thing more dangerous than no strategy is an outdated strategy.</p>'}
       />
       {/* ======New Section Start ====== */}
+      <section className='sectionPadding pt-0 services '>
+        <div className="container">
+          <div className="row mx-0 justify-content-center">
+            {contentGrowCard.map((service, index) => (
+              <div className='col-lg-6 col-md-6 px-0 ' key={index} >
+                <div className="cardWrap cardType1 h-100" style={{ paddingTop: '30px' }}>
+                  <div className="cardInfo">
+                    <h2 className="cardTitle title-md fw-bold mb-3">{service.title}</h2>
+                    {service.pointsData && service.pointsData.map((item, index) => {
+                      return (
+                        <div className='d-flex align-items-center mt-2' key={index}>
+                          <FaArrowRight className='me-2' />
+                          <div className='cardDescription text-sm mb-0' dangerouslySetInnerHTML={{ __html: item.point }} />
+                        </div>
+                      )
+                    })}
+
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* ======New Section Start ====== */}
       <FullWidthCTASection
         title={'Build your company’s content marketing strategy now!'}
       />
@@ -173,6 +242,38 @@ const ContentMarketing = () => {
         imageUrl={section2Image}
         description={'<p>Today, content is being created at such a large scale even the great content can be lost in the ocean on the web. Therefore, the content needs to be unique, convincing, SEO-friendly with a relevant purpose.</p><p>Our Content Marketing Agency specializes in working with businesses creating exceptional content that can get the target audience to talk about the brand. With our professional experts and years of experience, we have delivered content marketing solutions to the world’s biggest brands.</p>'}
       />
+      {/* ======New Section Start ====== */}
+      <section className='sectionPadding services'>
+        <div className="container">
+          <div className="row mx-0 justify-content-center">
+            {ourDigitalCard.map((service, index) => (
+              <div className='col-lg-6 col-md-6 px-0 ' key={index} >
+                <div className="cardWrap cardType1 h-100" style={{ paddingTop: '30px' }}>
+                  <div className="cardInfo">
+                    <h2 className="cardTitle title-md fw-bold mb-3">{service.title}</h2>
+                    {service.pointsData && service.pointsData.map((item, index) => {
+                      return (
+                        <div className='d-flex mt-2' key={index}>
+                          <FaArrowRight className='me-2' />
+                          <div className='cardDescription text-sm mb-0' dangerouslySetInnerHTML={{ __html: item.point }} />
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className='cardWrap cardType1'>
+            <SectionTopInfo
+              isCenter={true}
+              isFullWidth={true}
+              smallTitle={'Committing to content'}
+              description={'<p>Every asset you create and every content marketing campaign you commence should tie back to revenue. Digital content marketing puts your company to perform strongly in the market, qualify sales-ready leads, increases the metrics of your business bottom line that matters the most.</p><p>Committing to content will show increased sales, strong customer loyalty and greater cost efficiency.</p>'}
+            />
+          </div>
+        </div>
+      </section>
       {/* ======New Section Start ====== */}
       <FullWidthCTASection
         title={'Uncertain about which strategy will be best for your business challenge? Let us help you'}
