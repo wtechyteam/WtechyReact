@@ -44,26 +44,11 @@ const GoogleAds = () => {
     },
     {
       question: 'How to set up Google AdWords Campaign?',
-      liData: [
-        { point: 'Understanding the objectives of your ad campaign' },
-        { point: 'Conducting high search volume keyword research' },
-        { point: 'Creating the precise ad campaign' },
-        { point: 'Creating different ad extensions so that your ads will look more compelling' },
-        { point: 'Creating a different set of ad copies for different ads' },
-        { point: 'Trivial modifications according to the need that will allow conversion tracking' },
-      ],
-      answer: 'Setting up a Google Ad campaign is quite a tricky task, as it involves thorough keyword research, ad group creation, landing page, and ad extension addition. It’s not that you just clicked a few buttons and you are all set to run, you need to follow the guidelines and work accordingly. It involves:',
+      answer: '<p>Setting up a Google Ad campaign is quite a tricky task, as it involves thorough keyword research, ad group creation, landing page, and ad extension addition. It’s not that you just clicked a few buttons and you are all set to run, you need to follow the guidelines and work accordingly. It involves:</p><ul><li>Understanding the objectives of your ad campaign</li><li>Conducting high search volume keyword research</li><li>Creating the precise ad campaign</li><li>Creating different ad extensions so that your ads will look more compelling</li><li>Creating a different set of ad copies for different ads</li><li>Trivial modifications according to the need that will allow conversion tracking</li></ul>',
     },
     {
-      liData: [
-        { point: 'Creating new ad groups and keywords, ' },
-        { point: 'Pausing keywords or ads that are not working' },
-        { point: 'Altering ads and keywords that are not performing well' },
-        { point: 'Making suggestions about new ad campaigns or groups' },
-        { point: 'Modifying the ad budget based on Google’s suggestion' },
-      ],
       question: 'Why does a Google ad campaign need to be managed?',
-      answer: 'The Google ad campaigns need to be managed regularly in order to make them work better and allow you to expand on them. this is done because Google updates new policies frequently, so it becomes vital to update the ads based on the new policies so that you can generate the best results. Managing of Google ads involves :',
+      answer: '<p>The Google ad campaigns need to be managed regularly in order to make them work better and allow you to expand on them. this is done because Google updates new policies frequently, so it becomes vital to update the ads based on the new policies so that you can generate the best results. Managing of Google ads involves :</p><ul><li>Creating new ad groups and keywords</li><li>Pausing keywords or ads that are not working</li><li>Altering ads and keywords that are not performing well</li><li>Making suggestions about new ad campaigns or groups</li><li>Modifying the ad budget based on Google’s suggestion</li></ul><p> Making sure the ads aren’t being displayed for irrelevant keywords.</p>',
     },
     {
       question: 'What types of businesses do you manage Google ads for?',
@@ -85,7 +70,6 @@ const GoogleAds = () => {
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
         isReverse={true}
-
         title={'Get More Traffic with Google Ads Management'}
         imageUrl={section1Image}
         description={'<p>The digital marketing services are booming, and when you look around, you can see a number of businesses are rising rapidly. With the rise in the usage of the internet, you can see online sales increasing swiftly.</p><p>If you want to nurture your business and want it to reach and stay at the top, you need to make the best possible use of different digital marketing models like Google Ads services also known as PPC or pay-per-click campaign.</p><p>The most effective feature of Google ads is that has become a highly preferred internet advertisement method, as is it is booming in the land of advertisement vastly. The concept relies on charging the advertiser only when someone clicks on the advertisement.</p><p>When you create the ads by keeping up with Google’s guidelines, there are fair chances if your ad is being shown on the first page of Google. Though creating an effective Google ad campaign is not an easy haul, it is crucial to seek assistance from experts.</p>'}
@@ -109,10 +93,6 @@ const GoogleAds = () => {
           />
         </div>
       </section>
-
-
-
-
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
         customClass={'bg-gray'}
@@ -131,6 +111,7 @@ const GoogleAds = () => {
         <div className="container">
           <SectionTopInfo
             isCenter={true}
+            smallTitle={'Google Ads Management'}
             isFullWidth={true}
             title={'Google Ads Management Service- Your Growth Partner.'}
             text={'Our company combines the decisive skills that are needed to drive the best results. The only thing businessmen think of is a fast return on investment, in order to generate that you’ll need an efficient and reliable Google marketing agency, which can help you in running productive ad campaigns.Every business has different needs and requirements, so our PPC management services offer our clients with:'}
@@ -168,8 +149,6 @@ const GoogleAds = () => {
           <FAQs faqList={faqData} />
         </div>
       </section>
-
-
     </div>
   )
 }

@@ -7,7 +7,7 @@ const ImageInfoWrap = ({ title, description, imageUrl,isReverse,showContactBtn,c
             <div className="container">
                 <div className={`row align-items-center ${isReverse && 'flex-row-reverse'}`}>
                     <div className="col-md-6 mb-5 mb-md-0 text-center">
-                        <img src={imageUrl} title={title} />
+                        <img src={imageUrl} title={title} alt='side-img' />
                     </div>
                     <div className="col-md-6">
                         <h2 className='title-xl fw-bold'>{title}</h2>

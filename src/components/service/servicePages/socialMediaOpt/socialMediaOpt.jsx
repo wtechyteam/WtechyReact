@@ -19,11 +19,11 @@ const SocialMediaOpt = () => {
     },
     {
       question: 'What’s the major mistake people make while managing their online reputation by themselves?',
-      answer: 'Creating social media profiles, running several campaigns online, posting blogs every now and then can build up their tainted image. However, this is the fair approach, but it will only work well when used with correct tools and guidelines. It is good that people create their different social profiles and post positive content, but writing and posting is not the only step that will help them to reinstate their lost repute, you need search engine optimization and social media optimization to drag down the negative content.This is one of the major reasons for a fallback for many people who are trying to manage their reputation by themselves. Therefore, a reputation management agency is the best rescue and your one-stop solution to get rid of the negative image online.',
+      answer: '<p>Creating social media profiles, running several campaigns online, posting blogs every now and then can build up their tainted image. However, this is the fair approach, but it will only work well when used with correct tools and guidelines.</p><p>It is good that people create their different social profiles and post positive content, but writing and posting is not the only step that will help them to reinstate their lost repute, you need search engine optimization and social media optimization to drag down the negative content.</p><p>This is one of the major reasons for a fallback for many people who are trying to manage their reputation by themselves. Therefore, a reputation management agency is the best rescue and your one-stop solution to get rid of the negative image online.</p>',
     },
     {
       question: 'How much time will it take to fix a tarnished reputation?',
-      answer: 'Everyone has a different situation and it entails its own approach. The most important thing to check is the cycle of negative comments. You have to see for how long the negative content is floating, and see has it run its course.The second step to do is create high-quality content with valid keywords backing up the SEO strategy so that the technique used can counteract any unwanted content finding its way to rank up to the top 3 pages of search engines.',
+      answer: '<p>Everyone has a different situation and it entails its own approach. The most important thing to check is the cycle of negative comments. You have to see for how long the negative content is floating, and see has it run its course.</p><p>The second step to do is create high-quality content with valid keywords backing up the SEO strategy so that the technique used can counteract any unwanted content finding its way to rank up to the top 3 pages of search engines.</p>',
     },
     // Add more FAQ items as needed
   ];
@@ -85,7 +85,6 @@ const SocialMediaOpt = () => {
           <FAQs faqList={faqData} />
         </div>
       </section>
-
     </div>
   )
 }
