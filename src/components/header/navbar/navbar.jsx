@@ -20,6 +20,11 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
         setShow(!show);
     };
 
+    const executeMultipleFunctions = () =>{
+        toggleOffCanvas();
+        handleNavLinkClick();
+    }
+
     const handleParentNavHover = (index) => {
         setActiveLink(index);
     };
@@ -103,7 +108,7 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
                                                                             <ul>
                                                                                 {ele.subLinks && ele.subLinks.map((item, index) => (
                                                                                     <li key={index}>
-                                                                                        <NavLink to={item.link} className='itemLink'>{item.title}</NavLink>
+                                                                                        <NavLink onClick={executeMultipleFunctions} to={item.link} className='itemLink'>{item.title}</NavLink>
                                                                                     </li>
                                                                                 ))}
                                                                             </ul>
@@ -116,7 +121,7 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
                                                 </Accordion>
                                             )
                                             :
-                                            <NavLink to={item.link} className='navItem'>{item.title}</NavLink>
+                                            <NavLink to={item.link} onClick={executeMultipleFunctions} className='navItem'>{item.title}</NavLink>
                                         }
                                     </li>
                                 )

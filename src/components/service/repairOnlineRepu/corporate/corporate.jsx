@@ -16,15 +16,15 @@ const RepairCorporate = () => {
   const faqData = [
     {
       question: 'Why is having a good online reputation important?',
-      answer: 'The success of your business website is primarily dependent on textual content. Google algorithms make search results on the basis of the textual content, a small percentage over images. Still, content wins over the wallet of your customers. Invest time and effort while writing the quality content for your website, it is highly rewarding.',
+      answer: '<p>Any bad review online can drop your chance to build a new and strong network of customers, and you all are here to make it big in the world of brands, so you can’t risk your chances of failing online because of some negative content.</p><p>This is an internet empowered world, and we all are practically living 24*7 with cell phones in our hands. For any small query, it’s Google with turn our eyes to, so for any corporate sector that is up there to sell or showcase their products or services, it’s crucial to have a positive image online, otherwise, no one will buy your products or will rely on your company.</p><p>Anything negative out on the web can easily damage your hard-earned reputation and business quickly, and having no reputation online will by far drive your potential clients to competitors.',
     },
     {
       question: 'How my reputation can be damaged?',
-      answer: 'Search engines like Google consider the backlinks as votes in favor of your website. It shows the credibility of your website. Google treat your website’s backlinks as your site’s ability to satisfy search wishes of browser.',
+      answer: '<p>There are several ways that can damage your repute easily, some of them are:</p><ul><li>Your nemesis can project something bad about your brand to keep you away from the competition.</li><li>A number of websites let the users post complaints about the brand or company, so any unhappy client can be responsible to degrade your reputation.</li><li>Bad rating on Google is one of the easiest ways to downgrade your reputation in the market, your customers can post anything bad about you online and this will instantly create havoc to your business.</li></ul>',
     },
     {
       question: 'How much time does it take?',
-      answer: 'Yes. Google AdWords is a short time and expensive solution whereas SEO is long. Search Engine Optimization (SEO) requires more time and effort to achieve results but is permanent than ads. Once you stop paying for Google advertising, your project ends, but when you stop paying for SEO your campaign still stands. Web searches trust SEO listing more than advertisement listings.',
+      answer: '<p>Online reputation management is quite a long process, depending on how bad is your image online our team creates a customized program that is adapted to drag down the negative content from various platforms and upload new and positive content and manage it to rank on the first page of SERP.</p><p>However, Google frequently updates its algorithms, so repairing your tarnished reputation will take a different approach to match up the level you want. In addition to this, you can see the viable changes within 3 months of the campaign.</p>      ',
     }
     // Add more FAQ items as needed
   ];

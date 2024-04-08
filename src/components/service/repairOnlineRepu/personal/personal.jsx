@@ -15,16 +15,20 @@ const RepairPersonal = () => {
 
   const faqData = [
     {
-      question: 'Why is having a good online reputation important?',
-      answer: 'The success of your business website is primarily dependent on textual content. Google algorithms make search results on the basis of the textual content, a small percentage over images. Still, content wins over the wallet of your customers. Invest time and effort while writing the quality content for your website, it is highly rewarding.',
+      question: 'How much time will it take to fix my online reputation?',
+      answer: 'It is a bit difficult to tell you the exact time due to the constantly changing algorithms of Google. However, our clients have been able to see significant improvement in three months. The average reputation repair program takes six to twelve months for satisfactory prominent results.',
     },
     {
-      question: 'How my reputation can be damaged?',
-      answer: 'Search engines like Google consider the backlinks as votes in favor of your website. It shows the credibility of your website. Google treat your website’s backlinks as your site’s ability to satisfy search wishes of browser.',
+      question: 'When something appears online, will it be there forever?',
+      answer: 'Basically, yes! Usually, it is impossible to remove or delete once any content is on the web, unless you contact the admin personally and request him to delete the content, which very troublesome job, next to impossible only. Fortunately, most of the people don’t scroll beyond the first page, so you can always push the negative information off the first few pages making it get effectively invisible.',
     },
     {
-      question: 'How much time does it take?',
-      answer: 'Yes. Google AdWords is a short time and expensive solution whereas SEO is long. Search Engine Optimization (SEO) requires more time and effort to achieve results but is permanent than ads. Once you stop paying for Google advertising, your project ends, but when you stop paying for SEO your campaign still stands. Web searches trust SEO listing more than advertisement listings.',
+      question: 'How much does reputation repair cost?',
+      answer: 'Online reputation repair does not follow the one size fits all policy. We customize the strategies according to the need and demands of the client. The cost depends upon the amount of work needed to be done in fixing your image. It is also based on how much damage has been done to your reputation, how widely it is spreader and what measures needed to be taken to restore it.',
+    },
+    {
+      question: 'Can you offer any guarantee for restoring my online reputation?',
+      answer: '<p>Actually, no one can offer you a guarantee and those companies who are doing are just making fake promises. It would be very wrong and unprofessional for us to offer any guarantee to you as there are a lot of factors beyond our control, such as:</p><ul><li>Always changing search engine algorithms</li><li>Fresh content being published on target listings at regular interval</li><li>Content with more third-party links directed at it</li><li> New and negative content, PR or commentary beyond our control</li></ul><p>However, we do commit to making progress by hitting KPIs with time. Moreover, we can guarantee the creation of content and share online on your behalf at regular intervals.</p>',
     }
     // Add more FAQ items as needed
   ];

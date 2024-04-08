@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   color: var(--text-color-dark);
   line-height: 1.5;
-
+  overflow-x: hidden;
   @media (max-width: 1200px) {
     font-size: 15px;
   }
@@ -317,12 +317,17 @@ img {
   }
 }
 
-
-/******Custom Utility CSS End*******/
+.green_text{
+  color: #2e8585;
+  font-weight: 600;
+}
 
 .hasShadow {
   box-shadow: 0px 0px 10px 0px #00000025;
 }
+
+/******Custom Utility CSS End*******/
+
 
 /*****Inner Page Banner Css Start*****/
 
