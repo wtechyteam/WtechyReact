@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import { headerData } from './components/data/headerData';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './assets/styles/customStyle.scss';
@@ -41,14 +43,19 @@ import ShopifyStore from './components/service/eComStore/shopifyStore/shopifySto
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Service from './components/service.jsx';
+import { Helmet } from 'react-helmet';
 // This is for Added Animations End
 
 
 
 function App() {
 
-  const [activeTab, setActiveTab] = useState(1);
-
+  const location = useLocation();
+  const currentPath = location.pathname;
+  const currentPageMeta = headerData.find(item => item.link === currentPath);
+  
+  const metaTitle = currentPageMeta ? currentPageMeta.metaTitle : "Default Title";
+  const metaDescription = currentPageMeta ? currentPageMeta.metaDescription : "Default Description";
 
   useEffect(() => {
     AOS.init({
@@ -74,7 +81,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Header />
+
+      <Helmet>
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+      </Helmet>
+
       <main  >
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -102,7 +115,7 @@ function App() {
 
         </Routes>
       </main>
-      <Footer activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Footer />
 
     </div>
   );

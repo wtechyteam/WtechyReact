@@ -2,22 +2,25 @@ export const headerData = [
     {
         id:1,
         title: "home",
-        link: '/',
+        link: "/",
+        metaTitle:'WTechy: Digital Marketing Agency | Website Development, SEO',
+        metaDescription:'We maximize your business potential',
     },
     {
         id:2,
         title: "About Us",
-        link: "about-agency",
-        eventKey: "0",
-
+        link: "/about-agency",
+        metaTitle:'about df ',
+        metaDescription:'We maximize your business potential'
     },
     {
         id:3,
         title: "Services",
         link: "/service",
         ServiceClass:"active_service",
-        eventKey: "1",
         menuType: "submenu",
+        metaTitle:'service df xxxxxxxxxxxxxxxx',
+        metaDescription:'We maximize your business potential',
         subMenu: [
             {
                 subtitle: "Seo Services",

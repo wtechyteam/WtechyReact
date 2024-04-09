@@ -4,8 +4,11 @@ import footerLogo from './../../assets/Images/wtechy-logo-white.webp';
 import { NavLink } from "react-router-dom";
 import SocialLinks from '../common/SocialLinks.jsx'
 
-const Footer = ({activeTab, setActiveTab}) => {
+const Footer = () => {
 
+    const handleNavLinkClick = () => {
+        window.scrollTo(0, 0);
+    };
 
     const topLinks = [
         {
@@ -60,10 +63,6 @@ const Footer = ({activeTab, setActiveTab}) => {
         // Add more service sections as needed
     ];
 
-    const handleTab = (list) => {
-        setActiveTab(list.id);
-    };
-
     return (
         <footer className='siteFooter' >
             <div className="footerTopWrap">
@@ -78,8 +77,8 @@ const Footer = ({activeTab, setActiveTab}) => {
                             <h2 className='title-sm fw-bold mb-4'>Top Links</h2>
                             <ul className="footerList linkList">
                                 {topLinks.map((list, index) => (
-                                    <li onClick={() => handleTab(list)} className={`serviceWrap`} key={index}>
-                                        <NavLink to={list.link}>{list.title}</NavLink>
+                                    <li className={`serviceWrap`} key={index}>
+                                        <NavLink onClick={() => handleNavLinkClick()} to={list.link}>{list.title}</NavLink>
                                     </li>
                                 ))}
                             </ul>
@@ -89,7 +88,7 @@ const Footer = ({activeTab, setActiveTab}) => {
                             <ul className="footerList linkList">
                                 {serviceLinks.map((list, index) => (
                                     <li className='serviceWrap' key={index}>
-                                        <NavLink to={list.link}>{list.title}</NavLink>
+                                        <NavLink onClick={() => handleNavLinkClick()} to={list.link}>{list.title}</NavLink>
                                     </li>
                                 ))}
                             </ul>

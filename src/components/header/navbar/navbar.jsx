@@ -4,13 +4,13 @@ import Logo from '../../common/SiteLogo';
 import headerLogo from '../../../assets/Images/siteLogo.png';
 import { FiChevronDown } from "react-icons/fi";
 import { headerData } from '../../data/headerData';
-import { useNavigate, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const HeaderNavbar = ({ activeTab, setActiveTab }) => {
-    const navigate = useNavigate();
+
+const HeaderNavbar = () => {
+    
     const [show, setShow] = useState(false);
     const [activeLink, setActiveLink] = useState();
-    const [serviceTab, setServiceTab] = useState(false);
 
     const handleNavLinkClick = () => {
         window.scrollTo(0, 0);
