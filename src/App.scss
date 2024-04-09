@@ -63,4 +63,30 @@ img {
 .fontInter{
   font-family: "Inter", sans-serif ;
 }
-/******Universal Style End*******/
+// ================v-css===================
+.form_input{
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f3f9f8;
+  color: #333333;
+  border: 1px solid #d6dada;
+  margin: 16px auto;
+  font-size: 16px;
+}
+.contact_usInfo li{
+  padding-bottom: 10px;
+  list-style: none;
+  display: flex;
+  a, i{
+    color: #2e8585;
+    text-decoration: none;
+  }
+}
+.portfolio_img_1{
+  width: 100%;
+  max-width: 520px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// ========================================
