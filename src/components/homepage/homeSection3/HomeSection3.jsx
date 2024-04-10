@@ -44,7 +44,7 @@ const HomeSection2 = () => {
                             <div className="icon cardIcon-Type1">
                                 <img src={service.icon} alt={service.title} />
                             </div>
-                            <h2 className="title-md fw-bold">{service.title}</h2>
+                            <h2 className="title-md fw-bold text-black">{service.title}</h2>
                             <p className=''>{service.description}</p>
                         </div>
                     ))}

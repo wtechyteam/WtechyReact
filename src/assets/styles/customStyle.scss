@@ -29,9 +29,11 @@
 
 
 .title {
+
   &-sm {
     font-size: 20px;
     letter-spacing: .5px;
+
 
     @media (max-width: 1200px) {
       font-size: 18px;
@@ -383,10 +385,27 @@
 }
 
 
-/*************/
+/******Contact-us page css start*******/
 
 .mapSection{
     line-height: 0;
 }
 
-/**********/
+/******Contact-us page css end*******/
+
+/******Portfolio page css start*******/
+.portfolioWrapper{
+  section{
+    &:nth-child(even){
+      background-color: var(--bg-color2);
+      .row{
+        flex-direction: row-reverse;
+      }
+    }
+    img{
+      box-shadow: 0px 0px 10px 2px #00000025;
+    }
+  }
+}
+
+/******Portfolio page css end*******/
