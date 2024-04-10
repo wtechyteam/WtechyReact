@@ -86,6 +86,8 @@ function App() {
       <Helmet>
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
+        <meta rel="canonical" href={currentPath} />
+        <meta name="robots" content="index, follow"/>
       </Helmet>
 
       <main  >
