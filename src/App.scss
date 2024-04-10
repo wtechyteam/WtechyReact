@@ -103,4 +103,43 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.success_modal{
+  padding: 30px;
+  text-align: center;
+  h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3E7671;
+    margin-bottom: 12px;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  button{
+    background-color: #3E7671;
+    color: #fff;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px 0 8px 0;
+    transition: all 0.5s;
+    &:hover{
+      background-color: #efefef;
+      color: #3E7671;
+      border: 1px solid #3E7671;
+      border-radius: 0 8px 0 8px;
+    }
+  }
+}
+.required{
+  color: red;
+  display: block;
+}
+.required_hide{
+  color: blue;
+  display: none;
+}
 // ========================================
