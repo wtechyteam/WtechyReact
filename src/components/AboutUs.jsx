@@ -141,7 +141,7 @@ const AboutUs = () => {
                                         <img src={service.icon} alt={service.title} />
                                     </div>
                                     <div className="cardInfo">
-                                        <h2 className="cardTitle title-md fw-bold text-black">{service.title}</h2>
+                                        <h2 className="cardTitle title-md fw-bold">{service.title}</h2>
                                         <p className='cardDescription text-sm mb-0'>{service.description}</p>
                                     </div>
                                 </div>
