@@ -1,0 +1,49 @@
+
+<!-- saved from url=(0011)about:blank -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><p>From {{from_name}},</p>
+<p>Email {{from_email}},</p>
+<p>You got a new message from {{from_name}}:</p>
+<p style="padding: 12px; border-left: 4px solid #d0d0d0; font-style: italic;">{{message}}</p>
+<p>Best wishes,<br>EmailJS team</p>
+
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail-Template</title>
+    <style>
+        .main_bg{
+            background-color: azure;
+            padding: 40px 30px;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .headings{
+            font-size: 20px;
+            font-weight: 600;
+            color: black;
+        }
+        .detail_box{
+            background-color: rgb(111, 127, 129);
+            padding: 40px 30px;
+            max-width: 400px;
+        }
+    </style>
+
+
+    <div class="main_bg">
+        <div class="detail_box">
+            <p class="headings">Name: {{from_name}}:</p>
+            <p class="headings">Email: {{from_email}}:</p>
+            <p class="headings">Phone: {{from_email}}</p>
+            <p class="headings">Message: {{message}}</p>
+        </div>
+<p>Best wishes,<br>EmailJS team</p>
+    </div>
+
+</body></html>

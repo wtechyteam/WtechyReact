@@ -42,17 +42,17 @@ const Portfolio = () => {
             />
             {portfolioData && portfolioData.map((item, index) => {
                 return (
-                    <section className={`sectionPadding`}>
+                    <section className={`sectionPadding ${item.reverse !== true && 'bg-gray'}`}>
                         <div key={index} className="container">
                             <div className={`row align-items-center ${item.reverse === true && 'flex-row-reverse'}`}>
                                 <div className="col-md-6 mb-5 mb-md-0 text-center">
-                                    <img className='portfolio_img_1 mb-3' src={item.image2} alt='side-img' />
-                                    <img className='portfolio_img_2' src={item.image3} alt='side-img' />
+                                    <img className='portfolio_img_1 mb-5' src={item.image2} alt='side-img' />
+                                    <img className='portfolio_img_1' src={item.image3} alt='side-img' />
                                 </div>
                                 <div className="col-md-6">
                                     <h2 className='title-xl fw-bold'>{item.title}</h2>
                                     <p>{item.description}</p>
-                                    <img className='portfolio_img_3 mt-3' src={item.image1} alt='side-img' />
+                                    <img className='portfolio_img_1 mt-3' src={item.image1} alt='side-img' />
                                 </div>
                             </div>
                         </div>
