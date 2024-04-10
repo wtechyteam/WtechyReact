@@ -10,7 +10,7 @@ export const headerData = [
         id:2,
         title: "About Us",
         link: "/about-agency",
-        metaTitle:'about df ',
+        metaTitle:'About Agency - WTechy',
         metaDescription:'We maximize your business potential'
     },
     {

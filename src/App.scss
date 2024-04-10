@@ -64,15 +64,29 @@ img {
   font-family: "Inter", sans-serif ;
 }
 // ================v-css===================
-.form_input{
-  width: 100%;
-  padding: 10px 20px;
-  background-color: #f3f9f8;
-  color: #333333;
-  border: 1px solid #d6dada;
-  margin: 16px auto;
-  font-size: 16px;
+
+.customForm{
+  .inputWrap{
+    margin-bottom: 25px;
+  }
+  .form_input{
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #bbbbbb;
+    font-size: 16px;
+    transition: all ease-in-out .3s;
+    &:focus{
+      outline: none;
+      border-color: #000;
+    }
+    &.textAarea{
+      min-height: 120px;
+    }
+  }
 }
+
 .contact_usInfo li{
   padding-bottom: 10px;
   list-style: none;
