@@ -3,7 +3,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import bannerImage from './../../../assets/Images/homepage/bannerInner1.png';
-
+import {scrollTop} from './../../common/utils'
+import { Link } from 'react-router-dom';
 
 const BannerSlider = () => {
   const bannerSliderSettings = {
@@ -31,7 +32,7 @@ const BannerSlider = () => {
               <h1 className='bannerTitle title-xxl fw-bold'>We maximize your <span>business potential </span></h1>
               <h2 className='bannerSubTitle'>With Innovative <span>SEO</span> Technologies</h2>
               <p className='text-20'>Effective White-Hat SEO Techniques for Improving the User Experience & Online Visibility.</p>
-              <button className="dBtn btnPrimary mt-4 hasShadow">Contact Us</button>
+              <Link className="dBtn btnPrimary mt-4 hasShadow" title='Contact us' onClick={scrollTop} to='/contact'>Contact Us</Link>
             </div>
           </div>
           <div className="col-xl-7">

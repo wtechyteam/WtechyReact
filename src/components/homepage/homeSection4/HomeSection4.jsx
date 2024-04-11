@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import {scrollTop} from './../../common/utils'
 import ctaImage from '../../../assets/Images/homepage/cosnsult-image.png'
 
 
@@ -14,7 +16,7 @@ const HomeSection4 = () => {
                             <h4 className='section-title-sm '>Get In Touch</h4>
                             <h2 className='title-xl fw-bold'>Contact Us to Increase your Brand Visibility</h2>
                             <p className='sectionInfo '>We help you to see world differently , discover oppurtunities you may never have imagined.</p>
-                            <button className="dBtn btnPrimary mt-4 hasShadow">Contact Us</button>
+                            <Link className="dBtn btnPrimary mt-4 hasShadow" title='Contact us' onClick={scrollTop} to='/contact'>Contact Us</Link>
                         </div>
 
 

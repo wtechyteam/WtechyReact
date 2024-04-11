@@ -259,6 +259,9 @@
     .cardIndexNumber {
       color: #f5f5f5;
     }
+    .title-md{
+      color: #fff;
+    }
   }
 }
 
@@ -394,7 +397,7 @@
 /******Contact-us page css end*******/
 
 /******Portfolio page css start*******/
-.portfolioWrapper{
+.portfolioWrapper,.servicesWrapper{
   section{
     &:nth-child(even){
       background-color: var(--bg-color2);

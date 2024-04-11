@@ -20,7 +20,6 @@ const Header = ({ activeTab, setActiveTab, currentPath, setCurrentPath }) => {
                 <div className='container'>
                     <HeaderNavbar activeTab={activeTab} setActiveTab={setActiveTab} />
                 </div>
-
             </header>
         </>
     );

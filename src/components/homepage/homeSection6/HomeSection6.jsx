@@ -1,6 +1,9 @@
 import insightData from './../../data/insightsData.json';
 import { FiChevronsRight } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import {scrollTop} from '../../common/utils'
+
+
 
 const HomeSection6 = () => {
 
@@ -29,13 +32,13 @@ const HomeSection6 = () => {
                                     </h3>
                                     <p className='post-date'>{post.publishedAt}</p>
                                     <p className='post-info'>{post.shortInfo}</p>
-                                    <Link className='dBtn btnText' to={post.link} >Read More<FiChevronsRight /></Link>
+                                    <Link className='dBtn btnText' to={post.link} onClick={scrollTop} >Read More<FiChevronsRight /></Link>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
-                <button className='dBtn btnPrimary mt-4'>Go To Insights</button>
+                <Link to="/insights" className='dBtn btnPrimary mt-4' onClick={scrollTop}>Go To Insights</Link>
             </div>
         </section>
 
