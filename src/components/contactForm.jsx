@@ -57,23 +57,6 @@ const MyForm = () => {
                 </div>
             </form>
             <PopupModal handleCloseModal={handleCloseModal} handleShowModal={handleShowModal} show={show} />
-            {/* <div>
-                <form
-                    action="https://formspree.io/f/mdoqplvo"
-                    method="POST"
-                    enctype="multipart/form-data"
-                    >
-                    <label>
-                        Your email:
-                        <input type="email" name="email" />
-                    </label>
-                    <label>
-                        Your file:
-                        <input type="file" name="upload" />
-                    </label>
-                    <button type="submit">Send</button>
-                    </form>
-            </div> */}
         </>
 
     )

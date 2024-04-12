@@ -1,13 +1,17 @@
+import { useRef, useState } from 'react';
 import './../assets/styles/aboutPageStyle.scss'
 import InnerBanner from './common/InnerBanner'
 import SectionTopInfo from './common/SectionTopInfo'
-// import ImageInfoWrap from './common/ImageInfoWrap'
-// import aboutSectionImage from './../assets/Images/aboutPage/about-us.jpg'
+import ImageInfoWrap from './common/ImageInfoWrap'
+import aboutSectionImage from './../assets/Images/aboutPage/about-us.jpg'
 import serviceIcon1 from './../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../assets/Images/homepage/MarketingStrategies.png'
 
 import teamImage1 from './../assets/Images/homepage/cosnsult-image.png'
-// import Slider from 'react-slick'
+import Slider from 'react-slick'
+import Modal from 'react-bootstrap/Modal';
+import { AiOutlinePlayCircle } from "react-icons/ai";
+
 
 const serviceData = [
     {
@@ -85,28 +89,32 @@ const serviceData = [
 
 const teamsData = [
     {
-        icon: teamImage1,
+        id:1,
+        image: teamImage1,
         video_url: "https://www.youtube.com/embed/5e75jeDjvwo?si=59aoUSpsoYP9ppLr",
         name: 'Randeep Singh',
         designation: 'Director ',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
     },
     {
-        icon: teamImage1,
+        id:2,
+        image: teamImage1,
         video_url: "https://www.youtube.com/embed/U5_pohZ8NHc?si=MypjhjYIiBYVSGss",
         name: 'Seema Singh',
         designation: 'Managing Director',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
     },
     {
-        icon: teamImage1,
+        id:3,
+        image: teamImage1,
         video_url: "https://www.youtube.com/embed/L047UlpW2SU?si=91bFPoVV6HJDDVBL",
         name: 'Suhail Samwal',
         designation: 'Project Manager',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
     },
     {
-        icon: teamImage1,
+        id:4,
+        image: teamImage1,
         video_url: "https://www.youtube.com/embed/xW4DGaFw94A?si=3D4A2Irz4KoQwbay",
         name: 'Yuvraj Singh',
         designation: 'Digital marketing Expert',
@@ -118,27 +126,37 @@ const teamsData = [
 
 
 const AboutUs = () => {
-    // const bannerSliderSettings = {
-    //     dots: false,
-    //     infinite: true,
-    //     speed: 500,
-    //     arrows: true,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     cssEase: 'ease-in-out',
-    //     autoplaySpeed: 5000,
-    //     responsive: [
-    //         {
-    //             breakpoint: 991.98,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //             }
-    //         },
-    //     ]
-    // };
+    const testimonialSliderSettings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        arrows: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        cssEase: 'ease-in-out',
+        autoplaySpeed: 10000,
+        responsive: [
+            {
+                breakpoint: 991.98,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
+    };
 
+    const [showIntro, setShowIntro] = useState(false);
+    const [activeVideo, setActiveVideo] = useState(null);
 
+    const handleCloseModal = () => {
+        setShowIntro(false);
+    }
+
+    const handleShowModal = (item) => {
+        setActiveVideo(item);
+        setShowIntro(true);
+    };
 
     return (
         <>
@@ -150,7 +168,7 @@ const AboutUs = () => {
                 <div className="container">
                     <div className={`row align-items-center`}>
                         <div className="col-md-6 mb-5 mb-md-0 text-center">
-                            <iframe className='hasShadow border_radius' width="100%" height="358" src="https://www.youtube.com/embed/3j70plHbICg?si=-Ih-vlNUBU2hc7Ip" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe className='hasShadow border_radius' width="100%" height="358" src="https://www.youtube.com/embed/3j70plHbICg?si=-Ih-vlNUBU2hc7Ip" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
                         <div className="col-md-6">
                             <h2 className='title-xl fw-bold'>About Us</h2>
@@ -194,22 +212,30 @@ const AboutUs = () => {
                         text={'For this Section, we have images as well as Intro videos of Team members. Please include images and videos with each member. '}
                     />
                     <div className="row mt-5 teamList justify-content-center">
-                    {/* <Slider className='testimonialSlider' {...bannerSliderSettings}> */}
-                        {teamsData.map((item, index) => (
-                            <div className='col-lg-4 col-sm-6 mb-5 ' key={index} >
-                                <div className="cardWrap bg-white">
-                                    {/* <div className="cardImage teamImage"> */}
-                                    {/* <img src={item.icon} alt={item.title} /> */}
-                                    <iframe className=' hasShadow' width="100%" height="233" src={item.video_url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    {/* </div> */}
-                                    <div className="cardInfo mt-3">
-                                        <h2 className="cardTitle title-md fw-bold mb-1">{item.name}</h2>
-                                        <p className='color-gray title-sm mb-0'>{item.designation}</p>
+                    <Slider className='testimonialSlider' {...testimonialSliderSettings}>
+                        {teamsData.map((item) => (
+                            <div className='mx-2' key={item.id} >
+                                <div className="cardWrap mx-2 bg-white">
+                                    <div className="cardImage teamImage">
+                                        <img src={item.image} alt={item.title} />
                                     </div>
+                                    <div className="cardInfo">
+                                        <h2 className="cardTitle title-sm fw-bold mb-1">{item.name}</h2>
+                                        <p className='text-18 mb-0 fw-medium'>{item.designation}</p>
+                                        <button className='playButton' onClick={() => handleShowModal(item)}><AiOutlinePlayCircle/>Watch Intro</button>
+                                    </div>
+       
                                 </div>
                             </div>
                         ))}
-                         {/* </Slider> */}
+                    </Slider>
+                    {activeVideo !== null && (
+                        <Modal size='lg' centered show={showIntro} onHide={handleCloseModal}>
+                            <Modal.Body className=''>
+                            <iframe width="100%" height="420" src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                            </Modal.Body>
+                        </Modal>
+                    )}
                     </div>
                 </div>
             </section>
