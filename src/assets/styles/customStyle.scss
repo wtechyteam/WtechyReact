@@ -113,6 +113,7 @@
   align-items: center;
   min-width: 160px;
   text-decoration: none;
+
   &.hasShadow {
     box-shadow: 2px 2px 10px 0px #00000050;
   }
@@ -212,22 +213,25 @@
   }
 }
 
-.cardType1{
+.cardType1 {
   @include cardType1;
 }
-.cardType2{
+
+.cardType2 {
   @include cardType2;
 }
-.cardType3{
+
+.cardType3 {
   @include cardType1;
 
 }
 
 
-.cardIcon-Type1{
+.cardIcon-Type1 {
   @include cardIcon-Type1;
 }
-.cardIcon-Type2{
+
+.cardIcon-Type2 {
   @include cardIcon-Type2;
 }
 
@@ -244,34 +248,49 @@
   line-height: 1;
 }
 
-.cardHoverEffect{
-  &:hover{
+.cardHoverEffect {
+  &:hover {
     background-color: var(--secondary);
     color: #fff;
+
     .icon {
       &::before {
         background-color: var(--bg-color1);
       }
+
       img {
         filter: invert(1);
       }
     }
+
     .cardIndexNumber {
       color: #f5f5f5;
     }
-    .title-md{
+
+    .title-md {
       color: #fff;
     }
   }
 }
 
-.green_text{
+.green_text {
   color: #2e8585;
   font-weight: 600;
 }
 
 .hasShadow {
   box-shadow: 0px 0px 10px 0px #00000025;
+}
+
+.green_pointer {
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    color: #2e8585
+  }
+
+  ;
 }
 
 /******Custom Utility CSS End*******/
@@ -337,14 +356,15 @@
 
 /*********************/
 
-.fullWidthCTA{
+.fullWidthCTA {
   background-image: url(./../Images/call2Action2.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  &::before{
+
+  &::before {
     content: '';
     width: 100%;
     height: 100%;
@@ -355,25 +375,31 @@
     opacity: .6;
   }
 }
+
 /***************/
-.faqWrapper{
+.faqWrapper {
   grid-gap: 15px;
   display: grid;
-  .faqWrap{
+
+  .faqWrap {
     position: relative;
     box-shadow: 0px 0px 3px 2px #00000015;
     border-radius: 5px;
     overflow: hidden;
-    .title{
+
+    .title {
       padding: 15px 40px 15px 15px;
       cursor: pointer;
       transition: all ease-in-out .3s;
       position: relative;
       background-color: #fff;
-      &:hover,&.active{
+
+      &:hover,
+      &.active {
         background-color: var(--bg-color2);
       }
-      .faqIcon{
+
+      .faqIcon {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -381,7 +407,8 @@
         color: var(--secondary);
       }
     }
-    .description{
+
+    .description {
       padding: 15px;
     }
   }
@@ -398,15 +425,18 @@
 /******Contact-us page css end*******/
 
 /******Portfolio page css start*******/
-.portfolioWrapper,.servicesWrapper{
-  section{
-    &:nth-child(even){
+.portfolioWrapper,
+.servicesWrapper {
+  section {
+    &:nth-child(even) {
       background-color: var(--bg-color2);
-      .row{
+
+      .row {
         flex-direction: row-reverse;
       }
     }
-    img{
+
+    img {
       box-shadow: 0px 0px 10px 2px #00000025;
     }
   }

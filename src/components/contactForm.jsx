@@ -42,12 +42,12 @@ const MyForm = () => {
                         <input className='form_input' placeholder='Email*' type="email" name="from_email" required />
                     </div>
                     <div className='inputWrap col-lg-6'>
-                        <input placeholder='Number*' className='form_input' type="text" name="phone" required />
+                        <input placeholder='Number*' className='form_input' type="number" name="phone" required />
                     </div>
                     <div className='inputWrap col-lg-6'>
                         <input className='form_input' type="text" name="subject" placeholder="How can we help you?*" required />
                     </div>
-                   
+
                     <div className='inputWrap col-lg-12'>
                         <textarea className='form_input' placeholder='Message...' name="message" />
                     </div>

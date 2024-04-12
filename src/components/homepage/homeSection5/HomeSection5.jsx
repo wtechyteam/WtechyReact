@@ -1,29 +1,39 @@
 import serviceIcon1 from '../../../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from '../../../assets/Images/homepage/MarketingStrategies.png'
+import { useNavigate } from 'react-router-dom'
 
 
 const HomeSection5 = () => {
-
+    const navigate = useNavigate()
+    
+    const handleCardPath = (service) => {
+        navigate(`${service.path}`)
+        window.scroll(0, 0)
+    }
 
     const serviceData = [
         {
             icon: serviceIcon1,
             title: 'Search Engine Optimization',
+            path: 'service/search-engine-optimization',
             description: 'We proffer an incredible array of services to our clients, we make sure that your customers can easily locate your business website online. From crafting a strategy to its execution, we are going to assist you to strive for brilliance, by helping you to improve your website performance and online campaigns.'
         },
         {
             icon: serviceIcon2,
             title: 'PPC Advertising',
+            // path:'service/search-engine-optimization',
             description: 'Boost your website instantaneously, by diverting relevant traffic with the help of PPC advertising. Google ad campaigns are one of the best sources of digital marketing, and you can immediately gain more traffic and generate leads.'
         },
         {
             icon: serviceIcon1,
             title: 'Content Creation',
+            // path:'service/search-engine-optimization',
             description: 'For any website to catch the attention of the audience, it is vital to create content that fascinates the readers. Our team ensures to present you with well-expressed content from blogging to articles, newsletters to emails, we present you with the best.'
         },
         {
             icon: serviceIcon2,
             title: 'Social Media Marketing',
+            path: 'service/social-media-optimization',
             description: 'We proffer an incredible array of services to our clients, we make sure that your customers can easily locate your business website online.'
         },
         // Add more service sections as needed
@@ -43,7 +53,7 @@ const HomeSection5 = () => {
                 </div>
                 <div className='listWrapper services text-start mt-5'>
                     {serviceData.map((service, index) => (
-                        <div className='innerWrap cardType2 cardHoverEffect' key={index} style={{ marginTop: `${index * 50}px` }} data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 400} >
+                        <div onClick={() => handleCardPath(service)} className='innerWrap cardType2 cardHoverEffect' key={index} style={{ marginTop: `${index * 50}px` }} data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 400} >
                             <span className='cardIndexNumber'>{(index + 1).toString().padStart(2, '0')}</span>
                             <div className="icon cardIcon-Type1">
                                 <img src={service.icon} alt={service.title} />
