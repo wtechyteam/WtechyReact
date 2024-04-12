@@ -1,9 +1,10 @@
-import React, { useEffect, } from 'react';
+import React, { useEffect, useState, } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import { headerData } from './components/data/headerData';
+import insightData from './components/data/insightsData.json';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './assets/styles/customStyle.scss';
@@ -44,11 +45,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Service from './components/service.jsx';
 import { Helmet } from 'react-helmet';
+import InsightsDetailPage from './components/insightsDetailPage.jsx';
 // This is for Added Animations End
 
 
 
 function App() {
+  const [InsightsCardData, setInsightsCardData] = useState(null);
 
   const location = useLocation();
   const currentPath = location.pathname;
@@ -79,6 +82,8 @@ function App() {
     });
   }, []);
 
+  const posts = insightData.posts;
+
   return (
     <div className="App">
       <Header />
@@ -95,7 +100,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about-agency" element={<AboutUs />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/insights" element={<Insights />} />
+          <Route path="/insights" element={<Insights posts={posts} setInsightsCardData={setInsightsCardData} InsightsCardData={InsightsCardData} />} />
+          <Route path="/insights/:id" element={<InsightsDetailPage InsightsCardData={InsightsCardData} />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/top-work-marketplaces" element={<TopWorkMarketplaces />} />
           <Route path="/careers" element={<Careers />} />
