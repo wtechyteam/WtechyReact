@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import { headerData } from './components/data/headerData';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './assets/styles/customStyle.scss';
@@ -18,6 +20,7 @@ import Portfolio from './components/Portfolio.jsx';
 import TopWorkMarketplaces from './components/TopWorkMarketplaces.jsx';
 import Careers from './components/Careers.jsx';
 import ContactUS from './components/ContactUS.jsx';
+import ErrorPage from './components/ErrorPage.jsx'
 // This is for Main Pages End
 
 
@@ -114,8 +117,23 @@ function App() {
           <Route path="/service/custom-e-commerce-store-management-2" element={<CustomEcom />} />
           <Route path="/service/ebay-store-management" element={<EbayStore />} />
           <Route path="/service/shopify-store-management" element={<ShopifyStore />} />
+          <Route path="*" element={<ErrorPage />} />
+
+          
 
         </Routes>
+        <ToastContainer 
+          position="bottom-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="colored"
+        />
       </main>
       <Footer />
 

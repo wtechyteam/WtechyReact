@@ -69,6 +69,11 @@ img {
 .customForm{
   .inputWrap{
     margin-bottom: 25px;
+    label{
+      font-weight: 500;
+      margin-bottom: 5px;
+      color: #000;
+    }
   }
   .form_input{
     width: 100%;
@@ -82,7 +87,7 @@ img {
       outline: none;
       border-color: #000;
     }
-    &.textAarea{
+    &.textarea{
       min-height: 120px;
     }
   }
