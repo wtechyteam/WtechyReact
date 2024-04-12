@@ -14,6 +14,7 @@ const HeaderNavbar = () => {
 
     const handleNavLinkClick = () => {
         window.scrollTo(0, 0);
+        handleParentNavLeave()
     };
 
     const toggleOffCanvas = () => {
@@ -96,12 +97,12 @@ const HeaderNavbar = () => {
                                     <li key={index} className="navItemWrap">
                                         {
                                             item.subMenu ? (
-                                                <Accordion className='drops'>
+                                                <Accordion defaultActiveKey="0" className='drops'>
                                                     <Accordion.Item eventKey={item.eventKey}>
                                                         <Accordion.Header>{item.title}</Accordion.Header>
                                                         {item.subMenu && item.subMenu.map((ele, index) => (
                                                             <Accordion.Body key={index}>
-                                                                <Accordion className='drops'>
+                                                                <Accordion defaultActiveKey="0" className='drops'>
                                                                     <Accordion.Item eventKey={item.eventKey}>
                                                                         <Accordion.Header>{ele.subtitle}</Accordion.Header>
                                                                         <Accordion.Body>
