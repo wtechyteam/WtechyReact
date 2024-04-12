@@ -15,7 +15,7 @@ const InsightsDetailPage = ({ InsightsCardData }) => {
             </section>
 
             
-            <div className={`sectionTopInfo container col-md-10 align-items-center`} >
+            <div className={`sectionTopInfo container col-md-10 align-items-center`}>
                 <h2 className='title-xl fw-bold py-4'>{InsightsCardData.title}</h2>
                 <img src={InsightsCardData.imageUrl} alt={InsightsCardData.title} />
                 <div className='py-4' dangerouslySetInnerHTML={{ __html: InsightsCardData.content }} />
