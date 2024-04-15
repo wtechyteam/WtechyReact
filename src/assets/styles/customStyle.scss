@@ -464,6 +464,7 @@ border-radius: 10px;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px;
   list-style: none;
+  padding: 0;
   .jobWrap{
     border-radius: 5px;
     box-shadow: 0 0 5px 2px rgba(0,0,0,.09);
@@ -518,7 +519,7 @@ border-radius: 10px;
       }
       p{
         font-size: 13px;
-        border-top: 1px solid var(--bg-color1);
+        border-top: 1px solid #549b93;
         padding: 5px 5px 0;
         font-weight: 600;
       }
@@ -527,8 +528,29 @@ border-radius: 10px;
     &-content{
       background-color: #ffffff70;
       padding: 35px 0;
+      ul{
+        list-style: none;
+        padding:0;
+        li{
+          position: relative;
+          padding-left: 25px;
+          margin-bottom: 15px;
+          &::before{
+            content: "\f00c";
+            font-family: "FontAwesome";
+            position: absolute;
+            left: 0;
+            top:0;
+          }
+        }
+      }
       h4{
         font-size: 22px;
+        text-transform: capitalize;
+        margin-top: 35px;
+        &:first-child{
+          margin-top: 0px;
+        }
       }
     }
     &-title{
@@ -541,3 +563,24 @@ border-radius: 10px;
   }
 }
 /******Career Page page css end*******/
+
+.popupClose{
+  position: absolute;
+  border-radius: 50%;
+  right: -20px;
+  top: -20px;
+  width: 45px;
+  height: 45px;
+  min-width: auto;
+  font-weight: bold;
+  z-index: 5;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.09);
+  padding: 0;
+  &:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  svg{
+    font-size: 25px;
+  }
+}

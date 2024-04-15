@@ -11,7 +11,7 @@ import teamImage1 from './../assets/Images/homepage/cosnsult-image.png'
 import Slider from 'react-slick'
 import Modal from 'react-bootstrap/Modal';
 import { AiOutlinePlayCircle } from "react-icons/ai";
-
+import { IoCloseOutline } from "react-icons/io5";
 
 const serviceData = [
     {
@@ -265,7 +265,7 @@ const AboutUs = () => {
                     </Slider>
                     {activeVideo !== null && (
                         <Modal size='lg' centered show={showIntro} onHide={handleCloseModal}>
-                            <button className='popupClose' onClick={() => handleCloseModal()}><AiOutlinePlayCircle/></button>
+                            <button className='popupClose dBtn' onClick={() => handleCloseModal()} title="Close"><IoCloseOutline/></button>
                             <Modal.Body className=''>
                             <iframe width="100%" height="420" src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                             </Modal.Body>
