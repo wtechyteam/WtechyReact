@@ -40,7 +40,7 @@
             &.contactInfo{
                 li{
                     position: relative;
-                    padding-left: 30px;
+                    padding-left: 25px;
                     i{
                         position: absolute;
                         top: 5px;
@@ -58,7 +58,7 @@
                     text-decoration: none;
                     font-weight: 500;
                     &:hover, &.active{
-                        color: var(--primary);
+                        color: #00ffe2;
                         padding-left: 3px;
                     }
                 }

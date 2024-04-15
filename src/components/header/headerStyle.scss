@@ -11,9 +11,9 @@ $background-color_3: transparent;
   left: 0;
   top: 0;
   width: 100vw;
-  z-index: 5;
   position: fixed;
   transition: all ease-in-out .3s;
+  z-index: 99;
 
   &.sticky {
     background-color: #fff;

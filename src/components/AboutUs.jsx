@@ -1,9 +1,9 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import './../assets/styles/aboutPageStyle.scss'
 import InnerBanner from './common/InnerBanner'
 import SectionTopInfo from './common/SectionTopInfo'
-import ImageInfoWrap from './common/ImageInfoWrap'
-import aboutSectionImage from './../assets/Images/aboutPage/about-us.jpg'
+// import ImageInfoWrap from './common/ImageInfoWrap'
+// import aboutSectionImage from './../assets/Images/aboutPage/about-us.jpg'
 import serviceIcon1 from './../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../assets/Images/homepage/MarketingStrategies.png'
 
@@ -94,7 +94,6 @@ const teamsData = [
         video_url: "https://www.youtube.com/embed/5e75jeDjvwo?si=59aoUSpsoYP9ppLr",
         name: 'Randeep Singh',
         designation: 'Director ',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
     },
     {
         id:2,
@@ -102,7 +101,6 @@ const teamsData = [
         video_url: "https://www.youtube.com/embed/U5_pohZ8NHc?si=MypjhjYIiBYVSGss",
         name: 'Seema Singh',
         designation: 'Managing Director',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
     },
     {
         id:3,
@@ -110,15 +108,48 @@ const teamsData = [
         video_url: "https://www.youtube.com/embed/L047UlpW2SU?si=91bFPoVV6HJDDVBL",
         name: 'Suhail Samwal',
         designation: 'Project Manager',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
     },
     {
         id:4,
         image: teamImage1,
+        video_url: "",
+        name: 'Rajatbir Singh',
+        designation: 'Project Manager ',
+    },
+    {
+        id:5,
+        image: teamImage1,
         video_url: "https://www.youtube.com/embed/xW4DGaFw94A?si=3D4A2Irz4KoQwbay",
         name: 'Yuvraj Singh',
         designation: 'Digital marketing Expert',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada.'
+    },
+    {
+        id:6,
+        image: teamImage1,
+        video_url: "https://www.youtube.com/embed/cnaHrbz1opM?si=hBuWo58DqJf1vmo7",
+        name: 'Rishita',
+        designation: 'Social Media expert ',
+    },
+    {
+        id:7,
+        image: teamImage1,
+        video_url: "https://www.youtube.com/embed/K9Zufc2AHTg?si=XQ01RmsOosdeDftM",
+        name: 'Ankit Kapoor',
+        designation: 'SEO and ORM Expert ',
+    },
+    {
+        id:8,
+        image: teamImage1,
+        video_url: "https://www.youtube.com/embed/hNJEzBdOELs?si=8yEB3IdSlmDp29c0",
+        name: 'Naman Singh',
+        designation: 'SEO expert ',
+    },
+    {
+        id:9,
+        image: teamImage1,
+        video_url: "https://www.youtube.com/embed/yQQwb-CIvg0?si=dtIMUyen-BEEj5bZ",
+        name: 'Damini',
+        designation: 'Digital Marketing executive',
     },
 
 ];
@@ -222,7 +253,10 @@ const AboutUs = () => {
                                     <div className="cardInfo">
                                         <h2 className="cardTitle title-sm fw-bold mb-1">{item.name}</h2>
                                         <p className='text-18 mb-0 fw-medium'>{item.designation}</p>
-                                        <button className='playButton' onClick={() => handleShowModal(item)}><AiOutlinePlayCircle/>Watch Intro</button>
+                                        {item.video_url ? (
+                                            <button className='playButton' onClick={() => handleShowModal(item)}><AiOutlinePlayCircle/>Watch Intro</button>
+                                        ):
+                                        <button className='playButton'><AiOutlinePlayCircle/>Coming Soon</button>}
                                     </div>
        
                                 </div>
@@ -231,6 +265,7 @@ const AboutUs = () => {
                     </Slider>
                     {activeVideo !== null && (
                         <Modal size='lg' centered show={showIntro} onHide={handleCloseModal}>
+                            <button className='popupClose' onClick={() => handleCloseModal()}><AiOutlinePlayCircle/></button>
                             <Modal.Body className=''>
                             <iframe width="100%" height="420" src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                             </Modal.Body>
