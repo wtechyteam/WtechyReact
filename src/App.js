@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import { headerData } from './components/data/headerData';
+import { RoutesData } from './components/data/routes.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import insightData from './components/data/insightsData.json';
@@ -49,7 +49,7 @@ import ShopifyStore from './components/service/eComStore/shopifyStore/shopifySto
 // This is for Added Animations Start
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 // This is for Added Animations End
 
 
@@ -59,8 +59,7 @@ function App() {
 
   const location = useLocation();
   const currentPath = location.pathname;
-  const currentPageMeta = headerData.find(item => item.link === currentPath);
-  
+  const currentPageMeta = RoutesData.find(item => item.path === currentPath);
   const metaTitle = currentPageMeta ? currentPageMeta.metaTitle : "Default Title";
   const metaDescription = currentPageMeta ? currentPageMeta.metaDescription : "Default Description";
 
@@ -95,7 +94,7 @@ function App() {
       <Helmet>
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
-        <meta rel="canonical" href={currentPath} />
+        <link rel="canonical" href={currentPath} />
         <meta name="robots" content="index, follow"/>
       </Helmet>
 
