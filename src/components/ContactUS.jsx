@@ -50,7 +50,7 @@ const ContactUS = () => {
                 </div>
             </section>
             <section className='mapSection'>
-                <iframe title="Wtechy location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13723.644298125762!2d76.8804396!3d30.692777999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f95aff8afacf5%3A0xbb1c0711c52f5d2e!2sWTechy%20-%20Digital%20Marketing%2C%20SEO%20%26%20Web%20Design!5e0!3m2!1sen!2sin!4v1712661201421!5m2!1sen!2sin" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Wtechy location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13723.644298125762!2d76.8804396!3d30.692777999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f95aff8afacf5%3A0xbb1c0711c52f5d2e!2sWTechy%20-%20Digital%20Marketing%2C%20SEO%20%26%20Web%20Design!5e0!3m2!1sen!2sin!4v1712661201421!5m2!1sen!2sin" width="100%" height="400" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </>
     );

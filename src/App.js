@@ -1,49 +1,20 @@
-import React, { useEffect, useState, } from 'react';
+import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import { RoutesData } from './components/data/routes.jsx';
+import RoutesData from './components/data/routesLinkData.json';
+import SiteRoutes from './components/Routes.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import insightData from './components/data/insightsData.json';
+
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './assets/styles/customStyle.scss';
 import './App.scss';
 
 
-// This is for Main Pages Start
-import HomePage from './components/HomePage';
-import AboutUs from './components/AboutUs.jsx';
-import Insights from './components/Insights.jsx';
-import Portfolio from './components/Portfolio.jsx';
-import TopWorkMarketplaces from './components/TopWorkMarketplaces.jsx';
-import Careers from './components/Careers.jsx';
-import ApplyForm from './components/career/JobForm.jsx';
-import ContactUS from './components/ContactUS.jsx';
-import ErrorPage from './components/ErrorPage.jsx';
-import InsightsDetailPage from './components/insightsDetailPage.jsx';
-// This is for Main Pages End
 
 
-// This is for Services Pages Start
-import Services from './components/Services.jsx';
-import GoogleAds from './components/service/servicePages/googleAds/googleAds.jsx'
-import SearchEngineOpt from './components/service/servicePages/searchEngineOpt/searchEngineOpt.jsx'
-import ContentMarketing from './components/service/servicePages/contentMarketing/contentMarketing.jsx';
-import SocialMediaOpt from './components/service/servicePages/socialMediaOpt/socialMediaOpt.jsx';
-import ShopifyDevelopment from './components/service/websiteDevelopment/shopifyDevelopment/shopifyDevelopment.jsx';
-import WordpressDevelopment from './components/service/websiteDevelopment/wordPressDevelopment/wordpressDevelopment.jsx';
-import Corporate from './components/service/onlineRepuMarketing/corporate/corporate.jsx';
-import Personal from './components/service/onlineRepuMarketing/personal/personal.jsx';
-import RepairCorporate from './components/service/repairOnlineRepu/corporate/corporate.jsx';
-import RepairPersonal from './components/service/repairOnlineRepu/personal/personal.jsx';
-import AmazonStore from './components/service/eComStore/amazonStore/amazonStore.jsx';
-import CustomEcom from './components/service/eComStore/customEcom/customEcom.jsx';
-import EbayStore from './components/service/eComStore/eBayStore/eBayStore.jsx';
-import ShopifyStore from './components/service/eComStore/shopifyStore/shopifyStore.jsx';
-// This is for Services Pages End
 
 
 // This is for Added Animations Start
@@ -55,7 +26,6 @@ import { Helmet } from 'react-helmet-async';
 
 
 function App() {
-  const [InsightsCardData, setInsightsCardData] = useState(null);
 
   const location = useLocation();
   const currentPath = location.pathname;
@@ -85,7 +55,7 @@ function App() {
     });
   }, []);
 
-  const posts = insightData.posts;
+
 
   return (
     <div className="App">
@@ -99,35 +69,9 @@ function App() {
       </Helmet>
 
       <main  >
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about-agency" element={<AboutUs />} />
-          <Route path="/service" element={<Services />} />
-          <Route path="/insights" element={<Insights posts={posts} setInsightsCardData={setInsightsCardData} InsightsCardData={InsightsCardData} />} />
-          <Route path="/insights/:id" element={<InsightsDetailPage InsightsCardData={InsightsCardData} />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/top-work-marketplaces" element={<TopWorkMarketplaces />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/contact" element={<ContactUS />} />
-          <Route path="/service/content-marketing" element={<ContentMarketing />} />
-          <Route path="/service/google-ads-management" element={<GoogleAds />} />
-          <Route path="/service/search-engine-optimization" element={<SearchEngineOpt />} />
-          <Route path="/service/social-media-optimization" element={<SocialMediaOpt />} />
-          <Route path="/service/shopify-development" element={<ShopifyDevelopment />} />
-          <Route path="/service/wordpress-development" element={<WordpressDevelopment />} />
-          <Route path="/service/online-reputation-marketing-corporate" element={<Corporate />} />
-          <Route path="/service/online-reputation-marketing-personal" element={<Personal />} />
-          <Route path="/service/repair-online-reputation-corporate" element={<RepairCorporate />} />
-          <Route path="/service/repair-online-reputation-personal" element={<RepairPersonal />} />
-          <Route path="/service/amazon-store-management" element={<AmazonStore />} />
-          <Route path="/service/custom-e-commerce-store-management-2" element={<CustomEcom />} />
-          <Route path="/service/ebay-store-management" element={<EbayStore />} />
-          <Route path="/service/shopify-store-management" element={<ShopifyStore />} />
-          <Route path="/apply-form" element={<ApplyForm />} />
-          <Route path="*" element={<ErrorPage />} />
-         
+        <SiteRoutes />
 
-        </Routes>
+
         <ToastContainer 
           position="bottom-right"
           autoClose={5000}
