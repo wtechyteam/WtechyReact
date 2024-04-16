@@ -4,8 +4,8 @@ import InnerBanner from '../components/common/InnerBanner';
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCareers } from '../redux/actions/careersActions';
-
-
+import { Link } from 'react-router-dom';
+import {scrollTop} from './common/utils'
 
 const JobList = () => {
     const dispatch = useDispatch();
@@ -81,7 +81,7 @@ const JobDetails = () => {
                                         <p className='job-type'><strong>Salary: </strong>{career.acf_fields.basic_Info.jobSalary}</p>
                                     </>
                                 )}
-                                <button className='dBtn btnSecondary mt-4 hasShadow'>Apply Now</button>
+                                <Link to="/apply-form" className='dBtn btnSecondary mt-4 hasShadow' onClick={scrollTop} >Apply Now</Link>
                             </div>
 
                         </div>

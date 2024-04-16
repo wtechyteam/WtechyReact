@@ -20,12 +20,15 @@ import Insights from './components/Insights.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import TopWorkMarketplaces from './components/TopWorkMarketplaces.jsx';
 import Careers from './components/Careers.jsx';
+import ApplyForm from './components/career/JobForm.jsx';
 import ContactUS from './components/ContactUS.jsx';
-import ErrorPage from './components/ErrorPage.jsx'
+import ErrorPage from './components/ErrorPage.jsx';
+import InsightsDetailPage from './components/insightsDetailPage.jsx';
 // This is for Main Pages End
 
 
 // This is for Services Pages Start
+import Services from './components/Services.jsx';
 import GoogleAds from './components/service/servicePages/googleAds/googleAds.jsx'
 import SearchEngineOpt from './components/service/servicePages/searchEngineOpt/searchEngineOpt.jsx'
 import ContentMarketing from './components/service/servicePages/contentMarketing/contentMarketing.jsx';
@@ -46,9 +49,7 @@ import ShopifyStore from './components/service/eComStore/shopifyStore/shopifySto
 // This is for Added Animations Start
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Service from './components/service.jsx';
 import { Helmet } from 'react-helmet';
-import InsightsDetailPage from './components/insightsDetailPage.jsx';
 // This is for Added Animations End
 
 
@@ -102,7 +103,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-agency" element={<AboutUs />} />
-          <Route path="/service" element={<Service />} />
+          <Route path="/service" element={<Services />} />
           <Route path="/insights" element={<Insights posts={posts} setInsightsCardData={setInsightsCardData} InsightsCardData={InsightsCardData} />} />
           <Route path="/insights/:id" element={<InsightsDetailPage InsightsCardData={InsightsCardData} />} />
           <Route path="/portfolio" element={<Portfolio />} />
@@ -123,9 +124,9 @@ function App() {
           <Route path="/service/custom-e-commerce-store-management-2" element={<CustomEcom />} />
           <Route path="/service/ebay-store-management" element={<EbayStore />} />
           <Route path="/service/shopify-store-management" element={<ShopifyStore />} />
+          <Route path="/apply-form" element={<ApplyForm />} />
           <Route path="*" element={<ErrorPage />} />
-
-          
+         
 
         </Routes>
         <ToastContainer 

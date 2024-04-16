@@ -6,12 +6,15 @@ import portImage3 from '../assets/Images/portfolio/image-3.webp';
 const Portfolio = () => {
     const portfolioData = [
         {
+            id:1,
             title: "Atlanta Exotic and Luxury Car Rentals",
             description: "Atlanta Exotic and Luxury Car Rentals offer an assortment of luxury cars of different segments from manufacturers such as Lamborghini, Rolls Royce, Aston Martin, Bentley, Mercedes, Ferrari, Maserati, and Land Rover.",
             image1: `${portImage1}`,
             image2: `${portImage2}`,
             image3: `${portImage3}`,
-        }, {
+        }, 
+        {
+            id:2,
             title: "Atlanta Exotic and Luxury Car Rentals",
             description: "Atlanta Exotic and Luxury Car Rentals offer an assortment of luxury cars of different segments from manufacturers such as Lamborghini, Rolls Royce, Aston Martin, Bentley, Mercedes, Ferrari, Maserati, and Land Rover.",
             image1: `${portImage1}`,
@@ -19,12 +22,15 @@ const Portfolio = () => {
             image3: `${portImage3}`,
         },
         {
+            id:3,
             title: "Atlanta Exotic and Luxury Car Rentals",
             description: "Atlanta Exotic and Luxury Car Rentals offer an assortment of luxury cars of different segments from manufacturers such as Lamborghini, Rolls Royce, Aston Martin, Bentley, Mercedes, Ferrari, Maserati, and Land Rover.",
             image1: `${portImage1}`,
             image2: `${portImage2}`,
             image3: `${portImage3}`,
-        }, {
+        }, 
+        {
+            id:4,
             title: "Atlanta Exotic and Luxury Car Rentals",
             description: "Atlanta Exotic and Luxury Car Rentals offer an assortment of luxury cars of different segments from manufacturers such as Lamborghini, Rolls Royce, Aston Martin, Bentley, Mercedes, Ferrari, Maserati, and Land Rover.",
             image1: `${portImage1}`,
@@ -41,8 +47,8 @@ const Portfolio = () => {
             <div className="portfolioWrapper">
                 {portfolioData && portfolioData.map((item, index) => {
                     return (
-                        <section className={`sectionPadding`}>
-                            <div key={index} className="container">
+                        <section className={`sectionPadding`} key={item.id}>
+                            <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 mb-5 mb-md-0 text-center">
                                         <img className='portfolio_img_1 mb-5 w-100' src={item.image2} alt='side-img' />

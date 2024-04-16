@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
+import InnerBanner from '../common/InnerBanner';
 
 const JobForm = () => {
 
@@ -60,40 +61,47 @@ const JobForm = () => {
 
 
     return (
-        <section className='sectionPadding'>
-            <div className="container ">
-                <form className="customForm col-lg-8 bg-gray py-5 px-5 mx-auto" onSubmit={handleSubmit}>
-                    <div className="row mx-0">
-                        <div className='inputWrap col-lg-6'>
-                            <label>Name: </label>
-                            <input className='form_input' type="text" placeholder="Name" name="name" value={formData.name} onChange={handleChange} required />
-                        </div>
-                        <div className='inputWrap col-lg-6'>
-                            <label>Email: </label>
-                            <input className='form_input' type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange} required />
-                        </div>
-                        <div className='inputWrap col-lg-6'>
-                            <label>Phone: </label>
-                            <input className='form_input' type="text" name="phone" value={formData.phone} onChange={handleChange} />
-                        </div>
-                        <div className='inputWrap col-lg-6'>
-                            <label>Attachment: </label>
-                            <input className='form_input' type="file" name="attachment" onChange={handleChange} />
-                        </div>
-                        <div className='inputWrap col-lg-12'>
-                            <label>Message: </label>
-                            <textarea className='form_input textarea' name="message" value={formData.message} onChange={handleChange} required></textarea>
-                        </div>
+        <>
+            <InnerBanner
+                title={'Apply For Job'}
+                info={'Please submit the form below and we will get back to you as soon as possible.'}
+            />
+            <section className='sectionPadding'>
+                <div className="container ">
+                    <form className="customForm col-lg-8 bg-gray py-5 px-5 mx-auto" onSubmit={handleSubmit}>
+                        <div className="row mx-0">
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="text" placeholder="First Name*" name="name" value={formData.firstName} onChange={handleChange} required />
+                            </div>
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="text" placeholder="Last Name*" name="name" value={formData.lastName} onChange={handleChange} required />
+                            </div>
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="text" placeholder="Phone*" name="phone" value={formData.phone} onChange={handleChange} />
+                            </div>
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="email" placeholder="Email*" name="email" value={formData.email} onChange={handleChange} required />
+                            </div>
+                            <div className='inputWrap col-lg-12'>
+                                <textarea className='form_input textarea' placeholder="Address*" name="message" value={formData.message} onChange={handleChange} required></textarea>
+                            </div>
 
-                        <div className='inputWrap mb-0 col-lg-12'>
-                            <button className="dBtn btnSecondary rounded-0 hasShadow w-100 py-2" type="submit">Submit</button>
+                            <div className='inputWrap col-lg-6'>
+                                <label>Attachment: </label>
+                                <input className='form_input' type="file" name="attachment" onChange={handleChange} />
+                            </div>
+
+                            <div className='inputWrap mb-0 col-lg-12'>
+                                <button className="dBtn btnSecondary rounded-0 hasShadow w-100 py-2" type="submit">Submit</button>
+                            </div>
+
                         </div>
+                    </form>
 
-                    </div>
-                </form>
+                </div>
+            </section>
 
-            </div>
-        </section>
+        </>
     );
 };
 

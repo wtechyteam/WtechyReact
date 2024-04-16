@@ -2,7 +2,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import bannerImage from './../../../assets/Images/homepage/bannerInner1.png';
+import bannerImage1 from './../../../assets/Images/homepage/bannerInner1.png';
+import bannerImage2 from './../../../assets/Images/homepage/bannerInner2.png';
 import {scrollTop} from './../../common/utils'
 import { Link } from 'react-router-dom';
 
@@ -39,13 +40,13 @@ const BannerSlider = () => {
             <div className='bannerImage' data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-offset="300">
               <Slider {...bannerSliderSettings}>
                 <div>
-                  <img src={bannerImage} alt="Banner 1" />
+                  <img src={bannerImage1} alt="Banner 1" />
                 </div>
                 <div>
-                  <img src={bannerImage} alt="Banner 2" />
+                  <img src={bannerImage2} alt="Banner 2" />
                 </div>
                 <div>
-                  <img src={bannerImage} alt="Banner 3" />
+                  <img src={bannerImage1} alt="Banner 3" />
                 </div>
               </Slider>
             </div>
