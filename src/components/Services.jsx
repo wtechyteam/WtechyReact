@@ -61,35 +61,33 @@ const Services = () => {
         {
             icon: serviceIcon1,
             title: 'Twitter Advertising',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.',
+            link:'/twitter-advertising'
         },
         {
             icon: serviceIcon2,
             title: 'LinkedIn Advertising',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.',
+            link:'/linkedIn-advertising'
         },
         {
             icon: serviceIcon1,
             title: 'YouTube Advertising',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.',
+            link:'/youTube-advertising'
         },
         {
             icon: serviceIcon2,
             title: 'WordPress Web Design',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'
-        },
-        {
-            icon: serviceIcon2,
-            title: 'Shopify Development',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.'
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.',
+            link:'/wordpress-development'
         },
         {
             icon: serviceIcon2,
             title: 'Shopify Development',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu.',
-            link:''
+            link:'/shopify-development'
         },
-    
     ];
     
     return (
