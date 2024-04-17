@@ -69,9 +69,9 @@ const EbayStore = () => {
         <div className="container">
           <div className="row mx-0 justify-content-center">
             {ebayStoreData.map((service, index) => (
-              <div className='col-lg-12 col-md-12 px-0 ' key={index} >
-                <div className="cardWrap cardType1 d-flex h-100" style={{ paddingTop: "30px" }}>
-                  <div className="cardIcon cardIcon-Type1 mb-0 me-5 d-flex align-items-center justify-content-center" style={{ paddingTop: "50px" }}>
+              <div className='col-lg-6 col-md-6 px-0 ' key={index} >
+                <div className="cardWrap cardType1 h-100" >
+                  <div className="cardIcon cardIcon-Type1" >
                     <img src={service.icon} alt={service.title} />
                   </div>
                   <div className="cardInfo">

@@ -119,7 +119,7 @@ const ShopifyDevelopment = () => {
         title={'Get your eCommerce store build just the way you want.'}
       />
       {/* ======New Section Start ====== */}
-      <section className='sectionPadding services bg-gray'>
+      <section className='sectionPadding services'>
         <div className="container">
           <SectionTopInfo
             isCenter={true}

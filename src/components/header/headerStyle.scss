@@ -81,7 +81,7 @@ $background-color_3: transparent;
       }
 
       &.active,
-      &.hover {
+      &:hover {
         color: var(--secondary);
 
         &::before {

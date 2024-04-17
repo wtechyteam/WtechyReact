@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchCareers } from '../../redux/actions/careersActions';
 import { Link, useParams } from 'react-router-dom';
 import { scrollTop } from '../common/utils';
+import { Helmet } from 'react-helmet-async';
 
 
 const JobDetail = () => {
@@ -77,17 +78,19 @@ const CareersDetail = () => {
 
     return (
         <>
+              <Helmet>
+                <title>Vijay kumar soni</title>
+                <meta name="description" content="vibhu the devloper" />
+                <meta name="robots" content="index, follow"/>
+            </Helmet>
             <InnerBanner
                 title={'Job Details'}
             />
             <section className='sectionPadding'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8">
+                        <div className="col-md-12">
                             <JobDetail />
-                        </div>
-                        <div className="col-md-4">
-                            dfgdfg
                         </div>
                     </div>
 
