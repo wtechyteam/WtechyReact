@@ -76,9 +76,9 @@ const LifeFeathers = () => {
     ]
     return (
         <>
-            <div className="row">
+            <div className="row ">
                 {feathers.map((item, index) => (
-                    <div className="col-lg-6" key={index}>
+                    <div className="col-sm-6 " key={index}>
                         <div class="cardWrap my-3 px-2 py-3">
                             <div class="cardIcon cardIcon-Type2">
                                 <img src="https://live.templately.com/wp-content/uploads/2023/01/81b895a0-careerly-icon-1.png" alt={item.title} />
@@ -135,15 +135,16 @@ const Careers = () => {
             </section>
             <section className='sectionPadding bg-gray2'>
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6">
-                            <LifeFeathers />
-                        </div>
+                    <div className="row align-items-center flex-md-row-reverse">
+
                         <div className="col-lg-6 ps-lg-4">
                             <h2 className="title-xl fw-bold">Your Life At WTechy</h2>
                             <p>WTechy is constantly looking to build and extend a professional team of innovative, creative, dedicated, and self-motivated people that want to make difference in what they do.</p>
                             <p>We are currently seeking experienced individuals for a variety of open positions that we are actively trying to fill. We also encourage you to submit your resume for any positions that may become available in the future.</p>
                             <p>Candidates should possess good interpersonal skills, good leadership skills, and should be fluent in English. Excellent communication skills are a must since the jobs require interaction with US employees and customers. Salary is negotiable and will be commensurate with experience. All applications will be treated in strict confidence.</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <LifeFeathers />
                         </div>
                     </div>
                 </div>

@@ -78,7 +78,7 @@ const CareersDetail = () => {
 
     return (
         <>
-              <Helmet>
+            <Helmet>
                 <title>Vijay kumar soni</title>
                 <meta name="description" content="vibhu the devloper" />
                 <meta name="robots" content="index, follow"/>

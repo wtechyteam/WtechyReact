@@ -6,10 +6,15 @@ import InnerBanner from '../common/InnerBanner';
 const JobForm = () => {
 
     const [formData, setFormData] = useState({
-        name: '',
+        firstName: '',
+        lastName: '',
         email: '',
         phone: '',
         message: '',
+        currentCTC: '',
+        expectedCTC: '',
+        location: '',
+        joiningTime: '',
         attachment: null
     });
 
@@ -26,7 +31,7 @@ const JobForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         // Check if required fields are filled
-        if (!formData.name || !formData.email || !formData.message) {
+        if (!formData.firstName || !formData.email || !formData.message) {
             toast.error('Please fill out all required fields.');
             return;
         }
@@ -69,15 +74,16 @@ const JobForm = () => {
             <section className='sectionPadding'>
                 <div className="container ">
                     <form className="customForm col-lg-8 bg-gray py-5 px-5 mx-auto" onSubmit={handleSubmit}>
-                        <div className="row mx-0">
+                        <h2 className='title-lg text-center mb-3'>Fill the details below</h2>
+                        <div className="row">
                             <div className='inputWrap col-lg-6'>
-                                <input className='form_input' type="text" placeholder="First Name*" name="name" value={formData.firstName} onChange={handleChange} required />
+                                <input className='form_input' type="text" placeholder="First Name*" name="firstName" value={formData.firstName} onChange={handleChange} required />
                             </div>
                             <div className='inputWrap col-lg-6'>
-                                <input className='form_input' type="text" placeholder="Last Name*" name="name" value={formData.lastName} onChange={handleChange} required />
+                                <input className='form_input' type="text" placeholder="Last Name*" name="lastName" value={formData.lastName} onChange={handleChange} required />
                             </div>
                             <div className='inputWrap col-lg-6'>
-                                <input className='form_input' type="text" placeholder="Phone*" name="phone" value={formData.phone} onChange={handleChange} />
+                                <input className='form_input' type="text" placeholder="Phone*" name="phone" value={formData.phone} onChange={handleChange} required/>
                             </div>
                             <div className='inputWrap col-lg-6'>
                                 <input className='form_input' type="email" placeholder="Email*" name="email" value={formData.email} onChange={handleChange} required />
@@ -85,12 +91,24 @@ const JobForm = () => {
                             <div className='inputWrap col-lg-12'>
                                 <textarea className='form_input textarea' placeholder="Address*" name="message" value={formData.message} onChange={handleChange} required></textarea>
                             </div>
-
                             <div className='inputWrap col-lg-6'>
-                                <label>Attachment: </label>
-                                <input className='form_input' type="file" name="attachment" onChange={handleChange} />
+                                <input className='form_input' type="text" placeholder="Current CTC*" name="currentCTC" value={formData.currentCTC} onChange={handleChange} />
                             </div>
-
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="text" placeholder="Expected CTC*" name="expectedCTC" value={formData.expectedCTC} onChange={handleChange} required />
+                            </div>
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="text" placeholder="Current Location*" name="location" value={formData.location} onChange={handleChange} />
+                            </div>
+                            <div className='inputWrap col-lg-6'>
+                                <input className='form_input' type="text" placeholder="Joining Time (in days)" name="joiningTime" value={formData.joiningTime} onChange={handleChange} required />
+                            </div>
+                            <div className='inputWrap col-lg-12'>
+                                <label>Attach your CV *</label>
+                                <input className='form_input' type="file" name="attachment" onChange={handleChange} />
+                                <p className='text-12 mb-0 mt-1'><strong>Note : </strong>File type should be .doc, .docx or .pdf only. </p>
+                                <p className='text-12'><strong className='opacity-0'>Note : </strong>Maximum file size should be 3MB.</p>
+                            </div>
                             <div className='inputWrap mb-0 col-lg-12'>
                                 <button className="dBtn btnSecondary rounded-0 hasShadow w-100 py-2" type="submit">Submit</button>
                             </div>
