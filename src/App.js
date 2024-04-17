@@ -70,8 +70,6 @@ function App() {
 
       <main  >
         <SiteRoutes />
-
-
         <ToastContainer 
           position="bottom-right"
           autoClose={5000}
