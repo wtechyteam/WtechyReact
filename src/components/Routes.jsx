@@ -36,6 +36,9 @@ import ShopifyStore from './service/eComStore/shopifyStore/shopifyStore.jsx';
 // This is for Services Pages End
 
 import CareersDetail from './career/CareerDetail.jsx';
+import LinkedInAdvertising from './service/serviceCardPages/linkedInAdvertising.jsx';
+import TwitterAdvertising from './service/serviceCardPages/twitterAdvertising.jsx';
+import YouTubeAdvertising from './service/serviceCardPages/youTubeAdvertising.jsx';
 
 
 const SiteRoutes = () => {
@@ -71,6 +74,9 @@ const SiteRoutes = () => {
                 <Route path="/service/custom-e-commerce-store-management-2" element={<CustomEcom />} />
                 <Route path="/service/ebay-store-management" element={<EbayStore />} />
                 <Route path="/service/shopify-store-management" element={<ShopifyStore />} />
+                <Route path="/service/linkedIn-advertising" element={<LinkedInAdvertising />} />
+                <Route path="/service/twitter-advertising" element={<TwitterAdvertising />} />
+                <Route path="/service/youTube-advertising" element={<YouTubeAdvertising />} />
                 <Route path="/apply-form" element={<ApplyForm />} />
 
                 <Route path="*" element={<ErrorPage />} />

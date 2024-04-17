@@ -94,5 +94,14 @@
   {
     "path": "/service/shopify-store-management",
     "component": "ShopifyStore"
+  },{
+    "path": "/service/linkedIn-advertising",
+    "component": "LinkedInAdvertising"
+  },{
+    "path": "/service/twitter-advertising",
+    "component": "TwitterAdvertising"
+  },{
+    "path": "/service/youTube-advertising",
+    "component": "YouTubeAdvertising"
   }
 ]
