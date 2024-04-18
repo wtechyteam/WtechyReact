@@ -7,7 +7,6 @@ import SiteRoutes from './components/Routes.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './assets/styles/customStyle.scss';
 import './App.scss';
@@ -65,12 +64,12 @@ function App() {
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
         <link rel="canonical" href={currentPath} />
-        <meta name="robots" content="index, follow"/>
+        <meta name="robots" content="index, follow" />
       </Helmet>
 
       <main  >
         <SiteRoutes />
-        <ToastContainer 
+        <ToastContainer
           position="bottom-right"
           autoClose={5000}
           hideProgressBar={false}
