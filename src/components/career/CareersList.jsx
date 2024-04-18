@@ -47,7 +47,7 @@ const JobList = () => {
 }
 
 
-const LifeFeathers = () => {
+const LifeAtWTechy = () => {
     const feathers = [
         {
             title: "Large Beautiful Office",
@@ -86,7 +86,6 @@ const LifeFeathers = () => {
                             <div class="cardInfo">
                                 <h2 class="cardTitle title-sm fw-bold">{item.title}</h2>
                                 <p class="cardDescription text-sm mb-0">{item.info}</p>
-
                             </div>
                         </div>
                     </div>
@@ -112,7 +111,7 @@ const Careers = () => {
         }
     };
     return (
-        <>
+        <>           
             <InnerBanner
                 title={'Careers'}
                 info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu. Mauris quis ultricies odio, at lacinia libero. '}
@@ -144,7 +143,7 @@ const Careers = () => {
                             <p>Candidates should possess good interpersonal skills, good leadership skills, and should be fluent in English. Excellent communication skills are a must since the jobs require interaction with US employees and customers. Salary is negotiable and will be commensurate with experience. All applications will be treated in strict confidence.</p>
                         </div>
                         <div className="col-lg-6">
-                            <LifeFeathers />
+                            <LifeAtWTechy />
                         </div>
                     </div>
                 </div>

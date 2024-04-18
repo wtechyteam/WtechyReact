@@ -57,8 +57,7 @@ const SiteRoutes = () => {
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/top-work-marketplaces" element={<TopWorkMarketplaces />} />
                 <Route path="/careers" element={<Careers />} />
-                <Route path="/careers/:slug" element={<CareersDetail InsightsCardData={InsightsCardData} />} />
-
+                <Route path="/careers/:slug" element={<CareersDetail/>} />
                 <Route path="/contact" element={<ContactUS />} />
                 <Route path="/service/content-marketing" element={<ContentMarketing />} />
                 <Route path="/service/google-ads-management" element={<GoogleAds />} />
