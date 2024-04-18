@@ -17,91 +17,131 @@
   {
     "path": "/service",
     "component": "Service",
+    "metaTitle": "Service",
     "element": "<AboutUs />"
   },
   {
     "path": "/insights",
+    "metaTitle": "Insights - WTechy",
     "component": "Insights"
   },
   {
     "path": "/portfolio",
+    "metaTitle": "Portfolio - WTechy",
     "component": "Portfolio"
   },
   {
     "path": "/top-work-marketplaces",
+    "metaTitle": "Top Work Marketplaces - WTechy",
+    "description":"Top Work Marketplaces",
     "component": "TopWorkMarketplaces"
   },
   {
     "path": "/careers",
+    "metaTitle": "Jobs Openings for SEO, Content Writers, WordPress Developers",
+    "description": "WTechy is constantly looking to build and extend a professional team of innovative, creative, dedicated, and self-motivated people that want to make",
     "component": "Careers"
   },
   {
     "path": "/contact",
+    "metaTitle": "Contact - WTechy",
+    "description": "Get in touch",
     "component": "ContactUS"
   },
   {
     "path": "/service/content-marketing",
+    "metaTitle": "Content Marketing - WTechy",
+    "description": "Improve brand reputation and build trust with valuable content",
     "component": "ContentMarketing"
   },
   {
     "path": "/service/google-ads-management",
+    "metaTitle": "Google Ads Management - WTechy",
+    "description": "Get More Traffic with Google Ads Management",
     "component": "GoogleAds"
   },
   {
     "path": "/service/search-engine-optimization",
+    "metaTitle": "Search Engine Optimization - WTechy",
+    "description": "Dominate the Search Engine with Tailored SEO Approach",
     "component": "SearchEngineOpt"
   },
   {
     "path": "/service/social-media-optimization",
+    "metaTitle": "Social Media Optimization - WTechy",
+    "description": "Nurturing Unique Business Possibilities with Social Media Optimization",
     "component": "SocialMediaOpt"
   },
   {
     "path": "/service/shopify-development",
+    "metaTitle": "Shopify Developers - Shopify Website Design &amp; Development",
+    "description": "Increase your sales with our Shopify Development Services",
     "component": "ShopifyDevelopment"
   },
   {
     "path": "/service/wordpress-development",
+    "metaTitle": "WordPress Development - WTechy",
+    "description": "WordPress Development that Aids in Building User-Friendly Websites",
     "component": "WordpressDevelopment"
   },
   {
     "path": "/service/online-reputation-marketing-corporate",
+    "metaTitle": "Online Reputation Marketing-Corporate - WTechy",
+    "description": "Manage your Business’s reputation with experts.",
     "component": "Corporate"
   },
   {
     "path": "/service/online-reputation-marketing-personal",
+    "metaTitle": "Online Personal Reputation Management | Get rid of Negative links from Google",
+    "description": "Get rid of Negative content from Google - Crafting a Positive Image over the Internet with Online Personal Reputation Management. Contact us to discuss more detail.",
     "component": "Personal"
   },
   {
     "path": "/service/repair-online-reputation-corporate",
+    "metaTitle": "Repair Online Reputation Corporate - WTechy",
+    "description": "Revamp your Digital Identity with the Best Online Reputation Repair Service",
     "component": "RepairCorporate"
   },
   {
     "path": "/service/repair-online-reputation-personal",
+    "metaTitle": "Repair Online Reputation Personal - WTechy",
+    "description": "Restore your online reputation and enhance the opportunities coming your way",
     "component": "RepairPersonal"
   },
   {
     "path": "/service/amazon-store-management",
+    "metaTitle": "Amazon Store Management | Seller Central Management, PPC",
+    "description": "Optimize Your Amazon Store for Maximum Sales with Our Professional Management Services",
     "component": "AmazonStore"
   },
   {
     "path": "/service/custom-e-commerce-store-management-2",
+    "metaTitle": "Custom E-Commerce Store Management - WTechy",
+    "description": "Cultivate your online store with certified E-commerce store management services",
     "component": "CustomEcom"
   },
   {
     "path": "/service/ebay-store-management",
+    "metaTitle": "Ebay Store Management - WTechy",
+    "description": "Cultivate your web store with the experts of Ebay Store Management",
     "component": "EbayStore"
   },
   {
     "path": "/service/shopify-store-management",
+    "metaTitle": "Shopify Store Management - WTechy",
+    "description": "Grow your Web Store with Shopify Store Management Company",
     "component": "ShopifyStore"
   },{
     "path": "/service/linkedIn-advertising",
+    "metaTitle": "About",
     "component": "LinkedInAdvertising"
   },{
     "path": "/service/twitter-advertising",
+    "metaTitle": "About",
     "component": "TwitterAdvertising"
   },{
     "path": "/service/youTube-advertising",
+    "metaTitle": "About",
     "component": "YouTubeAdvertising"
   }
 ]

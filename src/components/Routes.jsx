@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import insightData from './data/insightsData.json';
-
 
 // Main Site Pages Start
 import HomePage from './HomePage';
@@ -16,7 +14,6 @@ import Services from './Services.jsx';
 import ContactUS from './ContactUS.jsx';
 import ErrorPage from './ErrorPage.jsx';
 // This is for Main Pages End
-
 
 // This is for Services Pages Start
 import GoogleAds from './service/servicePages/googleAds/googleAds.jsx'
@@ -40,11 +37,8 @@ import LinkedInAdvertising from './service/serviceCardPages/linkedInAdvertising.
 import TwitterAdvertising from './service/serviceCardPages/twitterAdvertising.jsx';
 import YouTubeAdvertising from './service/serviceCardPages/youTubeAdvertising.jsx';
 
-
 const SiteRoutes = () => {
 
-    const [InsightsCardData, setInsightsCardData] = useState(null);
-    const posts = insightData.posts;
 
     return (
         <>
@@ -52,13 +46,12 @@ const SiteRoutes = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about-agency" element={<AboutUs />} />
                 <Route path="/service" element={<Services />} />
-                <Route path="/insights" element={<Insights posts={posts} setInsightsCardData={setInsightsCardData} InsightsCardData={InsightsCardData} />} />
-                <Route path="/insights/:id" element={<InsightsDetailPage InsightsCardData={InsightsCardData} />} />
+                <Route path="/insights" element={<Insights />} />
+                <Route path="/insights/:slug" element={<InsightsDetailPage />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/top-work-marketplaces" element={<TopWorkMarketplaces />} />
                 <Route path="/careers" element={<Careers />} />
-                <Route path="/careers/:slug" element={<CareersDetail InsightsCardData={InsightsCardData} />} />
-
+                <Route path="/careers/:slug" element={<CareersDetail />} />
                 <Route path="/contact" element={<ContactUS />} />
                 <Route path="/service/content-marketing" element={<ContentMarketing />} />
                 <Route path="/service/google-ads-management" element={<GoogleAds />} />
@@ -78,10 +71,7 @@ const SiteRoutes = () => {
                 <Route path="/service/twitter-advertising" element={<TwitterAdvertising />} />
                 <Route path="/service/youTube-advertising" element={<YouTubeAdvertising />} />
                 <Route path="/apply-form" element={<ApplyForm />} />
-
                 <Route path="*" element={<ErrorPage />} />
-
-
             </Routes>
         </>
 
