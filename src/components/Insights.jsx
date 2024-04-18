@@ -42,7 +42,7 @@ const Insights = () => {
                     <div className="featured-posts row justify-content-center mt-5">
                         {insights && insights?.map((post, index) => (
                             <div className="col-lg-4 col-md-6 mb-4" key={post?.id}>
-                                <div className="postCard hasShadow" data-aos="fade-up" data-aos-duration="1500" data-aos-delay={index * 500} >
+                                <div className="postCard hasShadow">
                                     <Link to={post?.slug} className="postImageWrap" onClick={scrollTop}>
                                         {post?.acf_fields && post?.acf_fields?.FeacherdImage !== false && (
                                             <img src={post?.acf_fields?.FeacherdImage} alt={post?.title?.rendered} />
