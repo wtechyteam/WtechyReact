@@ -32,21 +32,21 @@
   },
   {
     "path": "/top-work-marketplaces",
+    "component": "TopWorkMarketplaces",
     "metaTitle": "Top Work Marketplaces - WTechy",
-    "description":"Top Work Marketplaces",
-    "component": "TopWorkMarketplaces"
+    "metaDescription": "Top Work Marketplaces"
   },
   {
     "path": "/careers",
+    "component": "Careers",
     "metaTitle": "Jobs Openings for SEO, Content Writers, WordPress Developers",
-    "description": "WTechy is constantly looking to build and extend a professional team of innovative, creative, dedicated, and self-motivated people that want to make",
-    "component": "Careers"
+    "metaDescription": "WTechy is constantly looking to build and extend a professional team of innovative, creative, dedicated, and self-motivated people that want to make"
   },
   {
     "path": "/contact",
-    "metaTitle": "Contact - WTechy",
-    "description": "Get in touch",
-    "component": "ContactUS"
+    "component": "ContactUS",
+    "metaTitle":"Contact - WTechy ",
+    "metaDescription":"Get in touch"
   },
   {
     "path": "/service/content-marketing",

@@ -71,6 +71,46 @@ const JobDetail = () => {
 
 
 
+const MetaInfo = () => {
+    const { slug } = useParams();
+    const dispatch = useDispatch();
+    const { careers, loading, error } = useSelector((state) => state.api);
+
+    useEffect(() => {
+        dispatch(fetchCareers());
+    }, [dispatch]);
+
+    if (loading) {
+        return <div className='loadingWrap'>Loading...</div>;
+    }
+
+    if (error) {
+        return <div>Error: {error}</div>;
+    }
+
+    const selectedCareer = careers.find(career => career.slug === slug);
+
+    if (!selectedCareer) {
+        return <div>Career not found</div>;
+    }
+
+    return (
+        <>
+            {selectedCareer.acf_fields.metaInfo && (
+                <Helmet>
+                    {selectedCareer.acf_fields.metaInfo.metaTitle !== "" && (
+                        <title>{selectedCareer.acf_fields.metaInfo.metaTitle}</title>
+                    )}
+
+                    {selectedCareer.acf_fields.metaInfo.metaDescription !== "" && (
+                        <meta name="description" content={selectedCareer.acf_fields.metaInfo.metaDescription} />
+                    )}
+
+                </Helmet>
+            )}
+        </>
+    );
+};
 
 
 
@@ -78,11 +118,8 @@ const CareersDetail = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Vijay kumar soni</title>
-                <meta name="description" content="vibhu the devloper" />
-                <meta name="robots" content="index, follow"/>
-            </Helmet>
+
+            <MetaInfo />
             <InnerBanner
                 title={'Job Details'}
             />

@@ -48,6 +48,7 @@ const TopWorkMarketplaces = () => {
     ]
     return (
         <>
+
             <InnerBanner title={'Top Work Marketplaces'} info={'Wtechy has enrolled on the biggest as well as the most famous platforms worldwide. We assist their clients with prospering results. '} />
             <div className="portfolioWrapper">
                 {portfolioData && portfolioData.map((item, index) => {
