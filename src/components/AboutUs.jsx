@@ -89,63 +89,63 @@ const serviceData = [
 
 const teamsData = [
     {
-        id:1,
+        id: 1,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/5e75jeDjvwo?si=59aoUSpsoYP9ppLr",
         name: 'Randeep Singh',
         designation: 'Director ',
     },
     {
-        id:2,
+        id: 2,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/U5_pohZ8NHc?si=MypjhjYIiBYVSGss",
         name: 'Seema Singh',
         designation: 'Managing Director',
     },
     {
-        id:3,
+        id: 3,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/L047UlpW2SU?si=91bFPoVV6HJDDVBL",
         name: 'Suhail Samwal',
         designation: 'Project Manager',
     },
     {
-        id:4,
+        id: 4,
         image: teamImage1,
         video_url: "",
-        name: 'Rajatbir Singh',
+        name: 'R.B. Singh',
         designation: 'Project Manager ',
     },
     {
-        id:5,
+        id: 5,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/xW4DGaFw94A?si=3D4A2Irz4KoQwbay",
         name: 'Yuvraj Singh',
         designation: 'Digital marketing Expert',
     },
     {
-        id:6,
+        id: 6,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/cnaHrbz1opM?si=hBuWo58DqJf1vmo7",
         name: 'Rishita',
         designation: 'Social Media expert ',
     },
     {
-        id:7,
+        id: 7,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/K9Zufc2AHTg?si=XQ01RmsOosdeDftM",
         name: 'Ankit Kapoor',
         designation: 'SEO and ORM Expert ',
     },
     {
-        id:8,
+        id: 8,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/hNJEzBdOELs?si=8yEB3IdSlmDp29c0",
         name: 'Naman Singh',
         designation: 'SEO expert ',
     },
     {
-        id:9,
+        id: 9,
         image: teamImage1,
         video_url: "https://www.youtube.com/embed/yQQwb-CIvg0?si=dtIMUyen-BEEj5bZ",
         name: 'Damini',
@@ -240,37 +240,37 @@ const AboutUs = () => {
                         isCenter={true}
                         smallTitle={'Our Team'}
                         title={'Meet the We Offer'}
-                        text={'For this Section, we have images as well as Intro videos of Team members. Please include images and videos with each member. '}
+                        text={'For this Section, we have images as well as Intro videos of Team members. Please include images and videos with each member.'}
                     />
                     <div className="row mt-5 teamList justify-content-center">
-                    <Slider className='testimonialSlider' {...testimonialSliderSettings}>
-                        {teamsData.map((item) => (
-                            <div className='mx-2' key={item.id} >
-                                <div className="cardWrap mx-2 bg-white">
-                                    <div className="cardImage teamImage">
-                                        <img src={item.image} alt={item.title} />
+                        <Slider className='testimonialSlider' {...testimonialSliderSettings}>
+                            {teamsData.map((item) => (
+                                <div className='mx-2' key={item.id} >
+                                    <div className="cardWrap mx-2 bg-white">
+                                        <div className="cardImage teamImage">
+                                            <img src={item.image} alt={item.title} />
+                                        </div>
+                                        <div className="cardInfo">
+                                            <h2 className="cardTitle title-sm fw-bold mb-1">{item.name}</h2>
+                                            <p className='text-18 mb-0 fw-medium'>{item.designation}</p>
+                                            {item.video_url ? (
+                                                <button className='playButton' onClick={() => handleShowModal(item)}><AiOutlinePlayCircle />Watch Intro</button>
+                                            ) :
+                                                <button className='playButton'><AiOutlinePlayCircle />Coming Soon</button>}
+                                        </div>
+
                                     </div>
-                                    <div className="cardInfo">
-                                        <h2 className="cardTitle title-sm fw-bold mb-1">{item.name}</h2>
-                                        <p className='text-18 mb-0 fw-medium'>{item.designation}</p>
-                                        {item.video_url ? (
-                                            <button className='playButton' onClick={() => handleShowModal(item)}><AiOutlinePlayCircle/>Watch Intro</button>
-                                        ):
-                                        <button className='playButton'><AiOutlinePlayCircle/>Coming Soon</button>}
-                                    </div>
-       
                                 </div>
-                            </div>
-                        ))}
-                    </Slider>
-                    {activeVideo !== null && (
-                        <Modal size='lg' centered show={showIntro} onHide={handleCloseModal}>
-                            <button className='popupClose dBtn' onClick={() => handleCloseModal()} title="Close"><IoCloseOutline/></button>
-                            <Modal.Body className=''>
-                            <iframe width="100%" height="420" src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                            </Modal.Body>
-                        </Modal>
-                    )}
+                            ))}
+                        </Slider>
+                        {activeVideo !== null && (
+                            <Modal size='lg' centered show={showIntro} onHide={handleCloseModal}>
+                                <button className='popupClose dBtn' onClick={() => handleCloseModal()} title="Close"><IoCloseOutline /></button>
+                                <Modal.Body className=''>
+                                    <iframe width="100%" height="420" src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                                </Modal.Body>
+                            </Modal>
+                        )}
                     </div>
                 </div>
             </section>
