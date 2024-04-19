@@ -109,6 +109,10 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border: 1px solid rgb(228, 226, 226);
+}
+.box_shadow_none{
+  box-shadow: none !important;
 }
 .success_modal{
   padding: 30px;

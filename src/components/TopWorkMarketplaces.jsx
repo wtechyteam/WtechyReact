@@ -6,15 +6,21 @@ import logoImg3 from '../assets/Images/PeoplePerHour.webp';
 import logoImg4 from '../assets/Images/fiverr.png';
 import logoImg5 from '../assets/Images/guru.png';
 import { Image } from 'react-bootstrap';
+import Slider from 'react-slick';
 
 const TopWorkMarketplaces = () => {
-    const portfolioData = [
+    const topWorkMarketPlacesData = [
         {
             logoTitle: `${logoImg}`,
             title: "UpWork",
             hireLink: "https://www.upwork.com/agencies/wtechy/",
             description: "Upwork is the world’s leading work center that interfaces organizations with top companies, agencies, freelancers, and global talent to get connected. Wtechy, a leading IT solutions provider, has been winning hearts for years. Our high-appraised profile and positive testimonials on Upwork ensure our respected clients of value and on-time project delivery. Right from Digital Marketing to Web Development, we have been serving our clients with pretty much every technology.",
             image1: `${portImage1}`,
+            images: [
+                { img1: `${portImage1}` },
+                { img1: `${portImage1}` },
+                { img1: `${portImage1}` }
+            ]
         }, {
             logoTitle: `${logoImg2}`,
             title: "Clutch",
@@ -36,6 +42,11 @@ const TopWorkMarketplaces = () => {
             hireLink: "https://www.fiverr.com/seemasingh5020",
             description: "Fiverr is counted as one of the most reliable marketplaces that offer a typical platform to clients to work with experts, and organizations to bind and connect. It expands the talent pool and assists clients with recruiting the right experts for their business. Wtechy is a registered and dynamic firm on Fiverr. The deliverables that we offer to our clients on Fiverr are profoundly valued by our partners. Here, our top capacities are evaluated distinctly according to the result our clients prospered.",
             image1: `${portImage1}`,
+            images: [
+                { img1: `${portImage1}` },
+                { img1: `${portImage1}` },
+                { img1: `${portImage1}` }
+            ]
 
         },
         {
@@ -44,20 +55,49 @@ const TopWorkMarketplaces = () => {
             hireLink: "https://www.guru.com/freelancers/wtechy-private-limited",
             description: "Guru offers organizations a tool to team up and finish work by hiring specialists according to the necessities. It is a safe, adaptable, and cost-effective platform for both clients and work experts to proceed. We are registered on this safe and secure online marketplace and have been providing all Digital Marketing services with the help of the latest technologies. Check us out to see why you need to hire us for your marketing needs.",
             image1: `${portImage1}`,
+            images: [
+                { img1: `${portImage1}` },
+                { img1: `${portImage1}` },
+                { img1: `${portImage1}` }
+            ]
         },
     ]
+
+    const bannerSliderSettings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        cssEase: 'ease-in-out',
+        autoplaySpeed: 5000 // Set the autoplay speed in milliseconds
+    };
     return (
         <>
-
             <InnerBanner title={'Top Work Marketplaces'} info={'Wtechy has enrolled on the biggest as well as the most famous platforms worldwide. We assist their clients with prospering results. '} />
             <div className="portfolioWrapper">
-                {portfolioData && portfolioData.map((item, index) => {
+                {topWorkMarketPlacesData && topWorkMarketPlacesData.map((item, index) => {
                     return (
                         <section className={`sectionPadding`}>
                             <div key={index} className="container">
                                 <div className="row">
                                     <div className="col-md-6 mb-5 mb-md-0 text-center">
-                                        <img className='portfolio_img_1  w-100' title={item.title} src={item.image1} alt={item.title} />
+                                        {item.images ?
+                                            <Slider className='' {...bannerSliderSettings}>
+                                                {item.images && item.images.map((slidImg, index) => (
+                                                    <div key={index} className=''>
+                                                        <img className='portfolio_img_1 box_shadow_none  w-100' title={item.title} src={slidImg.img1} alt={item.title} />
+                                                    </div>
+                                                ))}
+
+                                            </Slider>
+                                            :
+                                            <img className='portfolio_img_1 box_shadow_none  w-100' title={item.title} src={item.image1} alt={item.title} />
+                                        }
+
+
                                     </div>
                                     <div className="col-md-6">
                                         <Image className='logo_title' title={item.title} src={item.logoTitle} alt={item.title} />
