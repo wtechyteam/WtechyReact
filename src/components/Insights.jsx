@@ -16,6 +16,7 @@ const Insights = () => {
     const dispatch = useDispatch();
     const { insights, loading } = useSelector((state) => state.insightsApi);
 
+    console.log(insights, "apppi")
     useEffect(() => {
         dispatch(fetchInsights());
     }, [dispatch]);
@@ -63,17 +64,23 @@ const Insights = () => {
                                 <div className="featured-posts row justify-content-center mt-5">
                                     {insights.slice(0, displayedPosts)?.map((post, index) => (
                                         <div className="col-lg-4 col-md-6 mb-4" key={post?.id}>
-                                            <div className="postCard hasShadow">
+                                            <div className="postCard hasShadow position-relative">
                                                 <Link to={post?.slug} className="postImageWrap" onClick={scrollTop}>
                                                     {post?.acf_fields && post?.acf_fields?.FeacherdImage !== false && (
                                                         <img src={post?.acf_fields?.FeacherdImage} alt={post?.title?.rendered} />
                                                     )}
                                                 </Link>
                                                 <div className="post-details">
+                                                    <div className='category'>
+                                                        {post && post.categories?.map((item) => (
+                                                            <p key={item?.id} className='m-0'>{item?.name}</p>
+                                                        ))}
+                                                    </div>
                                                     <h3 className='post-title title-md fw-bold'>
                                                         <Link to={post?.slug} onClick={scrollTop}>{post?.title?.rendered}</Link>
                                                     </h3>
-                                                    <p className='post-date d-flex align-items-center'><FiClock className='me-2' />{formatDate(post.date)}</p>
+                                                    <p className='post-date d-flex align-items-center mb-1'><FiClock className='me-2' />{formatDate(post?.date)}</p>
+
                                                     {post?.acf_fields && (
                                                         <p className='post-info'>{post?.acf_fields?.shortDiscription}</p>
                                                     )}
