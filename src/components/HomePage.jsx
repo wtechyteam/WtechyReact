@@ -8,17 +8,16 @@ import HomeSection5 from './homepage/homeSection5/HomeSection5';
 import HomeSection6 from './homepage/homeSection6/HomeSection6';
 import HomeSection7 from './homepage/homeSection7/HomeSection7';
 
-
 const HomePage = () => {
     return (
         <div className='homePage'>
             <BannerSlider />
             <HomeSection2 />
             <HomeSection3 />
-            <HomeSection4/>
-            <HomeSection5/>
-            <HomeSection6/>
-            <HomeSection7/>
+            <HomeSection4 />
+            <HomeSection5 />
+            <HomeSection6 />
+            <HomeSection7 />
 
         </div>
     );
