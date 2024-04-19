@@ -58,6 +58,7 @@ const Insights = () => {
                         {insights.slice(0 , displayedPosts)?.map((post, index) => (
                             <div className="col-lg-4 col-md-6 mb-4" key={post?.id}>
                                 <div className="postCard hasShadow">
+                                    
                                     <Link to={post?.slug} className="postImageWrap" onClick={scrollTop}>
                                         {post?.acf_fields && post?.acf_fields?.FeacherdImage !== false && (
                                             <img src={post?.acf_fields?.FeacherdImage} alt={post?.title?.rendered} />
