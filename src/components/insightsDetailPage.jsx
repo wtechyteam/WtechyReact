@@ -4,6 +4,42 @@ import { scrollTop } from './common/utils'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchInsights } from '../redux/actions/insightsAction';
 
+const RelatedPosts = () => {
+    const { slug } = useParams();
+    const { insights } = useSelector((state) => state.insightsApi);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchInsights());
+    }, [dispatch]);
+
+    const selectedCareer = insights.find(insight => insight.slug === slug);
+
+    // Filter insights by matching category IDs with the currently opened post
+    const relatedPosts = selectedCareer ? insights.filter(insight =>
+        insight.categories.some(category => selectedCareer.categories.some(selectedCategory => selectedCategory.id === category.id))
+    ) : [];
+
+    return (
+        <ul className='news_tabs'>
+            {relatedPosts.map(post => (
+                <li key={post.id}>
+                    
+                    <Link to={`/insights/${post.slug}`} className='text-16'>
+                        {post.acf_fields.FeacherdImage && (
+                            <img src={post.acf_fields.FeacherdImage} alt={post.title.rendered} className="thumbnail" />
+                        )}
+                        <span>
+                            {post.title.rendered}
+                        </span>
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    );
+};
+
+
 const InsightsDetailPage = () => {
     const { slug } = useParams();
     const { insights } = useSelector((state) => state.insightsApi);
@@ -44,7 +80,7 @@ const InsightsDetailPage = () => {
 
             <section className={`sectionPadding`}>
                 <div className='container'>
-                    <div className={`row`}>
+                    <div className={`row g-5`}>
                         <div className='col-lg-8'>
                             {selectedCareer && (
                                 <>
@@ -57,15 +93,14 @@ const InsightsDetailPage = () => {
                             )}
                         </div>
                         <div className='col-lg-4 '>
-                            <ul className='news_tabs'>
-                                {newsTabs.map((item, index) => (
-                                    <li className="news_btn" key={index}>
-                                        <Link to={"#"} className='text-18 fw-medium d-flex align-items-center justify-content-center' onClick={scrollTop}>
-                                            {item.tab}
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="sideBarWrapper">
+                                <div className="wrap">
+                                    <h2 className='title-md fw-bold'>Related Posts</h2>
+                                    <RelatedPosts />
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
