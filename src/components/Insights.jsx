@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import { fetchInsights } from '../redux/actions/insightsAction';
 import { useDispatch, useSelector } from 'react-redux';
 import { scrollTop } from './common/utils';
+import { FiClock } from "react-icons/fi";
+
+
 
 const Insights = () => {
     const dispatch = useDispatch();
@@ -28,6 +31,18 @@ const Insights = () => {
         }, 1000);
     };
 
+     // Function to format date
+     const formatDate = (dateString) => {
+        const date = new Date(dateString);
+        // Extract date components
+        const day = date.getDate();
+        const month = date.toLocaleString('default', { month: 'long' });
+        const year = date.getFullYear();
+        // Format the date
+        const formattedDate = `${day} ${month} ${year}`;
+        return formattedDate;
+    };
+
     return (
         <>
             <InnerBanner title={'Insights'} info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat.'} />
@@ -40,7 +55,7 @@ const Insights = () => {
                         text={'Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.'}
                     />
                     <div className="featured-posts row justify-content-center mt-5">
-                        {insights && insights?.map((post, index) => (
+                        {insights.slice(0 , displayedPosts)?.map((post, index) => (
                             <div className="col-lg-4 col-md-6 mb-4" key={post?.id}>
                                 <div className="postCard hasShadow">
                                     <Link to={post?.slug} className="postImageWrap" onClick={scrollTop}>
@@ -52,7 +67,7 @@ const Insights = () => {
                                         <h3 className='post-title title-md fw-bold'>
                                             <Link to={post?.slug} onClick={scrollTop}>{post?.title?.rendered}</Link>
                                         </h3>
-                                        <p className='post-date'>{post?.date}</p>
+                                        <p className='post-date d-flex align-items-center'><FiClock className='me-2'/>{formatDate(post.date)}</p>
                                         {post?.acf_fields && (
                                             <p className='post-info'>{post?.acf_fields?.shortDiscription}</p>
                                         )}
@@ -62,7 +77,7 @@ const Insights = () => {
                             </div>
                         ))}
                     </div>
-                    {displayedPosts < insights?.length && (
+                    {displayedPosts < insights.length && (
                         <button className={`d-block mt-4 dBtn btnBorder mx-auto ${loading && 'disabled'}`} onClick={handleLoadMore}>{loading ? 'Loading...' : 'Load More'}</button>
                     )}
                 </Container>
