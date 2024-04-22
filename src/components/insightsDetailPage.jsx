@@ -16,21 +16,25 @@ const RelatedPosts = () => {
     const selectedCareer = insights.find(insight => insight.slug === slug);
 
     // Filter insights by matching category IDs with the currently opened post
+
+
     const relatedPosts = selectedCareer ? insights.filter(insight =>
         insight.categories.some(category => selectedCareer.categories.some(selectedCategory => selectedCategory.id === category.id))
     ) : [];
 
+     // Remove the currently opened post from related posts
+    const filteredRelatedPosts = relatedPosts.filter(post => post.slug !== slug);
+
     return (
         <ul className='news_tabs'>
-            {relatedPosts.map(post => (
-                <li key={post.id}>
-                    
-                    <Link to={`/insights/${post.slug}`} className='text-16'>
-                        {post.acf_fields.FeacherdImage && (
-                            <img src={post.acf_fields.FeacherdImage} alt={post.title.rendered} className="thumbnail" />
+            {filteredRelatedPosts.map(item => (
+                <li key={item.id}>
+                    <Link to={`/insights/${item.slug}`} className='text-16' onClick={scrollTop}>
+                        {item.acf_fields.FeacherdImage && (
+                            <img src={item.acf_fields.FeacherdImage} alt={item.title.rendered} className="thumbnail" />
                         )}
                         <span>
-                            {post.title.rendered}
+                            {item.title.rendered}
                         </span>
                     </Link>
                 </li>
@@ -50,14 +54,6 @@ const InsightsDetailPage = () => {
     }, [dispatch]);
 
     const selectedCareer = insights.find(insight => insight.slug === slug);
-
-    const newsTabs = [
-        { tab: "Tab-1" },
-        { tab: "Tab-2" },
-        { tab: "Tab-3" },
-        { tab: "Tab-4" },
-        { tab: "Tab-5" },
-    ];
 
     return (
         <div>
