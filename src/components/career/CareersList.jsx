@@ -51,27 +51,27 @@ const LifeAtWTechy = () => {
     const feathers = [
         {
             title: "Large Beautiful Office",
-            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            info: "Launch your tech career at Wtechy - amazing office, friendly team, and easy commute!"
         },
         {
             title: "Great Co-Workers",
-            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            info: "Work with brilliant minds and grow your skills at Wtechy's collaborative tech hub."
         },
         {
             title: "Easy Location",
-            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            info: "Join our vibrant tech community - convenient location and endless learning opportunities."
         },
         {
             title: "Education Opportunities",
-            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            info: "Invest in your future at Wtechy - education programs, fun activities, and performance recognition. "
         },
         {
             title: "Fun Activities",
-            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            info: "We offer more than just a job - it's a place to learn, grow, and have fun with your colleagues."
         },
         {
             title: "Performance Award",
-            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            info: "Be rewarded for your excellence - we offer competitive salaries and performance awards."
         }
     ]
     return (
@@ -114,7 +114,7 @@ const Careers = () => {
         <>           
             <InnerBanner
                 title={'Careers'}
-                info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu. Mauris quis ultricies odio, at lacinia libero. '}
+                info={"Join our fun, collaborative team! WTechy is seeking talented individuals for open positions. We offer a great work environment, growth opportunities, and competitive pay. Apply now or submit your resume for future openings!"}
             />
             <section className='sectionPadding'>
                 <div className="container">

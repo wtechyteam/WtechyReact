@@ -19,7 +19,7 @@ export const fetchInsights = () => {
   return async (dispatch) => {
     dispatch(fetchInsightsRequest());
     try {
-      const response = await fetch('https://wordpress-1079908-3850878.cloudwaysapps.com/wp-json/wp/v2/insights');
+      const response = await fetch('https://wordpress-596623-4526788.cloudwaysapps.com/wp-json/wp/v2/insights');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

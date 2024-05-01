@@ -42,7 +42,7 @@ const Portfolio = () => {
         <>
             <InnerBanner
                 title={'Portfolio'}
-                info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu. Mauris quis ultricies odio, at lacinia libero. '}
+                info={"Check out WTechy's portfolio! Explore our best work to see how we can help you achieve your marketing goals by showcasing real marketing results for clients."}
             />
             <div className="portfolioWrapper">
                 {portfolioData && portfolioData.map((item, index) => {
@@ -52,12 +52,12 @@ const Portfolio = () => {
                                 <div className="row">
                                     <div className="col-md-6 mb-5 mb-md-0 text-center">
                                         <img className='portfolio_img_1 mb-5 w-100' src={item.image2} alt='side-img' />
-                                        <img className='portfolio_img_1  w-100' src={item.image3} alt='side-img' />
+                                        <img className='portfolio_img_1 w-100' src={item.image3} alt='side-img' />
                                     </div>
                                     <div className="col-md-6">
                                         <h2 className='title-xl fw-bold'>{item.title}</h2>
                                         <p>{item.description}</p>
-                                        <img className='portfolio_img_1 mt-4  w-100' src={item.image1} alt='side-img' />
+                                        <img className='portfolio_img_1 mt-4 w-100' src={item.image1} alt='side-img' />
                                     </div>
                                 </div>
                             </div>
