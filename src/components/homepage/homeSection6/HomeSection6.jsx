@@ -20,8 +20,8 @@ const HomeSection6 = () => {
     const featuredPosts = insights;
     const top3FeaturedPosts = featuredPosts.slice(0, 3);
 
-     // Function to format date
-     const formatDate = (dateString) => {
+    // Function to format date
+    const formatDate = (dateString) => {
         const date = new Date(dateString);
         // Extract date components
         const day = date.getDate();
@@ -31,14 +31,14 @@ const HomeSection6 = () => {
         const formattedDate = `${day} ${month} ${year}`;
         return formattedDate;
     };
-    
+
     return (
         <section className='sectionPadding bg-gray'>
             <div className="container text-center">
                 <div className="sectionTopInfo" data-aos="fade-up" data-aos-duration="1500">
                     <h4 className='section-title-sm'>Insights</h4>
                     <h2 className='title-xl fw-bold'>Our Latest Insights</h2>
-                    <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
+                    <p className='sectionInfo '>Get the latest tech trends, industry updates, and actionable tips delivered straight to you. From coding hacks to software reviews, Wtechy Insights keeps you ahead of the curve. </p>
                 </div>
                 <div className="featured-posts row justify-content-center mt-5">
                     {top3FeaturedPosts && top3FeaturedPosts?.map((post, index) => (
@@ -50,11 +50,11 @@ const HomeSection6 = () => {
                                     )}
                                 </Link>
                                 <div className="post-details">
-                                <div className='category'>
-                                                        {post && post.categories?.map((item) => (
-                                                            <p key={item?.id} className='m-0'>{item?.name}</p>
-                                                        ))}
-                                                    </div>
+                                    <div className='category'>
+                                        {post && post.categories?.map((item) => (
+                                            <p key={item?.id} className='m-0'>{item?.name}</p>
+                                        ))}
+                                    </div>
                                     <h3 className='post-title title-md fw-bold'>
                                         <Link to={`insights/${post?.slug}`} onClick={scrollTop}>{post?.title?.rendered}</Link>
                                     </h3>

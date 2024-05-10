@@ -109,13 +109,13 @@ const teamsData = [
         name: 'Suhail Samwal',
         designation: 'Project Manager',
     },
-    {
-        id: 4,
-        image: teamImage1,
-        video_url: "",
-        name: 'R.B. Singh',
-        designation: 'Project Manager ',
-    },
+    // {
+    //     id: 4,
+    //     image: teamImage1,
+    //     video_url: "",
+    //     name: 'R.B. Singh',
+    //     designation: 'Project Manager ',
+    // },
     {
         id: 5,
         image: teamImage1,

@@ -51,27 +51,27 @@ const LifeAtWTechy = () => {
     const feathers = [
         {
             title: "Large Beautiful Office",
-            info: "Launch your tech career at Wtechy - amazing office, friendly team, and easy commute!"
+            info: "Work in a spacious and modern office that'll inspire your creativity."
         },
         {
             title: "Great Co-Workers",
-            info: "Work with brilliant minds and grow your skills at Wtechy's collaborative tech hub."
+            info: "Join a team of friendly and supportive colleagues who are always ready to lend a hand. "
         },
         {
             title: "Easy Location",
-            info: "Join our vibrant tech community - convenient location and endless learning opportunities."
+            info: "Our office is in a spot that makes commuting easy and stress-free. "
         },
         {
             title: "Education Opportunities",
-            info: "Invest in your future at Wtechy - education programs, fun activities, and performance recognition. "
+            info: "We believe in helping you grow and learn with various programs to boost your skills. "
         },
         {
             title: "Fun Activities",
-            info: "We offer more than just a job - it's a place to learn, grow, and have fun with your colleagues."
+            info: "Enjoy regular team-building events and activities to keep things lively. "
         },
         {
             title: "Performance Award",
-            info: "Be rewarded for your excellence - we offer competitive salaries and performance awards."
+            info: "Your hard work doesn't go unnoticed! Get rewarded for your performance-based rewards. "
         }
     ]
     return (
@@ -121,9 +121,9 @@ const Careers = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 pe-lg-4">
                             <h2 className="title-xl fw-bold">Looking For Job?</h2>
-                            <p>WTechy is constantly looking to build and extend a professional team of innovative, creative, dedicated, and self-motivated people that want to make difference in what they do.</p>
-                            <p>We are currently seeking experienced individuals for a variety of open positions that we are actively trying to fill. We also encourage you to submit your resume for any positions that may become available in the future.</p>
-                            <p>Candidates should possess good interpersonal skills, good leadership skills, and should be fluent in English. Excellent communication skills are a must since the jobs require interaction with US employees and customers. Salary is negotiable and will be commensurate with experience. All applications will be treated in strict confidence.</p>
+                            <p><strong><i>Excited about tech?</i></strong> So are we! At WTechy, we're on the look-out for bright minds like yours to join our team. Whether you're a content expert, a creative designer, or a marketing maestro, we've got a spot for you! </p>
+                            <p><strong><i>Why WTechy?</i></strong>  We're all about fostering a fun and collaborative atmosphere. Your creative ideas will be extensively valued here.  Wtechy offers fantastic growth opportunities in the growing Digital market with a competitive pay.  </p>
+                            <p>Ready to grow together/take over the digital market Checkout our current openings and hit that apply button. Don't see your dream job listed? No worries! Send us your resume anyway, and we'll keep you in mind for future opportunities. Let's build something awesome together! </p>
                             <button className='dBtn btnSecondary' onClick={scrollToJobList}>Find Jobs</button>
                         </div>
                         <div className="col-lg-6">
@@ -138,9 +138,9 @@ const Careers = () => {
 
                         <div className="col-lg-6 ps-lg-4">
                             <h2 className="title-xl fw-bold">Your Life At WTechy</h2>
-                            <p>WTechy is constantly looking to build and extend a professional team of innovative, creative, dedicated, and self-motivated people that want to make difference in what they do.</p>
-                            <p>We are currently seeking experienced individuals for a variety of open positions that we are actively trying to fill. We also encourage you to submit your resume for any positions that may become available in the future.</p>
-                            <p>Candidates should possess good interpersonal skills, good leadership skills, and should be fluent in English. Excellent communication skills are a must since the jobs require interaction with US employees and customers. Salary is negotiable and will be commensurate with experience. All applications will be treated in strict confidence.</p>
+                            <p> At Wtechy, we're not just another tech company, we’re a team of creative minds shaping the digital world. We prioritize more than just employment; we're dedicated to building careers. Our dedicated team pushes the boundaries within the digital domain. </p>
+                            <p>We believe in work-life balance, offering flexible work arrangements. Connection is key to our ethos. From team meet-ups to virtual hangouts, collaboration is at the heart of what we do. We value your professional development as much as we value our clients, promoting an environment helpful to career advancement. </p>
+                            <p>We're invested in your growth journey from mentorship initiatives to continuous training opportunities. Ready to join the Wtechy family? Check out our current openings and take the first step towards an exciting career with us! </p>
                         </div>
                         <div className="col-lg-6">
                             <LifeAtWTechy />
