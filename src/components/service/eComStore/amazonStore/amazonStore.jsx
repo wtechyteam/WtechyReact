@@ -62,7 +62,7 @@ const AmazonStore = () => {
         isReverse={true}
         title={'Optimize Your Amazon Store for Maximum Sales with Our Professional Management Services'}
         imageUrl={section1Image}
-        description={'<p>TEven though the online market has gained immense acknowledgment in recent years, the pursuit of endurance within it has been becoming intense with every passing day. Every organization wants to flourish in such a competitive environment, and for this businesses need to ensure that their products offer the best experience to the consumers.</p><p>Amazon is a budding platform, and it is responsible for more than 40% of sales online, and millions of shoppers visit Amazon whenever they have an urge to search for a new product, especially to stay with the trend.</p><p>Organizations who are planning to start an E-commerce business, can’t disagree with the value of Amazon and this is the reason why Amazon Store management is essential for every merchant.</p>'}
+        description={'<p>Even though the online market has gained immense acknowledgment in recent years, the pursuit of endurance within it has been becoming intense with every passing day. Every organization wants to flourish in such a competitive environment, and for these businesses need to ensure that their products offer the best experience to the consumers. </p>'}
       />
       {/* ======New Section Start ====== */}
       <FullWidthCTASection

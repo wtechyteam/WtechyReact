@@ -4,7 +4,7 @@ import { scrollTop } from './common/utils'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchInsights } from '../redux/actions/insightsAction';
 
-const InsightsDetailPage = () => {
+const RelatedPosts = () => {
     const { slug } = useParams();
     const { insights } = useSelector((state) => state.insightsApi);
     const dispatch = useDispatch();
@@ -15,13 +15,45 @@ const InsightsDetailPage = () => {
 
     const selectedCareer = insights.find(insight => insight.slug === slug);
 
-    const newsTabs = [
-        { tab: "Tab-1" },
-        { tab: "Tab-2" },
-        { tab: "Tab-3" },
-        { tab: "Tab-4" },
-        { tab: "Tab-5" },
-    ];
+    // Filter insights by matching category IDs with the currently opened post
+
+
+    const relatedPosts = selectedCareer ? insights.filter(insight =>
+        insight.categories.some(category => selectedCareer.categories.some(selectedCategory => selectedCategory.id === category.id))
+    ) : [];
+
+     // Remove the currently opened post from related posts
+    const filteredRelatedPosts = relatedPosts.filter(post => post.slug !== slug);
+
+    return (
+        <ul className='news_tabs'>
+            {filteredRelatedPosts.map(item => (
+                <li key={item.id}>
+                    <Link to={`/insights/${item.slug}`} className='text-16' onClick={scrollTop}>
+                        {item.acf_fields.FeacherdImage && (
+                            <img src={item.acf_fields.FeacherdImage} alt={item.title.rendered} className="thumbnail" />
+                        )}
+                        <span>
+                            {item.title.rendered}
+                        </span>
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    );
+};
+
+
+const InsightsDetailPage = () => {
+    const { slug } = useParams();
+    const { insights } = useSelector((state) => state.insightsApi);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchInsights());
+    }, [dispatch]);
+
+    const selectedCareer = insights.find(insight => insight.slug === slug);
 
     return (
         <div>
@@ -44,7 +76,7 @@ const InsightsDetailPage = () => {
 
             <section className={`sectionPadding`}>
                 <div className='container'>
-                    <div className={`row`}>
+                    <div className={`row g-5`}>
                         <div className='col-lg-8'>
                             {selectedCareer && (
                                 <>
@@ -57,15 +89,14 @@ const InsightsDetailPage = () => {
                             )}
                         </div>
                         <div className='col-lg-4 '>
-                            <ul className='news_tabs'>
-                                {newsTabs.map((item, index) => (
-                                    <li className="news_btn" key={index}>
-                                        <Link to={"#"} className='text-18 fw-medium d-flex align-items-center justify-content-center' onClick={scrollTop}>
-                                            {item.tab}
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="sideBarWrapper">
+                                <div className="wrap">
+                                    <h2 className='title-md fw-bold'>Related Posts</h2>
+                                    <RelatedPosts />
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>

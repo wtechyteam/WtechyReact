@@ -49,7 +49,7 @@ const Insights = () => {
 
     return (
         <>
-            <InnerBanner title={'Insights'} info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat.'} />
+            <InnerBanner title={'Insights'} info={'Get smarter marketing insights with Wtechy. Learn how to optimize campaigns, understand your audience, and make data-driven decisions to grow your business.'} />
             <section className='sectionPadding'>
                 <Container>
                     <SectionTopInfo
@@ -67,7 +67,7 @@ const Insights = () => {
                                             <div className="postCard hasShadow position-relative">
                                                 <Link to={post?.slug} className="postImageWrap" onClick={scrollTop}>
                                                     {post?.acf_fields && post?.acf_fields?.FeacherdImage !== false && (
-                                                        <img src={post?.acf_fields?.FeacherdImage} alt={post?.title?.rendered} />
+                                                        <img src={post?.acf_fields?.FeacherdImage} alt={post?.title?.rendered} title={post?.title?.rendered}/>
                                                     )}
                                                 </Link>
                                                 <div className="post-details">
@@ -77,7 +77,7 @@ const Insights = () => {
                                                         ))}
                                                     </div>
                                                     <h3 className='post-title title-md fw-bold'>
-                                                        <Link to={post?.slug} onClick={scrollTop}>{post?.title?.rendered}</Link>
+                                                        <Link to={post?.slug} onClick={scrollTop} title={post?.title?.rendered}>{post?.title?.rendered}</Link>
                                                     </h3>
                                                     <p className='post-date d-flex align-items-center mb-1'><FiClock className='me-2' />{formatDate(post?.date)}</p>
 
@@ -91,7 +91,7 @@ const Insights = () => {
                                     ))}
                                 </div>
                                 {displayedPosts < insights.length && (
-                                    <button className={`d-block mt-4 dBtn btnBorder mx-auto ${loadings && 'disabled'}`} onClick={handleLoadMore}>{loadings ? 'Loadings...' : 'Load More'}</button>
+                                    <button className={`d-block mt-4 dBtn btnBorder mx-auto ${loadings && 'disabled'}`} onClick={handleLoadMore}>{loadings ? 'Loading...' : 'Load More'}</button>
                                 )}
                             </>
                         )

@@ -1,19 +1,24 @@
 import React from 'react';
-import { BiLogoLinkedin,BiLogoUpwork,BiLogoFacebook,BiLogoTwitter} from 'react-icons/bi';
+import { BiLogoLinkedin,BiLogoUpwork,BiLogoFacebook,BiLogoTwitter, BiLogoInstagram} from 'react-icons/bi';
 
 
 const SocialLinks = () => {
 
     const socialLinks = [
         {
+            title:'Facebook',
+            link:'https://www.facebook.com/wtechy.official',
+            icon: BiLogoFacebook
+        },
+        {
+            title:'Instagram',
+            link:'https://www.instagram.com/wtechy',
+            icon: BiLogoInstagram
+        },
+        {
             title:'Upwork',
             link:'https://www.upwork.com/agencies/wtechy/',
             icon: BiLogoUpwork
-        },
-        {
-            title:'Facebook',
-            link:'https://www.facebook.com/wtechy/',
-            icon: BiLogoFacebook
         },
         {
             title:'Twitter',

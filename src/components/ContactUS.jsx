@@ -7,7 +7,7 @@ const ContactUS = () => {
         <>
             <InnerBanner
                 title={'Contact Us'}
-                info={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim sapien at fringilla malesuada. Donec fringilla varius feugiat. Morbi et congue arcu. Mauris quis ultricies odio, at lacinia libero. '}
+                info={"Got a question or feedback? We're here for you! Reach out to the Wtechy team anytime and let us know how we can assist you. Get in touch today! "}
             />
             {/* ======New Section Start ====== */}
             <section className={`sectionPadding`}>

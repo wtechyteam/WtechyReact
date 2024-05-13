@@ -9,18 +9,46 @@ const HomeSection7 = () => {
     const testimonialData = [
         {
 
-            authorName: 'Ivor Herbert',
-            authorDesignation: 'Manager, Airlines',
+            authorName: 'Jorge De Los Santos',
+            authorDesignation: 'UK',
             authorRating: 4,
             image: testimonialImage,
-            description: 'We proffer an incredible array of services to our clients, we make sure that your customers can easily locate your business website online. From crafting a strategy to its execution, we are going to assist you to strive for brilliance, by helping you to improve your website performance and online campaigns.'
+            description: "From the start, they were professional, responsive SEO experts. Their top-notch content engaged audiences and improved search engine rankings. Their ability to transform ideas into compelling pieces and provide valuable insights improved my website's performance."
         },
         {
-            authorName: 'PPC Advertising',
-            authorDesignation: 'Manager, Airlines',
+            authorName: 'Farrah Motley',
+            authorDesignation: 'United states',
             authorRating: 5,
             image: testimonialImage,
-            description: 'Boost your website instantaneously, by diverting relevant traffic with the help of PPC advertising. Google ad campaigns are one of the best sources of digital marketing, and you can immediately gain more traffic and generate leads.'
+            description: 'Randeep was very responsive and offered excellent service. I highly recommend him and his team to anyone in need of an SEO expert. '
+        },
+        {
+            authorName: 'Erst',
+            authorDesignation: 'Germany',
+            authorRating: 5,
+            image: testimonialImage,
+            description: 'The collaboration with Seema has been highly professional. She has provided excellent service, which resulted in improved visibility of our service on the Internet. Thank you very much for your support so far. We eagerly look forward to continuing our co-operation. '
+        },
+        {
+            authorName: 'Yaiza Martin',
+            authorDesignation: 'UAE',
+            authorRating: 5,
+            image: testimonialImage,
+            description: "Randeep's SEO work is commendable. He showed a deep understanding of search engine optimization principles and applied them effectively to our website. We observed noticeable improvements in our search rankings and organic traffic. His approach was methodical, and he kept us informed throughout the process."
+        },
+        {
+            authorName: 'Anderson',
+            authorDesignation: 'US',
+            authorRating: 5,
+            image: testimonialImage,
+            description: "Seema's willingness to get the job done on time and in the best possible way is always open to input, and politeness, and just an awesome freelancer to work with. We will continue using Seema for our on-page SEO needs, both now and in the future."
+        },
+        {
+            authorName: 'Anonymous ',
+            authorDesignation: 'Australia',
+            authorRating: 5,
+            image: testimonialImage,
+            description: 'Very happy with the outcome. They were patient with us and accommodated all the design tweaks and updated accordingly. It was a very experience.'
         },
     ];
 
@@ -51,7 +79,7 @@ const HomeSection7 = () => {
                 <div className="sectionTopInfo" >
                     <h4 className='section-title-sm'>Testimonial</h4>
                     <h2 className='title-xl fw-bold'>Words From Our Customers</h2>
-                    <p className='sectionInfo '>Our tailored digital marketing strategies are designed to deliver significant results, ensuring your business stands out and achieves success in the digital landscape.</p>
+                    <p className='sectionInfo '>Check out what our satisfied customers have to say! See how Wtechy has helped them achieve their goals and overcome challenges. </p>
                 </div>
                 <Slider className='testimonialSlider' {...bannerSliderSettings}>
                     {testimonialData.map((item, index) => (
