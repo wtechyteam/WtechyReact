@@ -267,7 +267,7 @@ const AboutUs = () => {
                             <Modal size='lg' centered show={showIntro} onHide={handleCloseModal}>
                                 <button className='popupClose dBtn' onClick={() => handleCloseModal()} title="Close"><IoCloseOutline /></button>
                                 <Modal.Body className=''>
-                                    <iframe width="100%" height="420" src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                                    <iframe className='video_popup' src={activeVideo.video_url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                                 </Modal.Body>
                             </Modal>
                         )}
