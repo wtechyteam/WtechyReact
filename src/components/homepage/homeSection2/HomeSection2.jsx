@@ -1,5 +1,5 @@
 
-import aboutSectionImage from './../../../assets/Images/homepage/aboutImage.png';
+import aboutSectionImage from './../../../assets/Images/homepage/year-of-img.png';
 
 
 const HomeSection2 = () => {
