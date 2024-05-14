@@ -70,9 +70,9 @@ const GoogleAds = () => {
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
         isReverse={true}
-        title={'Get More Traffic with Google Ads Management'}
+        title={"Reach More Customers with WTechy's Google Ads Management"}
         imageUrl={section1Image}
-        description={'<p>The digital marketing services are booming, and when you look around, you can see a number of businesses are rising rapidly. With the rise in the usage of the internet, you can see online sales increasing swiftly.</p><p>If you want to nurture your business and want it to reach and stay at the top, you need to make the best possible use of different digital marketing models like Google Ads services also known as PPC or pay-per-click campaign.</p><p>The most effective feature of Google ads is that has become a highly preferred internet advertisement method, as is it is booming in the land of advertisement vastly. The concept relies on charging the advertiser only when someone clicks on the advertisement.</p><p>When you create the ads by keeping up with Google’s guidelines, there are fair chances if your ad is being shown on the first page of Google. Though creating an effective Google ad campaign is not an easy haul, it is crucial to seek assistance from experts.</p>'}
+        description={"<p>Google Ads, also known as PPC (pay-per-click), puts your business right in front of potential customers searching for what you offer.  Imagine your ad appearing on the first page of Google - that's the power of Google Ads!</p><p>Here's the beauty: you only pay when someone clicks your ad. This targeted approach gets you high-quality leads without breaking the bank. </p><p>But creating winning Google Ads campaigns takes expertise.  That's where WTechy comes in. Our Google Ads management service handles everything for you, from crafting compelling ad copy to fine-tuning your campaign for optimal results.</p><p>Let WTechy take the reins and watch your website traffic soar!</p>"}
         showContactBtn={true}
       />
       {/* ======New Section Start ====== */}
@@ -85,8 +85,8 @@ const GoogleAds = () => {
           <SectionTopInfo
             isCenter={true}
             isFullWidth={true}
-            description={"<p>The digital marketing services are booming, and when you look around, you can see a number of businesses are rising rapidly. With the rise in the usage of the internet, you can see online sales increasing swiftly.</p><p>If you want to nurture your business and want it to reach and stay at the top, you need to make the best possible use of different digital marketing models like Google Ads services also known as PPC or pay-per-click campaign.</p><p>The most effective feature of Google ads is that has become a highly preferred internet advertisement method, as is it is booming in the land of advertisement vastly. The concept relies on charging the advertiser only when someone clicks on the advertisement.</p><p>When you create the ads by keeping up with Google’s guidelines, there are fair chances if your ad is being shown on the first page of Google. Though creating an effective Google ad campaign is not an easy haul, it is crucial to seek assistance from experts.</p>"}
-            title={'Get More Traffic with Google Ads Management'}
+            description={"<p>At Wtechy, we specialize in Google Ads Management to help you get more clicks, more visitors, and more business. With our expert team at your service, we'll create personalized Google Ads campaigns to suit your needs and goals. Whether you're aiming for brand exposure, lead generation, or sales, we've got you covered.</p><p> Our Google Ads Management service is designed to maximize your return on investment (ROI) by optimizing your ad spend and targeting the right audience. We'll continuously monitor and tweak your campaigns to ensure they're performing at their best. Plus, we provide detailed reports so you can see exactly how your ads are driving results.</p><p>Don't let your website get lost in the crowd. Partner with Wtechy for top-notch Google Ads Management and watch your traffic soar!</p>"}
+            title={'Looking to boost your website traffic?'}
             smallTitle={'Get More Traffic'}
             showContactBtn={true}
           />
