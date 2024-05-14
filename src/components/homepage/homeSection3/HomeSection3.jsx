@@ -1,15 +1,14 @@
-import serviceIcon1 from '../../../assets/Images/homepage/digitalMarketing.png'
-import serviceIcon2 from '../../../assets/Images/homepage/MarketingStrategies.png'
-
-
-
+import serviceIcon1 from '../../../assets/Images/homepage/Digitalmarketing.svg'
+import serviceIcon2 from '../../../assets/Images/homepage/MarketingStrategies.svg'
+import serviceIcon3 from '../../../assets/Images/homepage/StrongRelations.svg'
+import serviceIcon4 from '../../../assets/Images/homepage/SustainandGrow.svg'
 
 const HomeSection2 = () => {
 
     const serviceData = [
         {
             icon: serviceIcon1,
-            title: 'Digital Marketing ',
+            title: 'Digital Marketing',
             description: 'Digital channels allow businesses to expand their reach and connect with their potential customers worldwide. And digital marketing is that component that lets you promote your product and services to the right audience. '
         },
         {
@@ -18,12 +17,12 @@ const HomeSection2 = () => {
             description: 'By utilizing many prominent digital marketing strategies like Email Marketing, Search Engine Optimization (SEO), Content Marketing, Social Media Marketing, and Search Engine Marketing, you can tap into a vast network of potential customers and advertise your website. '
         },
         {
-            icon: serviceIcon1,
+            icon: serviceIcon3,
             title: 'Strong Relations',
             description: 'While many businesses face several challenges in this competitive online marketplace, digital channels provide abundant opportunities to create expressive, quality content that builds up strong relations with their prospects. '
         },
         {
-            icon: serviceIcon2,
+            icon: serviceIcon4,
             title: 'Sustain and Grow',
             description: 'It’s almost impossible to sustain and grow a business without going digital and we can help you in devising strategies and creating content that will promote your brand in the best possible way to all your potential customers around the world. '
         },

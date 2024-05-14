@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-import {scrollTop} from './../../common/utils'
-import ctaImage from '../../../assets/Images/homepage/cosnsult-image.png'
-
+import { scrollTop } from './../../common/utils'
+import ctaImage from '../../../assets/Images/homepage/man.png'
 
 const HomeSection4 = () => {
     return (
@@ -18,14 +17,10 @@ const HomeSection4 = () => {
                             <p className='sectionInfo '>We help you to see the world differently, discover opportunities you may never have imagined.</p>
                             <Link className="dBtn btnPrimary mt-4 hasShadow" title='Contact us' onClick={scrollTop} to='/contact'>Contact Us</Link>
                         </div>
-
-
                     </div>
                 </div>
-
             </div>
         </section>
-
     );
 };
 

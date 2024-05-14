@@ -114,7 +114,7 @@ const Services = () => {
                                     <div className="cardInfo">
                                         <h2 className="cardTitle title-md fw-bold text-capitalize">{service.title}</h2>
                                         <p className='cardDescription text-sm mb-4'>{service.description}</p>
-                                        <Link className='dBtn btnText' to={`/service${service.link}`} onClick={scrollTop}>Read More<FiChevronsRight /></Link>
+                                        <Link className='dBtn btnText' to={`/service/${service.slug}`} onClick={scrollTop}>Read More<FiChevronsRight /></Link>
                                     </div>
                                 </div>
                             </div>
