@@ -2,7 +2,7 @@
 import InnerBanner from '../../../common/InnerBanner';
 import ImageInfoWrap from '../../../common/ImageInfoWrap';
 import section1Image from './../../../../assets/Images/services/SEO.webp';
-import section2Image from './../../../../assets/Images/services/what-we-do-service.png';
+import section2Image from './../../../../assets/Images/services/seo.png';
 
 import serviceIcon1 from './../../../../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../../../../assets/Images/homepage/MarketingStrategies.png'
@@ -288,7 +288,6 @@ const SearchEngineOpt = () => {
           </div>
         </div>
       </section>
-
     </div>
   )
 }
