@@ -29,8 +29,6 @@ const LinkedInAdvertising = () => {
       title: 'Campaign Optimization',
       description: "The world of online advertising is dynamic. That's why we constantly monitor your campaign performance, analyze results, and maximize your return on investment (ROI). We don't just launch a campaign and walk away – we're in it for the long haul, ensuring you get the most out of your ad spend."
     },
-
-
   ];
 
   return (

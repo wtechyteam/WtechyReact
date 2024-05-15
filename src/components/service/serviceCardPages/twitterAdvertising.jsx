@@ -1,7 +1,9 @@
 import React from 'react'
 import InnerBanner from '../../common/InnerBanner'
+
 import section1Image from '../../../assets/Images/services/SEO.webp';
 import section2Image from '../../../assets/Images/services/what-we-do-service.png';
+
 import ImageInfoWrap from '../../common/ImageInfoWrap';
 import FullWidthCTASection from '../../common/FullWidthCTASection';
 import SectionTopInfo from '../../common/SectionTopInfo';
@@ -63,7 +65,7 @@ const TwitterAdvertising = () => {
         customClass={'bg-gray'}
         title={'Speak Their Language: Choose the Right Ad Format'}
         imageUrl={section2Image}
-        description={"<p>TWhether you're a whiz with captivating videos or a master of the written word, there's a Twitter ad format that speaks your (and your audience's) language.</p><p><b>Got a video masterpiece? </b>Eye-catching video ads can grab attention in an instant.</p><p><b>Stunning visuals speak volumes?<b/>Showcase your products and services with beautiful image ads.</p><p><b>Want to keep it short and sweet?</b>Punchy text ads can deliver a powerful message in just a few words.</p><p><b>The best part? </b>You can even mix and match these formats to create truly unique and engaging ad experiences.</p>"}
+        description={"<p>TWhether you're a whiz with captivating videos or a master of the written word, there's a Twitter ad format that speaks your (and your audience's) language.</p> <p> <b>Got a video masterpiece? </b>Eye-catching video ads can grab attention in an instant.</p> <p> <b>Stunning visuals speak volumes?</b> Showcase your products and services with beautiful image ads.</p> <p> <b>Want to keep it short and sweet?</b> Punchy text ads can deliver a powerful message in just a few words.</p><p><b>The best part? </b> You can even mix and match these formats to create truly unique and engaging ad experiences.</p>"}
       />
       {/* ======New Section Start ====== */}
       <ImageInfoWrap
