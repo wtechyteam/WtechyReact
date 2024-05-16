@@ -1,7 +1,12 @@
 import React from 'react'
 import InnerBanner from './common/InnerBanner'
+
 import serviceIcon1 from './../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../assets/Images/homepage/MarketingStrategies.png'
+import serviceIcon3 from './../assets/Images/services/Shopify-Development-icon-cropped.svg'
+// import serviceIcon4 from './../assets/Images/services/WordPress-Web-Design-icon.svg'
+import serviceIcon5 from './../assets/Images/services/YouTube-Advertising-icon-cropped.svg'
+
 import SectionTopInfo from './common/SectionTopInfo'
 import { Link } from 'react-router-dom'
 import { scrollTop } from './common/utils'
@@ -72,19 +77,19 @@ const Services = () => {
             "slug": "linkedin-advertising"
         },
         {
-            "icon":serviceIcon1,
+            "icon":serviceIcon5,
             "title": "YouTube Advertising",
             "description": "Looking to skyrocket your business with YouTube ads? We're experts at creating YouTube ad campaigns that reach the perfect audience and get you results. We'll craft video ads that turn viewers into customers, fast. With Wtechy, your business will be on fire in no time.",
             "slug": "youtube-advertising"
         },
         {
-            "icon":serviceIcon2,
+            "icon":serviceIcon1,
             "title": "WordPress Development",
             "description": "Transform your business with Wtechy's dynamic B2B WordPress website development services. Crafted to propel your online presence, our innovative solutions assure an eloquent, user-friendly, and customized site that engages customers and drives revenue growth.",
             "slug": "wordpress-development"
         },
         {
-            "icon":serviceIcon1,
+            "icon":serviceIcon3,
             "title": "Shopify Development",
             "description": "Transform your online business with our Shopify solutions. Boost sales with customizable templates, easy product management, and SEO-friendly features. Our experienced team offers website development, design, optimization, and ongoing support.",
             "slug": "shopify-development"
