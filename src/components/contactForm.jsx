@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import PopupModal from './common/modal';
+import axios from 'axios';
 
 const MyForm = () => {
     const [show, setShow] = useState(false);
@@ -18,9 +19,23 @@ const MyForm = () => {
         setShow(false);
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         console.log("formData", contactData)
         e.preventDefault();
+        try {
+            await axios.post('http://localhost:8000/api/users', contactData);
+            alert('User created successfully');
+            setContactData({
+                name: "",
+                email: "",
+                phone: "",
+                subject: "",
+                message: ""
+            });
+        } catch (error) {
+            console.error(error);
+            alert('Failed to create user');
+        }
     }
 
     const handleInputChange = (e) => {
