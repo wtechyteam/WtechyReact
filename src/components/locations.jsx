@@ -5,7 +5,8 @@ import LocationsPage2 from './locationsPage/locationsPage2/LocationsPage2';
 import LocationsPage3 from './locationsPage/locationsPage3/locationsPage3';
 import LocationsPage4 from './locationsPage/locationsPage4/LocationsPage4';
 import LocationsPage5 from './locationsPage/locationsPage 5/LocationsPage5';
-import { sitemapDataUSA } from './data/sitemapData';
+import { sitemapDataUSA} from './data/sitemapData';
+import { sitemapDataAustralia } from './data/sitemapDataAus';
 import React, { useEffect, useState } from 'react';
 
 
@@ -32,8 +33,20 @@ const Locations = () => {
                 .map(sublink => sublink.pincodes.split(',').filter(pin => pin.trim() !== ''));
             return pincodes.flat(); // Flatten the array of pincodes
         }
-        return [];
+        return[]
     }
+    
+
+    // function getPincodesForCity(city) {
+    //     const cityData = sitemapDataAustralia.find(item => item.title.toLowerCase() === city.toLowerCase());
+    //     if (cityData && cityData.sublinks) {
+    //         const pincodes = cityData.sublinks
+    //             .filter(sublink => sublink.pincodes)
+    //             .map(sublink => sublink.pincodes.split(',').filter(pin => pin.trim() !== ''));
+    //         return pincodes.flat(); // Flatten the array of pincodes
+    //     }
+    //     return [];
+    // }
 
 
 
