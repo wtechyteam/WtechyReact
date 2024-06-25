@@ -35,6 +35,10 @@ const Footer = () => {
             title: 'Contact',
             link: '/contact'
         },
+        {
+            title: 'locations',
+            link: '/locations'
+        }
         // Add more service sections as needed
     ];
 
@@ -81,6 +85,7 @@ const Footer = () => {
                                         <NavLink onClick={() => handleNavLinkClick()} to={list.link}>{list.title}</NavLink>
                                     </li>
                                 ))}
+                                {/* <li><a href='/locations'>location</a></li> */}
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6">

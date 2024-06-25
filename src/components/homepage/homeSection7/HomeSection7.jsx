@@ -1,5 +1,14 @@
 import Slider from 'react-slick';
-import testimonialImage from './../../../assets/Images/homepage/testi-2.png'
+import testimonialImage from './../../../assets/Images/homepage/testi-2.png';
+import testimonial1 from "./../../../assets/Images/homepage/testimonial1.png";
+import testimonial2 from "./../../../assets/Images/homepage/testimonial2.png";
+import testimonial3 from "./../../../assets/Images/homepage/testimonial3.png";
+import testimonial4 from "./../../../assets/Images/homepage/testimonial4.png";
+import testimonial5 from "./../../../assets/Images/homepage/testimonial5.png";
+import testimonial6 from "./../../../assets/Images/homepage/testimonial6.png";
+
+
+
 
 
 
@@ -12,42 +21,42 @@ const HomeSection7 = () => {
             authorName: 'Jorge De Los Santos',
             authorDesignation: 'UK',
             authorRating: 4,
-            image: testimonialImage,
+            image: testimonial2,
             description: "From the start, they were professional, responsive SEO experts. Their top-notch content engaged audiences and improved search engine rankings. Their ability to transform ideas into compelling pieces and provide valuable insights improved my website's performance."
         },
         {
             authorName: 'Farrah Motley',
             authorDesignation: 'United states',
             authorRating: 5,
-            image: testimonialImage,
+            image: testimonial1,
             description: 'Randeep was very responsive and offered excellent service. I highly recommend him and his team to anyone in need of an SEO expert. '
         },
         {
             authorName: 'Erst',
             authorDesignation: 'Germany',
             authorRating: 5,
-            image: testimonialImage,
+            image: testimonial3,
             description: 'The collaboration with Seema has been highly professional. She has provided excellent service, which resulted in improved visibility of our service on the Internet. Thank you very much for your support so far. We eagerly look forward to continuing our co-operation. '
         },
         {
             authorName: 'Yaiza Martin',
             authorDesignation: 'UAE',
             authorRating: 5,
-            image: testimonialImage,
+            image: testimonial4,
             description: "Randeep's SEO work is commendable. He showed a deep understanding of search engine optimization principles and applied them effectively to our website. We observed noticeable improvements in our search rankings and organic traffic. His approach was methodical, and he kept us informed throughout the process."
         },
         {
             authorName: 'Anderson',
             authorDesignation: 'US',
             authorRating: 5,
-            image: testimonialImage,
+            image: testimonial5,
             description: "Seema's willingness to get the job done on time and in the best possible way is always open to input, and politeness, and just an awesome freelancer to work with. We will continue using Seema for our on-page SEO needs, both now and in the future."
         },
         {
             authorName: 'Anonymous ',
             authorDesignation: 'Australia',
             authorRating: 5,
-            image: testimonialImage,
+            image: testimonial6,
             description: 'Very happy with the outcome. They were patient with us and accommodated all the design tweaks and updated accordingly. It was a very experience.'
         },
     ];

@@ -1,5 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { sitemapDataUSA } from './data/sitemapData.jsx';
+import { Helmet } from 'react-helmet'; // Import Helmet
+
 
 // Main Site Pages Start
 import HomePage from './HomePage';
@@ -13,6 +17,7 @@ import ApplyForm from './career/JobForm.jsx';
 import Services from './Services.jsx';
 import ContactUS from './ContactUS.jsx';
 import ErrorPage from './ErrorPage.jsx';
+import LocationsFront from './locationsFront.jsx';
 // This is for Main Pages End
 
 // This is for Services Pages Start
@@ -36,6 +41,9 @@ import CareersDetail from './career/CareerDetail.jsx';
 import LinkedInAdvertising from './service/serviceCardPages/linkedInAdvertising.jsx';
 import TwitterAdvertising from './service/serviceCardPages/twitterAdvertising.jsx';
 import YouTubeAdvertising from './service/serviceCardPages/youTubeAdvertising.jsx';
+import Locations from './locations.jsx';
+
+
 
 const SiteRoutes = () => {
 
@@ -72,7 +80,17 @@ const SiteRoutes = () => {
                 <Route path="/service/youTube-advertising" element={<YouTubeAdvertising />} />
                 <Route path="/apply-form" element={<ApplyForm />} />
                 <Route path="*" element={<ErrorPage />} />
+                <Route path="/locations" element={<LocationsFront/>} />
+                {sitemapDataUSA.map(({ id, link,title }) => (
+                    <Route key={id} path={link} element={<Locations />} title={title}>
+
+                    </Route>
+                ))}
+
+
+
             </Routes>
+            
         </>
 
     )

@@ -12,6 +12,13 @@ import Slider from 'react-slick'
 import Modal from 'react-bootstrap/Modal';
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
+import ankit from "./../assets/Images/homepage/team/ankit.png";
+import Randeep from "./../assets/Images/homepage/team/Randeep.png";
+import RB from "./../assets/Images/homepage/team/RB.png";
+import rishita from "./../assets/Images/homepage/team/rishita.png";
+import Seema from "./../assets/Images/homepage/team/Seema.png";
+import yuvraj from "./../assets/Images/homepage/team/yuvraj.png";
+
 
 const serviceData = [
     {
@@ -90,14 +97,14 @@ const serviceData = [
 const teamsData = [
     {
         id: 1,
-        image: teamImage1,
+        image: Randeep,
         video_url: "https://www.youtube.com/embed/5e75jeDjvwo?si=59aoUSpsoYP9ppLr",
         name: 'Randeep Singh',
         designation: 'Director ',
     },
     {
         id: 2,
-        image: teamImage1,
+        image: Seema,
         video_url: "https://www.youtube.com/embed/U5_pohZ8NHc?si=MypjhjYIiBYVSGss",
         name: 'Seema Singh',
         designation: 'Managing Director',
@@ -109,30 +116,30 @@ const teamsData = [
         name: 'Suhail Samwal',
         designation: 'Project Manager',
     },
-    // {
-    //     id: 4,
-    //     image: teamImage1,
-    //     video_url: "",
-    //     name: 'R.B. Singh',
-    //     designation: 'Project Manager ',
-    // },
+    {
+        id: 4,
+        image: RB,
+        video_url: "",
+        name: 'R.B. Singh',
+        designation: 'Project Manager ',
+    },
     {
         id: 5,
-        image: teamImage1,
+        image: yuvraj,
         video_url: "https://www.youtube.com/embed/xW4DGaFw94A?si=3D4A2Irz4KoQwbay",
         name: 'Yuvraj Singh',
         designation: 'Digital marketing Expert',
     },
     {
         id: 6,
-        image: teamImage1,
+        image: rishita,
         video_url: "https://www.youtube.com/embed/cnaHrbz1opM?si=hBuWo58DqJf1vmo7",
         name: 'Rishita',
         designation: 'Social Media expert ',
     },
     {
         id: 7,
-        image: teamImage1,
+        image: ankit,
         video_url: "https://www.youtube.com/embed/K9Zufc2AHTg?si=XQ01RmsOosdeDftM",
         name: 'Ankit Kapoor',
         designation: 'SEO and ORM Expert ',
@@ -144,13 +151,13 @@ const teamsData = [
         name: 'Naman Singh',
         designation: 'SEO expert ',
     },
-    {
-        id: 9,
-        image: teamImage1,
-        video_url: "https://www.youtube.com/embed/yQQwb-CIvg0?si=dtIMUyen-BEEj5bZ",
-        name: 'Damini',
-        designation: 'Digital Marketing executive',
-    },
+    // {
+    //     id: 9,
+    //     image: teamImage1,
+    //     video_url: "https://www.youtube.com/embed/yQQwb-CIvg0?si=dtIMUyen-BEEj5bZ",
+    //     name: 'Damini',
+    //     designation: 'Digital Marketing executive',
+    // },
 
 ];
 
@@ -248,7 +255,7 @@ const AboutUs = () => {
                                 <div className='mx-2' key={item.id} >
                                     <div className="cardWrap mx-2 bg-white">
                                         <div className="cardImage teamImage">
-                                            <img src={item.image} alt={item.title} />
+                                            <img  src={item.image} alt={item.title} />
                                         </div>
                                         <div className="cardInfo">
                                             <h2 className="cardTitle title-sm fw-bold mb-1">{item.name}</h2>
