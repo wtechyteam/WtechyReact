@@ -10,6 +10,7 @@ import serviceIcon2 from './../../../../assets/Images/homepage/MarketingStrategi
 import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
+import { Helmet } from 'react-helmet';
 
 const GoogleAds = () => {
 
@@ -62,7 +63,10 @@ const GoogleAds = () => {
   ];
   return (
     <div>
-
+       <Helmet>
+                <meta name="title" content="Google Ads Management Services | Maximize Your ROI" />
+                <meta name="description" content="Maximize your online presence with our Data-Driven Google Ads Management services gets you more clicks & sales. Reach new customers and  boost ROI." />
+            </Helmet>
       <InnerBanner
         title={"Google Ads Management"}
         info={'Google Ads Management Helping You to Make Better Data-Driven Decisions'}

@@ -5,11 +5,16 @@ import { Link } from 'react-router-dom'
 import { scrollTop } from './common/utils'
 import { FiChevronsRight } from 'react-icons/fi'
 import { serviceData } from './data/serviceCardData'
+import { Helmet } from 'react-helmet'
 
 const Services = () => {
 
     return (
         <div>
+            <Helmet>
+                <meta name="title" content="Digital Marketing Services: Grow Your Business Online" />
+                <meta name="description" content="Boost your online presence with our comprehensive digital marketing services. Drive success through tailored performance marketing & media strategies. Hire Us!" />
+            </Helmet>
             <InnerBanner
                 title={"Services"}
                 info={'Explore our comprehensive range of services tailored to meet your digital needs. From SEO strategies to web development solutions, we deliver results that drive growth and success for your business.'}

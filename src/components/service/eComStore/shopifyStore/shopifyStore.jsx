@@ -6,6 +6,8 @@ import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
 
+import { Helmet } from 'react-helmet';
+
 const ShopifyStore = () => {
 
   const faqData = [
@@ -25,6 +27,23 @@ const ShopifyStore = () => {
   ];
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Shopify Store Management Services | Grow Your Sales 
+
+"
+        />
+        <meta
+          name="description"
+          content="Maximize your Shopify store's potential with our comprehensive management services. Trusted agency for Shopify store management solutions. Get started today!
+
+
+
+
+"
+        />
+      </Helmet>
       <InnerBanner
         title={"Shopify Store Management"}
         info={'Smooth in the Function of Your Web Store with Help of Leading Shopify Store Management Company'}

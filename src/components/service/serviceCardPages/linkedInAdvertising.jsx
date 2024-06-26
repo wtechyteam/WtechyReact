@@ -11,6 +11,8 @@ import SectionTopInfo from '../../common/SectionTopInfo';
 import serviceIcon1 from '../../../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from '../../../assets/Images/homepage/MarketingStrategies.png'
 
+import { Helmet } from 'react-helmet';
+
 const LinkedInAdvertising = () => {
 
   const serviceData = [
@@ -33,6 +35,18 @@ const LinkedInAdvertising = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="LinkedIn Advertising Solutions: Grow Your Business
+"
+        />
+        <meta
+          name="description"
+          content="Drive business growth with LinkedIn Advertising Solutions tailored by WTechy. Maximize your digital marketing ROI with our expert strategies. Connect now!
+"
+        />
+      </Helmet>
       <InnerBanner
         title={"LinkedIn Advertising"}
         info={"Connect with your ideal audience on LinkedIn with Wtechy's strategic advertising campaigns. "}

@@ -9,6 +9,7 @@ import section1Image from '../../assets/Images/career/carrerSection1.jpg'
 import { IoLocationOutline } from "react-icons/io5";
 import { PiBagSimple } from "react-icons/pi";
 import { GoClock } from "react-icons/go";
+import { Helmet } from 'react-helmet';
 
 
 const JobList = () => {
@@ -27,6 +28,11 @@ const JobList = () => {
         return <div>Error: {error}</div>;
     }
     return (
+            <>
+             <Helmet>
+                <meta name="title" content="We're hiring - Exciting Career Opportunities at WTechy" />
+                <meta name="description" content="Career Opportunities - Join our innovative team of dedicated professionals. Apply online now for open digital marketing & Web design and development positions." />
+            </Helmet>
         <ul className='jobList'>
             {careers.map((item) => (
                 <li className="jobWrap" key={item.id}>
@@ -42,7 +48,7 @@ const JobList = () => {
                 </li>
             ))}
         </ul>
-
+        </>
     );
 }
 

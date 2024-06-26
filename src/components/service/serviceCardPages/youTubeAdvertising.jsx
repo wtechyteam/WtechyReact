@@ -11,6 +11,8 @@ import ImageInfoWrap from '../../common/ImageInfoWrap';
 import FullWidthCTASection from '../../common/FullWidthCTASection';
 import SectionTopInfo from '../../common/SectionTopInfo';
 
+import { Helmet } from 'react-helmet';
+
 const YouTubeAdvertising = () => {
 
   const serviceData = [
@@ -32,7 +34,22 @@ const YouTubeAdvertising = () => {
   ];
 
   return (
+
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="YouTube Advertising Services | YouTube Ads Campaign
+
+"
+        />
+        <meta
+          name="description"
+          content="Boost your brand with WTechy's YouTube ads! Elevate visibility, engage audiences, and drive conversions with our expert digital marketing solutions. Hire us now!
+
+"
+        />
+      </Helmet>
       <InnerBanner
         title={"YouTube Advertising"}
         info={"Let Wtechy be your YouTube ad dream team and watch your business grow."}

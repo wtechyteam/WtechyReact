@@ -6,6 +6,7 @@ import SectionTopInfo from './common/SectionTopInfo'
 // import aboutSectionImage from './../assets/Images/aboutPage/about-us.jpg'
 import serviceIcon1 from './../assets/Images/homepage/digitalMarketing.png'
 import serviceIcon2 from './../assets/Images/homepage/MarketingStrategies.png'
+import { Helmet } from 'react-helmet';
 
 import teamImage1 from './../assets/Images/homepage/cosnsult-image.png'
 import Slider from 'react-slick'
@@ -199,6 +200,10 @@ const AboutUs = () => {
 
     return (
         <>
+            <Helmet>
+                <meta name="title" content="WTechy - Digital Marketing Agency" />
+                <meta name="description" content="Specialize in tech-enabled digital marketing solutions designed for specific needs & goals. Our team crafts strategies that drive results in digital landscape." />
+            </Helmet>
             <InnerBanner
                 title={'About Us'}
                 info={'WTechy helps businesses thrive online with expert Digital Marketing Strategies and Web Design Solutions. We turn possibilities into reality for your Brand.'}
@@ -256,7 +261,7 @@ const AboutUs = () => {
                                 <div className='mx-2' key={item.id} >
                                     <div className="cardWrap mx-2 bg-white">
                                         <div className="cardImage teamImage">
-                                            <img  src={item.image} alt={item.title} />
+                                            <img src={item.image} alt={item.title} />
                                         </div>
                                         <div className="cardInfo">
                                             <h2 className="cardTitle title-sm fw-bold mb-1">{item.name}</h2>

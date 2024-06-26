@@ -1,10 +1,15 @@
 import InnerBanner from '../components/common/InnerBanner'
 import MyForm from './contactForm';
+import { Helmet } from 'react-helmet';
 
 const ContactUS = () => {
 
     return (
         <>
+            <Helmet>
+                <meta name="title" content="Contact digital marketing agency for Business Growth" />
+                <meta name="description" content="Facing digital challenges? Reach out to us, a full-service digital marketing agency. We're here to tackle your challenges and offer solutions for digital growth." />
+            </Helmet>
             <InnerBanner
                 title={'Contact Us'}
                 info={"Got a question or feedback? We're here for you! Reach out to the Wtechy team anytime and let us know how we can assist you. Get in touch today! "}

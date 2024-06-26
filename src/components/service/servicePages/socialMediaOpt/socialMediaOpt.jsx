@@ -10,6 +10,7 @@ import section4Image from './../../../../assets/Images/services/smo-3.png';
 import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
+import { Helmet } from 'react-helmet';
 
 
 const SocialMediaOpt = () => {
@@ -32,6 +33,14 @@ const SocialMediaOpt = () => {
 
   return (
     <div>
+       <Helmet>
+                <meta name="title" content="Social Media Agency | Social Media Marketing & Optimization
+
+" />
+                <meta name="description" content="Our social media agency amplify your brand's reach by performing social media marketing and optimization strategies designed to engage your audience.
+
+" />
+            </Helmet>
       <InnerBanner title={"Social Media Optimization"}
         info={"Let’s Get Together to Make your Brand Reach More Customers by Using Social Media Optimization"}
       />

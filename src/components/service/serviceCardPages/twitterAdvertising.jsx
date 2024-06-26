@@ -9,6 +9,8 @@ import FullWidthCTASection from '../../common/FullWidthCTASection';
 import SectionTopInfo from '../../common/SectionTopInfo';
 import FAQs from '../../common/FAQs';
 
+import { Helmet } from 'react-helmet';
+
 const TwitterAdvertising = () => {
   const faqData = [
     {
@@ -27,6 +29,18 @@ const TwitterAdvertising = () => {
   ];
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Twitter Advertising | Targeted Twitter Campaigns
+"
+        />
+        <meta
+          name="description"
+          content="Maximize your business growth with WTechy's targeted Twitter campaigns. Elevate your online presence and reach your audience effectively. Contact us now!
+"
+        />
+      </Helmet>
       <InnerBanner
         title={"Twitter Advertising"}
         info={"Access the full potential of Twitter through Wtechy's targeted ads for real results."}

@@ -10,6 +10,8 @@ import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
 
+import { Helmet } from 'react-helmet';
+
 const ShopifyDevelopment = () => {
 
   const shopifyDevCardData = [
@@ -67,6 +69,10 @@ const ShopifyDevelopment = () => {
   ];
   return (
     <div>
+       <Helmet>
+                <meta name="title" content="Shopify Website Development Services |  Build Ecommerce Store" />
+                <meta name="description" content="Grow your online store with our Shopify Development Services. We build high-converting Shopify stores with tailored strategies and advanced optimization." />
+            </Helmet>
       <InnerBanner
         title={"Shopify Development"}
         info={'Create a High-End Website with Shopify and Add More Value to Your Business'}

@@ -8,6 +8,7 @@ import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
 import { FaArrowRight } from "react-icons/fa6";
+import { Helmet } from 'react-helmet';
 
 const ContentMarketing = () => {
 
@@ -135,6 +136,11 @@ const ContentMarketing = () => {
   ];
   return (
     <div>
+      <Helmet>
+        <meta name="title" content="Content Marketing Services: Drive More Revenue"/>
+        <meta name="description" content="Reach your audience with our content marketing services to help you create compelling content that builds brand awareness and drives results. Contact us today!"/>
+      </Helmet>
+      
       <InnerBanner
         title={"Content Marketing"}
         info={'Reach Out to Your Audience and Raise Brand Awareness with Our Content Marketing Services'}

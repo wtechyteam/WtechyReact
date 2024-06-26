@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { scrollTop } from './common/utils';
 import { FiClock } from "react-icons/fi";
 import LoadingSection from './common/loadingSection';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -49,6 +50,10 @@ const Insights = () => {
 
     return (
         <>
+        <Helmet>
+                <meta name="title" content="Digital Marketing Strategies - Read Our Expert Insights" />
+                <meta name="description" content="Find the latest insights into digital marketing strategies and trends on WTechy's blog. We reveal the secrets & best practices we use for our clients. Read more!" />
+            </Helmet>
             <InnerBanner title={'Insights'} info={'Get smarter marketing insights with Wtechy. Learn how to optimize campaigns, understand your audience, and make data-driven decisions to grow your business.'} />
             <section className='sectionPadding'>
                 <Container>

@@ -10,6 +10,8 @@ import SectionTopInfo from '../../../common/SectionTopInfo';
 import FullWidthCTASection from '../../../common/FullWidthCTASection';
 import FAQs from '../../../common/FAQs';
 
+import { Helmet } from 'react-helmet';
+
 const AmazonStore = () => {
 
   const amazonData = [
@@ -53,6 +55,18 @@ const AmazonStore = () => {
   ];
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Amazon Store Management Services - Optimize Your Sales
+"
+        />
+        <meta
+          name="description"
+          content="Increase sales with our Amazon store management services. We're a Amazon store management agency, help businesses to optimize listings & enhance brand presence.
+"
+        />
+      </Helmet>
       <InnerBanner
         title={"Amazon Store Management"}
         info={'Increase Your Sales with Help of the Leading Amazon Marketing Agency'}
