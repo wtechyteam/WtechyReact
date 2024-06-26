@@ -18,6 +18,7 @@ import RB from "./../assets/Images/homepage/team/RB.png";
 import rishita from "./../assets/Images/homepage/team/rishita.png";
 import Seema from "./../assets/Images/homepage/team/Seema.png";
 import yuvraj from "./../assets/Images/homepage/team/yuvraj.png";
+import KirtiGaba from "./../assets/Images/homepage/team/kirti-gaba.png"
 
 
 const serviceData = [
@@ -98,7 +99,7 @@ const teamsData = [
     {
         id: 1,
         image: Randeep,
-        video_url: "https://www.youtube.com/embed/5e75jeDjvwo?si=59aoUSpsoYP9ppLr",
+        video_url: "https://www.youtube.com/embed/8K1McjsydlQ",
         name: 'Randeep Singh',
         designation: 'Director ',
     },
@@ -151,13 +152,13 @@ const teamsData = [
         name: 'Naman Singh',
         designation: 'SEO expert ',
     },
-    // {
-    //     id: 9,
-    //     image: teamImage1,
-    //     video_url: "https://www.youtube.com/embed/yQQwb-CIvg0?si=dtIMUyen-BEEj5bZ",
-    //     name: 'Damini',
-    //     designation: 'Digital Marketing executive',
-    // },
+    {
+        id: 9,
+        image: KirtiGaba,
+        video_url: "",
+        name: 'Kirti Gaba',
+        designation: 'Technical SEO Expert',
+    },
 
 ];
 

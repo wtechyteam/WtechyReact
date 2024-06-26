@@ -7,6 +7,7 @@ import bannerImage2 from './../../../assets/Images/homepage/bannerInner2.jpg';
 import bannerImage3 from './../../../assets/Images/homepage/bannerInner3.jpg';
 import {scrollTop} from './../../common/utils'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const BannerSlider = () => {
   const bannerSliderSettings = {
@@ -22,6 +23,12 @@ const BannerSlider = () => {
   };
 
   return (
+    <>
+    <Helmet>
+    <meta name="title" content="Full-Stack Digital Marketing Agency: Scale Your Business" />
+    <meta name="description" content="Unlock growth with our full-stack digital marketing solution. Scale your business with proven strategies in SEO, PPC, Social media, Website design, and more." />
+    </Helmet>
+    
     <div className="banner-slider">
       <div className="hero-shapes">
         <div className="shape top-shape"></div>
@@ -54,7 +61,7 @@ const BannerSlider = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 
