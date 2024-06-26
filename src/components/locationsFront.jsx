@@ -22,7 +22,7 @@ const AustraliaStatesData = [
     { id: 3, title: "SouthAustralia", link: "/seo-services-south-australia" },
     { id: 4, title: "SouthWales", link: "/seo-services-south-wales" },
     { id: 5, title: "Queensland", link: "/seo-services-queensland" },
-    { id: 6, title: "Tasmania", link: "/seo-services-tasmania" }
+    
 ];
 
 const CanadaStatesData = [

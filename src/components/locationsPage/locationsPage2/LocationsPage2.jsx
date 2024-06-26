@@ -54,7 +54,7 @@
 
 // export default LocationsPage2;
 
-import React,  { useEffect, useState }  from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 
@@ -78,7 +78,7 @@ const LocationsPage2 = ({ pincodes }) => {
         return formattedTitle;
     }
 
-  
+
 
 
     return (
@@ -101,15 +101,17 @@ const LocationsPage2 = ({ pincodes }) => {
                         <div className="col-md-7">
                             <h3 className=''>Area We Cover in {city}</h3>
                             <table className="table table-bordered" margin="20px">
-                                <thead>
+                                {/* <thead>
                                     <tr>
                                         <th>Pincode</th>
                                     </tr>
-                                </thead>
+                                </thead> */}
                                 <tbody>
-                                    {pincodes.map((pincode, index) => (
-                                        <tr key={index}>
-                                            <td>{pincode}</td>
+                                    {[...Array(Math.ceil(pincodes.length / 4))].map((_, rowIndex) => (
+                                        <tr key={rowIndex}>
+                                            {pincodes.slice(rowIndex * 4, rowIndex * 4 + 4).map((pincode, index) => (
+                                                <td key={index}>{pincode}</td>
+                                            ))}
                                         </tr>
                                     ))}
                                 </tbody>
