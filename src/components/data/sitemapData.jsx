@@ -937,15 +937,6 @@ export const sitemapDataUSA = [
             pincodes: "San Angelo, Allen, Wichita Falls, League City, Tyler, Lewisville, Woodlands, College Station, Beaumont, Sugar Land, Abilene, Richardson, Odessa, Round Rock, Pearland, Carrollton, Waco, Denton, Midland, Mesquite City, McAllen, Killeen, Brownsville, Frisco, McKinney, Grand Prairie, Amarillo, Garland, Irving, Lubbock, Laredo, Corpus Christi, Plano, Arlington, El Paso, Fort Worth, Austin, San Antonio, Dallas, Houston"
         }]
     },
-    // {
-    //     id: 100,
-    //     title: "Florida",
-    //     link: "/seo-services-florida",
-    //     URL: "https://www.wtechy.com/seo-services-in-florida-usa/",
-    //     sublinks: [{
-    //         pincodes: "San Angelo, Allen, Wichita Falls, League City, Tyler, Lewisville, Woodlands, College Station, Beaumont, Sugar Land, Abilene, Richardson, Odessa, Round Rock, Pearland, Carrollton, Waco, Denton, Midland, Mesquite City, McAllen, Killeen, Brownsville, Frisco, McKinney, Grand Prairie, Amarillo, Garland, Irving, Lubbock, Laredo, Corpus Christi, Plano, Arlington, El Paso, Fort Worth, Austin, San Antonio, Dallas, Houston"
-    //     }]
-    // },
     {
         id: 101,
         title: "San Angelo",
@@ -1316,7 +1307,7 @@ export const sitemapDataUSA = [
         link: "/seo-services-florida",
         URL: "https://www.wtechy.com/seo-services-in-florida-usa/",
         sublinks: [{
-            pincodes: "Miami, Tamiami, Boynton Beach, Palm Coast, Jacksonville, Palm Beach Gardens, Bradenton, Bonita Springs, Sarasota, Margate, Fountainebleau, Ocala, Sanford, Wesley Chapel, Palm Harbor, Coconut Creek, Doral, North Miami, The Hammocks, Port Orange, Port Charlotte, Wellington, Jupiter, Tamarac, Daytona Beach, Poinciana, North Port, Homestead, Weston, Lauderhill, Kissimmee, Kendall, Deerfield Beach, Pine Hills, Melbourne, The Villages, Fort Myers, Largo, Miami Beach, Town 'n' Country, Alafaya, Deltona, Plantation City, Sunrise, Riverview, Boca Raton, Davie, Lakeland, Miami Gardens, West Palm Beach, Pompano Beach, Spring Hill, Palm Bay, Brandon, Clearwater, Lehigh Acres, Coral Springs, Gainesville, Miramar, Hollywood, Pembroke Pines, Fort Lauderdale, Cape Coral, Tallahassee, Port St. Lucie, Hialeah, St. Petersburg, Orlando, Tampa" // Add pincodes here if available, e.g., "12345,67890"
+            pincodes: "Miami, Tamiami, Boynton Beach, Palm Coast, Jacksonville, Palm Beach Gardens, Bradenton, Bonita Springs, Sarasota, Margate, Fountainebleau, Ocala, Sanford, Wesley Chapel, Palm Harbor, Coconut Creek, Doral, North Miami, The Hammocks, Port Orange, Port Charlotte, Wellington, Jupiter, Tamarac, Daytona Beach, Poinciana, North Port, Homestead, Weston, Lauderhill, Kissimmee, Kendall, Deerfield Beach, Pine Hills, Melbourne, The Villages, Fort Myers, Largo, Miami Beach, Town 'n' Country, Alafaya, Deltona, Plantation City, Sunrise, Riverview, Boca Raton, Davie, Lakeland, Miami Gardens, West Palm Beach, Pompano Beach, Spring Hill, Palm Bay, Brandon, Clearwater, Lehigh Acres, Coral Springs, Gainesville, Miramar, Hollywood, Pembroke Pines, Fort Lauderdale, Cape Coral, Tallahassee, Port St Lucie, Hialeah, St Petersburg, Orlando, Tampa" // Add pincodes here if available, e.g., "12345,67890"
         }]
     },
     {
@@ -1334,7 +1325,7 @@ export const sitemapDataUSA = [
         link: "/seo-services-tamiami",
         URL: "https://www.wtechy.com/seo-services-in-tamiami-florida/",
         sublinks: [{
-            pincodes: "" // Add pincodes here if available
+            pincodes: "1234,12344" // Add pincodes here if available
         }]
     },
     {
@@ -1897,7 +1888,7 @@ export const sitemapDataUSA = [
     },
     {
         id: 206,
-        title: "Port St. Lucie",
+        title: "Port St Lucie",
         link: "/seo-services-port-st-lucie",
         URL: "https://www.wtechy.com/seo-services-in-port-st-lucie-florida/",
         sublinks: [{
@@ -1915,7 +1906,7 @@ export const sitemapDataUSA = [
     },
     {
         id: 208,
-        title: "St. Petersburg",
+        title: "St Petersburg",
         link: "/seo-services-st-petersburg",
         URL: "https://www.wtechy.com/seo-services-in-st-petersburg-florida/",
         sublinks: [{
@@ -2006,8 +1997,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 55,
-        title: "Kalgoorlie-Boulder",
-        link: "/seo-services-kalgoorlie-boulder",
+        title: "Kalgoorlie",
+        link: "/seo-services-kalgoorlie",
         URL: "https://www.wtechy.com/seo-services-in-kalgoorlie-boulder-western-australia/",
         sublinks: [
             { pincodes: "6430" }
