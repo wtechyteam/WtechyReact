@@ -1321,8 +1321,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 142,
-        title: "Miami Florida",
-        link: "/seo-services-miami-florida",
+        title: "Miami",
+        link: "/seo-services-miami",
         URL: "https://www.wtechy.com/seo-services-miami-florida/",
         sublinks: [{
             pincodes: "33101,33102" // Example pincodes
@@ -1330,8 +1330,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 143,
-        title: "Tamiami Florida",
-        link: "/seo-services-tamiami-florida",
+        title: "Tamiami",
+        link: "/seo-services-tamiami",
         URL: "https://www.wtechy.com/seo-services-in-tamiami-florida/",
         sublinks: [{
             pincodes: "" // Add pincodes here if available
@@ -1339,8 +1339,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 144,
-        title: "Boynton Beach Florida",
-        link: "/seo-services-boynton-beach-florida",
+        title: "Boynton Beach",
+        link: "/seo-services-boynton-beach",
         URL: "https://www.wtechy.com/seo-services-in-boynton-beach-florida/",
         sublinks: [{
             pincodes: "33426,33435" // Example pincodes
@@ -1366,8 +1366,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 147,
-        title: "Palm Beach Gardens Florida",
-        link: "/seo-services-palm-beach-gardens-florida",
+        title: "Palm Beach Gardens",
+        link: "/seo-services-palm-beach-gardens",
         URL: "https://www.wtechy.com/seo-services-in-palm-beach-gardens-florida/",
         sublinks: [{
             pincodes: "33410,33418" // Example pincodes
@@ -1375,8 +1375,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 148,
-        title: "Bradenton Florida",
-        link: "/seo-services-bradenton-florida",
+        title: "Bradenton",
+        link: "/seo-services-bradenton",
         URL: "https://www.wtechy.com/seo-services-in-bradenton-florida/",
         sublinks: [{
             pincodes: "34201,34202" // Example pincodes
@@ -1384,269 +1384,269 @@ export const sitemapDataUSA = [
     },
     {
         id: 149,
-        title: "Bonita Springs Florida",
-        link: "/seo-services-bonita-springs-florida",
+        title: "Bonita Springs",
+        link: "/seo-services-bonita-springs",
         URL: "https://www.wtechy.com/seo-services-in-bonita-springs-florida/",
         sublinks: [{
-            pincodes: "34133,34135" // Example pincodes
+            pincodes: "34133,34135"
         }]
     },
     {
         id: 150,
-        title: "Sarasota Florida",
-        link: "/seo-services-sarasota-florida",
+        title: "Sarasota",
+        link: "/seo-services-sarasota",
         URL: "https://www.wtechy.com/seo-services-in-sarasota-florida/",
         sublinks: [{
-            pincodes: "34230,34231" // Example pincodes
+            pincodes: "34230,34231"
         }]
     },
     {
         id: 151,
-        title: "Margate Florida",
-        link: "/seo-services-margate-florida",
+        title: "Margate",
+        link: "/seo-services-margate",
         URL: "https://www.wtechy.com/seo-services-in-margate-florida/",
         sublinks: [{
-            pincodes: "33063,33068" // Example pincodes
+            pincodes: "33063,33068"
         }]
     },
     {
         id: 152,
-        title: "Fountainebleau Florida",
-        link: "/seo-services-fountainebleau-florida",
+        title: "Fountainebleau",
+        link: "/seo-services-fountainebleau",
         URL: "https://www.wtechy.com/seo-services-in-fountainebleau-florida/",
         sublinks: [{
-            pincodes: "33172,33174" // Example pincodes
+            pincodes: "33172,33174"
         }]
     },
     {
         id: 153,
-        title: "Ocala Florida",
-        link: "/seo-services-ocala-florida",
+        title: "Ocala",
+        link: "/seo-services-ocala",
         URL: "https://www.wtechy.com/seo-services-in-ocala-florida/",
         sublinks: [{
-            pincodes: "34470,34471" // Example pincodes
+            pincodes: "34470,34471"
         }]
     },
     {
         id: 154,
-        title: "Sanford Florida",
-        link: "/seo-services-sanford-florida",
+        title: "Sanford",
+        link: "/seo-services-sanford",
         URL: "https://www.wtechy.com/seo-services-in-sanford-florida/",
         sublinks: [{
-            pincodes: "32771,32773" // Example pincodes
+            pincodes: "32771,32773"
         }]
     },
     {
         id: 155,
-        title: "Wesley Chapel Florida",
-        link: "/seo-services-wesley-chapel-florida",
+        title: "Wesley Chapel",
+        link: "/seo-services-wesley-chapel",
         URL: "https://www.wtechy.com/seo-services-in-wesley-chapel-florida/",
         sublinks: [{
-            pincodes: "33543,33544" // Example pincodes
+            pincodes: "33543,33544"
         }]
     },
     {
         id: 156,
-        title: "Palm Harbor Florida",
-        link: "/seo-services-palm-harbor-florida",
+        title: "Palm Harbor",
+        link: "/seo-services-palm-harbor",
         URL: "https://www.wtechy.com/seo-services-in-palm-harbor-florida/",
         sublinks: [{
-            pincodes: "34683,34684" // Example pincodes
+            pincodes: "34683,34684"
         }]
     },
     {
         id: 157,
-        title: "Coconut Creek Florida",
-        link: "/seo-services-coconut-creek-florida",
+        title: "Coconut Creek",
+        link: "/seo-services-coconut-creek",
         URL: "https://www.wtechy.com/seo-services-in-coconut-creek-florida/",
         sublinks: [{
-            pincodes: "33063,33066" // Example pincodes
+            pincodes: "33063,33066"
         }]
     },
     {
         id: 158,
-        title: "Doral Florida",
-        link: "/seo-services-doral-florida",
+        title: "Doral",
+        link: "/seo-services-doral",
         URL: "https://www.wtechy.com/seo-services-in-doral-florida/",
         sublinks: [{
-            pincodes: "33122,33126" // Example pincodes
+            pincodes: "33122,33126"
         }]
     },
     {
         id: 159,
-        title: "North Miami Florida",
-        link: "/seo-services-north-miami-florida",
+        title: "North Miami",
+        link: "/seo-services-north-miami",
         URL: "https://www.wtechy.com/seo-services-in-north-miami-florida/",
         sublinks: [{
-            pincodes: "33161,33168" // Example pincodes
+            pincodes: "33161,33168"
         }]
     },
     {
         id: 160,
-        title: "The Hammocks Florida",
-        link: "/seo-services-the-hammocks-florida",
+        title: "The Hammocks",
+        link: "/seo-services-the-hammocks",
         URL: "https://www.wtechy.com/seo-services-in-the-hammocks-florida/",
         sublinks: [{
-            pincodes: "33196,33193" // Example pincodes
+            pincodes: "33196,33193"
         }]
     },
     {
         id: 161,
-        title: "Port Orange Florida",
-        link: "/seo-services-port-orange-florida",
+        title: "Port Orange",
+        link: "/seo-services-port-orange",
         URL: "https://www.wtechy.com/seo-services-in-port-orange-florida/",
         sublinks: [{
-            pincodes: "32127,32129" // Example pincodes
+            pincodes: "32127,32129"
         }]
     },
     {
         id: 162,
-        title: "Port Charlotte Florida",
-        link: "/seo-services-port-charlotte-florida",
+        title: "Port Charlotte",
+        link: "/seo-services-port-charlotte",
         URL: "https://www.wtechy.com/seo-services-in-port-charlotte-florida/",
         sublinks: [{
-            pincodes: "33948,33952" // Example pincodes
+            pincodes: "33948,33952"
         }]
     },
     {
         id: 163,
-        title: "Wellington Florida",
-        link: "/seo-services-wellington-florida",
+        title: "Wellington",
+        link: "/seo-services-wellington",
         URL: "https://www.wtechy.com/seo-services-in-wellington-florida/",
         sublinks: [{
-            pincodes: "33414,33449" // Example pincodes
+            pincodes: "33414,33449"
         }]
     },
     {
         id: 164,
-        title: "Jupiter Florida",
-        link: "/seo-services-jupiter-florida",
+        title: "Jupiter",
+        link: "/seo-services-jupiter",
         URL: "https://www.wtechy.com/seo-services-in-jupiter-florida/",
         sublinks: [{
-            pincodes: "33458,33469" // Example pincodes
+            pincodes: "33458,33469"
         }]
     },
     {
         id: 165,
-        title: "Tamarac Florida",
-        link: "/seo-services-tamarac-florida",
+        title: "Tamarac",
+        link: "/seo-services-tamarac",
         URL: "https://www.wtechy.com/seo-services-in-tamarac-florida/",
         sublinks: [{
-            pincodes: "33321,33319" // Example pincodes
+            pincodes: "33321,33319"
         }]
     },
     {
         id: 166,
-        title: "Daytona Beach Florida",
-        link: "/seo-services-daytona-beach-florida",
+        title: "Daytona Beach",
+        link: "/seo-services-daytona-beach",
         URL: "https://www.wtechy.com/seo-services-in-daytona-beach-florida/",
         sublinks: [{
-            pincodes: "32114,32118" // Example pincodes
+            pincodes: "32114,32118"
         }]
     },
     {
         id: 167,
-        title: "Poinciana Florida",
-        link: "/seo-services-poinciana-florida",
+        title: "Poinciana",
+        link: "/seo-services-poinciana",
         URL: "https://www.wtechy.com/seo-services-in-poinciana-florida/",
         sublinks: [{
-            pincodes: "34758,34759" // Example pincodes
+            pincodes: "34758,34759"
         }]
     },
     {
         id: 168,
-        title: "North Port Florida",
-        link: "/seo-services-north-port-florida",
+        title: "North Port",
+        link: "/seo-services-north-port",
         URL: "https://www.wtechy.com/seo-services-in-north-port-florida/",
         sublinks: [{
-            pincodes: "34286,34287" // Example pincodes
+            pincodes: "34286,34287"
         }]
     },
     {
         id: 169,
-        title: "Homestead Florida",
-        link: "/seo-services-homestead-florida",
+        title: "Homestead",
+        link: "/seo-services-homestead",
         URL: "https://www.wtechy.com/seo-services-in-homestead-florida/",
         sublinks: [{
-            pincodes: "33030,33031" // Example pincodes
+            pincodes: "33030,33031"
         }]
     },
     {
         id: 170,
-        title: "Weston Florida",
-        link: "/seo-services-weston-florida",
+        title: "Weston",
+        link: "/seo-services-weston",
         URL: "https://www.wtechy.com/seo-services-in-weston-florida/",
         sublinks: [{
-            pincodes: "33326,33327" // Example pincodes
+            pincodes: "33326,33327"
         }]
     },
     {
         id: 171,
-        title: "Lauderhill Florida",
-        link: "/seo-services-lauderhill-florida",
+        title: "Lauderhill",
+        link: "/seo-services-lauderhill",
         URL: "https://www.wtechy.com/seo-services-in-lauderhill-florida/",
         sublinks: [{
-            pincodes: "33311,33313" // Example pincodes
+            pincodes: "33311,33313"
         }]
     },
     {
         id: 172,
-        title: "Kissimmee Florida",
-        link: "/seo-services-kissimmee-florida",
+        title: "Kissimmee",
+        link: "/seo-services-kissimmee",
         URL: "https://www.wtechy.com/seo-services-in-kissimmee-florida/",
         sublinks: [{
-            pincodes: "34741,34746" // Example pincodes
+            pincodes: "34741,34746"
         }]
     },
     {
         id: 173,
-        title: "Kendall Florida",
-        link: "/seo-services-kendall-florida",
+        title: "Kendall",
+        link: "/seo-services-kendall",
         URL: "https://www.wtechy.com/seo-services-in-kendall-florida/",
         sublinks: [{
-            pincodes: "33176,33183" // Example pincodes
+            pincodes: "33176,33183"
         }]
     },
     {
         id: 174,
-        title: "Deerfield Beach Florida",
-        link: "/seo-services-deerfield-beach-florida",
+        title: "Deerfield Beach",
+        link: "/seo-services-deerfield-beach",
         URL: "https://www.wtechy.com/seo-services-in-deerfield-beach-florida/",
         sublinks: [{
-            pincodes: "33441,33442" // Example pincodes
+            pincodes: "33441,33442"
         }]
     },
     {
         id: 175,
-        title: "Pine Hills Florida",
-        link: "/seo-services-pine-hills-florida",
+        title: "Pine Hills",
+        link: "/seo-services-pine-hills",
         URL: "https://www.wtechy.com/seo-services-in-pine-hills-florida/",
         sublinks: [{
-            pincodes: "32808,32818" // Example pincodes
+            pincodes: "32808,32818"
         }]
     },
     {
         id: 176,
-        title: "Melbourne Florida",
-        link: "/seo-services-melbourne-florida",
+        title: "Melbourne",
+        link: "/seo-services-melbourne",
         URL: "https://www.wtechy.com/seo-services-in-melbourne-florida/",
         sublinks: [{
-            pincodes: "32901,32904" // Example pincodes
+            pincodes: "32901,32904"
         }]
     },
     {
         id: 177,
-        title: "The Villages Florida",
-        link: "/seo-services-the-villages-florida",
+        title: "The Villages",
+        link: "/seo-services-the-villages",
         URL: "https://www.wtechy.com/seo-services-in-the-villages-florida/",
         sublinks: [{
-            pincodes: "32162,32163" // Example pincodes
+            pincodes: "32162,32163"
         }]
     },
     {
         id: 178,
-        title: "Fort Myers Florida",
-        link: "/seo-services-fort-myers-florida",
+        title: "Fort Myers",
+        link: "/seo-services-fort-myers",
         URL: "https://www.wtechy.com/seo-services-in-fort-myers-florida/",
         sublinks: [{
             pincodes: "33901,33907" // Example pincodes
@@ -1654,8 +1654,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 179,
-        title: "Largo Florida",
-        link: "/seo-services-largo-florida",
+        title: "Largo",
+        link: "/seo-services-largo",
         URL: "https://www.wtechy.com/seo-services-in-largo-florida/",
         sublinks: [{
             pincodes: "33770,33774" // Example pincodes
@@ -1663,8 +1663,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 180,
-        title: "Miami Beach Florida",
-        link: "/seo-services-miami-beach-florida",
+        title: "Miami Beach",
+        link: "/seo-services-miami-beach",
         URL: "https://www.wtechy.com/seo-services-in-miami-beach-florida/",
         sublinks: [{
             pincodes: "33109,33139" // Example pincodes
@@ -1672,8 +1672,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 181,
-        title: "Town 'n' Country Florida",
-        link: "/seo-services-town-n-country-florida",
+        title: "Town 'n' Country",
+        link: "/seo-services-town-n-country",
         URL: "https://www.wtechy.com/seo-services-in-town-n-country-florida/",
         sublinks: [{
             pincodes: "33615,33634" // Example pincodes
@@ -1681,8 +1681,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 182,
-        title: "Alafaya Florida",
-        link: "/seo-services-alafaya-florida",
+        title: "Alafaya",
+        link: "/seo-services-alafaya",
         URL: "https://www.wtechy.com/seo-services-in-alafaya-florida/",
         sublinks: [{
             pincodes: "32817,32828" // Example pincodes
@@ -1690,8 +1690,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 183,
-        title: "Deltona Florida",
-        link: "/seo-services-deltona-florida",
+        title: "Deltona",
+        link: "/seo-services-deltona",
         URL: "https://www.wtechy.com/seo-services-in-deltona-florida/",
         sublinks: [{
             pincodes: "32725,32738" // Example pincodes
@@ -1699,8 +1699,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 184,
-        title: "Plantation City Florida",
-        link: "/seo-services-plantation-city-florida",
+        title: "Plantation City",
+        link: "/seo-services-plantation-city",
         URL: "https://www.wtechy.com/seo-services-in-plantation-city-florida/",
         sublinks: [{
             pincodes: "33317,33324" // Example pincodes
@@ -1708,8 +1708,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 185,
-        title: "Sunrise Florida",
-        link: "/seo-services-sunrise-florida",
+        title: "Sunrise",
+        link: "/seo-services-sunrise",
         URL: "https://www.wtechy.com/seo-services-in-sunrise-florida/",
         sublinks: [{
             pincodes: "33313,33323" // Example pincodes
@@ -1717,8 +1717,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 186,
-        title: "Riverview Florida",
-        link: "/seo-services-riverview-florida",
+        title: "Riverview",
+        link: "/seo-services-riverview",
         URL: "https://www.wtechy.com/seo-services-in-riverview-florida/",
         sublinks: [{
             pincodes: "33569,33578" // Example pincodes
@@ -1726,8 +1726,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 187,
-        title: "Boca Raton Florida",
-        link: "/seo-services-boca-raton-florida",
+        title: "Boca Raton",
+        link: "/seo-services-boca-raton",
         URL: "https://www.wtechy.com/seo-services-in-boca-raton-florida/",
         sublinks: [{
             pincodes: "33427,33431" // Example pincodes
@@ -1735,8 +1735,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 188,
-        title: "Davie Florida",
-        link: "/seo-services-davie-florida",
+        title: "Davie",
+        link: "/seo-services-davie",
         URL: "https://www.wtechy.com/seo-services-in-davie-florida/",
         sublinks: [{
             pincodes: "33312,33314" // Example pincodes
@@ -1744,8 +1744,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 189,
-        title: "Lakeland Florida",
-        link: "/seo-services-lakeland-florida",
+        title: "Lakeland",
+        link: "/seo-services-lakeland",
         URL: "https://www.wtechy.com/seo-services-in-lakeland-florida/",
         sublinks: [{
             pincodes: "33801,33803" // Example pincodes
@@ -1753,8 +1753,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 190,
-        title: "Miami Gardens Florida",
-        link: "/seo-services-miami-gardens-florida",
+        title: "Miami Gardens",
+        link: "/seo-services-miami-gardens",
         URL: "https://www.wtechy.com/seo-services-in-miami-gardens-florida/",
         sublinks: [{
             pincodes: "33054,33056" // Example pincodes
@@ -1762,8 +1762,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 191,
-        title: "West Palm Beach Florida",
-        link: "/seo-services-west-palm-beach-florida",
+        title: "West Palm Beach",
+        link: "/seo-services-west-palm-beach",
         URL: "https://www.wtechy.com/seo-services-in-west-palm-beach-florida/",
         sublinks: [{
             pincodes: "33401,33405" // Example pincodes
@@ -1771,8 +1771,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 192,
-        title: "Pompano Beach Florida",
-        link: "/seo-services-pompano-beach-florida",
+        title: "Pompano Beach",
+        link: "/seo-services-pompano-beach",
         URL: "https://www.wtechy.com/seo-services-in-pompano-beach-florida/",
         sublinks: [{
             pincodes: "33060,33069" // Example pincodes
@@ -1780,8 +1780,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 193,
-        title: "Spring Hill Florida",
-        link: "/seo-services-spring-hill-florida",
+        title: "Spring Hill",
+        link: "/seo-services-spring-hill",
         URL: "https://www.wtechy.com/seo-services-in-spring-hill-florida/",
         sublinks: [{
             pincodes: "34606,34609" // Example pincodes
@@ -1789,8 +1789,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 194,
-        title: "Palm Bay Florida",
-        link: "/seo-services-palm-bay-florida",
+        title: "Palm Bay",
+        link: "/seo-services-palm-bay",
         URL: "https://www.wtechy.com/seo-services-in-palm-bay-florida/",
         sublinks: [{
             pincodes: "32905,32909" // Example pincodes
@@ -1798,8 +1798,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 195,
-        title: "Brandon Florida",
-        link: "/seo-services-brandon-florida",
+        title: "Brandon",
+        link: "/seo-services-brandon",
         URL: "https://www.wtechy.com/seo-services-in-brandon-florida/",
         sublinks: [{
             pincodes: "33510,33511" // Example pincodes
@@ -1807,8 +1807,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 196,
-        title: "Clearwater Florida",
-        link: "/seo-services-clearwater-florida",
+        title: "Clearwater",
+        link: "/seo-services-clearwater",
         URL: "https://www.wtechy.com/seo-services-in-clearwater-florida/",
         sublinks: [{
             pincodes: "33755,33764" // Example pincodes
@@ -1816,8 +1816,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 197,
-        title: "Lehigh Acres Florida",
-        link: "/seo-services-lehigh-acres-florida",
+        title: "Lehigh Acres",
+        link: "/seo-services-lehigh-acres",
         URL: "https://www.wtechy.com/seo-services-in-lehigh-acres-florida/",
         sublinks: [{
             pincodes: "33936,33971" // Example pincodes
@@ -1825,8 +1825,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 198,
-        title: "Coral Springs Florida",
-        link: "/seo-services-coral-springs-florida",
+        title: "Coral Springs",
+        link: "/seo-services-coral-springs",
         URL: "https://www.wtechy.com/seo-services-in-coral-springs-florida/",
         sublinks: [{
             pincodes: "33065,33071" // Example pincodes
@@ -1834,8 +1834,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 199,
-        title: "Gainesville Florida",
-        link: "/seo-services-gainesville-florida",
+        title: "Gainesville",
+        link: "/seo-services-gainesville",
         URL: "https://www.wtechy.com/seo-services-in-gainesville-florida/",
         sublinks: [{
             pincodes: "32601,32608" // Example pincodes
@@ -1843,8 +1843,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 200,
-        title: "Miramar Florida",
-        link: "/seo-services-miramar-florida",
+        title: "Miramar",
+        link: "/seo-services-miramar",
         URL: "https://www.wtechy.com/seo-services-in-miramar-florida/",
         sublinks: [{
             pincodes: "33023,33027" // Example pincodes
@@ -1852,8 +1852,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 201,
-        title: "Hollywood Florida",
-        link: "/seo-services-hollywood-florida",
+        title: "Hollywood",
+        link: "/seo-services-hollywood",
         URL: "https://www.wtechy.com/seo-services-in-hollywood-florida/",
         sublinks: [{
             pincodes: "33019,33021" // Example pincodes
@@ -1861,8 +1861,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 202,
-        title: "Pembroke Pines Florida",
-        link: "/seo-services-pembroke-pines-florida",
+        title: "Pembroke Pines",
+        link: "/seo-services-pembroke-pines",
         URL: "https://www.wtechy.com/seo-services-in-pembroke-pines-florida/",
         sublinks: [{
             pincodes: "33023,33029" // Example pincodes
@@ -1870,8 +1870,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 203,
-        title: "Fort Lauderdale Florida",
-        link: "/seo-services-fort-lauderdale-florida",
+        title: "Fort Lauderdale",
+        link: "/seo-services-fort-lauderdale",
         URL: "https://www.wtechy.com/seo-services-in-fort-lauderdale-florida/",
         sublinks: [{
             pincodes: "33301,33304" // Example pincodes
@@ -1879,8 +1879,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 204,
-        title: "Cape Coral Florida",
-        link: "/seo-services-cape-coral-florida",
+        title: "Cape Coral",
+        link: "/seo-services-cape-coral",
         URL: "https://www.wtechy.com/seo-services-in-cape-coral-florida/",
         sublinks: [{
             pincodes: "33904,33914" // Example pincodes
@@ -1888,8 +1888,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 205,
-        title: "Tallahassee Florida",
-        link: "/seo-services-tallahassee-florida",
+        title: "Tallahassee",
+        link: "/seo-services-tallahassee",
         URL: "https://www.wtechy.com/seo-services-in-tallahassee-florida/",
         sublinks: [{
             pincodes: "32301,32304" // Example pincodes
@@ -1897,8 +1897,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 206,
-        title: "Port St. Lucie Florida",
-        link: "/seo-services-port-st-lucie-florida",
+        title: "Port St. Lucie",
+        link: "/seo-services-port-st-lucie",
         URL: "https://www.wtechy.com/seo-services-in-port-st-lucie-florida/",
         sublinks: [{
             pincodes: "34952,34986" // Example pincodes
@@ -1906,8 +1906,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 207,
-        title: "Hialeah Florida",
-        link: "/seo-services-hialeah-florida",
+        title: "Hialeah",
+        link: "/seo-services-hialeah",
         URL: "https://www.wtechy.com/seo-services-in-hialeah-florida/",
         sublinks: [{
             pincodes: "33010,33012" // Example pincodes
@@ -1915,8 +1915,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 208,
-        title: "St. Petersburg Florida",
-        link: "/seo-services-st-petersburg-florida",
+        title: "St. Petersburg",
+        link: "/seo-services-st-petersburg",
         URL: "https://www.wtechy.com/seo-services-in-st-petersburg-florida/",
         sublinks: [{
             pincodes: "33701,33705" // Example pincodes
@@ -1924,8 +1924,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 209,
-        title: "Orlando Florida",
-        link: "/seo-services-orlando-florida",
+        title: "Orlando",
+        link: "/seo-services-orlando",
         URL: "https://www.wtechy.com/seo-services-in-orlando-florida/",
         sublinks: [{
             pincodes: "32801,32803" // Example pincodes
@@ -1933,8 +1933,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 210,
-        title: "Tampa Florida",
-        link: "/seo-services-tampa-florida",
+        title: "Tampa",
+        link: "/seo-services-tampa",
         URL: "https://www.wtechy.com/seo-services-in-tampa-florida/",
         sublinks: [{
             pincodes: "33602,33607" // Example pincodes
@@ -1942,8 +1942,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 211,
-        title: "Boynton Beach Florida",
-        link: "/seo-services-boynton-beach-florida",
+        title: "Boynton Beach",
+        link: "/seo-services-boynton-beach",
         URL: "https://www.wtechy.com/seo-services-in-boynton-beach-florida/",
         sublinks: [{
             pincodes: "33426,33435" // Example pincodes
@@ -1951,8 +1951,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 212,
-        title: "Palm Coast Florida",
-        link: "/seo-services-palm-coast-florida",
+        title: "Palm Coast",
+        link: "/seo-services-palm-coast",
         URL: "https://www.wtechy.com/seo-services-in-palm-coast-florida/",
         sublinks: [{
             pincodes: "32137,32164" // Example pincodes
@@ -1960,18 +1960,18 @@ export const sitemapDataUSA = [
     },
     {
         id: 213,
-        title: "Delray Beach Florida",
-        link: "/seo-services-delray-beach-florida",
+        title: "Delray Beach",
+        link: "/seo-services-delray-beach",
         URL: "https://www.wtechy.com/seo-services-in-delray-beach-florida/",
         sublinks: [{
-            pincodes: "" // Add pincodes here if available
+            pincodes: "11212,23245" // Add pincodes here if available
         }]
     },
     //Western Australia
     {
         id: 1,
         title: "Western Australia",
-        link: "/seo-services-in-western-australia",
+        link: "/seo-services-western-australia",
         URL: "https://www.wtechy.com/seo-services-in-australia/",
         sublinks: [
             { pincodes: "karratha, busselton, albany, kalgoorlie, rockingham, geraldton, bunbury, perth, " }
@@ -1979,8 +1979,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 2,
-        title: "Karratha, Western Australia",
-        link: "/seo-services-in-karratha-western-australia",
+        title: "Karratha",
+        link: "/seo-services-karratha",
         URL: "https://www.wtechy.com/seo-services-in-karratha-western-australia/",
         sublinks: [
             { pincodes: "6714, 6718" }
@@ -1988,8 +1988,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 3,
-        title: "Busselton, Western Australia",
-        link: "/seo-services-in-busselton-western-australia",
+        title: "Busselton",
+        link: "/seo-services-busselton",
         URL: "https://www.wtechy.com/seo-services-in-busselton-western-australia/",
         sublinks: [
             { pincodes: "6280" }
@@ -1997,8 +1997,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 4,
-        title: "Albany, Western Australia",
-        link: "/seo-services-in-albany-western-australia",
+        title: "Albany",
+        link: "/seo-services-albany",
         URL: "https://www.wtechy.com/seo-services-in-albany-western-australia/",
         sublinks: [
             { pincodes: "6330" }
@@ -2006,8 +2006,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 55,
-        title: "Kalgoorlie-Boulder, Western Australia",
-        link: "/seo-services-in-kalgoorlie-boulder-western-australia",
+        title: "Kalgoorlie-Boulder",
+        link: "/seo-services-kalgoorlie-boulder",
         URL: "https://www.wtechy.com/seo-services-in-kalgoorlie-boulder-western-australia/",
         sublinks: [
             { pincodes: "6430" }
@@ -2015,8 +2015,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 56,
-        title: "Rockingham, Western Australia",
-        link: "/seo-services-in-rockingham-western-australia",
+        title: "Rockingham",
+        link: "/seo-services-rockingham",
         URL: "https://www.wtechy.com/seo-services-in-rockingham-western-australia/",
         sublinks: [
             { pincodes: "6168" }
@@ -2024,8 +2024,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 57,
-        title: "Geraldton, Western Australia",
-        link: "/seo-services-in-geraldton-western-australia",
+        title: "Geraldton",
+        link: "/seo-services-geraldton",
         URL: "https://www.wtechy.com/seo-services-in-geraldton-western-australia/",
         sublinks: [
             { pincodes: "6530" }
@@ -2033,8 +2033,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 58,
-        title: "Bunbury, Western Australia",
-        link: "/seo-services-in-bunbury-western-australia",
+        title: "Bunbury",
+        link: "/seo-services-bunbury",
         URL: "https://www.wtechy.com/seo-services-in-bunbury-western-australia/",
         sublinks: [
             { pincodes: "6230" }
@@ -2042,8 +2042,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 59,
-        title: "Perth, Western Australia",
-        link: "/seo-services-in-perth-western-australia",
+        title: "Perth",
+        link: "/seo-services-perth",
         URL: "https://www.wtechy.com/seo-services-in-perth-western-australia/",
         sublinks: [
             { pincodes: "6000" }
@@ -2063,7 +2063,7 @@ export const sitemapDataUSA = [
     {
         id: 5,
         title: "Wangaratta",
-        link: "/seo-services-in-wangaratta-victoria",
+        link: "/seo-services-wangaratta",
         URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
         sublinks: [
             { pincodes: "3677" }
@@ -2072,7 +2072,7 @@ export const sitemapDataUSA = [
     {
         id: 6,
         title: "Traralgon",
-        link: "/seo-services-in-traralgon-victoria",
+        link: "/seo-services-traralgon",
         URL: "https://www.wtechy.com/seo-services-in-traralgon-victoria/",
         sublinks: [
             { pincodes: "3844" }
@@ -2081,7 +2081,7 @@ export const sitemapDataUSA = [
     {
         id: 7,
         title: "Warrnambool",
-        link: "/seo-services-in-warrnambool-victoria",
+        link: "/seo-services-warrnambool",
         URL: "https://www.wtechy.com/seo-services-in-warrnambool-victoria/",
         sublinks: [
             { pincodes: "3280" }
@@ -2090,7 +2090,7 @@ export const sitemapDataUSA = [
     {
         id: 8,
         title: "Sunbury",
-        link: "/seo-services-in-sunbury-victoria",
+        link: "/seo-services-sunbury",
         URL: "https://www.wtechy.com/seo-services-in-sunbury-victoria/",
         sublinks: [
             { pincodes: "3429" }
@@ -2099,7 +2099,7 @@ export const sitemapDataUSA = [
     {
         id: 9,
         title: "Wodonga",
-        link: "/seo-services-in-wodonga-victoria",
+        link: "/seo-services-wodonga",
         URL: "https://www.wtechy.com/seo-services-in-wodonga-victoria/",
         sublinks: [
             { pincodes: "3690" }
@@ -2108,7 +2108,7 @@ export const sitemapDataUSA = [
     {
         id: 10,
         title: "Mooroopna",
-        link: "/seo-services-in-mooroopna-victoria",
+        link: "/seo-services-mooroopna",
         URL: "https://www.wtechy.com/seo-services-in-mooroopna-victoria/",
         sublinks: [
             { pincodes: "3629" }
@@ -2117,7 +2117,7 @@ export const sitemapDataUSA = [
     {
         id: 11,
         title: "Shepparton",
-        link: "/seo-services-in-shepparton-victoria",
+        link: "/seo-services-shepparton",
         URL: "https://www.wtechy.com/seo-services-in-shepparton-victoria/",
         sublinks: [
             { pincodes: "3630" }
@@ -2126,7 +2126,7 @@ export const sitemapDataUSA = [
     {
         id: 12,
         title: "Pakenham",
-        link: "/seo-services-in-pakenham-victoria",
+        link: "/seo-services-pakenham",
         URL: "https://www.wtechy.com/seo-services-in-pakenham-victoria/",
         sublinks: [
             { pincodes: "3810" }
@@ -2135,7 +2135,7 @@ export const sitemapDataUSA = [
     {
         id: 13,
         title: "Mildura",
-        link: "/seo-services-in-mildura-victoria",
+        link: "/seo-services-mildura",
         URL: "https://www.wtechy.com/seo-services-in-mildura-victoria/",
         sublinks: [
             { pincodes: "3500" }
@@ -2144,7 +2144,7 @@ export const sitemapDataUSA = [
     {
         id: 63,
         title: "Melton",
-        link: "/seo-services-in-melton-victoria",
+        link: "/seo-services-melton",
         URL: "https://www.wtechy.com/seo-services-in-melton-victoria/",
         sublinks: [
             { pincodes: "3337" }
@@ -2153,7 +2153,7 @@ export const sitemapDataUSA = [
     {
         id: 64,
         title: "Bendigo",
-        link: "/seo-services-in-bendigo-victoria",
+        link: "/seo-services-bendigo",
         URL: "https://www.wtechy.com/seo-services-in-bendigo-victoria/",
         sublinks: [
             { pincodes: "3550" }
@@ -2162,7 +2162,7 @@ export const sitemapDataUSA = [
     {
         id: 65,
         title: "Ballarat",
-        link: "/seo-services-in-ballarat-victoria",
+        link: "/seo-services-ballarat",
         URL: "https://www.wtechy.com/seo-services-in-ballarat-victoria/",
         sublinks: [
             { pincodes: "3350" }
@@ -2171,7 +2171,7 @@ export const sitemapDataUSA = [
     {
         id: 66,
         title: "Geelong",
-        link: "/seo-services-in-geelong-victoria",
+        link: "/seo-services-geelong",
         URL: "https://www.wtechy.com/seo-services-in-geelong-victoria/",
         sublinks: [
             { pincodes: "3220" }
@@ -2180,16 +2180,18 @@ export const sitemapDataUSA = [
     {
         id: 67,
         title: "Melbourne",
-        link: "/seo-services-in-melbourne-victoria",
+        link: "/seo-services-melbourne",
         URL: "https://www.wtechy.com/seo-services-in-melbourne-victoria/",
         sublinks: [
             { pincodes: "3000" }
         ]
     },
+
+    //south australia
     {
         id: 25,
         title: "South Australia",
-        link: "/seo-services-in-south-australia",
+        link: "/seo-services-south-australia",
         URL: "https://www.wtechy.com/seo-services-in-south-australia/",
         sublinks: [
             { pincodes: "adelaide, port pirie, crafers bridgewater, victor harbor, mount barker, port lincoln, murray bridge, adelaide hills, whyalla, Mount Gambier, gawler" }
@@ -2198,7 +2200,7 @@ export const sitemapDataUSA = [
     {
         id: 14,
         title: "Adelaide",
-        link: "/seo-services-in-adelaide-south-australia",
+        link: "/seo-services-adelaide",
         URL: "https://www.wtechy.com/seo-services-in-adelaide-south-australia/",
         sublinks: [
             { pincodes: "5000" }
@@ -2207,7 +2209,7 @@ export const sitemapDataUSA = [
     {
         id: 15,
         title: "Port Pirie",
-        link: "/seo-services-in-port-pirie-south-australia",
+        link: "/seo-services-port-pirie",
         URL: "https://www.wtechy.com/seo-services-in-port-pirie-south-australia/",
         sublinks: [
             { pincodes: "5540" }
@@ -2216,7 +2218,7 @@ export const sitemapDataUSA = [
     {
         id: 16,
         title: "Crafers Bridgewater",
-        link: "/seo-services-in-crafers-bridgewater-south-australia",
+        link: "/seo-services-crafers-bridgewater",
         URL: "https://www.wtechy.com/seo-services-in-crafers-bridgewater-south-australia/",
         sublinks: [
             { pincodes: "5152" }
@@ -2225,7 +2227,7 @@ export const sitemapDataUSA = [
     {
         id: 17,
         title: "Victor Harbor",
-        link: "/seo-services-in-victor-harbor-south-australia",
+        link: "/seo-services-victor-harbor",
         URL: "https://www.wtechy.com/seo-services-in-victor-harbor-south-australia/",
         sublinks: [
             { pincodes: "5211" }
@@ -2234,7 +2236,7 @@ export const sitemapDataUSA = [
     {
         id: 18,
         title: "Mount Barker",
-        link: "/seo-services-in-mount-barker-south-australia",
+        link: "/seo-services-mount-barker",
         URL: "https://www.wtechy.com/seo-services-in-mount-barker-south-australia/",
         sublinks: [
             { pincodes: "5251" }
@@ -2243,7 +2245,7 @@ export const sitemapDataUSA = [
     {
         id: 19,
         title: "Port Lincoln",
-        link: "/seo-services-in-port-lincoln-south-australia",
+        link: "/seo-services-port-lincoln",
         URL: "https://www.wtechy.com/seo-services-in-port-lincoln-south-australia/",
         sublinks: [
             { pincodes: "5606" }
@@ -2252,7 +2254,7 @@ export const sitemapDataUSA = [
     {
         id: 20,
         title: "Murray Bridge",
-        link: "/seo-services-in-murray-bridge-south-australia",
+        link: "/seo-services-murray-bridge",
         URL: "https://www.wtechy.com/seo-services-in-murray-bridge-south-australia/",
         sublinks: [
             { pincodes: "5253" }
@@ -2261,7 +2263,7 @@ export const sitemapDataUSA = [
     {
         id: 21,
         title: "Adelaide Hills",
-        link: "/seo-services-in-adelaide-hills-south-australia",
+        link: "/seo-services-adelaide-hills",
         URL: "https://www.wtechy.com/seo-services-in-adelaide-hills-south-australia/",
         sublinks: [
             { pincodes: "5159" }
@@ -2270,7 +2272,7 @@ export const sitemapDataUSA = [
     {
         id: 22,
         title: "Whyalla",
-        link: "/seo-services-in-whyalla-south-australia",
+        link: "/seo-services-whyalla",
         URL: "https://www.wtechy.com/seo-services-in-whyalla-south-australia/",
         sublinks: [
             { pincodes: "5600" }
@@ -2279,7 +2281,7 @@ export const sitemapDataUSA = [
     {
         id: 23,
         title: "Mount Gambier",
-        link: "/seo-services-in-mount-gambier-south-australia",
+        link: "/seo-services-mount-gambier",
         URL: "https://www.wtechy.com/seo-services-in-mount-gambier-south-australia/",
         sublinks: [
             { pincodes: "5290" }
@@ -2288,16 +2290,18 @@ export const sitemapDataUSA = [
     {
         id: 24,
         title: "Gawler",
-        link: "/seo-services-in-gawler-south-australia",
+        link: "/seo-services-gawler",
         URL: "https://www.wtechy.com/seo-services-in-gawler-south-australia/",
         sublinks: [
             { pincodes: "5118" }
         ]
     },
+
+    //south wales
     {
         id: 42,
         title: "South Wales",
-        link: "/seo-services-in-new-south-wales",
+        link: "/seo-services-south-wales",
         URL: "https://www.wtechy.com/seo-services-in-new-south-wales/",
         sublinks: [
             {
@@ -2308,7 +2312,7 @@ export const sitemapDataUSA = [
     {
         id: 26,
         title: "Orange",
-        link: "/seo-services-in-orange-new-south-wales",
+        link: "/seo-services-orange",
         URL: "https://www.wtechy.com/seo-services-in-orange-new-south-wales/",
         sublinks: [
             { pincodes: "2800" }
@@ -2317,7 +2321,7 @@ export const sitemapDataUSA = [
     {
         id: 27,
         title: "Blacktown",
-        link: "/seo-services-in-blacktown-new-south-wales",
+        link: "/seo-services-blacktown",
         URL: "https://www.wtechy.com/seo-services-in-blacktown-new-south-wales/",
         sublinks: [
             { pincodes: "2148" }
@@ -2326,7 +2330,7 @@ export const sitemapDataUSA = [
     {
         id: 28,
         title: "Tamworth",
-        link: "/seo-services-in-tamworth-new-south-wales",
+        link: "/seo-services-tamworth",
         URL: "https://www.wtechy.com/seo-services-in-tamworth-new-south-wales/",
         sublinks: [
             { pincodes: "2340" }
@@ -2335,7 +2339,7 @@ export const sitemapDataUSA = [
     {
         id: 29,
         title: "Taree",
-        link: "/seo-services-in-taree-new-south-wales",
+        link: "/seo-services-taree",
         URL: "https://www.wtechy.com/seo-services-in-taree-new-south-wales/",
         sublinks: [
             { pincodes: "2430" }
@@ -2344,7 +2348,7 @@ export const sitemapDataUSA = [
     {
         id: 30,
         title: "Bathurst",
-        link: "/seo-services-in-bathurst-new-south-wales",
+        link: "/seo-services-bathurst",
         URL: "https://www.wtechy.com/seo-services-in-bathurst-new-south-wales/",
         sublinks: [
             { pincodes: "2795" }
@@ -2353,7 +2357,7 @@ export const sitemapDataUSA = [
     {
         id: 31,
         title: "Port Macquarie",
-        link: "/seo-services-in-port-macquarie-new-south-wales",
+        link: "/seo-services-port-macquarie",
         URL: "https://www.wtechy.com/seo-services-in-port-macquarie-new-south-wales/",
         sublinks: [
             { pincodes: "2444" }
@@ -2362,7 +2366,7 @@ export const sitemapDataUSA = [
     {
         id: 32,
         title: "Nowra",
-        link: "/seo-services-in-nowra-new-south-wales",
+        link: "/seo-services-nowra",
         URL: "https://www.wtechy.com/seo-services-in-nowra-new-south-wales/",
         sublinks: [
             { pincodes: "2541" }
@@ -2371,7 +2375,7 @@ export const sitemapDataUSA = [
     {
         id: 33,
         title: "Albury",
-        link: "/seo-services-in-albury-new-south-wales",
+        link: "/seo-services-albury",
         URL: "https://www.wtechy.com/seo-services-in-albury-new-south-wales/",
         sublinks: [
             { pincodes: "2640" }
@@ -2380,7 +2384,7 @@ export const sitemapDataUSA = [
     {
         id: 34,
         title: "Parramatta",
-        link: "/seo-services-in-parramatta-new-south-wales",
+        link: "/seo-services-parramatta",
         URL: "https://www.wtechy.com/seo-services-in-parramatta-new-south-wales/",
         sublinks: [
             { pincodes: "2150" }
@@ -2389,7 +2393,7 @@ export const sitemapDataUSA = [
     {
         id: 35,
         title: "North Shore",
-        link: "/seo-services-in-north-shore-new-south-wales",
+        link: "/seo-services-north-shore",
         URL: "https://www.wtechy.com/seo-services-in-north-shore-new-south-wales/",
         sublinks: [
             { pincodes: "2444" }
@@ -2398,7 +2402,7 @@ export const sitemapDataUSA = [
     {
         id: 36,
         title: "Blue Mountains",
-        link: "/seo-services-in-blue-mountains-new-south-wales",
+        link: "/seo-services-blue-mountains",
         URL: "https://www.wtechy.com/seo-services-in-blue-mountains-new-south-wales/",
         sublinks: [
             { pincodes: "2780" }
@@ -2407,7 +2411,7 @@ export const sitemapDataUSA = [
     {
         id: 37,
         title: "Maitland",
-        link: "/seo-services-in-maitland-new-south-wales",
+        link: "/seo-services-maitland",
         URL: "https://www.wtechy.com/seo-services-in-maitland-new-south-wales/",
         sublinks: [
             { pincodes: "2320" }
@@ -2416,7 +2420,7 @@ export const sitemapDataUSA = [
     {
         id: 38,
         title: "Wollongong",
-        link: "/seo-services-in-wollongong-new-south-wales",
+        link: "/seo-services-wollongong",
         URL: "https://www.wtechy.com/seo-services-in-wollongong-new-south-wales/",
         sublinks: [
             { pincodes: "2500" }
@@ -2425,7 +2429,7 @@ export const sitemapDataUSA = [
     {
         id: 39,
         title: "Central Coast",
-        link: "/seo-services-in-central-coast-new-south-wales",
+        link: "/seo-services-central-coast",
         URL: "https://www.wtechy.com/seo-services-in-central-coast-new-south-wales/",
         sublinks: [
             { pincodes: "2250" }
@@ -2434,7 +2438,7 @@ export const sitemapDataUSA = [
     {
         id: 40,
         title: "Newcastle",
-        link: "/seo-services-in-newcastle-new-south-wales",
+        link: "/seo-services-newcastle",
         URL: "https://www.wtechy.com/seo-services-in-newcastle-new-south-wales/",
         sublinks: [
             { pincodes: "2300" }
@@ -2443,7 +2447,7 @@ export const sitemapDataUSA = [
     {
         id: 41,
         title: "Sydney",
-        link: "/seo-services-in-sydney-new-south-wales",
+        link: "/seo-services-sydney",
         URL: "https://www.wtechy.com/seo-services-in-sydney-new-south-wales/",
         sublinks: [
             { pincodes: "2000" }
@@ -2453,7 +2457,7 @@ export const sitemapDataUSA = [
     {
         id: 43,
         title: "Queensland",
-        link: "/seo-services-in-queensland-australia",
+        link: "/seo-services-queensland",
         URL: "https://www.wtechy.com/seo-services-in-queensland-australia/",
         sublinks: [
             {
@@ -2464,7 +2468,7 @@ export const sitemapDataUSA = [
     {
         id: 44,
         title: "Gladstone",
-        link: "/seo-services-in-gladstone-queensland",
+        link: "/seo-services-gladstone",
         URL: "https://www.wtechy.com/seo-services-in-gladstone-queensland/",
         sublinks: [
             { pincodes: "4680" }
@@ -2473,7 +2477,7 @@ export const sitemapDataUSA = [
     {
         id: 45,
         title: "Southport",
-        link: "/seo-services-in-southport-queensland",
+        link: "/seo-services-southport",
         URL: "https://www.wtechy.com/seo-services-in-southport-queensland/",
         sublinks: [
             { pincodes: "4215" }
@@ -2482,7 +2486,7 @@ export const sitemapDataUSA = [
     {
         id: 46,
         title: "Caloundra",
-        link: "/seo-services-in-caloundra-queensland",
+        link: "/seo-services-caloundra",
         URL: "https://www.wtechy.com/seo-services-in-caloundra-queensland/",
         sublinks: [
             { pincodes: "4551" }
@@ -2491,7 +2495,7 @@ export const sitemapDataUSA = [
     {
         id: 47,
         title: "Mooloolaba",
-        link: "/seo-services-in-mooloolaba-queensland",
+        link: "/seo-services-mooloolaba",
         URL: "https://www.wtechy.com/seo-services-in-mooloolaba-queensland/",
         sublinks: [
             { pincodes: "4557" }
@@ -2500,7 +2504,7 @@ export const sitemapDataUSA = [
     {
         id: 48,
         title: "Torquay",
-        link: "/seo-services-in-torquay-queensland",
+        link: "/seo-services-torquay",
         URL: "https://www.wtechy.com/seo-services-in-torquay-queensland/",
         sublinks: [
             { pincodes: "4655" }
@@ -2509,7 +2513,7 @@ export const sitemapDataUSA = [
     {
         id: 49,
         title: "Rainbow Beach",
-        link: "/seo-services-in-rainbow-beach-queensland",
+        link: "/seo-services-rainbow-beach",
         URL: "https://www.wtechy.com/seo-services-in-rainbow-beach-queensland/",
         sublinks: [
             { pincodes: "4581" }
@@ -2518,7 +2522,7 @@ export const sitemapDataUSA = [
     {
         id: 50,
         title: "Logan City",
-        link: "/seo-services-in-logan-city-queensland",
+        link: "/seo-services-logan-city",
         URL: "https://www.wtechy.com/seo-services-in-logan-city-queensland/",
         sublinks: [
             { pincodes: "4114" }
@@ -2527,7 +2531,7 @@ export const sitemapDataUSA = [
     {
         id: 51,
         title: "Mount Isa",
-        link: "/seo-services-in-mount-isa-queensland",
+        link: "/seo-services-mount-isa",
         URL: "https://www.wtechy.com/seo-services-in-mount-isa-queensland/",
         sublinks: [
             { pincodes: "4825" }
@@ -2536,7 +2540,7 @@ export const sitemapDataUSA = [
     {
         id: 52,
         title: "Maryborough",
-        link: "/seo-services-in-maryborough-queensland",
+        link: "/seo-services-maryborough",
         URL: "https://www.wtechy.com/seo-services-in-maryborough-queensland/",
         sublinks: [
             { pincodes: "4650" }
@@ -2544,8 +2548,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 69,
-        title: "Bundaberg, Queensland",
-        link: "/seo-services-in-bundaberg-queensland",
+        title: "Bundaberg",
+        link: "/seo-services-bundaberg",
         URL: "https://www.wtechy.com/seo-services-in-bundaberg-queensland/",
         sublinks: [
             { pincodes: "4670" }
@@ -2553,8 +2557,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 70,
-        title: "Hervey Bay, Queensland",
-        link: "/seo-services-in-hervey-bay-queensland",
+        title: "Hervey Bay",
+        link: "/seo-services-hervey-bay",
         URL: "https://www.wtechy.com/seo-services-in-hervey-bay-queensland/",
         sublinks: [
             { pincodes: "4655" }
@@ -2562,8 +2566,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 71,
-        title: "Rockhampton, Queensland",
-        link: "/seo-services-in-rockhampton-queensland",
+        title: "Rockhampton",
+        link: "/seo-services-rockhampton",
         URL: "https://www.wtechy.com/seo-services-in-rockhampton-queensland/",
         sublinks: [
             { pincodes: "4700" }
@@ -2571,8 +2575,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 72,
-        title: "Mackay, Queensland",
-        link: "/seo-services-in-mackay-queensland",
+        title: "Mackay",
+        link: "/seo-services-mackay",
         URL: "https://www.wtechy.com/seo-services-in-mackay-queensland/",
         sublinks: [
             { pincodes: "4740" }
@@ -2580,8 +2584,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 73,
-        title: "Toowoomba, Queensland",
-        link: "/seo-services-in-toowoomba-queensland",
+        title: "Toowoomba",
+        link: "/seo-services-toowoomba",
         URL: "https://www.wtechy.com/seo-services-in-toowoomba-queensland/",
         sublinks: [
             { pincodes: "4350" }
@@ -2589,8 +2593,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 74,
-        title: "Townsville, Queensland",
-        link: "/seo-services-in-townsville-queensland",
+        title: "Townsville",
+        link: "/seo-services-townsville",
         URL: "https://www.wtechy.com/seo-services-in-townsville-queensland/",
         sublinks: [
             { pincodes: "4810" }
@@ -2598,8 +2602,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 75,
-        title: "Cairns, Queensland",
-        link: "/seo-services-in-cairns-queensland",
+        title: "Cairns",
+        link: "/seo-services-cairns",
         URL: "https://www.wtechy.com/seo-services-in-cairns-queensland/",
         sublinks: [
             { pincodes: "4870" }
@@ -2607,8 +2611,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 76,
-        title: "Brisbane, Queensland",
-        link: "/seo-services-in-brisbane-queensland",
+        title: "Brisbane",
+        link: "/seo-services-brisbane",
         URL: "https://www.wtechy.com/seo-services-in-brisbane-queensland/",
         sublinks: [
             { pincodes: "4000" }
@@ -2616,8 +2620,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 77,
-        title: "Sunshine Coast, Queensland",
-        link: "/seo-services-in-sunshine-coast-queensland",
+        title: "Sunshine Coast",
+        link: "/seo-services-sunshine-coast",
         URL: "https://www.wtechy.com/seo-services-in-sunshine-coast-queensland/",
         sublinks: [
             { pincodes: "4551" }
@@ -2625,8 +2629,8 @@ export const sitemapDataUSA = [
     },
     {
         id: 78,
-        title: "Gold Coast, Queensland",
-        link: "/seo-services-in-gold-coast-queensland",
+        title: "Gold Coast",
+        link: "/seo-services-gold-coast",
         URL: "https://www.wtechy.com/seo-services-in-gold-coast-queensland/",
         sublinks: [
             { pincodes: "4217" }
@@ -2696,2168 +2700,4 @@ export const sitemapDataUSA = [
         URL: "https://www.wtechy.com/seo-services-in-sydney-nova-scotia/",
         sublinks: []
     },
-    {
-        id: 1,
-        title: "Western Australia",
-        link: "/seo-services-in-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-australia/",
-        sublinks: []
-    },
-    {
-        id: 2,
-        title: "Karratha, Western Australia",
-        link: "/seo-services-in-karratha-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-karratha-western-australia/",
-        sublinks: [
-            { pincodes: "6714, 6718" }
-        ]
-    },
-    {
-        id: 3,
-        title: "Busselton, Western Australia",
-        link: "/seo-services-in-busselton-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-busselton-western-australia/",
-        sublinks: [
-            { pincodes: "6280" }
-        ]
-    },
-    {
-        id: 4,
-        title: "Albany, Western Australia",
-        link: "/seo-services-in-albany-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-albany-western-australia/",
-        sublinks: [
-            { pincodes: "6330" }
-        ]
-    },
-    {
-        id: 5,
-        title: "Victoria",
-        link: "/seo-services-in-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
-        sublinks: [
-            { pincodes: "3677" }
-        ]
-    },
-    {
-        id: 5,
-        title: "Wangaratta, Victoria",
-        link: "/seo-services-in-wangaratta-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
-        sublinks: [
-            { pincodes: "3677" }
-        ]
-    },
-    {
-        id: 6,
-        title: "Traralgon, Victoria",
-        link: "/seo-services-in-traralgon-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-traralgon-victoria/",
-        sublinks: [
-            { pincodes: "3844" }
-        ]
-    },
-    {
-        id: 7,
-        title: "Warrnambool, Victoria",
-        link: "/seo-services-in-warrnambool-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-warrnambool-victoria/",
-        sublinks: [
-            { pincodes: "3280" }
-        ]
-    },
-    {
-        id: 8,
-        title: "Sunbury, Victoria",
-        link: "/seo-services-in-sunbury-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-sunbury-victoria/",
-        sublinks: [
-            { pincodes: "3429" }
-        ]
-    },
-    {
-        id: 9,
-        title: "Wodonga, Victoria",
-        link: "/seo-services-in-wodonga-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wodonga-victoria/",
-        sublinks: [
-            { pincodes: "3690" }
-        ]
-    },
-    {
-        id: 10,
-        title: "Mooroopna, Victoria",
-        link: "/seo-services-in-mooroopna-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-mooroopna-victoria/",
-        sublinks: [
-            { pincodes: "3629" }
-        ]
-    },
-    {
-        id: 11,
-        title: "Shepparton, Victoria",
-        link: "/seo-services-in-shepparton-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-shepparton-victoria/",
-        sublinks: [
-            { pincodes: "3630" }
-        ]
-    },
-    {
-        id: 12,
-        title: "Pakenham, Victoria",
-        link: "/seo-services-in-pakenham-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-pakenham-victoria/",
-        sublinks: [
-            { pincodes: "3810" }
-        ]
-    },
-    {
-        id: 13,
-        title: "Mildura, Victoria",
-        link: "/seo-services-in-mildura-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-mildura-victoria/",
-        sublinks: [
-            { pincodes: "3500" }
-        ]
-    },
-    {
-        id: 14,
-        title: "Adelaide, South Australia",
-        link: "/seo-services-in-adelaide-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-adelaide-south-australia/",
-        sublinks: [
-            { pincodes: "5000" }
-        ]
-    },
-    {
-        id: 15,
-        title: "Port Pirie, South Australia",
-        link: "/seo-services-in-port-pirie-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-port-pirie-south-australia/",
-        sublinks: [
-            { pincodes: "5540" }
-        ]
-    },
-    {
-        id: 16,
-        title: "Crafers Bridgewater, South Australia",
-        link: "/seo-services-in-crafers-bridgewater-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-crafers-bridgewater-south-australia/",
-        sublinks: [
-            { pincodes: "5152" }
-        ]
-    },
-    {
-        id: 17,
-        title: "Victor Harbor, South Australia",
-        link: "/seo-services-in-victor-harbor-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-victor-harbor-south-australia/",
-        sublinks: [
-            { pincodes: "5211" }
-        ]
-    },
-    {
-        id: 18,
-        title: "Mount Barker, South Australia",
-        link: "/seo-services-in-mount-barker-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-mount-barker-south-australia/",
-        sublinks: [
-            { pincodes: "5251" }
-        ]
-    },
-    {
-        id: 19,
-        title: "Port Lincoln, South Australia",
-        link: "/seo-services-in-port-lincoln-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-port-lincoln-south-australia/",
-        sublinks: [
-            { pincodes: "5606" }
-        ]
-    },
-    {
-        id: 20,
-        title: "Murray Bridge, South Australia",
-        link: "/seo-services-in-murray-bridge-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-murray-bridge-south-australia/",
-        sublinks: [
-            { pincodes: "5253" }
-        ]
-    },
-    {
-        id: 21,
-        title: "Adelaide Hills, South Australia",
-        link: "/seo-services-in-adelaide-hills-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-adelaide-hills-south-australia/",
-        sublinks: [
-            { pincodes: "5159" }
-        ]
-    },
-    {
-        id: 22,
-        title: "Whyalla, South Australia",
-        link: "/seo-services-in-whyalla-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-whyalla-south-australia/",
-        sublinks: [
-            { pincodes: "5600" }
-        ]
-    },
-    {
-        id: 23,
-        title: "Mount Gambier, South Australia",
-        link: "/seo-services-in-mount-gambier-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-mount-gambier-south-australia/",
-        sublinks: [
-            { pincodes: "5290" }
-        ]
-    },
-    {
-        id: 24,
-        title: "Gawler, South Australia",
-        link: "/seo-services-in-gawler-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-gawler-south-australia/",
-        sublinks: [
-            { pincodes: "5118" }
-        ]
-    },
-    {
-        id: 25,
-        title: "South Australia",
-        link: "/seo-services-in-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-south-australia/",
-        sublinks: []
-    },
-    {
-        id: 26,
-        title: "Orange, New South Wales",
-        link: "/seo-services-in-orange-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-orange-new-south-wales/",
-        sublinks: [
-            { pincodes: "2800" }
-        ]
-    },
-    {
-        id: 27,
-        title: "Blacktown, New South Wales",
-        link: "/seo-services-in-blacktown-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-blacktown-new-south-wales/",
-        sublinks: [
-            { pincodes: "2148" }
-        ]
-    },
-    {
-        id: 28,
-        title: "Tamworth, New South Wales",
-        link: "/seo-services-in-tamworth-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-tamworth-new-south-wales/",
-        sublinks: [
-            { pincodes: "2340" }
-        ]
-    },
-    {
-        id: 29,
-        title: "Taree, New South Wales",
-        link: "/seo-services-in-taree-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-taree-new-south-wales/",
-        sublinks: [
-            { pincodes: "2430" }
-        ]
-    },
-    {
-        id: 30,
-        title: "Bathurst, New South Wales",
-        link: "/seo-services-in-bathurst-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-bathurst-new-south-wales/",
-        sublinks: [
-            { pincodes: "2795" }
-        ]
-    },
-    {
-        id: 31,
-        title: "Port Macquarie, New South Wales",
-        link: "/seo-services-in-port-macquarie-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-port-macquarie-new-south-wales/",
-        sublinks: [
-            { pincodes: "2444" }
-        ]
-    },
-    {
-        id: 32,
-        title: "Nowra, New South Wales",
-        link: "/seo-services-in-nowra-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-nowra-new-south-wales/",
-        sublinks: [
-            { pincodes: "2541" }
-        ]
-    },
-    {
-        id: 33,
-        title: "Albury, New South Wales",
-        link: "/seo-services-in-albury-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-albury-new-south-wales/",
-        sublinks: [
-            { pincodes: "2640" }
-        ]
-    },
-    {
-        id: 34,
-        title: "Parramatta, New South Wales",
-        link: "/seo-services-in-parramatta-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-parramatta-new-south-wales/",
-        sublinks: [
-            { pincodes: "2150" }
-        ]
-    },
-    {
-        id: 35,
-        title: "North Shore, New South Wales",
-        link: "/seo-services-in-north-shore-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-north-shore-new-south-wales/",
-        sublinks: [
-            { pincodes: "2444" }
-        ]
-    },
-    {
-        id: 36,
-        title: "Blue Mountains, New South Wales",
-        link: "/seo-services-in-blue-mountains-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-blue-mountains-new-south-wales/",
-        sublinks: [
-            { pincodes: "2780" }
-        ]
-    },
-    {
-        id: 37,
-        title: "Maitland, New South Wales",
-        link: "/seo-services-in-maitland-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-maitland-new-south-wales/",
-        sublinks: [
-            { pincodes: "2320" }
-        ]
-    },
-    {
-        id: 38,
-        title: "Wollongong, New South Wales",
-        link: "/seo-services-in-wollongong-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-wollongong-new-south-wales/",
-        sublinks: [
-            { pincodes: "2500" }
-        ]
-    },
-    {
-        id: 39,
-        title: "Central Coast, New South Wales",
-        link: "/seo-services-in-central-coast-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-central-coast-new-south-wales/",
-        sublinks: [
-            { pincodes: "2250" }
-        ]
-    },
-    {
-        id: 40,
-        title: "Newcastle, New South Wales",
-        link: "/seo-services-in-newcastle-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-newcastle-new-south-wales/",
-        sublinks: [
-            { pincodes: "2300" }
-        ]
-    },
-    {
-        id: 41,
-        title: "Sydney, New South Wales",
-        link: "/seo-services-in-sydney-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-sydney-new-south-wales/",
-        sublinks: [
-            { pincodes: "2000" }
-        ]
-    },
-    {
-        id: 42,
-        title: "New South Wales, Australia",
-        link: "/seo-services-in-new-south-wales-australia",
-        URL: "https://www.wtechy.com/seo-services-in-new-south-wales-australia/",
-        sublinks: []
-    },
-    {
-        id: 43,
-        title: "Queensland, Australia",
-        link: "/seo-services-in-queensland-australia",
-        URL: "https://www.wtechy.com/seo-services-in-queensland-australia/",
-        sublinks: []
-    },
-    {
-        id: 44,
-        title: "Gladstone, Queensland",
-        link: "/seo-services-in-gladstone-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-gladstone-queensland/",
-        sublinks: [
-            { pincodes: "4680" }
-        ]
-    },
-    {
-        id: 45,
-        title: "Southport, Queensland",
-        link: "/seo-services-in-southport-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-southport-queensland/",
-        sublinks: [
-            { pincodes: "4215" }
-        ]
-    },
-    {
-        id: 46,
-        title: "Caloundra, Queensland",
-        link: "/seo-services-in-caloundra-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-caloundra-queensland/",
-        sublinks: [
-            { pincodes: "4551" }
-        ]
-    },
-    {
-        id: 47,
-        title: "Mooloolaba, Queensland",
-        link: "/seo-services-in-mooloolaba-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mooloolaba-queensland/",
-        sublinks: [
-            { pincodes: "4557" }
-        ]
-    },
-    {
-        id: 48,
-        title: "Torquay, Queensland",
-        link: "/seo-services-in-torquay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-torquay-queensland/",
-        sublinks: [
-            { pincodes: "4655" }
-        ]
-    },
-    {
-        id: 49,
-        title: "Rainbow Beach, Queensland",
-        link: "/seo-services-in-rainbow-beach-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-rainbow-beach-queensland/",
-        sublinks: [
-            { pincodes: "4581" }
-        ]
-    },
-    {
-        id: 50,
-        title: "Logan City, Queensland",
-        link: "/seo-services-in-logan-city-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-logan-city-queensland/",
-        sublinks: [
-            { pincodes: "4114" }
-        ]
-    },
-    {
-        id: 51,
-        title: "Mount Isa, Queensland",
-        link: "/seo-services-in-mount-isa-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mount-isa-queensland/",
-        sublinks: [
-            { pincodes: "4825" }
-        ]
-    },
-    {
-        id: 52,
-        title: "Maryborough, Queensland",
-        link: "/seo-services-in-maryborough-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-maryborough-queensland/",
-        sublinks: [
-            { pincodes: "4650" }
-        ]
-    },
-    {
-        id: 53,
-        title: "Hobart, Tasmania",
-        link: "/seo-services-in-hobart-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-hobart-tasmania/",
-        sublinks: [
-            { pincodes: "7000" }
-        ]
-    },
-    {
-        id: 54,
-        title: "Launceston, Tasmania",
-        link: "/seo-services-in-launceston-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-launceston-tasmania/",
-        sublinks: [
-            { pincodes: "7250" }
-        ]
-    },
-    {
-        id: 55,
-        title: "Kalgoorlie-Boulder, Western Australia",
-        link: "/seo-services-in-kalgoorlie-boulder-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-kalgoorlie-boulder-western-australia/",
-        sublinks: [
-            { pincodes: "6430" }
-        ]
-    },
-    {
-        id: 56,
-        title: "Rockingham, Western Australia",
-        link: "/seo-services-in-rockingham-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-rockingham-western-australia/",
-        sublinks: [
-            { pincodes: "6168" }
-        ]
-    },
-    {
-        id: 57,
-        title: "Geraldton, Western Australia",
-        link: "/seo-services-in-geraldton-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-geraldton-western-australia/",
-        sublinks: [
-            { pincodes: "6530" }
-        ]
-    },
-    {
-        id: 58,
-        title: "Bunbury, Western Australia",
-        link: "/seo-services-in-bunbury-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-bunbury-western-australia/",
-        sublinks: [
-            { pincodes: "6230" }
-        ]
-    },
-    {
-        id: 59,
-        title: "Perth, Western Australia",
-        link: "/seo-services-in-perth-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-perth-western-australia/",
-        sublinks: [
-            { pincodes: "6000" }
-        ]
-    },
-    {
-        id: 60,
-        title: "Tasmania, Australia",
-        link: "/seo-services-in-tasmania-australia",
-        URL: "https://www.wtechy.com/seo-services-in-tasmania-australia/",
-        sublinks: []
-    },
-    {
-        id: 61,
-        title: "Western Australia",
-        link: "/seo-services-in-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-western-australia/",
-        sublinks: []
-    },
-    {
-        id: 62,
-        title: "Devonport, Tasmania",
-        link: "/seo-services-in-devonport-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-devonport-tasmania/",
-        sublinks: [
-            { pincodes: "7310" }
-        ]
-    },
-    {
-        id: 63,
-        title: "Melton, Victoria",
-        link: "/seo-services-in-melton-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-melton-victoria/",
-        sublinks: [
-            { pincodes: "3337" }
-        ]
-    },
-    {
-        id: 64,
-        title: "Bendigo, Victoria",
-        link: "/seo-services-in-bendigo-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-bendigo-victoria/",
-        sublinks: [
-            { pincodes: "3550" }
-        ]
-    },
-    {
-        id: 65,
-        title: "Ballarat, Victoria",
-        link: "/seo-services-in-ballarat-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-ballarat-victoria/",
-        sublinks: [
-            { pincodes: "3350" }
-        ]
-    },
-    {
-        id: 66,
-        title: "Geelong, Victoria",
-        link: "/seo-services-in-geelong-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-geelong-victoria/",
-        sublinks: [
-            { pincodes: "3220" }
-        ]
-    },
-    {
-        id: 67,
-        title: "Melbourne, Victoria",
-        link: "/seo-services-in-melbourne-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-melbourne-victoria/",
-        sublinks: [
-            { pincodes: "3000" }
-        ]
-    },
-    {
-        id: 68,
-        title: "Victoria, Australia",
-        link: "/seo-services-in-victoria-australia",
-        URL: "https://www.wtechy.com/seo-services-in-victoria-australia/",
-        sublinks: []
-    },
-    {
-        id: 69,
-        title: "Bundaberg, Queensland",
-        link: "/seo-services-in-bundaberg-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-bundaberg-queensland/",
-        sublinks: [
-            { pincodes: "4670" }
-        ]
-    },
-    {
-        id: 70,
-        title: "Hervey Bay, Queensland",
-        link: "/seo-services-in-hervey-bay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-hervey-bay-queensland/",
-        sublinks: [
-            { pincodes: "4655" }
-        ]
-    },
-    {
-        id: 71,
-        title: "Rockhampton, Queensland",
-        link: "/seo-services-in-rockhampton-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-rockhampton-queensland/",
-        sublinks: [
-            { pincodes: "4700" }
-        ]
-    },
-    {
-        id: 72,
-        title: "Mackay, Queensland",
-        link: "/seo-services-in-mackay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mackay-queensland/",
-        sublinks: [
-            { pincodes: "4740" }
-        ]
-    },
-    {
-        id: 73,
-        title: "Toowoomba, Queensland",
-        link: "/seo-services-in-toowoomba-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-toowoomba-queensland/",
-        sublinks: [
-            { pincodes: "4350" }
-        ]
-    },
-    {
-        id: 74,
-        title: "Townsville, Queensland",
-        link: "/seo-services-in-townsville-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-townsville-queensland/",
-        sublinks: [
-            { pincodes: "4810" }
-        ]
-    },
-    {
-        id: 75,
-        title: "Cairns, Queensland",
-        link: "/seo-services-in-cairns-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-cairns-queensland/",
-        sublinks: [
-            { pincodes: "4870" }
-        ]
-    },
-    {
-        id: 76,
-        title: "Brisbane, Queensland",
-        link: "/seo-services-in-brisbane-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-brisbane-queensland/",
-        sublinks: [
-            { pincodes: "4000" }
-        ]
-    },
-    {
-        id: 77,
-        title: "Sunshine Coast, Queensland",
-        link: "/seo-services-in-sunshine-coast-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-sunshine-coast-queensland/",
-        sublinks: [
-            { pincodes: "4551" }
-        ]
-    },
-    {
-        id: 78,
-        title: "Gold Coast, Queensland",
-        link: "/seo-services-in-gold-coast-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-gold-coast-queensland/",
-        sublinks: [
-            { pincodes: "4217" }
-        ]
-    },
-    {
-        id: 79,
-        title: "Halifax, Nova Scotia",
-        link: "/seo-services-in-halifax-nova-scotia",
-        URL: "https://www.wtechy.com/seo-services-in-halifax-nova-scotia/",
-        sublinks: []
-    },
-    {
-        id: 80,
-        title: "Sydney, Nova Scotia",
-        link: "/seo-services-in-sydney-nova-scotia",
-        URL: "https://www.wtechy.com/seo-services-in-sydney-nova-scotia/",
-        sublinks: []
-    },
-
-
-
-
-
-
-
-
-    {
-        id: 1,
-        title: "Western Australia",
-        link: "/seo-services-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-australia/",
-        sublinks: []
-    },
-    {
-        id: 2,
-        title: "Karratha, Western Australia",
-        link: "/seo-services-karratha-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-karratha-western-australia/",
-        sublinks: [
-            { pincodes: "6714, 6718" }
-        ]
-    },
-    {
-        id: 3,
-        title: "Busselton, Western Australia",
-        link: "/seo-services-busselton-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-busselton-western-australia/",
-        sublinks: [
-            { pincodes: "6280" }
-        ]
-    },
-    {
-        id: 4,
-        title: "Albany, Western Australia",
-        link: "/seo-services-albany-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-albany-western-australia/",
-        sublinks: [
-            { pincodes: "6330" }
-        ]
-    },
-    {
-        id: 5,
-        title: "Victoria",
-        link: "/seo-services-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
-        sublinks: [
-            { pincodes: "3677" }
-        ]
-    },
-    {
-        id: 5,
-        title: "Wangaratta, Victoria",
-        link: "/seo-services-wangaratta-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
-        sublinks: [
-            { pincodes: "3677" }
-        ]
-    },
-    {
-        id: 6,
-        title: "Traralgon, Victoria",
-        link: "/seo-services-traralgon-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-traralgon-victoria/",
-        sublinks: [
-            { pincodes: "3844" }
-        ]
-    },
-    {
-        id: 7,
-        title: "Warrnambool, Victoria",
-        link: "/seo-services-warrnambool-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-warrnambool-victoria/",
-        sublinks: [
-            { pincodes: "3280" }
-        ]
-    },
-    {
-        id: 8,
-        title: "Sunbury, Victoria",
-        link: "/seo-services-sunbury-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-sunbury-victoria/",
-        sublinks: [
-            { pincodes: "3429" }
-        ]
-    },
-    {
-        id: 9,
-        title: "Wodonga, Victoria",
-        link: "/seo-services-wodonga-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wodonga-victoria/",
-        sublinks: [
-            { pincodes: "3690" }
-        ]
-    },
-    {
-        id: 10,
-        title: "Mooroopna, Victoria",
-        link: "/seo-services-mooroopna-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-mooroopna-victoria/",
-        sublinks: [
-            { pincodes: "3629" }
-        ]
-    },
-    {
-        id: 11,
-        title: "Shepparton, Victoria",
-        link: "/seo-services-shepparton-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-shepparton-victoria/",
-        sublinks: [
-            { pincodes: "3630" }
-        ]
-    },
-    {
-        id: 12,
-        title: "Pakenham, Victoria",
-        link: "/seo-services-pakenham-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-pakenham-victoria/",
-        sublinks: [
-            { pincodes: "3810" }
-        ]
-    },
-    {
-        id: 13,
-        title: "Mildura, Victoria",
-        link: "/seo-services-mildura-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-mildura-victoria/",
-        sublinks: [
-            { pincodes: "3500" }
-        ]
-    },
-    {
-        id: 14,
-        title: "Adelaide, South Australia",
-        link: "/seo-services-adelaide-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-adelaide-south-australia/",
-        sublinks: [
-            { pincodes: "5000" }
-        ]
-    },
-    {
-        id: 15,
-        title: "Port Pirie, South Australia",
-        link: "/seo-services-port-pirie-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-port-pirie-south-australia/",
-        sublinks: [
-            { pincodes: "5540" }
-        ]
-    },
-    {
-        id: 16,
-        title: "Crafers Bridgewater, South Australia",
-        link: "/seo-services-crafers-bridgewater-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-crafers-bridgewater-south-australia/",
-        sublinks: [
-            { pincodes: "5152" }
-        ]
-    },
-    {
-        id: 17,
-        title: "Victor Harbor, South Australia",
-        link: "/seo-services-victor-harbor-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-victor-harbor-south-australia/",
-        sublinks: [
-            { pincodes: "5211" }
-        ]
-    },
-    {
-        id: 18,
-        title: "Mount Barker, South Australia",
-        link: "/seo-services-mount-barker-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-mount-barker-south-australia/",
-        sublinks: [
-            { pincodes: "5251" }
-        ]
-    },
-    {
-        id: 19,
-        title: "Port Lincoln, South Australia",
-        link: "/seo-services-port-lincoln-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-port-lincoln-south-australia/",
-        sublinks: [
-            { pincodes: "5606" }
-        ]
-    },
-    {
-        id: 20,
-        title: "Murray Bridge, South Australia",
-        link: "/seo-services-murray-bridge-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-murray-bridge-south-australia/",
-        sublinks: [
-            { pincodes: "5253" }
-        ]
-    },
-    {
-        id: 21,
-        title: "Adelaide Hills, South Australia",
-        link: "/seo-services-adelaide-hills-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-adelaide-hills-south-australia/",
-        sublinks: [
-            { pincodes: "5159" }
-        ]
-    },
-    {
-        id: 22,
-        title: "Whyalla, South Australia",
-        link: "/seo-services-whyalla-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-whyalla-south-australia/",
-        sublinks: [
-            { pincodes: "5600" }
-        ]
-    },
-    {
-        id: 23,
-        title: "Mount Gambier, South Australia",
-        link: "/seo-services-mount-gambier-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-mount-gambier-south-australia/",
-        sublinks: [
-            { pincodes: "5290" }
-        ]
-    },
-    {
-        id: 24,
-        title: "Gawler, South Australia",
-        link: "/seo-services-gawler-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-gawler-south-australia/",
-        sublinks: [
-            { pincodes: "5118" }
-        ]
-    },
-    {
-        id: 25,
-        title: "South Australia",
-        link: "/seo-services-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-south-australia/",
-        sublinks: []
-    },
-    {
-        id: 26,
-        title: "New South Wales",
-        link: "/seo-services-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-south-wales/",
-        sublinks: [
-            { pincodes: "2800" }
-        ]
-    },
-    {
-        id: 26,
-        title: "Orange, New South Wales",
-        link: "/seo-services-orange-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-orange-new-south-wales/",
-        sublinks: [
-            { pincodes: "2800" }
-        ]
-    },
-    {
-        id: 27,
-        title: "Blacktown, New South Wales",
-        link: "/seo-services-blacktown-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-blacktown-new-south-wales/",
-        sublinks: [
-            { pincodes: "2148" }
-        ]
-    },
-    {
-        id: 28,
-        title: "Tamworth, New South Wales",
-        link: "/seo-services-tamworth-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-tamworth-new-south-wales/",
-        sublinks: [
-            { pincodes: "2340" }
-        ]
-    },
-    {
-        id: 29,
-        title: "Taree, New South Wales",
-        link: "/seo-services-taree-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-taree-new-south-wales/",
-        sublinks: [
-            { pincodes: "2430" }
-        ]
-    },
-    {
-        id: 30,
-        title: "Bathurst, New South Wales",
-        link: "/seo-services-bathurst-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-bathurst-new-south-wales/",
-        sublinks: [
-            { pincodes: "2795" }
-        ]
-    },
-    {
-        id: 31,
-        title: "Port Macquarie, New South Wales",
-        link: "/seo-services-port-macquarie-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-port-macquarie-new-south-wales/",
-        sublinks: [
-            { pincodes: "2444" }
-        ]
-    },
-    {
-        id: 32,
-        title: "Nowra, New South Wales",
-        link: "/seo-services-nowra-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-nowra-new-south-wales/",
-        sublinks: [
-            { pincodes: "2541" }
-        ]
-    },
-    {
-        id: 33,
-        title: "Albury, New South Wales",
-        link: "/seo-services-albury-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-albury-new-south-wales/",
-        sublinks: [
-            { pincodes: "2640" }
-        ]
-    },
-    {
-        id: 34,
-        title: "Parramatta, New South Wales",
-        link: "/seo-services-parramatta-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-parramatta-new-south-wales/",
-        sublinks: [
-            { pincodes: "2150" }
-        ]
-    },
-    {
-        id: 35,
-        title: "North Shore, New South Wales",
-        link: "/seo-services-north-shore-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-north-shore-new-south-wales/",
-        sublinks: [
-            { pincodes: "2444" }
-        ]
-    },
-    {
-        id: 36,
-        title: "Blue Mountains, New South Wales",
-        link: "/seo-services-blue-mountains-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-blue-mountains-new-south-wales/",
-        sublinks: [
-            { pincodes: "2780" }
-        ]
-    },
-    {
-        id: 37,
-        title: "Maitland, New South Wales",
-        link: "/seo-services-maitland-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-maitland-new-south-wales/",
-        sublinks: [
-            { pincodes: "2320" }
-        ]
-    },
-    {
-        id: 38,
-        title: "Wollongong, New South Wales",
-        link: "/seo-services-wollongong-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-wollongong-new-south-wales/",
-        sublinks: [
-            { pincodes: "2500" }
-        ]
-    },
-    {
-        id: 39,
-        title: "Central Coast, New South Wales",
-        link: "/seo-services-central-coast-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-central-coast-new-south-wales/",
-        sublinks: [
-            { pincodes: "2250" }
-        ]
-    },
-    {
-        id: 40,
-        title: "Newcastle, New South Wales",
-        link: "/seo-services-newcastle-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-newcastle-new-south-wales/",
-        sublinks: [
-            { pincodes: "2300" }
-        ]
-    },
-    {
-        id: 41,
-        title: "Sydney, New South Wales",
-        link: "/seo-services-sydney-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-sydney-new-south-wales/",
-        sublinks: [
-            { pincodes: "2000" }
-        ]
-    },
-    {
-        id: 42,
-        title: "New South Wales, Australia",
-        link: "/seo-services-new-south-wales-australia",
-        URL: "https://www.wtechy.com/seo-services-in-new-south-wales-australia/",
-        sublinks: []
-    },
-    {
-        id: 43,
-        title: "Queensland",
-        link: "/seo-services-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-queensland-australia/",
-        sublinks: []
-    },
-    {
-        id: 44,
-        title: "Gladstone, Queensland",
-        link: "/seo-services-gladstone-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-gladstone-queensland/",
-        sublinks: [
-            { pincodes: "4680" }
-        ]
-    },
-    {
-        id: 45,
-        title: "Southport, Queensland",
-        link: "/seo-services-southport-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-southport-queensland/",
-        sublinks: [
-            { pincodes: "4215" }
-        ]
-    },
-    {
-        id: 46,
-        title: "Caloundra, Queensland",
-        link: "/seo-services-caloundra-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-caloundra-queensland/",
-        sublinks: [
-            { pincodes: "4551" }
-        ]
-    },
-    {
-        id: 47,
-        title: "Mooloolaba, Queensland",
-        link: "/seo-services-mooloolaba-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mooloolaba-queensland/",
-        sublinks: [
-            { pincodes: "4557" }
-        ]
-    },
-    {
-        id: 48,
-        title: "Torquay, Queensland",
-        link: "/seo-services-torquay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-torquay-queensland/",
-        sublinks: [
-            { pincodes: "4655" }
-        ]
-    },
-    {
-        id: 49,
-        title: "Rainbow Beach, Queensland",
-        link: "/seo-services-rainbow-beach-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-rainbow-beach-queensland/",
-        sublinks: [
-            { pincodes: "4581" }
-        ]
-    },
-    {
-        id: 50,
-        title: "Logan City, Queensland",
-        link: "/seo-services-logan-city-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-logan-city-queensland/",
-        sublinks: [
-            { pincodes: "4114" }
-        ]
-    },
-    {
-        id: 51,
-        title: "Mount Isa, Queensland",
-        link: "/seo-services-mount-isa-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mount-isa-queensland/",
-        sublinks: [
-            { pincodes: "4825" }
-        ]
-    },
-    {
-        id: 52,
-        title: "Maryborough, Queensland",
-        link: "/seo-services-maryborough-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-maryborough-queensland/",
-        sublinks: [
-            { pincodes: "4650" }
-        ]
-    },
-    {
-        id: 53,
-        title: "Tasmania",
-        link: "/seo-services-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-tasmania/",
-        sublinks: [
-            { pincodes: "7000" }
-        ]
-    },
-    {
-        id: 53,
-        title: "Hobart, Tasmania",
-        link: "/seo-services-hobart-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-hobart-tasmania/",
-        sublinks: [
-            { pincodes: "7000" }
-        ]
-    },
-    {
-        id: 54,
-        title: "Launceston, Tasmania",
-        link: "/seo-services-launceston-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-launceston-tasmania/",
-        sublinks: [
-            { pincodes: "7250" }
-        ]
-    },
-    {
-        id: 55,
-        title: "Kalgoorlie-Boulder, Western Australia",
-        link: "/seo-services-kalgoorlie-boulder-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-kalgoorlie-boulder-western-australia/",
-        sublinks: [
-            { pincodes: "6430" }
-        ]
-    },
-    {
-        id: 56,
-        title: "Rockingham, Western Australia",
-        link: "/seo-services-rockingham-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-rockingham-western-australia/",
-        sublinks: [
-            { pincodes: "6168" }
-        ]
-    },
-    {
-        id: 57,
-        title: "Geraldton, Western Australia",
-        link: "/seo-services-geraldton-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-geraldton-western-australia/",
-        sublinks: [
-            { pincodes: "6530" }
-        ]
-    },
-    {
-        id: 58,
-        title: "Bunbury, Western Australia",
-        link: "/seo-services-bunbury-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-bunbury-western-australia/",
-        sublinks: [
-            { pincodes: "6230" }
-        ]
-    },
-    {
-        id: 59,
-        title: "Perth, Western Australia",
-        link: "/seo-services-perth-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-perth-western-australia/",
-        sublinks: [
-            { pincodes: "6000" }
-        ]
-    },
-    {
-        id: 60,
-        title: "Tasmania, Australia",
-        link: "/seo-services-tasmania-australia",
-        URL: "https://www.wtechy.com/seo-services-in-tasmania-australia/",
-        sublinks: []
-    },
-    {
-        id: 61,
-        title: "Western Australia",
-        link: "/seo-services-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-western-australia/",
-        sublinks: []
-    },
-    {
-        id: 62,
-        title: "Devonport, Tasmania",
-        link: "/seo-services-devonport-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-devonport-tasmania/",
-        sublinks: [
-            { pincodes: "7310" }
-        ]
-    },
-    {
-        id: 63,
-        title: "Melton, Victoria",
-        link: "/seo-services-melton-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-melton-victoria/",
-        sublinks: [
-            { pincodes: "3337" }
-        ]
-    },
-    {
-        id: 64,
-        title: "Bendigo, Victoria",
-        link: "/seo-services-bendigo-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-bendigo-victoria/",
-        sublinks: [
-            { pincodes: "3550" }
-        ]
-    },
-    {
-        id: 65,
-        title: "Ballarat, Victoria",
-        link: "/seo-services-ballarat-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-ballarat-victoria/",
-        sublinks: [
-            { pincodes: "3350" }
-        ]
-    },
-    {
-        id: 66,
-        title: "Geelong, Victoria",
-        link: "/seo-services-geelong-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-geelong-victoria/",
-        sublinks: [
-            { pincodes: "3220" }
-        ]
-    },
-    {
-        id: 67,
-        title: "Melbourne, Victoria",
-        link: "/seo-services-melbourne-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-melbourne-victoria/",
-        sublinks: [
-            { pincodes: "3000" }
-        ]
-    },
-    {
-        id: 68,
-        title: "Victoria, Australia",
-        link: "/seo-services-victoria-australia",
-        URL: "https://www.wtechy.com/seo-services-in-victoria-australia/",
-        sublinks: []
-    },
-    {
-        id: 69,
-        title: "Bundaberg, Queensland",
-        link: "/seo-services-bundaberg-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-bundaberg-queensland/",
-        sublinks: [
-            { pincodes: "4670" }
-        ]
-    },
-    {
-        id: 70,
-        title: "Hervey Bay, Queensland",
-        link: "/seo-services-hervey-bay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-hervey-bay-queensland/",
-        sublinks: [
-            { pincodes: "4655" }
-        ]
-    },
-    {
-        id: 71,
-        title: "Rockhampton, Queensland",
-        link: "/seo-services-rockhampton-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-rockhampton-queensland/",
-        sublinks: [
-            { pincodes: "4700" }
-        ]
-    },
-    {
-        id: 72,
-        title: "Mackay, Queensland",
-        link: "/seo-services-mackay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mackay-queensland/",
-        sublinks: [
-            { pincodes: "4740" }
-        ]
-    },
-    {
-        id: 73,
-        title: "Toowoomba, Queensland",
-        link: "/seo-services-toowoomba-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-toowoomba-queensland/",
-        sublinks: [
-            { pincodes: "4350" }
-        ]
-    },
-    {
-        id: 74,
-        title: "Townsville, Queensland",
-        link: "/seo-services-townsville-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-townsville-queensland/",
-        sublinks: [
-            { pincodes: "4810" }
-        ]
-    },
-    {
-        id: 75,
-        title: "Cairns, Queensland",
-        link: "/seo-services-cairns-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-cairns-queensland/",
-        sublinks: [
-            { pincodes: "4870" }
-        ]
-    },
-    {
-        id: 76,
-        title: "Brisbane, Queensland",
-        link: "/seo-services-brisbane-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-brisbane-queensland/",
-        sublinks: [
-            { pincodes: "4000" }
-        ]
-    },
-    {
-        id: 77,
-        title: "Sunshine Coast, Queensland",
-        link: "/seo-services-sunshine-coast-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-sunshine-coast-queensland/",
-        sublinks: [
-            { pincodes: "4551" }
-        ]
-    },
-    {
-        id: 78,
-        title: "Gold Coast, Queensland",
-        link: "/seo-services-gold-coast-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-gold-coast-queensland/",
-        sublinks: [
-            { pincodes: "4217" }
-        ]
-    },
-    {
-        id: 79,
-        title: "Halifax, Nova Scotia",
-        link: "/seo-services-halifax-nova-scotia",
-        URL: "https://www.wtechy.com/seo-services-in-halifax-nova-scotia/",
-        sublinks: []
-    },
-    {
-        id: 80,
-        title: "Sydney, Nova Scotia",
-        link: "/seo-services-sydney-nova-scotia",
-        URL: "https://www.wtechy.com/seo-services-in-sydney-nova-scotia/",
-        sublinks: []
-    },
-    {
-        id: 1,
-        title: "Western Australia",
-        link: "/seo-services-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-australia/",
-        sublinks: []
-    },
-    {
-        id: 2,
-        title: "Karratha, Western Australia",
-        link: "/seo-services-karratha-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-karratha-western-australia/",
-        sublinks: [
-            { pincodes: "6714, 6718" }
-        ]
-    },
-    {
-        id: 3,
-        title: "Busselton, Western Australia",
-        link: "/seo-services-busselton-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-busselton-western-australia/",
-        sublinks: [
-            { pincodes: "6280" }
-        ]
-    },
-    {
-        id: 4,
-        title: "Albany, Western Australia",
-        link: "/seo-services-albany-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-albany-western-australia/",
-        sublinks: [
-            { pincodes: "6330" }
-        ]
-    },
-    {
-        id: 5,
-        title: "Victoria",
-        link: "/seo-services-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
-        sublinks: [
-            { pincodes: "3677" }
-        ]
-    },
-    {
-        id: 5,
-        title: "Wangaratta, Victoria",
-        link: "/seo-services-wangaratta-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wangaratta-victoria/",
-        sublinks: [
-            { pincodes: "3677" }
-        ]
-    },
-    {
-        id: 6,
-        title: "Traralgon, Victoria",
-        link: "/seo-services-traralgon-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-traralgon-victoria/",
-        sublinks: [
-            { pincodes: "3844" }
-        ]
-    },
-    {
-        id: 7,
-        title: "Warrnambool, Victoria",
-        link: "/seo-services-warrnambool-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-warrnambool-victoria/",
-        sublinks: [
-            { pincodes: "3280" }
-        ]
-    },
-    {
-        id: 8,
-        title: "Sunbury, Victoria",
-        link: "/seo-services-sunbury-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-sunbury-victoria/",
-        sublinks: [
-            { pincodes: "3429" }
-        ]
-    },
-    {
-        id: 9,
-        title: "Wodonga, Victoria",
-        link: "/seo-services-wodonga-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-wodonga-victoria/",
-        sublinks: [
-            { pincodes: "3690" }
-        ]
-    },
-    {
-        id: 10,
-        title: "Mooroopna, Victoria",
-        link: "/seo-services-mooroopna-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-mooroopna-victoria/",
-        sublinks: [
-            { pincodes: "3629" }
-        ]
-    },
-    {
-        id: 11,
-        title: "Shepparton, Victoria",
-        link: "/seo-services-shepparton-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-shepparton-victoria/",
-        sublinks: [
-            { pincodes: "3630" }
-        ]
-    },
-    {
-        id: 12,
-        title: "Pakenham, Victoria",
-        link: "/seo-services-pakenham-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-pakenham-victoria/",
-        sublinks: [
-            { pincodes: "3810" }
-        ]
-    },
-    {
-        id: 13,
-        title: "Mildura, Victoria",
-        link: "/seo-services-mildura-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-mildura-victoria/",
-        sublinks: [
-            { pincodes: "3500" }
-        ]
-    },
-    {
-        id: 14,
-        title: "Adelaide, South Australia",
-        link: "/seo-services-adelaide-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-adelaide-south-australia/",
-        sublinks: [
-            { pincodes: "5000" }
-        ]
-    },
-    {
-        id: 15,
-        title: "Port Pirie, South Australia",
-        link: "/seo-services-port-pirie-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-port-pirie-south-australia/",
-        sublinks: [
-            { pincodes: "5540" }
-        ]
-    },
-    {
-        id: 16,
-        title: "Crafers Bridgewater, South Australia",
-        link: "/seo-services-crafers-bridgewater-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-crafers-bridgewater-south-australia/",
-        sublinks: [
-            { pincodes: "5152" }
-        ]
-    },
-    {
-        id: 17,
-        title: "Victor Harbor, South Australia",
-        link: "/seo-services-victor-harbor-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-victor-harbor-south-australia/",
-        sublinks: [
-            { pincodes: "5211" }
-        ]
-    },
-    {
-        id: 18,
-        title: "Mount Barker, South Australia",
-        link: "/seo-services-mount-barker-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-mount-barker-south-australia/",
-        sublinks: [
-            { pincodes: "5251" }
-        ]
-    },
-    {
-        id: 19,
-        title: "Port Lincoln, South Australia",
-        link: "/seo-services-port-lincoln-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-port-lincoln-south-australia/",
-        sublinks: [
-            { pincodes: "5606" }
-        ]
-    },
-    {
-        id: 20,
-        title: "Murray Bridge, South Australia",
-        link: "/seo-services-murray-bridge-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-murray-bridge-south-australia/",
-        sublinks: [
-            { pincodes: "5253" }
-        ]
-    },
-    {
-        id: 21,
-        title: "Adelaide Hills, South Australia",
-        link: "/seo-services-adelaide-hills-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-adelaide-hills-south-australia/",
-        sublinks: [
-            { pincodes: "5159" }
-        ]
-    },
-    {
-        id: 22,
-        title: "Whyalla, South Australia",
-        link: "/seo-services-whyalla-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-whyalla-south-australia/",
-        sublinks: [
-            { pincodes: "5600" }
-        ]
-    },
-    {
-        id: 23,
-        title: "Mount Gambier, South Australia",
-        link: "/seo-services-mount-gambier-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-mount-gambier-south-australia/",
-        sublinks: [
-            { pincodes: "5290" }
-        ]
-    },
-    {
-        id: 24,
-        title: "Gawler, South Australia",
-        link: "/seo-services-gawler-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-gawler-south-australia/",
-        sublinks: [
-            { pincodes: "5118" }
-        ]
-    },
-    {
-        id: 25,
-        title: "South Australia",
-        link: "/seo-services-south-australia",
-        URL: "https://www.wtechy.com/seo-services-in-south-australia/",
-        sublinks: []
-    },
-    {
-        id: 26,
-        title: "Orange, New South Wales",
-        link: "/seo-services-orange-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-orange-new-south-wales/",
-        sublinks: [
-            { pincodes: "2800" }
-        ]
-    },
-    {
-        id: 27,
-        title: "Blacktown, New South Wales",
-        link: "/seo-services-blacktown-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-blacktown-new-south-wales/",
-        sublinks: [
-            { pincodes: "2148" }
-        ]
-    },
-    {
-        id: 28,
-        title: "Tamworth, New South Wales",
-        link: "/seo-services-tamworth-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-tamworth-new-south-wales/",
-        sublinks: [
-            { pincodes: "2340" }
-        ]
-    },
-    {
-        id: 29,
-        title: "Taree, New South Wales",
-        link: "/seo-services-taree-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-taree-new-south-wales/",
-        sublinks: [
-            { pincodes: "2430" }
-        ]
-    },
-    {
-        id: 30,
-        title: "Bathurst, New South Wales",
-        link: "/seo-services-bathurst-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-bathurst-new-south-wales/",
-        sublinks: [
-            { pincodes: "2795" }
-        ]
-    },
-    {
-        id: 31,
-        title: "Port Macquarie, New South Wales",
-        link: "/seo-services-port-macquarie-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-port-macquarie-new-south-wales/",
-        sublinks: [
-            { pincodes: "2444" }
-        ]
-    },
-    {
-        id: 32,
-        title: "Nowra, New South Wales",
-        link: "/seo-services-nowra-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-nowra-new-south-wales/",
-        sublinks: [
-            { pincodes: "2541" }
-        ]
-    },
-    {
-        id: 33,
-        title: "Albury, New South Wales",
-        link: "/seo-services-albury-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-albury-new-south-wales/",
-        sublinks: [
-            { pincodes: "2640" }
-        ]
-    },
-    {
-        id: 34,
-        title: "Parramatta, New South Wales",
-        link: "/seo-services-parramatta-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-parramatta-new-south-wales/",
-        sublinks: [
-            { pincodes: "2150" }
-        ]
-    },
-    {
-        id: 35,
-        title: "North Shore, New South Wales",
-        link: "/seo-services-north-shore-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-north-shore-new-south-wales/",
-        sublinks: [
-            { pincodes: "2444" }
-        ]
-    },
-    {
-        id: 36,
-        title: "Blue Mountains, New South Wales",
-        link: "/seo-services-blue-mountains-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-blue-mountains-new-south-wales/",
-        sublinks: [
-            { pincodes: "2780" }
-        ]
-    },
-    {
-        id: 37,
-        title: "Maitland, New South Wales",
-        link: "/seo-services-maitland-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-maitland-new-south-wales/",
-        sublinks: [
-            { pincodes: "2320" }
-        ]
-    },
-    {
-        id: 38,
-        title: "Wollongong, New South Wales",
-        link: "/seo-services-wollongong-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-wollongong-new-south-wales/",
-        sublinks: [
-            { pincodes: "2500" }
-        ]
-    },
-    {
-        id: 39,
-        title: "Central Coast, New South Wales",
-        link: "/seo-services-central-coast-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-central-coast-new-south-wales/",
-        sublinks: [
-            { pincodes: "2250" }
-        ]
-    },
-    {
-        id: 40,
-        title: "Newcastle, New South Wales",
-        link: "/seo-services-newcastle-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-newcastle-new-south-wales/",
-        sublinks: [
-            { pincodes: "2300" }
-        ]
-    },
-    {
-        id: 41,
-        title: "Sydney, New South Wales",
-        link: "/seo-services-sydney-new-south-wales",
-        URL: "https://www.wtechy.com/seo-services-in-sydney-new-south-wales/",
-        sublinks: [
-            { pincodes: "2000" }
-        ]
-    },
-    {
-        id: 42,
-        title: "New South Wales, Australia",
-        link: "/seo-services-new-south-wales-australia",
-        URL: "https://www.wtechy.com/seo-services-in-new-south-wales-australia/",
-        sublinks: []
-    },
-    {
-        id: 43,
-        title: "Queensland, Australia",
-        link: "/seo-services-queensland-australia",
-        URL: "https://www.wtechy.com/seo-services-in-queensland-australia/",
-        sublinks: []
-    },
-    {
-        id: 44,
-        title: "Gladstone, Queensland",
-        link: "/seo-services-gladstone-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-gladstone-queensland/",
-        sublinks: [
-            { pincodes: "4680" }
-        ]
-    },
-    {
-        id: 45,
-        title: "Southport, Queensland",
-        link: "/seo-services-southport-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-southport-queensland/",
-        sublinks: [
-            { pincodes: "4215" }
-        ]
-    },
-    {
-        id: 46,
-        title: "Caloundra, Queensland",
-        link: "/seo-services-caloundra-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-caloundra-queensland/",
-        sublinks: [
-            { pincodes: "4551" }
-        ]
-    },
-    {
-        id: 47,
-        title: "Mooloolaba, Queensland",
-        link: "/seo-services-mooloolaba-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mooloolaba-queensland/",
-        sublinks: [
-            { pincodes: "4557" }
-        ]
-    },
-    {
-        id: 48,
-        title: "Torquay, Queensland",
-        link: "/seo-services-torquay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-torquay-queensland/",
-        sublinks: [
-            { pincodes: "4655" }
-        ]
-    },
-    {
-        id: 49,
-        title: "Rainbow Beach, Queensland",
-        link: "/seo-services-rainbow-beach-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-rainbow-beach-queensland/",
-        sublinks: [
-            { pincodes: "4581" }
-        ]
-    },
-    {
-        id: 50,
-        title: "Logan City, Queensland",
-        link: "/seo-services-logan-city-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-logan-city-queensland/",
-        sublinks: [
-            { pincodes: "4114" }
-        ]
-    },
-    {
-        id: 51,
-        title: "Mount Isa, Queensland",
-        link: "/seo-services-mount-isa-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mount-isa-queensland/",
-        sublinks: [
-            { pincodes: "4825" }
-        ]
-    },
-    {
-        id: 52,
-        title: "Maryborough, Queensland",
-        link: "/seo-services-maryborough-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-maryborough-queensland/",
-        sublinks: [
-            { pincodes: "4650" }
-        ]
-    },
-    {
-        id: 53,
-        title: "Hobart, Tasmania",
-        link: "/seo-services-hobart-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-hobart-tasmania/",
-        sublinks: [
-            { pincodes: "7000" }
-        ]
-    },
-    {
-        id: 54,
-        title: "Launceston, Tasmania",
-        link: "/seo-services-launceston-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-launceston-tasmania/",
-        sublinks: [
-            { pincodes: "7250" }
-        ]
-    },
-    {
-        id: 55,
-        title: "Kalgoorlie-Boulder, Western Australia",
-        link: "/seo-services-kalgoorlie-boulder-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-kalgoorlie-boulder-western-australia/",
-        sublinks: [
-            { pincodes: "6430" }
-        ]
-    },
-    {
-        id: 56,
-        title: "Rockingham, Western Australia",
-        link: "/seo-services-rockingham-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-rockingham-western-australia/",
-        sublinks: [
-            { pincodes: "6168" }
-        ]
-    },
-    {
-        id: 57,
-        title: "Geraldton, Western Australia",
-        link: "/seo-services-geraldton-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-geraldton-western-australia/",
-        sublinks: [
-            { pincodes: "6530" }
-        ]
-    },
-    {
-        id: 58,
-        title: "Bunbury, Western Australia",
-        link: "/seo-services-bunbury-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-bunbury-western-australia/",
-        sublinks: [
-            { pincodes: "6230" }
-        ]
-    },
-    {
-        id: 59,
-        title: "Perth, Western Australia",
-        link: "/seo-services-perth-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-perth-western-australia/",
-        sublinks: [
-            { pincodes: "6000" }
-        ]
-    },
-    {
-        id: 60,
-        title: "Tasmania, Australia",
-        link: "/seo-services-tasmania-australia",
-        URL: "https://www.wtechy.com/seo-services-in-tasmania-australia/",
-        sublinks: []
-    },
-    {
-        id: 61,
-        title: "Western Australia",
-        link: "/seo-services-western-australia",
-        URL: "https://www.wtechy.com/seo-services-in-western-australia/",
-        sublinks: []
-    },
-    {
-        id: 62,
-        title: "Devonport, Tasmania",
-        link: "/seo-services-devonport-tasmania",
-        URL: "https://www.wtechy.com/seo-services-in-devonport-tasmania/",
-        sublinks: [
-            { pincodes: "7310" }
-        ]
-    },
-    {
-        id: 63,
-        title: "Melton, Victoria",
-        link: "/seo-services-melton-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-melton-victoria/",
-        sublinks: [
-            { pincodes: "3337" }
-        ]
-    },
-    {
-        id: 64,
-        title: "Bendigo, Victoria",
-        link: "/seo-services-bendigo-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-bendigo-victoria/",
-        sublinks: [
-            { pincodes: "3550" }
-        ]
-    },
-    {
-        id: 65,
-        title: "Ballarat, Victoria",
-        link: "/seo-services-ballarat-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-ballarat-victoria/",
-        sublinks: [
-            { pincodes: "3350" }
-        ]
-    },
-    {
-        id: 66,
-        title: "Geelong, Victoria",
-        link: "/seo-services-geelong-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-geelong-victoria/",
-        sublinks: [
-            { pincodes: "3220" }
-        ]
-    },
-    {
-        id: 67,
-        title: "Melbourne, Victoria",
-        link: "/seo-services-melbourne-victoria",
-        URL: "https://www.wtechy.com/seo-services-in-melbourne-victoria/",
-        sublinks: [
-            { pincodes: "3000" }
-        ]
-    },
-    {
-        id: 68,
-        title: "Victoria, Australia",
-        link: "/seo-services-victoria-australia",
-        URL: "https://www.wtechy.com/seo-services-in-victoria-australia/",
-        sublinks: []
-    },
-    {
-        id: 69,
-        title: "Bundaberg, Queensland",
-        link: "/seo-services-bundaberg-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-bundaberg-queensland/",
-        sublinks: [
-            { pincodes: "4670" }
-        ]
-    },
-    {
-        id: 70,
-        title: "Hervey Bay, Queensland",
-        link: "/seo-services-hervey-bay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-hervey-bay-queensland/",
-        sublinks: [
-            { pincodes: "4655" }
-        ]
-    },
-    {
-        id: 71,
-        title: "Rockhampton, Queensland",
-        link: "/seo-services-rockhampton-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-rockhampton-queensland/",
-        sublinks: [
-            { pincodes: "4700" }
-        ]
-    },
-    {
-        id: 72,
-        title: "Mackay, Queensland",
-        link: "/seo-services-mackay-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-mackay-queensland/",
-        sublinks: [
-            { pincodes: "4740" }
-        ]
-    },
-    {
-        id: 73,
-        title: "Toowoomba, Queensland",
-        link: "/seo-services-toowoomba-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-toowoomba-queensland/",
-        sublinks: [
-            { pincodes: "4350" }
-        ]
-    },
-    {
-        id: 74,
-        title: "Townsville, Queensland",
-        link: "/seo-services-townsville-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-townsville-queensland/",
-        sublinks: [
-            { pincodes: "4810" }
-        ]
-    },
-    {
-        id: 75,
-        title: "Cairns, Queensland",
-        link: "/seo-services-cairns-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-cairns-queensland/",
-        sublinks: [
-            { pincodes: "4870" }
-        ]
-    },
-    {
-        id: 76,
-        title: "Brisbane, Queensland",
-        link: "/seo-services-in-brisbane-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-brisbane-queensland/",
-        sublinks: [
-            { pincodes: "4000" }
-        ]
-    },
-    {
-        id: 77,
-        title: "Sunshine Coast, Queensland",
-        link: "/seo-services-sunshine-coast-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-sunshine-coast-queensland/",
-        sublinks: [
-            { pincodes: "4551" }
-        ]
-    },
-    {
-        id: 78,
-        title: "Gold Coast, Queensland",
-        link: "/seo-services-gold-coast-queensland",
-        URL: "https://www.wtechy.com/seo-services-in-gold-coast-queensland/",
-        sublinks: [
-            { pincodes: "4217" }
-        ]
-    },
-    {
-        id: 79,
-        title: "Halifax, Nova Scotia",
-        link: "/seo-services-halifax-nova-scotia",
-        URL: "https://www.wtechy.com/seo-services-in-halifax-nova-scotia/",
-        sublinks: []
-    },
-    {
-        id: 80,
-        title: "Sydney, Nova Scotia",
-        link: "/seo-services-sydney-nova-scotia",
-        URL: "https://www.wtechy.com/seo-services-in-sydney-nova-scotia/",
-        sublinks: []
-    }
-
-
-
-
-
 ]
