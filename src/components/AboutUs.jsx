@@ -19,7 +19,9 @@ import RB from "./../assets/Images/homepage/team/RB.png";
 import rishita from "./../assets/Images/homepage/team/rishita.png";
 import Seema from "./../assets/Images/homepage/team/Seema.png";
 import yuvraj from "./../assets/Images/homepage/team/yuvraj.png";
-import KirtiGaba from "./../assets/Images/homepage/team/kirti-gaba.png"
+import KirtiGaba from "./../assets/Images/homepage/team/kirti-gaba.png";
+import naman from "./../assets/Images/homepage/team/naman.png";
+import sohail from "./../assets/Images/homepage/team/sohail.png";
 
 
 const serviceData = [
@@ -113,7 +115,7 @@ const teamsData = [
     },
     {
         id: 3,
-        image: teamImage1,
+        image: sohail,
         video_url: "https://www.youtube.com/embed/L047UlpW2SU?si=91bFPoVV6HJDDVBL",
         name: 'Suhail Samwal',
         designation: 'Project Manager',
@@ -148,7 +150,7 @@ const teamsData = [
     },
     {
         id: 8,
-        image: teamImage1,
+        image: naman,
         video_url: "https://www.youtube.com/embed/hNJEzBdOELs?si=8yEB3IdSlmDp29c0",
         name: 'Naman Singh',
         designation: 'SEO expert ',
