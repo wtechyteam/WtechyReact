@@ -23,6 +23,16 @@ import KirtiGaba from "./../assets/Images/homepage/team/kirti-gaba.png";
 import naman from "./../assets/Images/homepage/team/naman.png";
 import sohail from "./../assets/Images/homepage/team/sohail.png";
 
+import rb from "./../assets/Images/homepage/team/rb.png";
+import rs from "./../assets/Images/homepage/team/rs.png";
+import ss from "./../assets/Images/homepage/team/ss.png";
+import ak from "./../assets/Images/homepage/team/ak.png";
+import s from "./../assets/Images/homepage/team/s.png";
+import r from "./../assets/Images/homepage/team/r.png";
+import n from "./../assets/Images/homepage/team/n.png";
+import y from "./../assets/Images/homepage/team/y.png";
+import kg from "./../assets/Images/homepage/team/kg.png";
+
 
 const serviceData = [
     {
@@ -101,63 +111,63 @@ const serviceData = [
 const teamsData = [
     {
         id: 1,
-        image: Randeep,
+        image: rs,
         video_url: "https://www.youtube.com/embed/8K1McjsydlQ",
         name: 'Randeep Singh',
         designation: 'Director ',
     },
     {
         id: 2,
-        image: Seema,
+        image: ss,
         video_url: "https://www.youtube.com/embed/U5_pohZ8NHc?si=MypjhjYIiBYVSGss",
         name: 'Seema Singh',
         designation: 'Managing Director',
     },
     {
         id: 3,
-        image: sohail,
+        image: s,
         video_url: "https://www.youtube.com/embed/L047UlpW2SU?si=91bFPoVV6HJDDVBL",
         name: 'Suhail Samwal',
         designation: 'Project Manager',
     },
     {
         id: 4,
-        image: RB,
+        image: rb,
         video_url: "",
         name: 'R.B. Singh',
         designation: 'Project Manager ',
     },
     {
         id: 5,
-        image: yuvraj,
+        image: y,
         video_url: "https://www.youtube.com/embed/xW4DGaFw94A?si=3D4A2Irz4KoQwbay",
         name: 'Yuvraj Singh',
         designation: 'Digital marketing Expert',
     },
     {
         id: 6,
-        image: rishita,
+        image: r,
         video_url: "https://www.youtube.com/embed/cnaHrbz1opM?si=hBuWo58DqJf1vmo7",
         name: 'Rishita',
         designation: 'Social Media expert ',
     },
     {
         id: 7,
-        image: ankit,
+        image: ak,
         video_url: "https://www.youtube.com/embed/K9Zufc2AHTg?si=XQ01RmsOosdeDftM",
         name: 'Ankit Kapoor',
         designation: 'SEO and ORM Expert ',
     },
     {
         id: 8,
-        image: naman,
+        image: n,
         video_url: "https://www.youtube.com/embed/hNJEzBdOELs?si=8yEB3IdSlmDp29c0",
         name: 'Naman Singh',
         designation: 'SEO expert ',
     },
     {
         id: 9,
-        image: KirtiGaba,
+        image: kg,
         video_url: "",
         name: 'Kirti Gaba',
         designation: 'Technical SEO Expert',
