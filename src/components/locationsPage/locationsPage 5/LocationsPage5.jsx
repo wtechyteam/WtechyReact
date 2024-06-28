@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import aboutSectionImage from "./../../../assets/Images/portfolio/clipboard-image-1-1.webp";
 import aboutSectionImage2 from "./../../../assets/Images/portfolio/clipboard-image-2-3.webp";
 import { cityToStateMap } from "../../data/cityToStateMap";
+import { stateToCitiesMap } from "../../data/cityToStateMap";
 
 const services = [
   {
@@ -53,47 +54,7 @@ const services = [
       "Our Company offers a full package of creative state-of-the-art strategic services for your eCommerce businesses.",
   },
 ];
-const stateToCitiesMap = {
 
-  //USA  
-
-  California: [ "Simi Valley", "Chico", "Thousand Oaks", "Concord", "Santa Clara", "Orange", "Fullerton",
-                "Lancaster", "Hayward", "Garden Grove", "Corona", "Oceanside", "Santa Rosa", "Rancho Cucamonga", "Irvine",
-                "Stockton", "Riverside", "Santa Ana", "Anaheim", "Clovis", "Moreno Valley", "Victorville", "Salinas",
-                "Fremont", "Chula Vista", "Elk Grove", "Bakersfield", "Visalia", "Glendale", "Oakland", "Torrance",
-                "Long Beach", "Pasadena", "Ontario", "Sacramento", "Roseville", "Oxnard", "Fresno", "Pomona",
-                "Santa Clarita", "San Francisco", "Escondido", "San Bernardino", "San Jose", "Palmdale", "Modesto",
-                "San Diego", "Los Angeles", "Sunnyvale", "Fontana", "Huntington Beach"],
-
-  Hawaii: ["Pearl City", "Hilo", "Urban Honolulu"],
-
-  Washington: [ "Vancouver", "Renton", "Everett", "Kent", "Bellevue", "Tacoma", "Spokane", "Seattle"],
-
-  Georgia: ["Sandy Springs", "Athens", "Savannah", "Macon", "Columbus", "Augusta", "Atlanta"],
-
-  Kansas: [ "Topeka", "Olathe", "Overland Park", "Wichita"],
-
-  NewJersey: ["Woodbridge", "Newark", "Paterson", "Elizabeth", "Lakewood Township", "Edison"],
-
-  NewYork: ["Tempe", "Mesa", "San Tan Valley", "Surprise", "Peoria", "Gilbert", "Glendale", "Scottsdale", "Chandler", "Tucson", "Phoenix"],
-
-  Texas: ["San Angelo", "Allen", "Wichita Falls", "League City", "Tyler", "Lewisville", "Woodlands", "College Station", "Beaumont", "Sugar Land", "Abilene", "Richardson", "Odessa", "Round Rock", "Pearland", "Carrollton", "Waco", "Denton", "Midland", "Mesquite City", "McAllen", "Killeen", "Brownsville", "Frisco", "McKinney", "Grand Prairie", "Amarillo", "Garland", "Irving", "Lubbock", "Laredo", "Corpus Christi", "Plano", "Arlington", "El Paso", "Fort Worth", "Austin", "San Antonio", "Dallas", "Houston"],
-
-  Florida: ["Miami", "Tamiami", "Boynton Beach", "Palm Coast Florida", "Jacksonville Florida", "Palm Beach Gardens", "Bradenton", "Bonita Springs", "Sarasota", "Margate", "Fountainebleau", "Ocala", "Sanford", "Wesley Chapel", "Palm Harbor", "Coconut Creek", "Doral", "North Miami", "The Hammocks", "Port Orange", "Port Charlotte", "Wellington", "Jupiter", "Tamarac", "Daytona Beach", "Poinciana", "North Port", "Homestead", "Weston", "Lauderhill", "Kissimmee", "Kendall", "Deerfield Beach", "Pine Hills", "Melbourne", "The Villages", "Fort Myers", "Largo", "Miami Beach", "Town 'n' Country", "Alafaya", "Deltona", "Plantation City", "Sunrise", "Riverview", "Boca Raton", "Davie", "Lakeland", "Miami Gardens", "West Palm Beach", "Pompano Beach", "Spring Hill", "Palm Bay", "Brandon", "Clearwater", "Lehigh Acres", "Coral Springs", "Gainesville", "Miramar", "Hollywood", "Pembroke Pines", "Fort Lauderdale", "Cape Coral", "Tallahassee", "Port St Lucie", "Hialeah", "St Petersburg", "Orlando", "Tampa", "Boynton Beach", "Palm Coast", "Delray Beach"],
-  
-  //Ausies
-  
-  WesternAustralia: ["Karratha", "Busselton", "Albany", "Kalgoorlie-Boulder", "Rockingham", "Geraldton", "Bunbury", "Perth"],
-
-  Victoria: ["Wangaratta", "Traralgon", "Warrnambool", "Sunbury", "Wodonga", "Mooroopna", "Shepparton", "Pakenham", "Mildura", "Melton", "Bendigo", "Ballarat", "Geelong", "Melbourne"],
-  
-  SouthAustralia: ["Adelaide", "Port Pirie", "Crafers Bridgewater", "Victor Harbor", "Mount Barker", "Port Lincoln", "Murray Bridge", "Adelaide Hills", "Whyalla", "Mount Gambier", "Gawler"],
-
-  SouthWales: ["Orange", "Blacktown", "Tamworth", "Taree", "Bathurst", "Port Macquarie", "Nowra", "Albury", "Parramatta", "North Shore", "Blue Mountains", "Maitland", "Wollongong", "Central Coast", "Newcastle", "Sydney"],
-
-  Queensland: ["Gladstone", "Southport", "Caloundra", "Mooloolaba", "Torquay", "Rainbow Beach", "Logan City", "Mount Isa", "Maryborough", "Bundaberg", "Hervey Bay", "Rockhampton", "Mackay", "Toowoomba", "Townsville", "Cairns", "Brisbane", "Sunshine Coast", "Gold Coast"]
-  // Add other state-to-cities mappings
-};
 
 // const cityToStateMap = {
 //     lancaster: "California",
