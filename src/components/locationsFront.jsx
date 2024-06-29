@@ -26,7 +26,7 @@ const AustraliaStatesData = [
 ];
 
 const CanadaStatesData = [
-    { id: 1, title: "NovaScotia", link: "/seo-services-nova-scotia" },
+    
     { id: 2, title: "Quebec", link: "/seo-services-quebec" },
     { id: 3, title: "Ontario", link: "/seo-services-ontario" },
     { id: 4, title: "Alberta", link: "/seo-services-alberta" },

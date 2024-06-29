@@ -1,4 +1,5 @@
 export const cityToStateMap = {
+  //USA
   //california
 
   california: "California",
@@ -35,7 +36,6 @@ export const cityToStateMap = {
   torrance: "California",
   longbeach: "California",
   pasadena: "California",
-  ontario: "California",
   sacramento: "California",
   roseville: "California",
   oxnard: "California",
@@ -230,6 +230,7 @@ export const cityToStateMap = {
   tampa: "Florida",
   delraybeach: "Florida",
 
+  //Australia
   //western australia
 
   karratha: "Western Australia",
@@ -312,6 +313,57 @@ export const cityToStateMap = {
   brisbane: "Queensland",
   sunshinecoast: "Queensland",
   goldcoast: "Queensland",
+
+  //Canada
+  //Quebec
+  quebec: "Quebec",
+  montreal: "Quebec",
+  sherbrroke: "Quebec",
+  troisRivieres: "Quebec",
+  chicoutimi: "Quebec",
+  SaintJerome: "Quebec",
+
+  //Ontario
+  ontario: "Ontario",
+  kingston: "Ontario",
+  brantford: "Ontario",
+  milton: "Ontario",
+  kanata: "Ontario",
+  guelph: "Ontario",
+  stCatharines: "Ontario",
+  barrie: "Ontario",
+  windsor: "Ontario",
+  oshawa: "Ontario",
+  london: "Ontario",
+  kitchener: "Ontario",
+  hammilton: "Ontario",
+  ottawa: "Ontario",
+
+  //Alberta
+  alberta: "Alberta",
+  redDeer: "Alberta",
+  edmonton: "Alberta",
+  calgary: "Alberta",
+
+  //British columbia
+  britishcolumbia: "British Columbia",
+  nanaimo: "British Columbia",
+  whiteRock: "British Columbia",
+  kelowna: "British Columbia",
+  vancouver: "British Columbia",
+  victoria: "British Columbia",
+
+  //Saskatchewan
+  saskatchewan: "Saskatchewan",
+  regina: "Saskatchewan",
+  princeAlbert: "Saskatchewan", 
+  mooseJaw: "Saskatchewan",
+  swiftCurrent: "Saskatchewan",
+  yorkton: "Saskatchewan",
+  northBattleford: "Saskatchewan",
+  lloydminster: "Saskatchewan",
+  warman: "Saskatchewan",
+  estevan: "Saskatchewan",
 };
 
 export const stateToCitiesMap = {
@@ -322,7 +374,7 @@ export const stateToCitiesMap = {
                 "Lancaster", "Hayward", "Garden Grove", "Corona", "Oceanside", "Santa Rosa", "Rancho Cucamonga", "Irvine",
                 "Stockton", "Riverside", "Santa Ana", "Anaheim", "Clovis", "Moreno Valley", "Victorville", "Salinas",
                 "Fremont", "Chula Vista", "Elk Grove", "Bakersfield", "Visalia", "Glendale", "Oakland", "Torrance",
-                "Long Beach", "Pasadena", "Ontario", "Sacramento", "Roseville", "Oxnard", "Fresno", "Pomona",
+                "Long Beach", "Pasadena", "Sacramento", "Roseville", "Oxnard", "Fresno", "Pomona",
                 "Santa Clarita", "San Francisco", "Escondido", "San Bernardino", "San Jose", "Palmdale", "Modesto",
                 "San Diego", "Los Angeles", "Sunnyvale", "Fontana", "Huntington Beach"],
 
@@ -352,6 +404,19 @@ export const stateToCitiesMap = {
 
   SouthWales: ["Orange", "Blacktown", "Tamworth", "Taree", "Bathurst", "Port Macquarie", "Nowra", "Albury", "Parramatta", "North Shore", "Blue Mountains", "Maitland", "Wollongong", "Central Coast", "Newcastle", "Sydney"],
 
-  Queensland: ["Gladstone", "Southport", "Caloundra", "Mooloolaba", "Torquay", "Rainbow Beach", "Logan City", "Mount Isa", "Maryborough", "Bundaberg", "Hervey Bay", "Rockhampton", "Mackay", "Toowoomba", "Townsville", "Cairns", "Brisbane", "Sunshine Coast", "Gold Coast"]
-  // Add other state-to-cities mappings
+  Queensland: ["Gladstone", "Southport", "Caloundra", "Mooloolaba", "Torquay", "Rainbow Beach", "Logan City", "Mount Isa", "Maryborough", "Bundaberg", "Hervey Bay", "Rockhampton", "Mackay", "Toowoomba", "Townsville", "Cairns", "Brisbane", "Sunshine Coast", "Gold Coast"],
+  
+  //Canada
+  
+  Quebec: ["Montreal", "Sherbrroke", "Trois-Rivieres", "Chicoutimi", "Saint Jerome"],
+
+  Ontario: ["Kingston", "Brantford", "Milton", "Kanata", "Guelph", "St Catharines", "Barrie", "Windsor", "Oshawa", "London", "Kitchener", "Hammilton", "Ottawa"],
+
+  Alberta: ["Red Deer", "Edmonton", "Calgary"],
+
+  BritishColumbia: ["Nanaimo", "White Rock", "Kelowna", "Vancouver", "Victoria"],
+
+  Saskatchewan: ["Regina", "Prince Albert", "Moose Jaw", "Swift Current", "Yorkton", "North Battleford", "Lloydminster", "Warman", "Estevan"]
+
+  
 };

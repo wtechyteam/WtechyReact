@@ -306,15 +306,15 @@ export const sitemapDataUSA = [
             pincodes: "91101,91103"
         }]
     },
-    {
-        id: 34,
-        title: "Ontario",
-        link: "/seo-services-ontario",
-        URL: "https://www.wtechy.com/seo-services-in-ontario-california/",
-        sublinks: [{
-            pincodes: "91761,91764"
-        }]
-    },
+    // {
+    //     id: 34,
+    //     title: "Ontario",
+    //     link: "/seo-services-ontario",
+    //     URL: "https://www.wtechy.com/seo-services-in-ontario-california/",
+    //     sublinks: [{
+    //         pincodes: "91761,91764"
+    //     }]
+    // },
     {
         id: 35,
         title: "Sacramento",
@@ -2691,4 +2691,406 @@ export const sitemapDataUSA = [
         URL: "https://www.wtechy.com/seo-services-in-sydney-nova-scotia/",
         sublinks: []
     },
+
+    // Canada
+// {
+//     id: 1,
+//     title: "Canada",
+//     link: "/seo-services-canada",
+//     URL: "https://www.wtechy.com/seo-services-canada/",
+//     sublinks: []
+// },
+{
+    id: 2,
+    title: "Nova Scotia",
+    link: "/seo-services-nova-scotia",
+    URL: "https://www.wtechy.com/seo-services-nova-scotia/",
+    sublinks: []
+},
+
+// Quebec
+{
+    id: 3,
+    title: "Quebec",
+    link: "/seo-services-quebec",
+    URL: "https://www.wtechy.com/seo-services-quebec/",
+    "sublinks": [
+        { pincodes: "Montreal, Sherbrroke, Trois-Rivieres, Chicoutimi, Saint Jerome", }
+    ]
+},
+{
+    id: 4,
+    title: "Montreal",
+    link: "/seo-services-montreal",
+    URL: "https://www.wtechy.com/seo-services-montreal/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 5,
+    title: "Sherbrooke",
+    link: "/seo-services-sherbrooke",
+    URL: "https://www.wtechy.com/seo-services-sherbrooke/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 6,
+    title: "Trois-Rivieres",
+    link: "/seo-services-trois-rivieres",
+    URL: "https://www.wtechy.com/seo-services-trois-rivieres/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 7,
+    title: "Chicoutimi",
+    link: "/seo-services-chicoutimi",
+    URL: "https://www.wtechy.com/seo-services-chicoutimi/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 8,
+    title: "Saint Jerome",
+    link: "/seo-services-saint-jerome",
+    URL: "https://www.wtechy.com/seo-services-saint-jerome/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+
+// Ontario
+{
+    id: 9,
+    title: "Ontario",
+    link: "/seo-services-ontario",
+    URL: "https://www.wtechy.com/seo-services-ontario/",
+    sublinks: [
+        { pincodes: "Kingston, Brantford, Milton, Kanata, Guelph, St Catharines, Barrie, Windsor, Oshawa, London, Kitchener, Hammilton, Ottawa" }
+    ]
+},
+{
+    id: 10,
+    title: "Kingston",
+    link: "/seo-services-kingston",
+    URL: "https://www.wtechy.com/seo-services-kingston/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 11,
+    title: "Brantford",
+    link: "/seo-services-brantford",
+    URL: "https://www.wtechy.com/seo-services-brantford/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 12,
+    title: "Milton",
+    link: "/seo-services-milton",
+    URL: "https://www.wtechy.com/seo-services-milton/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 13,
+    title: "Kanata",
+    link: "/seo-services-kanata",
+    URL: "https://www.wtechy.com/seo-services-kanata/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 14,
+    title: "Guelph",
+    link: "/seo-services-guelph",
+    URL: "https://www.wtechy.com/seo-services-guelph/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 15,
+    title: "St. Catharines",
+    link: "/seo-services-st-catharines",
+    URL: "https://www.wtechy.com/seo-services-st-catharines/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 16,
+    title: "Barrie",
+    link: "/seo-services-barrie",
+    URL: "https://www.wtechy.com/seo-services-barrie/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 17,
+    title: "Windsor",
+    link: "/seo-services-windsor",
+    URL: "https://www.wtechy.com/seo-services-windsor/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 18,
+    title: "Oshawa",
+    link: "/seo-services-oshawa",
+    URL: "https://www.wtechy.com/seo-services-oshawa/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 19,
+    title: "London",
+    link: "/seo-services-london",
+    URL: "https://www.wtechy.com/seo-services-london/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 20,
+    title: "Kitchener",
+    link: "/seo-services-kitchener",
+    URL: "https://www.wtechy.com/seo-services-kitchener/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 21,
+    title: "Hamilton",
+    link: "/seo-services-hamilton",
+    URL: "https://www.wtechy.com/seo-services-hamilton/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 22,
+    title: "Ottawa",
+    link: "/seo-services-ottawa",
+    URL: "https://www.wtechy.com/seo-services-ottawa/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+
+// Alberta
+{
+    id: 23,
+    title: "Alberta",
+    link: "/seo-services-alberta",
+    URL: "https://www.wtechy.com/seo-services-alberta/",
+    sublinks: [
+        { pincodes: "Red Deer, Edmonton, Calgary" }
+    ]
+},
+{
+    id: 24,
+    title: "Red Deer",
+    link: "/seo-services-red-deer",
+    URL: "https://www.wtechy.com/seo-services-red-deer/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 25,
+    title: "Edmonton",
+    link: "/seo-services-edmonton",
+    URL: "https://www.wtechy.com/seo-services-edmonton/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 26,
+    title: "Calgary",
+    link: "/seo-services-calgary",
+    URL: "https://www.wtechy.com/seo-services-calgary/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+
+// British Columbia
+
+{
+    id: 32,
+    title: "British Columbia",
+    link: "/seo-services-british-columbia",
+    URL: "https://www.wtechy.com/seo-services-british-columbia/",
+    sublinks: [
+        { pincodes: "Nanaimo, White Rock, Kelowna, Vancouver, Victoria" }
+    ]
+},
+
+{
+    id: 27,
+    title: "Nanaimo",
+    link: "/seo-services-nanaimo",
+    URL: "https://www.wtechy.com/seo-services-nanaimo/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 28,
+    title: "White Rock",
+    link: "/seo-services-white-rock",
+    URL: "https://www.wtechy.com/seo-services-white-rock/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 29,
+    title: "Kelowna",
+    link: "/seo-services-kelowna",
+    URL: "https://www.wtechy.com/seo-services-kelowna/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 30,
+    title: "Vancouver",
+    link: "/seo-services-vancouver",
+    URL: "https://www.wtechy.com/seo-services-vancouver/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 31,
+    title: "Victoria",
+    link: "/seo-services-victoria",
+    URL: "https://www.wtechy.com/seo-services-victoria/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+
+// Saskatchewan
+{
+    id: 33,
+    title: "Saskatchewan",
+    link: "/seo-services-saskatchewan",
+    URL: "https://www.wtechy.com/seo-services-saskatchewan/",
+    sublinks: [
+        { pincodes: "Regina, Prince Albert, Moose Jaw, Swift Current, Yorkton, North Battleford, Lloydminster, Warman, Estevan" }
+    ]
+},
+{
+    id: 34,
+    title: "Regina",
+    link: "/seo-services-regina",
+    URL: "https://www.wtechy.com/seo-services-regina/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 35,
+    title: "Prince Albert",
+    link: "/seo-services-prince-albert",
+    URL: "https://www.wtechy.com/seo-services-prince-albert/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 36,
+    title: "Moose Jaw",
+    link: "/seo-services-moose-jaw",
+    URL: "https://www.wtechy.com/seo-services-moose-jaw/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 37,
+    title: "Swift Current",
+    link: "/seo-services-swift-current",
+    URL: "https://www.wtechy.com/seo-services-swift-current/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 38,
+    title: "Yorkton",
+    link: "/seo-services-yorkton",
+    URL: "https://www.wtechy.com/seo-services-yorkton/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 39,
+    title: "North Battleford",
+    link: "/seo-services-north-battleford",
+    URL: "https://www.wtechy.com/seo-services-north-battleford/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 40,
+    title: "Lloydminster",
+    link: "/seo-services-lloydminster",
+    URL: "https://www.wtechy.com/seo-services-lloydminster/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 41,
+    title: "Warman",
+    link: "/seo-services-warman",
+    URL: "https://www.wtechy.com/seo-services-warman/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+},
+{
+    id: 42,
+    title: "Estevan",
+    link: "/seo-services-estevan",
+    URL: "https://www.wtechy.com/seo-services-estevan/",
+    sublinks: [
+        { pincodes: "" }
+    ]
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ]
