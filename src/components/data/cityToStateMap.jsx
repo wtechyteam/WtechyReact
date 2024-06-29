@@ -102,6 +102,7 @@ export const cityToStateMap = {
 
   //new york
 
+  newyork: "New York",
   tempe: "New York",
   mesa: "New York",
   santanvalley: "New York",
@@ -116,6 +117,7 @@ export const cityToStateMap = {
 
   //texas
 
+  texas: "Texas",
   sanangelo: "Texas",
   allen: "Texas",
   wichitafalls: "Texas",
@@ -159,6 +161,7 @@ export const cityToStateMap = {
 
   //florida
 
+  florida: "Florida",
   miami: "Florida",
   tamiami: "Florida",
   boyntonbeach: "Florida",
@@ -233,6 +236,7 @@ export const cityToStateMap = {
   //Australia
   //western australia
 
+  westernaustralia: "Western Australia",
   karratha: "Western Australia",
   busselton: "Western Australia",
   albany: "Western Australia",
@@ -244,6 +248,7 @@ export const cityToStateMap = {
 
   //victoria
 
+  victoria: "Victoria",
   wangaratta: "Victoria",
   traralgon: "Victoria",
   warrnambool: "Victoria",
@@ -261,6 +266,7 @@ export const cityToStateMap = {
 
   //southAustralia
 
+  southaustralia: "South Australia",
   adelaide: "South Australia",
   portpirie: "South Australia",
   crafersbridgewater: "South Australia",
@@ -275,6 +281,7 @@ export const cityToStateMap = {
 
   //southWales
 
+  southwales: "South Wales",
   orange: "South Wales",
   blacktown: "South Wales",
   tamworth: "South Wales",
@@ -294,6 +301,7 @@ export const cityToStateMap = {
 
   //queensland
 
+  queensland: "Queensland",
   gladstone: "Queensland",
   southport: "Queensland",
   caloundra: "Queensland",
@@ -319,9 +327,9 @@ export const cityToStateMap = {
   quebec: "Quebec",
   montreal: "Quebec",
   sherbrroke: "Quebec",
-  troisRivieres: "Quebec",
+  troisrivieres: "Quebec",
   chicoutimi: "Quebec",
-  SaintJerome: "Quebec",
+  saintjerome: "Quebec",
 
   //Ontario
   ontario: "Ontario",
@@ -330,7 +338,7 @@ export const cityToStateMap = {
   milton: "Ontario",
   kanata: "Ontario",
   guelph: "Ontario",
-  stCatharines: "Ontario",
+  stcatharines: "Ontario",
   barrie: "Ontario",
   windsor: "Ontario",
   oshawa: "Ontario",
@@ -348,7 +356,7 @@ export const cityToStateMap = {
   //British columbia
   britishcolumbia: "British Columbia",
   nanaimo: "British Columbia",
-  whiteRock: "British Columbia",
+  whiterock: "British Columbia",
   kelowna: "British Columbia",
   vancouver: "British Columbia",
   victoria: "British Columbia",
@@ -356,11 +364,11 @@ export const cityToStateMap = {
   //Saskatchewan
   saskatchewan: "Saskatchewan",
   regina: "Saskatchewan",
-  princeAlbert: "Saskatchewan", 
-  mooseJaw: "Saskatchewan",
-  swiftCurrent: "Saskatchewan",
+  princealbert: "Saskatchewan", 
+  moosejaw: "Saskatchewan",
+  swiftcurrent: "Saskatchewan",
   yorkton: "Saskatchewan",
-  northBattleford: "Saskatchewan",
+  northbattleford: "Saskatchewan",
   lloydminster: "Saskatchewan",
   warman: "Saskatchewan",
   estevan: "Saskatchewan",
@@ -416,7 +424,7 @@ export const stateToCitiesMap = {
 
   BritishColumbia: ["Nanaimo", "White Rock", "Kelowna", "Vancouver", "Victoria"],
 
-  Saskatchewan: ["Regina", "Prince Albert", "Moose Jaw", "Swift Current", "Yorkton", "North Battleford", "Lloydminster", "Warman", "Estevan"]
+  Saskatchewan: ["Regina", "Prince Albert", "Moose Jaw", "Swift Current", "Yorkton", "North Battleford", "Lloydminster", "Warman", "Estevan"],
 
   
 };
