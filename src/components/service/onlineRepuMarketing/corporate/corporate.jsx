@@ -17,7 +17,7 @@ const Corporate = () => {
 
   const faqData = [
     {
-      question: 'How to protect a business’s reputation from these false attacks?',
+      question: 'How to save a business’s reputation from these false attacks?',
       answer: '<p>Everyone faces a different kind of claims for their business, regardless of how big or small a business. In order to protect your business’s reputation, you need to create a strategy that must determine the steps required to guard your business against these attacks.</p><p>You need to know what the nature of the attack is, and what the reason behind the attack is. The plan should comprise search engine optimization tactics, the steps to drag down the negative content, and the creation of positive content that regenerates your image in front of your potential prospects.</p>      ',
     },
     {
