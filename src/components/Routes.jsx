@@ -83,6 +83,12 @@ const SiteRoutes = () => {
                 <Route path="/locations" element={<LocationsFront/>} />
                 <Route path="/seo-services-california" element={<Locations/>} />
                 
+                {sitemapDataUSA.map(({ id, link,title }) => (
+                    <Route key={id} path={link} element={<Locations />} title={title}>
+
+
+                    </Route>
+                ))}
 
 
 
