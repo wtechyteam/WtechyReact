@@ -15,7 +15,7 @@ import { AiOutlinePlayCircle } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
 import ankit from "./../assets/Images/homepage/team/ankit.png";
 import Randeep from "./../assets/Images/homepage/team/Randeep.png";
-import RB from "./../assets/Images/homepage/team/RB.png";
+//import RB from "./../assets/Images/homepage/team/RB.png";
 import rishita from "./../assets/Images/homepage/team/rishita.png";
 import Seema from "./../assets/Images/homepage/team/Seema.png";
 import yuvraj from "./../assets/Images/homepage/team/yuvraj.png";
