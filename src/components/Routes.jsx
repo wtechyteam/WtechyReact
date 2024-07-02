@@ -81,11 +81,8 @@ const SiteRoutes = () => {
                 <Route path="/apply-form" element={<ApplyForm />} />
                 <Route path="*" element={<ErrorPage />} />
                 <Route path="/locations" element={<LocationsFront/>} />
-                {sitemapDataUSA.map(({ id, link,title }) => (
-                    <Route key={id} path={link} element={<Locations />} title={title}>
-
-                    </Route>
-                ))}
+                <Route path="/seo-services-california" element={<Locations/>} />
+                
 
 
 
