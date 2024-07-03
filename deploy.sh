@@ -2,9 +2,9 @@
 
 # Define variables
 GIT_REPO_PATH="/path/to/your/git/repository"
-HOSTING_SERVER_USER="your_username"
-HOSTING_SERVER="your_hosting_server_address"
-HOSTING_SERVER_REPO_PATH="/path/to/your/hosting/server/repository"
+HOSTING_SERVER_USER="master_aapafpvhxm"
+HOSTING_SERVER="64.227.9.171"
+HOSTING_SERVER_REPO_PATH="/applications/mcdyujfzrj/public_html"
 COMMIT_MESSAGE="Your commit message"
 
 # Change to the git repository directory
