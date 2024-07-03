@@ -34,6 +34,7 @@ import y from "./../assets/Images/homepage/team/y.png";
 import kg from "./../assets/Images/homepage/team/kg.png";
 
 
+
 const serviceData = [
     {
         icon: serviceIcon1,
